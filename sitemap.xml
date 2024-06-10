@@ -254,14 +254,14 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/tags/Linux/</loc>
+    <loc>https://huyvu15.github.io/tags/HW/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/tags/HW/</loc>
+    <loc>https://huyvu15.github.io/tags/Linux/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -389,14 +389,14 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Linux/</loc>
+    <loc>https://huyvu15.github.io/categories/HW/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/HW/</loc>
+    <loc>https://huyvu15.github.io/categories/Linux/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -431,21 +431,7 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Terraform/</loc>
-    <lastmod>2024-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://huyvu15.github.io/categories/Technical-guide/Github/</loc>
-    <lastmod>2024-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/categories/Windows/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -460,6 +446,20 @@
   
   <url>
     <loc>https://huyvu15.github.io/categories/Python/Blue-Bridge/</loc>
+    <lastmod>2024-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/categories/Terraform/</loc>
+    <lastmod>2024-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/categories/Windows/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
