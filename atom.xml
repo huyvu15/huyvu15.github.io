@@ -123,7 +123,9 @@ tiếp sau đó gõ netsh</summary>
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Terraform-CLI&quot;&gt;&lt;a href=&quot;#Terraform-CLI&quot; class=&quot;headerlink&quot; title=&quot;Terraform CLI /&quot;&gt;&lt;/a&gt;Terraform CLI /&lt;/h1&gt;&lt;h2 id=&quot;Command-base&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;terraform-cli&quot;&gt;Terraform CLI /&lt;/h1&gt;
+&lt;h2 id=&quot;command-base&quot;&gt;Command base&lt;/h2&gt;
+&lt;p&gt;Đã dùng terraform thì không update bằng tay nếu</summary>
         
       
     
@@ -184,7 +186,8 @@ tiếp sau đó gõ netsh</summary>
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Loi-noi-dau&quot;&gt;&lt;a href=&quot;#Loi-noi-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời nói đầu&quot;&gt;&lt;/a&gt;Lời nói đầu&lt;/h2&gt;&lt;p&gt;Chuyện gì đang xảy ra vậy? Trong</summary>
+    <summary type="html">&lt;h2 id=&quot;lời-nói-đầu&quot;&gt;Lời nói đầu&lt;/h2&gt;
+&lt;p&gt;Chuyện gì đang xảy ra vậy? Trong một thời gian dài, việc cập nhật ngày của Easy-QFNU của tôi không</summary>
         
       
     
@@ -213,7 +216,8 @@ tiếp sau đó gõ netsh</summary>
       
         
         
-    <summary type="html">&lt;h1 id=&quot;MongoDB&quot;&gt;&lt;a href=&quot;#MongoDB&quot; class=&quot;headerlink&quot; title=&quot;MongoDB /&quot;&gt;&lt;/a&gt;MongoDB /&lt;/h1&gt;&lt;p&gt;MongoDB là một cơ sở dữ liệu NoSQL hàng đầu,</summary>
+    <summary type="html">&lt;h1 id=&quot;mongodb&quot;&gt;MongoDB /&lt;/h1&gt;
+&lt;p&gt;MongoDB là một cơ sở dữ liệu NoSQL hàng đầu, được thiết kế để lưu trữ dữ liệu theo định dạng BSON (một</summary>
         
       
     
@@ -240,7 +244,10 @@ tiếp sau đó gõ netsh</summary>
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Tuan-2&quot;&gt;&lt;a href=&quot;#Tuan-2&quot; class=&quot;headerlink&quot; title=&quot;Tuần 2 /&quot;&gt;&lt;/a&gt;Tuần 2 /&lt;/h1&gt;&lt;h2 id=&quot;Data-Lake&quot;&gt;&lt;a href=&quot;#Data-Lake&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;tuần-2&quot;&gt;Tuần 2 /&lt;/h1&gt;
+&lt;h2 id=&quot;data-lake&quot;&gt;Data Lake&lt;/h2&gt;
+&lt;p&gt;Big data nói nhiều đến data lake&lt;br&gt;
+Big data phải chọn dạng tree, graph</summary>
         
       
     
@@ -269,7 +276,13 @@ tiếp sau đó gõ netsh</summary>
       
         
         
-    <summary type="html">&lt;h1 id=&quot;HW&quot;&gt;&lt;a href=&quot;#HW&quot; class=&quot;headerlink&quot; title=&quot;HW&quot;&gt;&lt;/a&gt;HW&lt;/h1&gt;&lt;h2 id=&quot;HW-1&quot;&gt;&lt;a href=&quot;#HW-1&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;hw&quot;&gt;HW&lt;/h1&gt;
+&lt;h2 id=&quot;hw&quot;&gt;HW&lt;/h2&gt;
+&lt;p&gt;linux 系统&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;首先查看一下基础信息&lt;/p&gt;
+&lt;p&gt;netstat -ano/-a #查看端口情况&lt;/p&gt;
+&lt;p&gt;uname -a</summary>
         
       
     
@@ -294,7 +307,8 @@ tiếp sau đó gõ netsh</summary>
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Linux-Intro&quot;&gt;&lt;a href=&quot;#Linux-Intro&quot; class=&quot;headerlink&quot; title=&quot;Linux Intro /&quot;&gt;&lt;/a&gt;Linux Intro /&lt;/h1&gt;&lt;p&gt;Linux là một hệ điều hành mã</summary>
+    <summary type="html">&lt;h1 id=&quot;linux-intro&quot;&gt;Linux Intro /&lt;/h1&gt;
+&lt;p&gt;Linux là một hệ điều hành mã nguồn mở, được sử dụng rộng rãi trên khắp thế giới. Với tính ổn</summary>
         
       
     
@@ -411,7 +425,9 @@ tiếp sau đó gõ netsh</summary>
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Chuc-nang-chinh&quot;&gt;&lt;a href=&quot;#Chuc-nang-chinh&quot; class=&quot;headerlink&quot; title=&quot;Chức năng chính&quot;&gt;&lt;/a&gt;Chức năng chính&lt;/h1&gt;&lt;p&gt;Hiện tại, Cuộn</summary>
+    <summary type="html">&lt;h1 id=&quot;chức-năng-chính&quot;&gt;Chức năng chính&lt;/h1&gt;
+&lt;p&gt;Hiện tại, Cuộn cuộn có các chức năng chính:&lt;br&gt;
+[Phản hồi từ khóa](#Phản hồi từ khóa)     </summary>
         
       
     
