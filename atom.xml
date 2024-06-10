@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog&#39;s GluTis</title>
+  <icon>https://huyvu15.github.io/icon.png</icon>
+  <subtitle>Năng lượng, tích cực</subtitle>
+  <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://huyvu15.github.io/"/>
+  <updated>2024-06-10T01:14:03.899Z</updated>
+  <id>https://huyvu15.github.io/</id>
+  
+  <author>
+    <name>GluTis</name>
+    <email>huyv80313@gmail.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Học gì để trở thành một Data Engineer</title>
+    <link href="https://huyvu15.github.io/posts/1r6d396f"/>
+    <id>https://huyvu15.github.io/posts/1r6d396f</id>
+    <published>2024-06-10T15:35:12.000Z</published>
+    <updated>2024-06-10T01:14:03.899Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;theory&quot;&gt;Theory&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;DA is developmenter, bult, test and contain knowledge: database, process big system&lt;/li&gt;
+&lt;li&gt;DA</summary>
+        
+      
+    
+    
+    
+    <category term="DE" scheme="https://huyvu15.github.io/categories/DE/"/>
+    
+    
+    <category term="DE" scheme="https://huyvu15.github.io/tags/DE/"/>
+    
+    <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mẹo hay cho máy tính của bạn</title>
+    <link href="https://huyvu15.github.io/posts/13t2c31"/>
+    <id>https://huyvu15.github.io/posts/13t2c31</id>
+    <published>2024-06-10T01:18:11.737Z</published>
+    <updated>2024-06-10T01:27:20.623Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;mẹo-hay-cho-my-laptop&quot;&gt;Mẹo hay cho my laptop:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Window + R :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;gõ cmd&lt;br&gt;
+tiếp sau đó gõ netsh</summary>
+        
+      
+    
+    
+    
+    <category term="Windows" scheme="https://huyvu15.github.io/categories/Windows/"/>
+    
+    
+    <category term="CMD" scheme="https://huyvu15.github.io/tags/CMD/"/>
+    
+    <category term="Laptop" scheme="https://huyvu15.github.io/tags/Laptop/"/>
+    
+    <category term="Hacker" scheme="https://huyvu15.github.io/tags/Hacker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nghiên cứu khoa học như thế nào ở đại học</title>
+    <link href="https://huyvu15.github.io/posts/123ttr440"/>
+    <id>https://huyvu15.github.io/posts/123ttr440</id>
+    <published>2024-06-10T00:47:02.583Z</published>
+    <updated>2024-06-10T01:14:40.353Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;cách-đọc&quot;&gt;Cách đọc&lt;/h1&gt;
+&lt;p&gt;Cách tiếp cận học tập và nghiên cứu toán học có thể khai mở một thế giới mới của khám phá và ứng dụng.</summary>
+        
+      
+    
+    
+    
+    <category term="Learning" scheme="https://huyvu15.github.io/categories/Learning/"/>
+    
+    
+    <category term="NCKH" scheme="https://huyvu15.github.io/tags/NCKH/"/>
+    
+    <category term="Math" scheme="https://huyvu15.github.io/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Terraform</title>
+    <link href="https://huyvu15.github.io/posts/adaea10g"/>
+    <id>https://huyvu15.github.io/posts/adaea10g</id>
+    <published>2024-06-09T13:11:32.000Z</published>
+    <updated>2024-06-09T16:48:29.414Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;terraform-cli&quot;&gt;Terraform CLI /&lt;/h1&gt;
+&lt;h2 id=&quot;command-base&quot;&gt;Command base&lt;/h2&gt;
+&lt;p&gt;Đã dùng terraform thì không update bằng tay nếu</summary>
+        
+      
+    
+    
+    
+    <category term="Terraform" scheme="https://huyvu15.github.io/categories/Terraform/"/>
+    
+    
+    <category term="Terraform" scheme="https://huyvu15.github.io/tags/Terraform/"/>
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
+    
+    <category term="Cloud Providers" scheme="https://huyvu15.github.io/tags/Cloud-Providers/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Note câu hỏi phỏng vấn Data Engineer</title>
+    <link href="https://huyvu15.github.io/posts/2c6d396f"/>
+    <id>https://huyvu15.github.io/posts/2c6d396f</id>
+    <published>2024-06-09T05:35:14.000Z</published>
+    <updated>2024-06-10T00:39:15.073Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;tổng-hợp-câu-hỏi-phỏng-vấn-data-engineer-sưu-tầm&quot;&gt;Tổng hợp câu hỏi phỏng vấn Data Engineer sưu tầm&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Làm thế nào để</summary>
+        
+      
+    
+    
+    
+    <category term="DE" scheme="https://huyvu15.github.io/categories/DE/"/>
+    
+    <category term="Interview" scheme="https://huyvu15.github.io/categories/DE/Interview/"/>
+    
+    
+    <category term="DE" scheme="https://huyvu15.github.io/tags/DE/"/>
+    
+    <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hãy nhớ tìm hiểu về các hành động trên Github</title>
+    <link href="https://huyvu15.github.io/posts/dce14753"/>
+    <id>https://huyvu15.github.io/posts/dce14753</id>
+    <published>2024-04-29T10:34:12.000Z</published>
+    <updated>2024-06-09T16:31:51.645Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;lời-nói-đầu&quot;&gt;Lời nói đầu&lt;/h2&gt;
+&lt;p&gt;Chuyện gì đang xảy ra vậy? Trong một thời gian dài, việc cập nhật ngày của Easy-QFNU của tôi không</summary>
+        
+      
+    
+    
+    
+    <category term="Technical guide" scheme="https://huyvu15.github.io/categories/Technical-guide/"/>
+    
+    <category term="Github" scheme="https://huyvu15.github.io/categories/Technical-guide/Github/"/>
+    
+    
+    <category term="ChatGPT" scheme="https://huyvu15.github.io/tags/ChatGPT/"/>
+    
+    <category term="Github" scheme="https://huyvu15.github.io/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MongoDB</title>
+    <link href="https://huyvu15.github.io/posts/adaea106"/>
+    <id>https://huyvu15.github.io/posts/adaea106</id>
+    <published>2024-04-21T13:11:32.000Z</published>
+    <updated>2024-06-09T16:14:25.429Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;mongodb&quot;&gt;MongoDB /&lt;/h1&gt;
+&lt;p&gt;MongoDB là một cơ sở dữ liệu NoSQL hàng đầu, được thiết kế để lưu trữ dữ liệu theo định dạng BSON (một</summary>
+        
+      
+    
+    
+    
+    <category term="Nosql" scheme="https://huyvu15.github.io/categories/Nosql/"/>
+    
+    
+    <category term="MongoDB" scheme="https://huyvu15.github.io/tags/MongoDB/"/>
+    
+    <category term="Python" scheme="https://huyvu15.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dataware House</title>
+    <link href="https://huyvu15.github.io/posts/8c7613a5"/>
+    <id>https://huyvu15.github.io/posts/8c7613a5</id>
+    <published>2024-04-07T06:21:31.000Z</published>
+    <updated>2024-06-09T16:43:42.276Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;tuần-2&quot;&gt;Tuần 2 /&lt;/h1&gt;
+&lt;h2 id=&quot;data-lake&quot;&gt;Data Lake&lt;/h2&gt;
+&lt;p&gt;Big data nói nhiều đến data lake&lt;br&gt;
+Big data phải chọn dạng tree, graph</summary>
+        
+      
+    
+    
+    
+    <category term="Data" scheme="https://huyvu15.github.io/categories/Data/"/>
+    
+    
+    <category term="Dataware House" scheme="https://huyvu15.github.io/tags/Dataware-House/"/>
+    
+    <category term="Big Data" scheme="https://huyvu15.github.io/tags/Big-Data/"/>
+    
+    <category term="ETL" scheme="https://huyvu15.github.io/tags/ETL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HW</title>
+    <link href="https://huyvu15.github.io/posts/8c7613a5"/>
+    <id>https://huyvu15.github.io/posts/8c7613a5</id>
+    <published>2024-04-07T06:21:31.000Z</published>
+    <updated>2024-06-06T10:10:35.232Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hw&quot;&gt;HW&lt;/h1&gt;
+&lt;h2 id=&quot;hw&quot;&gt;HW&lt;/h2&gt;
+&lt;p&gt;linux 系统&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;首先查看一下基础信息&lt;/p&gt;
+&lt;p&gt;netstat -ano/-a #查看端口情况&lt;/p&gt;
+&lt;p&gt;uname -a</summary>
+        
+      
+    
+    
+    
+    <category term="HW" scheme="https://huyvu15.github.io/categories/HW/"/>
+    
+    
+    <category term="HW" scheme="https://huyvu15.github.io/tags/HW/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Command</title>
+    <link href="https://huyvu15.github.io/posts/8c7613a5"/>
+    <id>https://huyvu15.github.io/posts/8c7613a5</id>
+    <published>2024-04-07T06:21:31.000Z</published>
+    <updated>2024-06-09T16:14:47.269Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;linux-intro&quot;&gt;Linux Intro /&lt;/h1&gt;
+&lt;p&gt;Linux là một hệ điều hành mã nguồn mở, được sử dụng rộng rãi trên khắp thế giới. Với tính ổn</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://huyvu15.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://huyvu15.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P5726</title>
+    <link href="https://huyvu15.github.io/posts/904f42f7"/>
+    <id>https://huyvu15.github.io/posts/904f42f7</id>
+    <published>2024-02-29T13:24:35.000Z</published>
+    <updated>2024-06-10T01:07:21.135Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;p5726&quot;&gt;P5726&lt;/h1&gt;
+&lt;h2 id=&quot;miêu-tả-tiêu-đề&quot;&gt;Miêu tả Tiêu đề&lt;/h2&gt;
+&lt;p&gt;Hiện tại có &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://huyvu15.github.io/categories/Python/"/>
+    
+    <category term="Blue Bridge" scheme="https://huyvu15.github.io/categories/Python/Blue-Bridge/"/>
+    
+    
+    <category term="Python" scheme="https://huyvu15.github.io/tags/Python/"/>
+    
+    <category term="Blue Bridge" scheme="https://huyvu15.github.io/tags/Blue-Bridge/"/>
+    
+    <category term="Luogu" scheme="https://huyvu15.github.io/tags/Luogu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Peter</title>
+    <link href="https://huyvu15.github.io/posts/80cc5efe"/>
+    <id>https://huyvu15.github.io/posts/80cc5efe</id>
+    <published>2024-02-02T08:19:36.000Z</published>
+    <updated>2024-06-09T17:11:00.697Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;ký-tự-toán-học&quot;&gt;Ký tự toán học&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://huyvu15.github.io/categories/Python/"/>
+    
+    <category term="Blue Bridge" scheme="https://huyvu15.github.io/categories/Python/Blue-Bridge/"/>
+    
+    
+    <category term="Python" scheme="https://huyvu15.github.io/tags/Python/"/>
+    
+    <category term="Blue Bridge" scheme="https://huyvu15.github.io/tags/Blue-Bridge/"/>
+    
+    <category term="Luogu" scheme="https://huyvu15.github.io/tags/Luogu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ChatLearning</title>
+    <link href="https://huyvu15.github.io/posts/edeaa258"/>
+    <id>https://huyvu15.github.io/posts/edeaa258</id>
+    <published>2023-12-13T07:51:00.000Z</published>
+    <updated>2024-06-09T18:02:18.545Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;chèn-chữ-màu-xanh-có-link&quot;&gt;Chèn chữ màu xanh có link&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="QQbot" scheme="https://huyvu15.github.io/categories/QQbot/"/>
+    
+    
+    <category term="QQbot" scheme="https://huyvu15.github.io/tags/QQbot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>“Cuộn cuộn” W1ndys_bot Sử dụng Hướng dẫn</title>
+    <link href="https://huyvu15.github.io/posts/bc040c54"/>
+    <id>https://huyvu15.github.io/posts/bc040c54</id>
+    <published>2023-11-18T03:04:00.000Z</published>
+    <updated>2024-06-09T16:34:46.447Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;chức-năng-chính&quot;&gt;Chức năng chính&lt;/h1&gt;
+&lt;p&gt;Hiện tại, Cuộn cuộn có các chức năng chính:&lt;br&gt;
+[Phản hồi từ khóa](#Phản hồi từ khóa)     </summary>
+        
+      
+    
+    
+    
+    <category term="QQbot" scheme="https://huyvu15.github.io/categories/QQbot/"/>
+    
+    
+    <category term="QQbot" scheme="https://huyvu15.github.io/tags/QQbot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cách đổi ngôn ngữ của Kali Linux sang tiếng Trung</title>
+    <link href="https://huyvu15.github.io/posts/4c6d962f"/>
+    <id>https://huyvu15.github.io/posts/4c6d962f</id>
+    <published>2023-10-10T15:35:00.000Z</published>
+    <updated>2024-06-10T01:03:13.804Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;lời-nhắc-nhở-thân-thiện&quot;&gt;Lời nhắc nhở thân thiện&lt;/h3&gt;
+&lt;p&gt;Chụp ảnh nhanh trước khi sửa đổi để tránh các sự cố do thao tác sửa đổi</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://huyvu15.github.io/categories/Linux/"/>
+    
+    <category term="kali" scheme="https://huyvu15.github.io/categories/Linux/kali/"/>
+    
+    
+    <category term="Linux" scheme="https://huyvu15.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cách sử dụng nội dung chính trong bài đăng trên blog Hexo</title>
+    <link href="https://huyvu15.github.io/posts/8217ff3e"/>
+    <id>https://huyvu15.github.io/posts/8217ff3e</id>
+    <published>2023-09-30T13:52:00.000Z</published>
+    <updated>2024-06-10T01:11:15.365Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://Hexo.io/zh-cn/docs/front-matter&quot;&gt;https://Hexo.io/zh-cn/docs/front-matter&lt;/a&gt;&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://huyvu15.github.io/categories/Hexo/"/>
+    
+    <category term="document" scheme="https://huyvu15.github.io/categories/Hexo/document/"/>
+    
+    
+    <category term="Hexo" scheme="https://huyvu15.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
