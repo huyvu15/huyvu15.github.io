@@ -1,0 +1,37 @@
+name: Đăng ký kết nối bạn bè
+description: 申请 https://blog.w1ndys.top 的友链，请先把本站加为友链
+title: "Đăng ký kết nối bạn bè: "
+labels: ["Đăng ký kết nối bạn bè:"]
+assignees:
+  - huyvu15 # 这里改成你的GitHub ID
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 站点名字
+      placeholder: 你的站点名字
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: 站点地址
+      placeholder: 站点地址
+    validations:
+      required: true
+  - type: input
+    id: descr
+    attributes:
+      label: 站点描述
+      placeholder: 这是站点描述
+    validations:
+      required: true
+  - type: input
+    id: avatar
+    attributes:
+      label: 站点图标或个人头像
+      description: 站点图标或个人头像
+      placeholder: https://example.com/avatar.png
+    validations:
+      required: true
+  
