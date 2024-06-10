@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://huyvu15.github.io/posts/83dc13a5</loc>
+    
+    <lastmod>2024-06-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://huyvu15.github.io/posts/13t2c31</loc>
     
     <lastmod>2024-06-10</lastmod>
@@ -101,15 +110,6 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/posts/8c7613a5</loc>
-    
-    <lastmod>2024-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://huyvu15.github.io/posts/bc040c54</loc>
     
     <lastmod>2024-06-09</lastmod>
@@ -191,6 +191,13 @@
 
   
   <url>
+    <loc>https://huyvu15.github.io/tags/QQbot/</loc>
+    <lastmod>2024-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://huyvu15.github.io/tags/DE/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -206,13 +213,6 @@
   
   <url>
     <loc>https://huyvu15.github.io/tags/Knownledge/</loc>
-    <lastmod>2024-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/tags/QQbot/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -361,14 +361,14 @@
 
   
   <url>
-    <loc>https://huyvu15.github.io/categories/DE/</loc>
+    <loc>https://huyvu15.github.io/categories/QQbot/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/QQbot/</loc>
+    <loc>https://huyvu15.github.io/categories/DE/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -403,14 +403,14 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/DE/Interview/</loc>
+    <loc>https://huyvu15.github.io/categories/Nosql/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Nosql/</loc>
+    <loc>https://huyvu15.github.io/categories/DE/Interview/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
