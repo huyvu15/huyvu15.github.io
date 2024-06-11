@@ -26,7 +26,7 @@ title: Note câu hỏi phỏng vấn Data Engineer
 
 - Dạ cho em hỏi là cách thức hoạt động của data trong công việc ạ
 - Em cần tham khảo những kênh thông tin nào để tìm hiểu hơn về Big Data ạ
-- Aws là gì?Triển khai các giải pháp big data trên cloud với Aws như thế nào? Cách hoạt động của aws như thế nào để 1 dự án big data được thành công? Em xin cảm ơn ạ.
+- Aws là gì? Triển khai các giải pháp big data trên cloud với Aws như thế nào? Cách hoạt động của aws như thế nào để 1 dự án big data được thành công? Em xin cảm ơn ạ.
 - Nên theo mảng nào trong lĩnh vực về data hiện này và có tiềm năng phát triển cao hơn và sau ạ.
 - Hiện nay sự canh tranh việc làm trong ngành IT rất lớn, vài năm sau lúc em ra trường thì sự cạnh tranh nó sẽ càng cao hơn bây giờ rất nhiều, vậy em nên làm những gì để đảm bảo mình có được một công việc ổn định 
 
