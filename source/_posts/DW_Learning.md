@@ -12,6 +12,9 @@ cover: https://miro.medium.com/v2/resize:fit:640/0*sn8p2xVhgjdfnm43.png
 ---
 
 
+# Tuần 1 /
+Đến tâm sự với thầy về học tập, kinh nghiệp, thị trường lao động. Xong nghỉ sớm
+
 # Tuần 2 /
 
 ## Data Lake
