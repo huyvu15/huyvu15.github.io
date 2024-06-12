@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-06-10T01:14:03.899Z</updated>
+  <updated>2024-06-12T09:37:33.965Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Những thử thách gặp phải trong dự án Detect License Plate</title>
+    <link href="https://huyvu15.github.io/posts/2r3d326f"/>
+    <id>https://huyvu15.github.io/posts/2r3d326f</id>
+    <published>2024-06-12T08:39:12.000Z</published>
+    <updated>2024-06-12T09:37:33.965Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu.&lt;/h1&gt;
+&lt;h2 id=&quot;bối-cảnh&quot;&gt;Bối cảnh.&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Computer Vision" scheme="https://huyvu15.github.io/categories/Computer-Vision/"/>
+    
+    
+    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
+    
+    <category term="Computer Vision" scheme="https://huyvu15.github.io/tags/Computer-Vision/"/>
+    
+    <category term="Algorithms" scheme="https://huyvu15.github.io/tags/Algorithms/"/>
+    
+    <category term="Model" scheme="https://huyvu15.github.io/tags/Model/"/>
+    
+    <category term="Bugs" scheme="https://huyvu15.github.io/tags/Bugs/"/>
+    
+  </entry>
   
   <entry>
     <title>Học gì để trở thành một Data Engineer</title>
@@ -237,17 +272,14 @@ tiếp sau đó gõ netsh</summary>
     <link href="https://huyvu15.github.io/posts/83dc13a5"/>
     <id>https://huyvu15.github.io/posts/83dc13a5</id>
     <published>2024-04-07T06:21:31.000Z</published>
-    <updated>2024-06-10T08:34:03.995Z</updated>
+    <updated>2024-06-11T07:27:21.167Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;tuần-2&quot;&gt;Tuần 2 /&lt;/h1&gt;
-&lt;h2 id=&quot;data-lake&quot;&gt;Data Lake&lt;/h2&gt;
-&lt;p&gt;Big data nói nhiều đến data lake&lt;br&gt;
-Big data phải chọn dạng tree, graph</summary>
+    <summary type="html">&lt;h1 id=&quot;Tuan-1&quot;&gt;&lt;a href=&quot;#Tuan-1&quot; class=&quot;headerlink&quot; title=&quot;Tuần 1 /&quot;&gt;&lt;/a&gt;Tuần 1 /&lt;/h1&gt;&lt;p&gt;Đến tâm sự với thầy về học tập, kinh nghiệp, thị</summary>
         
       
     
@@ -266,23 +298,17 @@ Big data phải chọn dạng tree, graph</summary>
   
   <entry>
     <title>HW</title>
-    <link href="https://huyvu15.github.io/posts/1d7613a5"/>
-    <id>https://huyvu15.github.io/posts/1d7613a5</id>
+    <link href="https://huyvu15.github.io/posts/1d7613d5"/>
+    <id>https://huyvu15.github.io/posts/1d7613d5</id>
     <published>2024-04-07T06:21:31.000Z</published>
-    <updated>2024-06-11T07:08:36.878Z</updated>
+    <updated>2024-06-11T07:23:16.216Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;hw&quot;&gt;HW&lt;/h1&gt;
-&lt;h2 id=&quot;hw&quot;&gt;HW&lt;/h2&gt;
-&lt;p&gt;linux 系统&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;首先查看一下基础信息&lt;/p&gt;
-&lt;p&gt;netstat -ano/-a #查看端口情况&lt;/p&gt;
-&lt;p&gt;uname -a</summary>
+    <summary type="html">&lt;h1 id=&quot;HW&quot;&gt;&lt;a href=&quot;#HW&quot; class=&quot;headerlink&quot; title=&quot;HW&quot;&gt;&lt;/a&gt;HW&lt;/h1&gt;&lt;h2 id=&quot;HW-1&quot;&gt;&lt;a href=&quot;#HW-1&quot; class=&quot;headerlink&quot;</summary>
         
       
     
