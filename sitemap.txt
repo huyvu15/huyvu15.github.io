@@ -1,6 +1,7 @@
-https://huyvu15.github.io/posts/1d7613a5
-https://huyvu15.github.io/posts/2c6d396f
+https://huyvu15.github.io/posts/2r3d326f
 https://huyvu15.github.io/posts/83dc13a5
+https://huyvu15.github.io/posts/1d7613d5
+https://huyvu15.github.io/posts/2c6d396f
 https://huyvu15.github.io/posts/13t2c31
 https://huyvu15.github.io/posts/123ttr440
 https://huyvu15.github.io/posts/1r6d396f
@@ -43,6 +44,11 @@ https://huyvu15.github.io/tags/CMD/
 https://huyvu15.github.io/tags/Laptop/
 https://huyvu15.github.io/tags/Hacker/
 https://huyvu15.github.io/tags/Hexo/
+https://huyvu15.github.io/tags/AI/
+https://huyvu15.github.io/tags/Computer-Vision/
+https://huyvu15.github.io/tags/Algorithms/
+https://huyvu15.github.io/tags/Model/
+https://huyvu15.github.io/tags/Bugs/
 https://huyvu15.github.io/categories/DE/
 https://huyvu15.github.io/categories/QQbot/
 https://huyvu15.github.io/categories/Data/
@@ -60,3 +66,4 @@ https://huyvu15.github.io/categories/Nosql/
 https://huyvu15.github.io/categories/Windows/
 https://huyvu15.github.io/categories/Hexo/
 https://huyvu15.github.io/categories/Hexo/document/
+https://huyvu15.github.io/categories/Computer-Vision/
