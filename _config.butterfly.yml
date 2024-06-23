@@ -938,7 +938,7 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: huyvu15.github.io # 存储评论的GitHub仓库
+  repo: huyvu15/huyvu15.github.io # 存储评论的GitHub仓库
   repo_id: R_kgDOMHLk0w # 仓库ID
   category_id: DIC_kwDOLaRaX84CeBp5 # Giscus分类ID
   theme:
