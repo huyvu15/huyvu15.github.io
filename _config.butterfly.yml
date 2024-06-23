@@ -938,23 +938,23 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: huyvu15/huyvu15.github.io # 存储评论的GitHub仓库
-  repo_id: R_kgDOMHLk0w # 仓库ID
-  category_id: DIC_kwDOLaRaX84CeBp5 # Giscus分类ID
+  repo: huyvu15.github.io 
+  repo_id: R_kgDOMHLk0w 
+  category_id: DIC_kwDOMHLk084CgTi9 # Giscus分类ID
   theme:
-    light: light # 亮色主题
-    dark: dark # 暗色主题
+    light: light 
+    dark: dark 
   option:
     data-category: "Show and tell" # 分类名称
     data-mapping: url # 映射选项
-    data-strict: 0 # 严格程度（0表示不严格）
-    data-reactions-enabled: 1 # 启用反应（1表示启用）
-    data-emit-metadata: 1 # 启用元数据发射（1表示启用）
-    data-input-position: top # 评论输入位置（顶部）
-    data-theme: preferred_color_scheme # 首选颜色方案
-    data-lang: en   # 语言偏好（中文）
-    # data-loading: lazy          # 懒加载（已注释掉）
-    crossorigin: anonymous # 跨源资源共享策略（匿名）
+    data-strict: 0 
+    data-reactions-enabled: 1 
+    data-emit-metadata: 1 
+    data-input-position: top 
+    data-theme: preferred_color_scheme 
+    data-lang: en   
+    # data-loading: lazy         
+    crossorigin: anonymous 
 
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
