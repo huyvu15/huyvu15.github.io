@@ -10,13 +10,13 @@
 #   desrc: 你的站点描述
 ###########################
 
-- class_name: 博客
-  class_desc: 博客搭建官方文档
+- class_name: Blog
+  class_desc: Tài liệu chính thức xây dựng blog
   link_list:
     - name: Hexo
       link: https://hexo.io/zh-tw/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、简单且强大的博客框架
+      descr: Khung viết blog nhanh, đơn giản và mạnh mẽ
 
     - name: Butterfly开发文档
       link: https://butterfly.js.org/posts/21cfbf15/#/
@@ -25,8 +25,8 @@
 
 # 下面是师哥师姐师弟师妹同学朋友，请下滑找到空位置添加
 # ——————————————————————————————————————————————————————————————————————————————————————————————
-- class_name: 漫漫求学路，同窗夜下读
-  class_desc: 大佬们的聚集地
+- class_name: Đường đến trường còn dài, các bạn cùng lớp đọc sách vào ban đêm
+  class_desc: Nơi hội tụ các ông lớn
   link_list:
     - name: 曲阜师范大学
       link: https://www.qfnu.edu.cn/
@@ -114,8 +114,8 @@
 
 # 下面是各路大佬，请下滑找到空位置添加
 # ——————————————————————————————————————————————————————————————————————————————————————————————
-- class_name: 大佬的聚集地
-  class_desc: 咕咕咕（摸鱼中）
+- class_name: Nơi hội tụ của các ông lớn
+  class_desc: Gu Gu Gu Gu (bắt cá)
   link_list:
     - name: 安知鱼
       link: https://blog.anheyu.com/

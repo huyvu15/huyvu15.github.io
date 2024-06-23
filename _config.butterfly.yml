@@ -22,12 +22,12 @@ menu:
   Tag: /tags/ || fas fa-tags
   Categories: /categories/ || fas fa-folder-open
   Link: /link/ || fas fa-link
-  Power of Friend || fa fa-heart:
-    Hành trình đến một chiều không gian khác: https://travel.moe/go.html?travel=on || fa fa-bomb
-    MIIT Travel: https://beian.miit.cn.com/go.php#/ || fas fa-rotate-right
-    Blog: https://bokelu.suijiboke.gs || fas fa-tree
-    Bút và mực: https://blogscn.fun/random.html || fas fa-pen
-    Vòng tròn Blog: https://bokequan.cn/?suiji || fas fa-car
+  # Power of Friend || fa fa-heart:
+  #   Hành trình đến một chiều không gian khác: https://travel.moe/go.html?travel=on || fa fa-bomb
+  #   MIIT Travel: https://beian.miit.cn.com/go.php#/ || fas fa-rotate-right
+  #   Blog: https://bokelu.suijiboke.gs || fas fa-tree
+  #   Bút và mực: https://blogscn.fun/random.html || fas fa-pen
+  #   Vòng tròn Blog: https://bokequan.cn/?suiji || fas fa-car
   Project||fa fa-pencil:
     Hướng dẫn lựa chọn khóa học: /posts/13t2c31/ || fa fa-arrow-up
     Hướng dẫn chạy tốc độ: /posts/2c6d396f/ || fa fa-arrow-down
@@ -938,8 +938,8 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: W1ndys/Blog # 存储评论的GitHub仓库
-  repo_id: R_kgDOLaRaXw # 仓库ID
+  repo: huyvu15.github.io # 存储评论的GitHub仓库
+  repo_id: R_kgDOMHLk0w # 仓库ID
   category_id: DIC_kwDOLaRaX84CeBp5 # Giscus分类ID
   theme:
     light: light # 亮色主题
@@ -952,7 +952,7 @@ giscus:
     data-emit-metadata: 1 # 启用元数据发射（1表示启用）
     data-input-position: top # 评论输入位置（顶部）
     data-theme: preferred_color_scheme # 首选颜色方案
-    data-lang: zh-CN # 语言偏好（中文）
+    data-lang: en   # 语言偏好（中文）
     # data-loading: lazy          # 懒加载（已注释掉）
     crossorigin: anonymous # 跨源资源共享策略（匿名）
 
