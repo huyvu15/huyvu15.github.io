@@ -28,7 +28,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Gioi-thieu&quot;&gt;&lt;a href=&quot;#Gioi-thieu&quot; class=&quot;headerlink&quot; title=&quot;Giới thiệu.&quot;&gt;&lt;/a&gt;Giới thiệu.&lt;/h1&gt;&lt;h2 id=&quot;Boi-canh&quot;&gt;&lt;a href=&quot;#Boi-canh&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu.&lt;/h1&gt;
+&lt;h2 id=&quot;bối-cảnh&quot;&gt;Bối cảnh.&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -61,8 +63,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Theory&quot;&gt;&lt;a href=&quot;#Theory&quot; class=&quot;headerlink&quot; title=&quot;Theory&quot;&gt;&lt;/a&gt;Theory&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;DA is developmenter, bult, test and contain</summary>
+    <summary type="html">&lt;h1 id=&quot;theory&quot;&gt;Theory&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;DA is developmenter, bult, test and contain knowledge: database, process big system&lt;/li&gt;
+&lt;li&gt;DA</summary>
         
       
     
@@ -91,7 +95,13 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Meo-hay-cho-my-laptop&quot;&gt;&lt;a href=&quot;#Meo-hay-cho-my-laptop&quot; class=&quot;headerlink&quot; title=&quot;Mẹo hay cho my laptop:&quot;&gt;&lt;/a&gt;Mẹo hay cho my</summary>
+    <summary type="html">&lt;h1 id=&quot;mẹo-hay-cho-my-laptop&quot;&gt;Mẹo hay cho my laptop:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Window + R :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;gõ cmd&lt;br&gt;
+tiếp sau đó gõ netsh</summary>
         
       
     
@@ -120,7 +130,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Cach-doc&quot;&gt;&lt;a href=&quot;#Cach-doc&quot; class=&quot;headerlink&quot; title=&quot;Cách đọc&quot;&gt;&lt;/a&gt;Cách đọc&lt;/h1&gt;&lt;p&gt;Cách tiếp cận học tập và nghiên cứu toán học</summary>
+    <summary type="html">&lt;h1 id=&quot;cách-đọc&quot;&gt;Cách đọc&lt;/h1&gt;
+&lt;p&gt;Cách tiếp cận học tập và nghiên cứu toán học có thể khai mở một thế giới mới của khám phá và ứng dụng.</summary>
         
       
     
@@ -147,7 +158,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Terraform-CLI&quot;&gt;&lt;a href=&quot;#Terraform-CLI&quot; class=&quot;headerlink&quot; title=&quot;Terraform CLI /&quot;&gt;&lt;/a&gt;Terraform CLI /&lt;/h1&gt;&lt;h2 id=&quot;Command-base&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;terraform-cli&quot;&gt;Terraform CLI /&lt;/h1&gt;
+&lt;h2 id=&quot;command-base&quot;&gt;Command base&lt;/h2&gt;
+&lt;p&gt;Đã dùng terraform thì không update bằng tay nếu</summary>
         
       
     
@@ -176,7 +189,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Tong-hop-cau-hoi-phong-van-Data-Engineer-suu-tam&quot;&gt;&lt;a href=&quot;#Tong-hop-cau-hoi-phong-van-Data-Engineer-suu-tam&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;tổng-hợp-câu-hỏi-phỏng-vấn-data-engineer-sưu-tầm&quot;&gt;Tổng hợp câu hỏi phỏng vấn Data Engineer sưu tầm&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Làm thế nào để</summary>
         
       
     
@@ -205,7 +221,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Loi-noi-dau&quot;&gt;&lt;a href=&quot;#Loi-noi-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời nói đầu&quot;&gt;&lt;/a&gt;Lời nói đầu&lt;/h2&gt;&lt;p&gt;Chuyện gì đang xảy ra vậy? Trong</summary>
+    <summary type="html">&lt;h2 id=&quot;lời-nói-đầu&quot;&gt;Lời nói đầu&lt;/h2&gt;
+&lt;p&gt;Chuyện gì đang xảy ra vậy? Trong một thời gian dài, việc cập nhật ngày của Easy-QFNU của tôi không</summary>
         
       
     
@@ -234,7 +251,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;MongoDB&quot;&gt;&lt;a href=&quot;#MongoDB&quot; class=&quot;headerlink&quot; title=&quot;MongoDB /&quot;&gt;&lt;/a&gt;MongoDB /&lt;/h1&gt;&lt;p&gt;MongoDB là một cơ sở dữ liệu NoSQL hàng đầu,</summary>
+    <summary type="html">&lt;h1 id=&quot;mongodb&quot;&gt;MongoDB /&lt;/h1&gt;
+&lt;p&gt;MongoDB là một cơ sở dữ liệu NoSQL hàng đầu, được thiết kế để lưu trữ dữ liệu theo định dạng BSON (một</summary>
         
       
     
@@ -261,7 +279,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Tuan-1&quot;&gt;&lt;a href=&quot;#Tuan-1&quot; class=&quot;headerlink&quot; title=&quot;Tuần 1 /&quot;&gt;&lt;/a&gt;Tuần 1 /&lt;/h1&gt;&lt;p&gt;Đến tâm sự với thầy về học tập, kinh nghiệp, thị</summary>
+    <summary type="html">&lt;h1 id=&quot;tuần-1&quot;&gt;Tuần 1 /&lt;/h1&gt;
+&lt;p&gt;Đến tâm sự với thầy về học tập, kinh nghiệp, thị trường lao động. Xong nghỉ sớm&lt;/p&gt;
+&lt;h1 id=&quot;tuần-2&quot;&gt;Tuần 2</summary>
         
       
     
@@ -290,7 +310,13 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;HW&quot;&gt;&lt;a href=&quot;#HW&quot; class=&quot;headerlink&quot; title=&quot;HW&quot;&gt;&lt;/a&gt;HW&lt;/h1&gt;&lt;h2 id=&quot;HW-1&quot;&gt;&lt;a href=&quot;#HW-1&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;hw&quot;&gt;HW&lt;/h1&gt;
+&lt;h2 id=&quot;hw&quot;&gt;HW&lt;/h2&gt;
+&lt;p&gt;linux 系统&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;首先查看一下基础信息&lt;/p&gt;
+&lt;p&gt;netstat -ano/-a #查看端口情况&lt;/p&gt;
+&lt;p&gt;uname -a</summary>
         
       
     
@@ -315,7 +341,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Linux-Intro&quot;&gt;&lt;a href=&quot;#Linux-Intro&quot; class=&quot;headerlink&quot; title=&quot;Linux Intro /&quot;&gt;&lt;/a&gt;Linux Intro /&lt;/h1&gt;&lt;p&gt;Linux là một hệ điều hành mã</summary>
+    <summary type="html">&lt;h1 id=&quot;linux-intro&quot;&gt;Linux Intro /&lt;/h1&gt;
+&lt;p&gt;Linux là một hệ điều hành mã nguồn mở, được sử dụng rộng rãi trên khắp thế giới. Với tính ổn</summary>
         
       
     
@@ -340,7 +367,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;P5726&quot;&gt;&lt;a href=&quot;#P5726&quot; class=&quot;headerlink&quot; title=&quot;P5726&quot;&gt;&lt;/a&gt;P5726&lt;/h1&gt;&lt;h2 id=&quot;Mieu-ta-Tieu-de&quot;&gt;&lt;a href=&quot;#Mieu-ta-Tieu-de&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;p5726&quot;&gt;P5726&lt;/h1&gt;
+&lt;h2 id=&quot;miêu-tả-tiêu-đề&quot;&gt;Miêu tả Tiêu đề&lt;/h2&gt;
+&lt;p&gt;Hiện tại có &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
         
       
     
@@ -371,7 +400,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Ky-tu-toan-hoc&quot;&gt;&lt;a href=&quot;#Ky-tu-toan-hoc&quot; class=&quot;headerlink&quot; title=&quot;Ký tự toán học&quot;&gt;&lt;/a&gt;Ký tự toán học&lt;/h1&gt;&lt;p&gt;$n, k$（$1 &amp;lt; n, k</summary>
+    <summary type="html">&lt;h1 id=&quot;ký-tự-toán-học&quot;&gt;Ký tự toán học&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
         
       
     
@@ -402,7 +432,9 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Chen-chu-mau-xanh-co-link&quot;&gt;&lt;a href=&quot;#Chen-chu-mau-xanh-co-link&quot; class=&quot;headerlink&quot; title=&quot;Chèn chữ màu xanh có link&quot;&gt;&lt;/a&gt;Chèn chữ</summary>
+    <summary type="html">&lt;h2 id=&quot;chèn-chữ-màu-xanh-có-link&quot;&gt;Chèn chữ màu xanh có link&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
         
       
     
@@ -427,7 +459,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Chuc-nang-chinh&quot;&gt;&lt;a href=&quot;#Chuc-nang-chinh&quot; class=&quot;headerlink&quot; title=&quot;Chức năng chính&quot;&gt;&lt;/a&gt;Chức năng chính&lt;/h1&gt;&lt;p&gt;Hiện tại, Cuộn</summary>
+    <summary type="html">&lt;h1 id=&quot;chức-năng-chính&quot;&gt;Chức năng chính&lt;/h1&gt;
+&lt;p&gt;Hiện tại, Cuộn cuộn có các chức năng chính:&lt;br&gt;
+[Phản hồi từ khóa](#Phản hồi từ khóa)     </summary>
         
       
     
@@ -452,7 +486,8 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Loi-nhac-nho-than-thien&quot;&gt;&lt;a href=&quot;#Loi-nhac-nho-than-thien&quot; class=&quot;headerlink&quot; title=&quot;Lời nhắc nhở thân thiện&quot;&gt;&lt;/a&gt;Lời nhắc nhở</summary>
+    <summary type="html">&lt;h3 id=&quot;lời-nhắc-nhở-thân-thiện&quot;&gt;Lời nhắc nhở thân thiện&lt;/h3&gt;
+&lt;p&gt;Chụp ảnh nhanh trước khi sửa đổi để tránh các sự cố do thao tác sửa đổi</summary>
         
       
     
@@ -480,7 +515,7 @@
         
         
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://Hexo.io/zh-cn/docs/front-matter&quot;&gt;https://Hexo.io/zh-cn/docs/front-matter&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;Front-matter&quot;&gt;&lt;a</summary>
+&lt;h1</summary>
         
       
     
