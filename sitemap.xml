@@ -256,13 +256,6 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/tags/QQbot/</loc>
-    <lastmod>2024-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://huyvu15.github.io/tags/Dataware-House/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -298,6 +291,13 @@
   </url>
   
   <url>
+    <loc>https://huyvu15.github.io/tags/QQbot/</loc>
+    <lastmod>2024-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://huyvu15.github.io/tags/HW/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -326,6 +326,13 @@
   </url>
   
   <url>
+    <loc>https://huyvu15.github.io/tags/MongoDB/</loc>
+    <lastmod>2024-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://huyvu15.github.io/tags/Python/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -341,13 +348,6 @@
   
   <url>
     <loc>https://huyvu15.github.io/tags/Luogu/</loc>
-    <lastmod>2024-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/tags/MongoDB/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -419,20 +419,6 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/QQbot/</loc>
-    <lastmod>2024-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/categories/DE/Interview/</loc>
-    <lastmod>2024-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://huyvu15.github.io/categories/Data/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -441,6 +427,13 @@
   
   <url>
     <loc>https://huyvu15.github.io/categories/Technical-guide/</loc>
+    <lastmod>2024-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/categories/QQbot/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -461,14 +454,14 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Learning/</loc>
+    <loc>https://huyvu15.github.io/categories/DE/Interview/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Python/</loc>
+    <loc>https://huyvu15.github.io/categories/Learning/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -482,7 +475,7 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Terraform/</loc>
+    <loc>https://huyvu15.github.io/categories/Python/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -490,6 +483,13 @@
   
   <url>
     <loc>https://huyvu15.github.io/categories/Technical-guide/Github/</loc>
+    <lastmod>2024-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/categories/Terraform/</loc>
     <lastmod>2024-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
