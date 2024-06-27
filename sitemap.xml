@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://huyvu15.github.io/posts/yds123d</loc>
+    
+    <lastmod>2024-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://huyvu15.github.io/posts/904f42f7</loc>
     
     <lastmod>2024-06-27</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://huyvu15.github.io/posts/dr6v212f</loc>
-    
-    <lastmod>2024-06-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/posts/yds123d</loc>
     
     <lastmod>2024-06-27</lastmod>
     
@@ -281,20 +281,6 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/tags/Images/</loc>
-    <lastmod>2024-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/tags/Memories/</loc>
-    <lastmod>2024-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://huyvu15.github.io/tags/Dataware-House/</loc>
     <lastmod>2024-06-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -310,6 +296,20 @@
   
   <url>
     <loc>https://huyvu15.github.io/tags/ETL/</loc>
+    <lastmod>2024-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/tags/Images/</loc>
+    <lastmod>2024-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/tags/Memories/</loc>
     <lastmod>2024-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -507,14 +507,14 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Gallery/</loc>
+    <loc>https://huyvu15.github.io/categories/Data/</loc>
     <lastmod>2024-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Data/</loc>
+    <loc>https://huyvu15.github.io/categories/Gallery/</loc>
     <lastmod>2024-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
