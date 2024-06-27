@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://huyvu15.github.io/posts/yds123d</loc>
+    <loc>https://huyvu15.github.io/posts/904f42f7</loc>
     
     <lastmod>2024-06-27</lastmod>
     
@@ -11,7 +11,70 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/posts/904f42f7</loc>
+    <loc>https://huyvu15.github.io/posts/8217ff3e</loc>
+    
+    <lastmod>2024-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/posts/4c6d962f</loc>
+    
+    <lastmod>2024-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/posts/80cc5efe</loc>
+    
+    <lastmod>2024-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/posts/edeaa258</loc>
+    
+    <lastmod>2024-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/posts/bc040c54</loc>
+    
+    <lastmod>2024-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/link/</loc>
+    
+    <lastmod>2024-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/about/</loc>
+    
+    <lastmod>2024-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/posts/yds123d</loc>
     
     <lastmod>2024-06-27</lastmod>
     
@@ -56,42 +119,6 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/posts/bc040c54</loc>
-    
-    <lastmod>2024-06-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/posts/4c6d962f</loc>
-    
-    <lastmod>2024-06-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/posts/8217ff3e</loc>
-    
-    <lastmod>2024-06-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/link/</loc>
-    
-    <lastmod>2024-06-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://huyvu15.github.io/posts/2r3d326f</loc>
     
     <lastmod>2024-06-23</lastmod>
@@ -122,33 +149,6 @@
     <loc>https://huyvu15.github.io/posts/1r6d396f</loc>
     
     <lastmod>2024-06-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/about/</loc>
-    
-    <lastmod>2024-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/posts/edeaa258</loc>
-    
-    <lastmod>2024-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://huyvu15.github.io/posts/80cc5efe</loc>
-    
-    <lastmod>2024-06-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -393,13 +393,6 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/tags/MongoDB/</loc>
-    <lastmod>2024-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://huyvu15.github.io/tags/NCKH/</loc>
     <lastmod>2024-06-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -408,6 +401,13 @@
   
   <url>
     <loc>https://huyvu15.github.io/tags/Math/</loc>
+    <lastmod>2024-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/tags/MongoDB/</loc>
     <lastmod>2024-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -549,14 +549,14 @@
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Nosql/</loc>
+    <loc>https://huyvu15.github.io/categories/Learning/</loc>
     <lastmod>2024-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://huyvu15.github.io/categories/Learning/</loc>
+    <loc>https://huyvu15.github.io/categories/Nosql/</loc>
     <lastmod>2024-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
