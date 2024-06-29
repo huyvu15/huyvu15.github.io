@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-06-27T16:07:19.331Z</updated>
+  <updated>2024-06-29T03:00:50.963Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,73 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mọi người đã nghe về chứng chỉ Github bao giờ chưa ?</title>
+    <link href="https://huyvu15.github.io/posts/er6d090f"/>
+    <id>https://huyvu15.github.io/posts/er6d090f</id>
+    <published>2026-05-05T18:35:12.000Z</published>
+    <updated>2024-06-29T03:00:50.963Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;cảm-nhận-ban-đầu&quot;&gt;Cảm nhận ban đầu&lt;/h1&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Github" scheme="https://huyvu15.github.io/categories/Github/"/>
+    
+    <category term="Certificate" scheme="https://huyvu15.github.io/categories/Github/Certificate/"/>
+    
+    
+    <category term="Github" scheme="https://huyvu15.github.io/tags/Github/"/>
+    
+    <category term="Cert" scheme="https://huyvu15.github.io/tags/Cert/"/>
+    
+    <category term="Learn" scheme="https://huyvu15.github.io/tags/Learn/"/>
+    
+    <category term="News" scheme="https://huyvu15.github.io/tags/News/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cách bật âm thanh trên máy chủ ảo EC2 Windown</title>
+    <link href="https://huyvu15.github.io/posts/tr6d096f"/>
+    <id>https://huyvu15.github.io/posts/tr6d096f</id>
+    <published>2026-05-05T18:35:12.000Z</published>
+    <updated>2024-06-29T03:43:28.696Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;lời-mở-đầu&quot;&gt;Lời mở đầu&lt;/h1&gt;
+&lt;h2 id=&quot;ec2&quot;&gt;EC2:&lt;/h2&gt;
+&lt;h2 id=&quot;tại-sao-các-máy-ảo-lại-tự-động-tắt-âm-thanh&quot;&gt;Tại sao các máy ảo lại tự</summary>
+        
+      
+    
+    
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
+    
+    <category term="Tips" scheme="https://huyvu15.github.io/categories/AWS/Tips/"/>
+    
+    
+    <category term="EC2" scheme="https://huyvu15.github.io/tags/EC2/"/>
+    
+    <category term="Start" scheme="https://huyvu15.github.io/tags/Start/"/>
+    
+    <category term="Tricks lỏ" scheme="https://huyvu15.github.io/tags/Tricks-lo/"/>
+    
+  </entry>
   
   <entry>
     <title>Những Khoảnh Khắc Được Ghi Lại. Bộ Sưu Tập Hình Ảnh Của Tôi</title>
@@ -272,7 +339,7 @@ tiếp sau đó gõ netsh</summary>
     <link href="https://huyvu15.github.io/posts/2c6d396f"/>
     <id>https://huyvu15.github.io/posts/2c6d396f</id>
     <published>2024-06-09T05:35:14.000Z</published>
-    <updated>2024-06-27T14:50:03.891Z</updated>
+    <updated>2024-06-29T04:12:03.666Z</updated>
     
     
       
@@ -385,15 +452,14 @@ tiếp sau đó gõ netsh</summary>
     <link href="https://huyvu15.github.io/posts/dce14753"/>
     <id>https://huyvu15.github.io/posts/dce14753</id>
     <published>2024-04-29T10:34:12.000Z</published>
-    <updated>2024-06-09T16:31:51.645Z</updated>
+    <updated>2024-06-28T17:38:20.158Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;lời-nói-đầu&quot;&gt;Lời nói đầu&lt;/h2&gt;
-&lt;p&gt;Chuyện gì đang xảy ra vậy? Trong một thời gian dài, việc cập nhật ngày của Easy-QFNU của tôi không</summary>
+    <summary type="html">&lt;h2 id=&quot;Loi-noi-dau&quot;&gt;&lt;a href=&quot;#Loi-noi-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời nói đầu&quot;&gt;&lt;/a&gt;Lời nói đầu&lt;/h2&gt;&lt;p&gt;Chuyện gì đang xảy ra vậy? Trong</summary>
         
       
     
@@ -443,7 +509,7 @@ tiếp sau đó gõ netsh</summary>
     <link href="https://huyvu15.github.io/posts/83dc13a5"/>
     <id>https://huyvu15.github.io/posts/83dc13a5</id>
     <published>2024-04-07T06:21:31.000Z</published>
-    <updated>2024-06-11T07:27:21.167Z</updated>
+    <updated>2024-06-28T17:44:03.862Z</updated>
     
     
       
@@ -556,38 +622,6 @@ tiếp sau đó gõ netsh</summary>
     
     
     <category term="QQbot" scheme="https://huyvu15.github.io/tags/QQbot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Peter</title>
-    <link href="https://huyvu15.github.io/posts/80cc5efe"/>
-    <id>https://huyvu15.github.io/posts/80cc5efe</id>
-    <published>2024-02-02T08:19:36.000Z</published>
-    <updated>2024-06-27T16:56:33.782Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;ký-tự-toán-học&quot;&gt;Ký tự toán học&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
-        
-      
-    
-    
-    
-    <category term="Python" scheme="https://huyvu15.github.io/categories/Python/"/>
-    
-    <category term="Blue Bridge" scheme="https://huyvu15.github.io/categories/Python/Blue-Bridge/"/>
-    
-    
-    <category term="Python" scheme="https://huyvu15.github.io/tags/Python/"/>
-    
-    <category term="Blue Bridge" scheme="https://huyvu15.github.io/tags/Blue-Bridge/"/>
-    
-    <category term="Luogu" scheme="https://huyvu15.github.io/tags/Luogu/"/>
     
   </entry>
   
