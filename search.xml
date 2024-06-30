@@ -41,7 +41,7 @@
       <link href="/posts/tr6d096f.html"/>
       <url>/posts/tr6d096f.html</url>
       
-        <content type="html"><![CDATA[<h1 id="lời-mở-đầu">Lời mở đầu</h1><h2 id="ec2">EC2:</h2><h2 id="tại-sao-các-máy-ảo-lại-tự-động-tắt-âm-thanh">Tại sao các máy ảo lại tự động tắt âm thanh</h2><h1 id="vậy-phải-làm-thế-nào">Vậy phải làm thế nào</h1><p>Dưới đây sẽ là các hướng dẫn chi tiết để bạn mở âm thanh trên máy ảo</p><h2 id="kết-nối-tới-máy-ảo-ec2-windown">Kết nối tới máy ảo EC2 Windown</h2><p>Giao diện máy ảo<br><img src="%5Cimg%5CEnable_Soud_EC2%5C1.png" alt=""></p><p>Kiểm tra xem âm thanh đã có hay chưa</p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C2.png" alt=""></p><p>Âm thanh bị khóa</p><h2 id="vào-computer-management">Vào Computer Management</h2><p>Tại ô windown chọn <strong>Computer Management</strong></p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C3.png" alt=""></p><p>Tại giao diện Computer Management --&gt; Services and Aplications --&gt; Services</p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C4.png" alt=""></p><h2 id="start-service-windown-audio">Start Service Windown Audio</h2><p>Tìm Service Windown Audio<br><img src="%5Cimg%5CEnable_Soud_EC2%5C5.png" alt=""></p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C6.png" alt=""></p><p>Chọn Start</p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C7.png" alt=""></p><p>Âm thanh được kích hoạt thành công<br><img src="%5Cimg%5CEnable_Soud_EC2%5C8.png" alt=""></p><p>Sau một sô thao tác máy chủ EC2 ảo của bạn đã bật thành công âm thanh.</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="lời-mở-đầu">Lời mở đầu</h1><h2 id="ec2">EC2</h2><p>Là một máy chủ ảo được tạo bởi AWS. Mình có thể tự cấu hình tùy chỉnh các thông số của mày theo ý muốn. Tất nhiên là máy ảo ngon thì phải tiền nhiều.</p><h2 id="tại-sao-các-máy-ảo-lại-tự-động-tắt-âm-thanh">Tại sao các máy ảo lại tự động tắt âm thanh</h2><p>Các máy ảo có thể tự động tắt âm thanh do một số lý do chính như cấu hình thiết bị ảo không kích hoạt âm thanh, driver âm thanh không tương thích hoặc chưa cài đặt, chính sách bảo mật ngăn chặn âm thanh, xung đột phần mềm, hoặc hệ thống giới hạn tài nguyên và tự động tắt các chức năng không cần thiết như âm thanh để tiết kiệm tài nguyên.</p><h1 id="vậy-phải-làm-thế-nào">Vậy phải làm thế nào</h1><p>Dưới đây sẽ là các hướng dẫn chi tiết để bạn mở âm thanh trên máy ảo</p><h2 id="kết-nối-tới-máy-ảo-ec2-windown">Kết nối tới máy ảo EC2 Windown</h2><p>Giao diện máy ảo<br><img src="%5Cimg%5CEnable_Soud_EC2%5C1.png" alt=""></p><p>Kiểm tra xem âm thanh đã có hay chưa</p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C2.png" alt=""></p><p>Âm thanh bị khóa</p><h2 id="vào-computer-management">Vào Computer Management</h2><p>Tại ô windown chọn <strong>Computer Management</strong></p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C3.png" alt=""></p><p>Tại giao diện Computer Management --&gt; Services and Aplications --&gt; Services</p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C4.png" alt=""></p><h2 id="start-service-windown-audio">Start Service Windown Audio</h2><p>Tìm Service Windown Audio<br><img src="%5Cimg%5CEnable_Soud_EC2%5C5.png" alt=""></p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C6.png" alt=""></p><p>Chọn Start</p><p><img src="%5Cimg%5CEnable_Soud_EC2%5C7.png" alt=""></p><p>Âm thanh được kích hoạt thành công<br><img src="%5Cimg%5CEnable_Soud_EC2%5C8.png" alt=""></p><p>Sau một sô thao tác máy chủ EC2 ảo của bạn đã bật thành công âm thanh.</p>]]></content>
       
       
       <categories>
@@ -60,6 +60,192 @@
             <tag> Start </tag>
             
             <tag> Tricks lỏ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Tất cả thành tích của tôi từ trước đến nay</title>
+      <link href="/posts/0r6e2o2f.html"/>
+      <url>/posts/0r6e2o2f.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oops! Mật khẩu không đúng. Hãy thử lại hoặc liên hệ hỗ trợ." data-whm="Có lỗi xảy ra trong quá trình xác minh. Vui lòng kiểm tra lại hoặc liên hệ hỗ trợ.">  <script id="hbeData" type="hbeData" data-hmacdigest="160b2d2056235fa6dc9568e1aa8b22c3bd1a120d0d2840a043e3e473100dbda2">3684549dc7471df760afddbcc3a9325e0eab0ce6a7fe2581d70b15c238b4062d34b78870b4968d7f8cfd7c65631fef2195e27e99d42a91d99fe0eee34f028dcc4137cd354c8dbe38350808935d668100aa3ab097bde532f8aa8751e7b6154372e0aea499f9acb5019ea5ebf95c93945d5f5b09a6041c927dd17ac95924de5a5dddf7e8ae9a49d37c556b91612787651a221ecc727c91d7ab29d9c51e9b801435f6530e2ffd84285aaf4d188e774eb5b45c56e5520e51eff472c0a644f0136fba9180fa4caefc91d0e486c651360af25bb54bbe667a809d57c051dc9855cf5d048ef1caec9853600bced9dd506e2d5714094115b2a95b0e8ddd45f7b91dbb1baaa6fdb79e03fba0708336cfc5b0ec1a6cdb20ec3f0e136382fe4496197cc58bac5fba20ebf36a7ecc52b4df1dd10bbe19649d414b193314728f3d69371bd1b671e4f623ec4f5f36e26a1fdd5baaa50f84da717c135d1fb501e97958f7de6b170c93b9fe62104fe65bf9db96989a99dc7c0754553349fc99e1f83970f3089d3304360c4a6e7185fcfd529deb28d8433648f56bbc28469d5453638aa041fda18879d4ae459b778dcc67d5b58577405ab3c0a7d4e37c80c95643ad620789a33c9697373b4eeb0265efe7964a8a61e0b07339eacbce7287f9562176be17deb02df663312ba6bf0534528b0d2ae5191d034ae21feaef95652a689ceb8c5a3e09ab24e8e8ce8585569ad583e9332d373f07cbcf14657535ed3322be438ab7ecb3caf5b5e6b6c65ce52a35bde55193efe9c9ccc8f5ba69652829e47c8ca626cfa517c8eb3d8734cf4dc9a13c16c35f4264b9aa5b1ce1bc2212dfee96a522bbb66d65872a88d10668e43ce57a08fc696dc1c4b7d34287790c97651ec8b764ad19c2a776b5272f2239041f49c937feb7542860933d334d642893938996988f7939b3b50e10fbedfd94d4f09a58459d9efca4b36d86a0642b89a67f106a94f530354909683af20778e122895c04321128cf32620760acc5d4a67724b24053f3d7f94bc762d038c07d83d21ab1ad2318ab9d0d0def567520f21ffc7f50f8bd8e153206d1bdd3a14c092878433654a0da516b7e7cb06a3018443f3b58a7b9fb438e37e572617513ae7636e7a8b7bd319e97f9e931d594b2b72e3f54ecd8d3ff18aeb20dca4ff9a1c8b4d91b7913f77226bb665006f175ad730c50327ccc740ee3ecc823e1552e693319803fbfdcf97b877285eb11824a51a0233b6eb3e28de1689caf328c1490bdeae94153a46ceb6012c1f6d82b0ba60b594cd748e13405d88e2b6d9933fd3504f173e6fcc33ac7fa670becaa76998c83cd3f81c71efc6a50c66648ee13b49fe6b599aff0b81643da3b7b30d67d0de6205a4ea4c1812f442260aadc34ae8efbd6e0dca7e44e090d40bb561c643e542ba1b40a7497db37412982eec8436531882515d53e3716ddd0afe55a2a5160d79d10e54a3b191b27561cd5eb37aa2c064596db90341e9779f50e5fdf78b0e608c0124deda23e2b7d671da4f750146bd6ea3948a53ea97bbaa29f5ff3da7ee0256f9830f197b6764f6cc19eab82e655ad6e8f5d0f0c3fda1286f6216c63cff7a64b28b5a425d1aac0688136ba5fdbcaf83f901eeadc2612b63f64763e2906f02ec58527a09332a18745d9439081a44e2b60abcd84c022fb49b86baf99b0c6da65fc10b538c08452ac444cab2e4c5c9ac4d5df09dc08def6f5e31a078f52bfe2bfc356a02a35706bd456bff9c1a48062ea27b6430775aba900e54983e99f319c790ad72bb58a71bc0ac7a00014a2875d13623163df0baed95053ac81ef479bfd9487b035edbc3039dd9db8b3b9d52a95a08c670f47c2a8cc73b85bd2d162e19ef3f1ae8cd10398e8c8fe383e02c3a091d014001c9f185a0318e9beb1e671f56cc12afe90d4cbd5449fe07197cfdcda4fd6c75d6f87619c2e4a4f7e67b5aa1ebe4db3310add0b2f6352051410e8f7666fd69799933a19c1754ed997352a8d55253cd3c1bc2dc3fcd20d52a06a064907366f93801320aad3a32035e4b7ca6bb74ccaa8877d4fa3ec7de5d1ee7f9f8623b82e7cafb09aa7d2ea306a878999a240f87f0974ef2ad8bc52d46bb38474bea76de1300c8cf1c03c37542a4841c3965b696e068169570d9052e56a45cdbe370fbc90dfbebfaf2b715af746c2c0fc55c500ccc5fcc1454f7544507449bed975dd6b364e12e11f0b453fb2ffaff5e3bf746d2cfd9fcde931e455f3d2629f7391c202d897a015f72d615414442bd6fef2a4c7817346d2b162cfbf2065d2e0b01e40ab8c577a5c001e4cba9b0272676e5ad92632cf95a30cf2071fb1b63468f31acab9c378a966faf740847a3af870564923563c3f3fc4bbd093862c4f3e5c78f654dac18b8db37d32718a35ee7d469ca18e1412ea81a653df85e84b207bd3441955d16f4b8e75e81d6c43a6359f7e12c94302bb35d2d7d45ccad98378c3668e1391ae6f2226717e0b5700f31f36558baf646bf63eaf0d98cafa09775fd79d03778782aa2bd7b36c522cb7be694e5e397292da23158b3299b7ad6b396302c06a18f546d0069648314a194fd85a95b60bbc6a20228119a25204caa0b4b31daf861118805c05f843f07f498b4882c31c99e2da4df0f218748bb130fb1e2194d35561243f64c3276004c7924ad5239f030dd2d81a7f9d1baa4f5cbcc2a083cdc3f2b00b33bcb519d71664109d5e7a8c998c484740537d625c9250cf6f9b1e9c1ce0f45881f62a533615ecbfb1b14efcc55d9d1c9b3971656389164be26cc6ea31b054f58689329dd891b04242c91a4570fbec1192c3382de84fe0373154c3cbcafd3bb05af440f7e3be5510e470602677ef94149def337b51bc0e7513a0f0cc33480868877799fa080c794078f3e96b2f6f82f4675e2e99248d7587b0657c1d317a4061556c214d451979bbe12e2c9381191ba691c9690453916400c1e6e76251de141ea7f1a0444cc3f3d87d16840e1042725e18580b4bd3f9ca5573d838df3af0a2c580d537fb57d3ae2ee8eab7cbd24fc53dbceb1f5b56e300cc0dd93c73165dc9b8ad117677689318ec989807acc4bb5733537e382b6ac39f6dd59d2663f89c8eda7f1ef1a119e6cac3facae27acdf6c16b9b8891c09a4f697cd62ae88c25d0bfe230e3da17922c87dad14c5646d9dee939e382d8ca06ce108bb964c3588b390342e5444429d2f5f828f7693549ab864337119ce09bdeedcb1e57447c75f8672ec383d30860ca153461b62be4203710e285305ce06b2dee5da1a9d8198bb7419cb090c49ae5e67f9af2cf61ab5fcf925916b8523d53a434f79a49425eaeb759f828314d4d4f472969b19ed945da70045c0b477e3093cefcc12af6006ef7707095378e96d635b28010ccc4c67f0e18d5834701ee70bacc12293135fd553b088c7d58ac6ca099b4e965b58ac851db7c0920eecf1f0595669ae72198a8c3f31abd07345cb4593e14ed24985f666f49ca873f0096e7a09038f2472332fe8ef8154e9097d55796dfafec363b6382cb6b070ac0cb23197961ee4eec9282a20f0beb95735a969c789445075c11c14e1197ecf6cd19a7ffa68d198ea4edc2356673e4c74ce494559aa2baee6be03e2cf223062d39c73da6e120566a31af1d5ccd1e3865c77284572e170359d4c59bae2ac42d684207096933dcc86529040250df651c51546b7a0f4c40e4c04fd98a874fcbf389d5387a821e03bcacb1a00ed71bf9131736b5f7f5a0e339faa26378e3d1b9136d0e0a73e91efd9419e8f8b88f15005c554ead124e7a</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Chào bạn, hãy điền mật khẩu để mở bài viết.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> Award </category>
+          
+          <category> Note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Encrypted </tag>
+            
+            <tag> Me </tag>
+            
+            <tag> Note </tag>
+            
+            <tag> Award </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Synthetic some extension interesting in Chorme</title>
+      <link href="/posts/1r6df93f.html"/>
+      <url>/posts/1r6df93f.html</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>Protect messeger: dùng để che, làm mờ tin nhắn khi nhắn tin với bạn bè trên facebook, nó sẽ tự<br>làm mờ, đảo ngược chữ của tên , avatar</p></li><li><p>blackbox : chụp màn hình rồi copy chữ trên đoạn chụp đó( yêu cầu ảnh rõ nét mới được)</p></li><li><p>smoothscropt: tăng tốc độ lướt chuột khi lướt web</p></li><li><p>nightTab: chỉnh giao diện cho chrome nhìn đẹp vl</p></li><li>j2team: các thứ liên quan đến mạng xh </li><li>autofill : tự động điền khi muốn xem điểm cuối kỳ</li></ol><p>Trên đây chỉ là bề nổi của tảng băng thôi nha. Còn nhiều cái nữa mà tôi lười. Nào bổ sung sau.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Extension </category>
+          
+          <category> Chrome </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Knownledge </tag>
+            
+            <tag> Web </tag>
+            
+            <tag> Chrome </tag>
+            
+            <tag> Extension </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Ý tưởng tạo module hay và thú vị bởi các thuật toán trong machine learning</title>
+      <link href="/posts/166d396f.html"/>
+      <url>/posts/166d396f.html</url>
+      
+        <content type="html"><![CDATA[<p>Chả là ngày xưa lúc mới học machine learning tôi cũng hay mơ tưởng đến sức mạnh của các bài toán và công cụ machine learning. Hồi đó quyết tâm học AI lắm. Rảnh rảnh nghĩ ra đủ thứ ý tưởng model xong note vào để tương lại có gì mình out trình rồi thì nhảy vào thực hiện ý tưởng năm xửa biết đâu lại khởi nghiệp thành công hoặc ra báo cũng nên :&gt;</p><p>Ngày xưa tôi nghĩ ra được thế nài thôi. Mấy người vô xem thì đừng nói gì nha :_)</p><ol><li>Xây dựng mô hình đánh giá chất lượng không khí khu vực nội thành Hà nội</li><li>Mô hình kiểm tra đánh giá 1 file đc download trên internet có đủ an toàn hay không</li><li>Mô hình đánh giá chất lượng của quảng cáo và độ tiếp nhận của người dùng</li><li>Mô hình đánh giá kiểm thử chất lượng rượi dựa vào các bài toán classfication( bài toán phân loại dựa trên các)</li><li>Đánh giá sự hành lòng của nhân viên, khách hàng, học sinh.</li><li>Cho dữ liệu theo dõi khí tượng thủy văn. Dự đoán trời có đổ mưa tại hà nội vào ngày mai hay không</li><li>Mô hình dự đoán bão, khí tượng thủy văn, độ ẩm nhiệt đợi,….độ bão hòa, đối lưu.</li><li>Cho mô hình học 1 cái video nào đấy xong nó sẽ tự review về cái phim đấy(có thể bằng bài viết hoặc bằng 1 video).</li><li>Mô hình phân luồng giao thông(có thể bỏ đèn đỏ). Thay vì đèn đỏ cố định số giây thì có thể thay đổi số giây của đèn đỏ để giao thông lưu thông hợp lý. Input là lưu lượng xe của các tuyến đường. Đưa ra dự đoán số giây thích hợp.</li></ol><p>Code lấy hết tất cả comment trong ngôn ngữ.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ML </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Knownledge </tag>
+            
+            <tag> ML </tag>
+            
+            <tag> Idea </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AI và một vài cái hay ho</title>
+      <link href="/posts/1r6d393f.html"/>
+      <url>/posts/1r6d393f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Tuyen-dung-cua-meta"><a href="#Tuyen-dung-cua-meta" class="headerlink" title="Tuyển dụng của meta"></a>Tuyển dụng của meta</h1><p>Có bài báo khoa học hoặc có đóng góp lớn</p><h1 id="cong-viec-thuc-te"><a href="#cong-viec-thuc-te" class="headerlink" title="công việc thực tế"></a>công việc thực tế</h1><ul><li><p>cập nhập và nghiên cứu các bài báo liên quan chủ đề nghiên cứu: cần phải xem bài báo đó viết veef thuật toán nào, lên ý tưởng để cải thiện những phương pháp đó. Lập trình đúng những gì đã lên ý tưởng.(code chạy thực nghiệm)</p></li><li><p>Viết bài báo.</p></li><li><p>Trao đổi công việc giữa các đồng đội. Ví dụ làm về tối ưu, hỏi đồng nghiệp về chỉnh sửa ảnh.</p></li><li><p>Khó khăn(AI research):</p></li></ul><ul><li><p>Phải liên tục cập nhập công nghệ AI</p></li><li><p>Đòi hỏi rất nhiều chất xám</p></li><li><p>Chịu áp lực deadline, KPI…</p></li></ul><p>Phải chú ý những hội thảo lớn hằng năm phải làm nn sao cho nộp được bài báo của bản thân.</p><h1 id="Co-hoi"><a href="#Co-hoi" class="headerlink" title="Cơ hội"></a>Cơ hội</h1><ul><li><p>Cần phải học thêm những kĩ năng nào khác:</p></li><li><p>Tổng quan về AI engineer ở Việt Nam</p></li></ul><ul><li>Phải vừa nghiên cứu vừa có sản phẩm.</li></ul><ul><li>là sao để trở thành AI engneer:</li></ul><ul><li>qua web: undemi,undemy.com, nttuan8.com: </li></ul><ul><li>đắt quá xin giảm</li></ul><p>Công việc hằng ngày :</p><ul><li><p>xem công việc hôm qua</p></li><li><p>Viết báo cáo: tuần vừa rồi làm gì, tuần sau sẽ làm gì, vướng mắc ở đâu để hỏi</p></li><li><p>AI nguồn tài liệu: </p></li></ul><ul><li>Để tiếp cận đến AI cần:  nắm vững các môn liên quan đến cấu trúc dữ liệu và giải thuật</li></ul><ul><li><p>làm 1 vài cái product nho nhỏ</p></li><li><p>chờ đến năm 3 để nhà trường phân công đi thực tập: phụ thuộc vào viện, xa gần phải tùy viện</p></li></ul><ul><li>Gán dữ liệu: ban đầu sẽ ko có 1 +1 =2, mà phải có cái dữ liệu ban đầu, </li></ul><ul><li><p>ban đầu phải có những data có sẵn</p></li><li><p>dữ liệu là 1 tài sản vô cùng quý hiếm. Những người làm lộ đều vi phạm pháp luật</p></li></ul><h1 id="Lien-quan-den-DE"><a href="#Lien-quan-den-DE" class="headerlink" title="Liên quan đến DE"></a>Liên quan đến DE</h1><ul><li>Data phải đc clearn sẵn khi đến AI, …</li></ul><p>Sinh ra nguồn dữ liệu cho cái moodol, bài toán của mình, </p><ul><li><p>xem bộ dữ liệu đó cho cái bài toán nào</p></li><li><p>Công việc DE khá gần với những người làm web, ngoài coding, câu lệnh sql, truy vẫn, kĩ năng sử lý dữ liệu lớn đạt độ thuần thục</p></li><li><p>cvhn: có dữ liệu thô, và qua quá trình sử lý dữ liệu, liên quan đến recommen gói, khuyến nghị kh nên mua gì</p></li></ul><ul><li><p>quá trình làm tinh dữ liệu: big data, kiến thức về cơ sở dữ liệu big data phải lớn</p></li><li><p>phải lưu data vào đâu cho nó tối ưu</p></li><li><p>hàng tháng phải trả ra kết quả để bên kinh doanh làm việc</p></li><li><p>cơ sở dữ liệu 1 cách tối ưu,</p></li><li><p>luông dữ liệu chỉ vài câu truy vấn là phải có ngay</p></li><li><p>DE phải lưu trữ những data này phải tối ưu </p></li></ul><h1 id="Khac-biet-DA-DE-DS"><a href="#Khac-biet-DA-DE-DS" class="headerlink" title="Khác biệt DA, DE, DS"></a>Khác biệt DA, DE, DS</h1><ul><li><p>DA: làm việc vơi khách hàng, Phân tích về mặt bản thân cái dữ liệu đấy nó có gì, sử lý bước ban đầu,</p></li><li><p>DE: trường dữ liệu, tổ chức data của DA thành 1 hệ thống, đảm bảo cho hệ thống cung cấp data 1 cách liền mạch.</p></li><li><p>DS: sử dụng nguồn dữ liệu của DE, thao tác với nó,  sinh thêm dữ liệu<br>Model cơ bản machine learning,, turning model cho đến khi nào bài toán đạt hiệu quả kinh doanh.</p></li><li><p>kiểu số dư tài khoản hiện tại, ảnh hưởng đến việc đề xuất người dùng nên mua gói nào</p></li></ul><h1 id="Toan-co-ung-dung-gi-Khi-hoc-chua-co-ung-dung-gi-ro-rang-nhung-cho-ta-huong-tu-duy"><a href="#Toan-co-ung-dung-gi-Khi-hoc-chua-co-ung-dung-gi-ro-rang-nhung-cho-ta-huong-tu-duy" class="headerlink" title="Toán có ứng dụng gì: Khi học chưa có ứng dụng gì rõ ràng nhưng cho ta hướng tư duy."></a>Toán có ứng dụng gì: Khi học chưa có ứng dụng gì rõ ràng nhưng cho ta hướng tư duy.</h1><ul><li><p>đstt:</p></li><li><p>giải tích số : học giải thuật về phương pháp chia đôi, …</p></li><li><p>tối ưu</p></li><li><p>giải tích hàm</p></li></ul><h1 id="y-tuong-tao-ra-phuong-phap-day"><a href="#y-tuong-tao-ra-phuong-phap-day" class="headerlink" title="ý tượng tạo ra phương pháp đấy"></a>ý tượng tạo ra phương pháp đấy</h1><ul><li><p>mọi mô hình này sẽ biết đc áp dụng toán nào, là 1 trong những lõi quan trọng của  AI</p></li><li><p>học toán để: </p></li><li><p>học kĩ những kiến thức cơ bản: tối ưu, thống kê</p></li></ul><h1 id="Loi-khuyen-nen-di-thuc-tap-som-de-co-background-tot"><a href="#Loi-khuyen-nen-di-thuc-tap-som-de-co-background-tot" class="headerlink" title="Lời khuyên : nên đi thực  tập sớm: để có background tốt"></a>Lời khuyên : nên đi thực  tập sớm: để có background tốt</h1><p>Thực tập cho ta 1 cái nhìn tổng quan, cái việc biết 1 công nghệ nào đó sẽ cho mình biết những cái mình học trên trường sau này</p><ul><li><p>Tự tin vào 1 cái tập thể mình sẽ làm đc, tự tin đi phỏng vấn, trượt bên này sẽ có bên khác.</p></li><li><p>rèn luyện coding nhiều hơn</p></li><li><p>ko nên tham chiếu nhiều cái trên youtobe, đọc nhiều paper</p></li><li><p>tìm 1 nhóm bạn để đi cùng có những người bạn cùng theo hướng của mình thì học sẽ nhanh hơn</p></li><li><p>Trên trường hay có những cuộc thi nghiên cứu khoa học, </p></li><li><p>Hỏi sự trợ giúp từ những thầy cô trong viện</p></li><li><p>càng tham dự những cuộc thi , họp: làm việc nhóm</p></li><li><p>mức lương 10tr ko khó khi vừa ra trường chỉ cần chuẩn bị kĩ kiến thức</p></li></ul><h1 id="Chuyen-bi-nhu-nao-cho-tuong-lai"><a href="#Chuyen-bi-nhu-nao-cho-tuong-lai" class="headerlink" title="Chuyển bị như nào cho tương lai:"></a>Chuyển bị như nào cho tương lai:</h1><p>Kiến thức cơ bản<br>Kĩ năng mềm<br>Ngôn ngữ</p><ul><li><p>Phải code làm sao cho chương trình nó chạy nhanh, ctdl và gt đánh giá 1 người ở mức trình độ nào</p></li><li><p>một người dùng cái tích phân để giải độ phức tạp, với người chạy bằng for</p></li><li><p>các công ty lớn thường kiểm tra về ctdl và gt đầu vào    </p></li><li><p>clean code là 1 quyển nên đọc để viết code tối ưu </p></li></ul><blockquote><p>Trích từ một buổi nói chuyện nào đó của viện toán</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Knownledge </tag>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hay ho với Google</title>
+      <link href="/posts/156d393f.html"/>
+      <url>/posts/156d393f.html</url>
+      
+        <content type="html"><![CDATA[<p>Ngoài để tìm kiếm thì google còn vô vàn cái hay mà chúng ta không bao giờ khám phá được hết. Chả là trước có xem mấy clip của mấy ông nước ngoài và biết được 1 số cái hay này. Mọi người có thể thử.</p><h1 id="Go-cac-key-nay-vao-thanh-tim-kiem"><a href="#Go-cac-key-nay-vao-thanh-tim-kiem" class="headerlink" title="Gõ các key này vào thanh tìm kiếm:"></a>Gõ các key này vào thanh tìm kiếm:</h1><ol><li>Dart mission: dao phi ra đâm lệch màn hình</li><li>The Wizard of Oz - Google Easter Eggs: sau đó kích vào elgoog.im ấn vào biểu tượng  cái giày có ma pháp. Để quay lại ấn vào biểu tượng cơn lốc</li><li>google zerg rush: làm như trên, nếu không bắn nhanh nhưng ô trong màu vàng đỏ thì nó sẽ ăn hết chữ</li><li>Thanos Snap - Google Easter Eggs: ấn vào găng tay thanos các từ khóa biến mất</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Google </category>
+          
+          <category> Hay ho </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Knownledge </tag>
+            
+            <tag> Nice </tag>
+            
+            <tag> Hay ho </tag>
+            
+            <tag> Google </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Một vài trang web có thể cần thiết cho bạn</title>
+      <link href="/posts/1r6d3964.html"/>
+      <url>/posts/1r6d3964.html</url>
+      
+        <content type="html"><![CDATA[<p>Từ hồi mới vào đại học tôi đã bắt đầu sưu tầm những trang web để phục vụ nhu cầu của bản thân. Thi thưởng lướt facebook, tiktok thấy bài này bài nọ giới thiệu được cái web hay ho là tôi lại vào lần mò. Thấy hay hay rồi note lại sau có dịp thì dùng. Ae xem qua đảm bảo không làm ae thất vọng</p><p>Công sức sưu tầm từ trước đến nay của tôi :&gt;</p><h1 id="Cho-doi-song"><a href="#Cho-doi-song" class="headerlink" title="Cho đời sống"></a>Cho đời sống</h1><p>Unica.vn : chứa các khóa  học onl.<br>9slide.vb : cung cấp các mẫu cách làm powerpoint.<br>Quillbot.com : tạo ra 1 văn bản khác so với ban đầu (đạo văn cho sinh viên).<br>Careerbuilder.vn : tìm công việc phù hợp với bản thân.<br>Chegg.com : giải bt tiếng anh và đưa ra các bt tương tự.<br>Lifeat.io : học cùng idol, cảnh đẹp.<br>logopond.com : tạo logo đẹp.<br>cukcuk.vn : cho thuê phần mềm quản lí nhà hàng.</p><h1 id="Hien-dai-hon"><a href="#Hien-dai-hon" class="headerlink" title="Hiện đại hơn"></a>Hiện đại hơn</h1><p><a href="https://moewalls.com/">https://moewalls.com/</a>: có nhiều ảnh động đẹp làm hình nền<br>remove.bg: tách nền ảnh.<br>fullstack.edu.vn: dạy lập trình các ngôn ngữ free<br>pngimg.com : chứa các loại ảnh đã xóa phông có thể dùng làm powerpoint<br>deskspacing.com thiết kế ko gian học tập (cho thấy góc học tập onl 3D)<br>howkteam.vn: Có nhiều khóa lập trình free<br><a href="https://cleanup.pictures/">https://cleanup.pictures/</a> delete people in photo<br>Triethoc.edu.vn : có full tất cả những thứ về triết và lịch sử Đảng<br>codelearn.io/ dạy lập trình c++<br>openpeeps.com: tạo avatar các hình thái của khuôn mặt<br>lifeat.com giúp có phong cảnh đẹp và có thể học chung với gái xinh<br>postermywall.com: tạo ảnh dẫn chương trình như của anh Đào Quân<br>tracuuthansohoc.com coi bói chi tiết.<br>renderforest.com tạo phim hoạt hình cho riêng bạn với những nhân vật ngộ nghĩnh<br>studocu.com kho lưu trữ tài liệu của tất cả sinh viên khóa trước của tất cả các trường đại học trên thế giới.(có cả chuyên ngành).<br>theinpaint.com tẩy những thứ ko cần thiết cho ảnh của bạn.<br>updatefaker.com troll bạn bè, khi vào wed sẽ có những video kiểu như máy tính bị hack, lag( nhớ ấn full màn hình)<br>pdfdrive.com: có hơn chục triệu tài liệu tiếng anh liên quan đến tất cả mọi thứ trên đời<br>cxnull.github.io/vsbm: kiểm tra tốc độ của máy tính của bạn tùy theo tốc độc quay  của  hình khối<br>thisissand.com: nghịch cát vẽ bằng cát<br>tailorbrands.com: tạo logo</p><h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><p>benisland.neocities.org: tạo video ngắn xoa đầu ảnh<br>clck.ru: công cụ rút gọn link.<br>Gaugan.org : vẽ một hình đơn giản và AI sẽ tự động tạo ra bức ảnh đẹp cho bạn</p><p>có chứa nhiều dự án về python cho bạn tự làm và luyện tập<br>123apps.com: ở đây có tất cả công cụ cho việc edit video, có cả tính năng xóa đi logo của video<br>mathcha.io: tool vẽ hình trong latex<br>template.net: nơi chứa rất nhiều mẫu hình, template trong latex<br><a href="https://tikz.net/">https://tikz.net/</a> , <a href="http://leg.ufpr.br/~walmes/Tikz/">http://leg.ufpr.br/~walmes/Tikz/</a>, <a href="https://tikz.dev/tikz-graphs">https://tikz.dev/tikz-graphs</a>  : mẫu tikz<br>aman.ai: nơi tổng hợp rất nhiều thứ về AI<br>hotspot3d.com: so sánh dạng 3d của 2  chiếc điện thoại bất kỳ<br>imgflip.com: web tạo meme<br>remove.bg: web xóa nền ảnh khá tốt<br>chatbcg.com : chỉ cần nhập từ khóa nó sẽ cho ra slide tương ứng<br>sqlzoo.net: web học sql phát triển bởi 1 vài đại học nổi tiếng nước ngoài<br><a href="https://copyassignment.com/gui-chat-application-in-python-tkinter/">https://copyassignment.com/gui-chat-application-in-python-tkinter/</a>: hơn 100 dự án code python có code sẵn<br><a href="https://u-link.asia/">https://u-link.asia/</a>: chuyển link có hình ảnh mình tự thêm khi ấn vào lại ra 1 cái khác, cái này dùng để đi troll bạn bè<br>uiverse.io: có rất nhiều template chứa button đẹp animation trên web hay.<br>Uihut.com: có rất nhiều giao diện web miến phí và có phí<br><a href="https://snappify.com">https://snappify.com</a> : tạo hình ảnh liên quan đến source code của bạn 1 cách đẹp vlin có design<br>tương tự có codekeep.io</p><h1 id="just-built-file-readme-github"><a href="#just-built-file-readme-github" class="headerlink" title="just built file readme github"></a>just built file readme github</h1><p><a href="https://gprm.itsvg.in/">https://gprm.itsvg.in/</a><br><a href="https://github-profile-maker.vercel.app/">https://github-profile-maker.vercel.app/</a> ,<br><a href="https://rahuldkjain.github.io/gh-profile-readme-generator/">https://rahuldkjain.github.io/gh-profile-readme-generator/</a>: làm đẹp cho profile github dùng trong file readme<br>flaticon.com : có vô vàn icon để làm bài thuyết trình<br><a href="https://github-readme-streak-stats.herokuapp.com/demo">https://github-readme-streak-stats.herokuapp.com/demo</a>: tạo chân background github<br><a href="https://readme-typing-svg.demolab.com/demo/">https://readme-typing-svg.demolab.com/demo/</a>: chỉnh dòng chữ chạy trong github<br><a href="https://pngimg.com/">https://pngimg.com/</a>: chứa hình ảnh tách nền.<br><a href="https://codepen.io/isladjan/pen/abdyPBw">https://codepen.io/isladjan/pen/abdyPBw</a>: code html mẫu đẹp vlin</p><h1 id="Thiet-ke"><a href="#Thiet-ke" class="headerlink" title="Thiết kế"></a>Thiết kế</h1><p><a href="https://www.epgsoft.com/maze/app/">https://www.epgsoft.com/maze/app/</a> trò chơi mê cung hay dùng để tăng iq</p><ol><li>THIẾT KẾ ẢNH/BANNER<br><a href="https://www.canva.com/">https://www.canva.com/</a><br><a href="https://www.fotojet.com/">https://www.fotojet.com/</a></li><li>TÌM MẪU ADS THỊ TRƯỜNG VIỆT NAM<br><a href="http://mauquangcao.com/">http://mauquangcao.com/</a></li><li>EXTENSION DOWNLOAD TOÀN BỘ ẢNH CỦA 1 FANPAGE, INSTAGRAM BẤT KÌ:<br><a href="https://chrome.google.com/…/cgjnhhjpfcdhbhlcmmjppicjmgfkppok">https://chrome.google.com/…/cgjnhhjpfcdhbhlcmmjppicjmgfkppok</a></li><li>TẠO CANVAS(tranh sơn dầu) ONLINE<br><a href="https://canvanizer.com/">https://canvanizer.com/</a></li><li>QUẢN LÝ TẬP TRUNG NHIỀU MẠNG XÃ HỘI<br><a href="https://buffer.com/">https://buffer.com/</a><br><a href="https://hootsuite.com/">https://hootsuite.com/</a></li><li>TẠO INFOGRAPHICS<br><a href="https://piktochart.com/">https://piktochart.com/</a></li><li>DÒ QUÉT, HỖ TRỢ SÁNG TẠO NỘI DUNG<br><a href="http://buzzsumo.com/">http://buzzsumo.com/</a><br><a href="https://www.penflip.com/">https://www.penflip.com/</a></li><li>LÀM VIDEO INTRO:<br><a href="https://flixpress.com/">https://flixpress.com/</a></li><li>LÀM VIDEO NGẮN CÓ CHÈN HÌNH, VIDEO, NHẠC, TEXT, NHIỀU HIỆU ỨNG ĐẸP<br>· <a href="https://spark.adobe.com/fr-FR">https://spark.adobe.com/fr-FR</a></li><li>TẠO, EDIT, CHỈNH SỬA VIDEO ONLINE<br><a href="https://www.wevideo.com/">https://www.wevideo.com/</a></li><li>TẠO CLIP, VIDEO DẠNG ANIMATION:<br>· <a href="https://www.powtoon.com/">https://www.powtoon.com/</a><br>· <a href="https://www.animaker.com/">https://www.animaker.com/</a><br>· <a href="https://www.moovly.com/">https://www.moovly.com/</a></li><li>ẢNH GIF<br><a href="http://giphy.com/">http://giphy.com/</a></li><li>THIẾT KẾ BANNER WEB CHUYÊN NGHIỆP<br><a href="http://bannersnack.com/">http://bannersnack.com/</a><br><a href="https://www.designbold.com/">https://www.designbold.com/</a></li><li>LÀM THƯ VIỆN ẢNH, SLIDE, CLIP NGẮN:<br><a href="http://slide.ly/">http://slide.ly/</a> (làm trong powerpoint hoặc prezi cũng được, nhưng hình ảnh bên này đẹp hơn)</li><li>ICON NHỎ XINH CHO CÁC SLIDE THUYẾT TRÌNH, INFOGRAPHIC<br><a href="http://freepik.com/">http://freepik.com/</a>…</li></ol><p>Xóa viewfrom thay bằng viewanalytics là có đáp án của gogle form.</p><h1 id="Hoc-code"><a href="#Hoc-code" class="headerlink" title="Học code"></a>Học code</h1><ol><li>HowKTeam: <a href="https://www.howkteam.vn/">https://www.howkteam.vn/</a></li><li>kênh youtube của thầy Nguyễn Thiện Tâm : <a href="https://www.youtube.com/.../UCSSMahX759Ppn7diWO.../playlists">https://www.youtube.com/.../UCSSMahX759Ppn7diWO.../playlists</a></li><li>Codelearn : <a href="https://codelearn.io/">https://codelearn.io/</a></li><li>luyencode : <a href="https://luyencode.net/">https://luyencode.net/</a></li><li>Hackerrank : <a href="https://www.hackerrank.com/">https://www.hackerrank.com/</a></li><li>codingame : <a href="https://www.codingame.com/start">https://www.codingame.com/start</a></li></ol><h1 id="Choi-game"><a href="#Choi-game" class="headerlink" title="Chơi game"></a>Chơi game</h1><p>Windows93.net: giao diện window thời xưa có nhiều game cổ, cái hay<br>bloxd.io: chơi mcrap online</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Need </category>
+          
+          <category> Web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Knownledge </tag>
+            
+            <tag> Web </tag>
+            
+            <tag> You need </tag>
             
         </tags>
       
@@ -310,7 +496,7 @@
       <link href="/posts/2c6d396f.html"/>
       <url>/posts/2c6d396f.html</url>
       
-        <content type="html"><![CDATA[<h1 id="tổng-hợp-câu-hỏi-phỏng-vấn-data-engineer-sưu-tầm">Tổng hợp câu hỏi phỏng vấn Data Engineer sưu tầm</h1><h2 id="cho-big-job">Cho big job</h2><ul><li><p>Làm thế nào để có thể xây dựng một hệ thống ETL hiệu quả?</p></li><li><p>Big data lưu rất nhiều dữ liệu để phân tích theo dạng phi cấu trúc vậy thì Dữ liệu phi cấu trúc được lưu như thế nào ạ?</p></li><li><p>Cloud có vai trò gì đối với lưu trữ dữ liệu ?</p></li><li><p>Các hướng đi của BigData ở Việt Nam?</p></li><li><p>Khởi đầu của anh là vị trí gì ạ. Vì e thấy đa phần các anh em mà e gặp bắt đầu từ vị trí Backend Engineer</p></li><li><p>Mình muốn tìm hiểu về triển vọng và cơ hội việc làm của ngành dữ liệu nói chung, hy vọng sẽ được diễn giả giải đáp.</p></li><li><p>Kiến thức cần có để apply vào các vị trí BD sử dụng cloud</p></li><li><p>Xử lý big data có thể tốn kém. Có những chiến lược nào để quản lý và tối ưu hóa chi phí trên AWS?</p></li><li><p>Dạ cho em hỏi là cách thức hoạt động của data trong công việc ạ</p></li><li><p>Em cần tham khảo những kênh thông tin nào để tìm hiểu hơn về Big Data ạ</p></li><li><p>Aws là gì? Triển khai các giải pháp big data trên cloud với Aws như thế nào? Cách hoạt động của aws như thế nào để 1 dự án big data được thành công? Em xin cảm ơn ạ.</p></li><li><p>Nên theo mảng nào trong lĩnh vực về data hiện này và có tiềm năng phát triển cao hơn và sau ạ.</p></li><li><p>Hiện nay sự canh tranh việc làm trong ngành IT rất lớn, vài năm sau lúc em ra trường thì sự cạnh tranh nó sẽ càng cao hơn bây giờ rất nhiều, vậy em nên làm những gì để đảm bảo mình có được một công việc ổn định</p></li><li><p>Em xin hỏi là Big Data là gì? Nó bao gồm những ngành nghề gì? Và những ví dụ thực tiễn nào có Big Data ạ?</p></li><li><p>Em chào thầy ạ, thầy nghĩ sao về tình trạng nhân lực của Big Data, và cơ hội việc làm c ủa ngành ạ?</p></li><li><p>BA trong các doanh nghiệp hiện nay như thế nào</p></li><li><p>Trong thời buổi hiện nay, người học Bigdata đang gặp phải những khó khăn gì?</p></li></ul><h2 id="cho-job-vừa-vừa">Cho job vừa vừa</h2><p>Phỏng vấn INDA</p><p><a href="https://www.overleaf.com/read/fnxhdrwqykny#21dc46">Xem ở đây nha</a></p><h2 id="job-fpt-6-8-tr">Job FPT (6 - 8 tr)</h2><blockquote><p>Hỏi về database</p></blockquote><ul><li>Các chuẩn</li><li>Unique Key khác gì so với PRIMARY KEY (PRIMARY KEY không thể chứa giá trị null còn Unique Key thì có thể)</li><li>Các quan hệ 1 - n, n - n (hỏi trong cái dự án mình đã làm)</li><li>Trong một bảng có những gì</li><li>Một bảng có thể có nhiều khóa chính không (câu này hơi bị trol nha)</li><li></li></ul><blockquote><p>Hỏi về Cấu trúc dữ liệu và giải thuật</p></blockquote><ul><li>Các thuật toán sắp xếp, độ phức tạp, lấy ví dụ hình dung.</li><li>Queue, Stack, lấy ví dụ hình dung.</li><li>Tìm kiếm nhị phân, độ phức tạp, các hoạt động</li><li>Cây cối</li></ul><blockquote><p>Hỏi về sql</p></blockquote><ul><li>Các lệnh</li><li>Truy vấn</li><li>Sự khác nhau các join, ví dụ</li><li>…</li></ul><h2 id="job-hebela-1200">Job Hebela (1200$)</h2><p>Người phỏng vấn mình là một anh Lead sn 2000</p><ul><li>Giới thiệu về bản thân</li><li>Ước mơ là gì</li><li>Dự định sau khi ra trường</li><li>Đã làm được gì rồi</li><li>Sau đó hỏi về các cái liên quan mình đã làm</li><li>Thích cái gì</li><li>Tại sao lại chọn công việc này</li><li>Kế hoạch sắp tới 1-2 năm, 3-5 năm</li><li>Trên trường học giỏi nhất môn gì, yêu thích nhất môn gì? Tại sao?</li><li>Đã tìm hiểu gì về công ty chưa, văn hóa, …</li><li>Đã đọc qua cái mô tả công việc chưa, Nếu được vào làm luôn thì có thể làm ngay được công việc nào</li><li>Mong muốn mức lương bao nhiêu</li><li>Có câu hỏi gì không</li></ul><p>Trả lời hết đống trên hết 10p xong đi về :&gt;</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="tổng-hợp-câu-hỏi-phỏng-vấn-data-engineer-sưu-tầm">Tổng hợp câu hỏi phỏng vấn Data Engineer sưu tầm</h1><h2 id="cho-big-job">Cho big job</h2><ul><li><p>Làm thế nào để có thể xây dựng một hệ thống ETL hiệu quả?</p></li><li><p>Big data lưu rất nhiều dữ liệu để phân tích theo dạng phi cấu trúc vậy thì Dữ liệu phi cấu trúc được lưu như thế nào ạ?</p></li><li><p>Cloud có vai trò gì đối với lưu trữ dữ liệu ?</p></li><li><p>Các hướng đi của BigData ở Việt Nam?</p></li><li><p>Khởi đầu của anh là vị trí gì ạ. Vì e thấy đa phần các anh em mà e gặp bắt đầu từ vị trí Backend Engineer</p></li><li><p>Mình muốn tìm hiểu về triển vọng và cơ hội việc làm của ngành dữ liệu nói chung, hy vọng sẽ được diễn giả giải đáp.</p></li><li><p>Kiến thức cần có để apply vào các vị trí BD sử dụng cloud</p></li><li><p>Xử lý big data có thể tốn kém. Có những chiến lược nào để quản lý và tối ưu hóa chi phí trên AWS?</p></li><li><p>Dạ cho em hỏi là cách thức hoạt động của data trong công việc ạ</p></li><li><p>Em cần tham khảo những kênh thông tin nào để tìm hiểu hơn về Big Data ạ</p></li><li><p>Aws là gì? Triển khai các giải pháp big data trên cloud với Aws như thế nào? Cách hoạt động của aws như thế nào để 1 dự án big data được thành công? Em xin cảm ơn ạ.</p></li><li><p>Nên theo mảng nào trong lĩnh vực về data hiện này và có tiềm năng phát triển cao hơn và sau ạ.</p></li><li><p>Hiện nay sự canh tranh việc làm trong ngành IT rất lớn, vài năm sau lúc em ra trường thì sự cạnh tranh nó sẽ càng cao hơn bây giờ rất nhiều, vậy em nên làm những gì để đảm bảo mình có được một công việc ổn định</p></li><li><p>Em xin hỏi là Big Data là gì? Nó bao gồm những ngành nghề gì? Và những ví dụ thực tiễn nào có Big Data ạ?</p></li><li><p>Em chào thầy ạ, thầy nghĩ sao về tình trạng nhân lực của Big Data, và cơ hội việc làm c ủa ngành ạ?</p></li><li><p>BA trong các doanh nghiệp hiện nay như thế nào</p></li><li><p>Trong thời buổi hiện nay, người học Bigdata đang gặp phải những khó khăn gì?</p></li></ul><h2 id="cho-job-vừa-vừa">Cho job vừa vừa</h2><p>Phỏng vấn INDA</p><p><a href="https://www.overleaf.com/read/fnxhdrwqykny#21dc46">Xem ở đây nha</a></p><h2 id="job-fpt-6-8-tr">Job FPT (6 - 8 tr)</h2><blockquote><p>Hỏi về database</p></blockquote><ul><li>Các chuẩn</li><li>Unique Key khác gì so với PRIMARY KEY (PRIMARY KEY không thể chứa giá trị null còn Unique Key thì có thể)</li><li>Các quan hệ 1 - n, n - n (hỏi trong cái dự án mình đã làm)</li><li>Trong một bảng có những gì</li><li>Một bảng có thể có nhiều khóa chính không (câu này hơi bị trol nha)</li></ul><blockquote><p>Hỏi về Cấu trúc dữ liệu và giải thuật</p></blockquote><ul><li>Các thuật toán sắp xếp, độ phức tạp, lấy ví dụ hình dung.</li><li>Queue, Stack, lấy ví dụ hình dung.</li><li>Tìm kiếm nhị phân, độ phức tạp, các hoạt động</li><li>Cây cối</li></ul><blockquote><p>Hỏi về sql</p></blockquote><ul><li>Các lệnh</li><li>Truy vấn</li><li>Sự khác nhau các join, ví dụ</li><li>…</li></ul><h2 id="job-hebela-1200">Job Hebela (1200$)</h2><p>Người phỏng vấn mình là một anh Lead sn 2000</p><ul><li>Giới thiệu về bản thân</li><li>Ước mơ là gì</li><li>Dự định sau khi ra trường</li><li>Đã làm được gì rồi</li><li>Sau đó hỏi về các cái liên quan mình đã làm</li><li>Thích cái gì</li><li>Tại sao lại chọn công việc này</li><li>Kế hoạch sắp tới 1-2 năm, 3-5 năm</li><li>Trên trường học giỏi nhất môn gì, yêu thích nhất môn gì? Tại sao?</li><li>Đã tìm hiểu gì về công ty chưa, văn hóa, …</li><li>Đã đọc qua cái mô tả công việc chưa, Nếu được vào làm luôn thì có thể làm ngay được công việc nào</li><li>Mong muốn mức lương bao nhiêu (Mé job 1200$ lỡ mồm bảo muốn lương 5 chịu)</li><li>Có câu hỏi gì không</li></ul><p>Liệu có phải job to rồi nên chỉ hỏi về cá nhân thôi ko.</p><p>Trả lời hết đống trên hết 10p xong đi về :&gt;</p>]]></content>
       
       
       <categories>
