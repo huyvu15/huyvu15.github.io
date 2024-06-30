@@ -84,6 +84,83 @@
   </entry>
   
   <entry>
+    <title>NHẬN THÔNG BÁO CHI TIÊU CHO HOẠT ĐỘNG MUA SẮP TẠI SHOPEE</title>
+    <link href="https://huyvu15.github.io/posts/1n6d313f"/>
+    <id>https://huyvu15.github.io/posts/1n6d313f</id>
+    <published>2024-06-30T15:41:22.000Z</published>
+    <updated>2024-06-30T15:45:12.040Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Đây là bài workshop 1. Được mình hoàn thành cách đây 3 tháng. Trong mission 1&lt;/p&gt;
+&lt;p&gt;Bài lab ứng dụng thành công các service của AWS,</summary>
+        
+      
+    
+    
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
+    
+    <category term="Hugo" scheme="https://huyvu15.github.io/categories/AWS/Hugo/"/>
+    
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
+    
+    <category term="Hugo" scheme="https://huyvu15.github.io/tags/Hugo/"/>
+    
+    <category term="Shopee" scheme="https://huyvu15.github.io/tags/Shopee/"/>
+    
+    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
+    
+    <category term="S3" scheme="https://huyvu15.github.io/tags/S3/"/>
+    
+    <category term="EventBridge" scheme="https://huyvu15.github.io/tags/EventBridge/"/>
+    
+    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
+    
+    <category term="API" scheme="https://huyvu15.github.io/tags/API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kĩ thuật Transfer Learning và Fineturning Learning</title>
+    <link href="https://huyvu15.github.io/posts/1r6c393f"/>
+    <id>https://huyvu15.github.io/posts/1r6c393f</id>
+    <published>2024-06-30T01:35:12.000Z</published>
+    <updated>2024-06-30T01:26:42.124Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Đây là một bài thuyết trình trong một buổi Serminar tại Lab Aithings. Do một số nguyên do nên bị hoãn lại chưa có cơ hội đem ra cho công</summary>
+        
+      
+    
+    
+    
+    <category term="AI" scheme="https://huyvu15.github.io/categories/AI/"/>
+    
+    <category term="ML" scheme="https://huyvu15.github.io/categories/AI/ML/"/>
+    
+    <category term="DL" scheme="https://huyvu15.github.io/categories/AI/ML/DL/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
+    
+    <category term="ML" scheme="https://huyvu15.github.io/tags/ML/"/>
+    
+    <category term="DL" scheme="https://huyvu15.github.io/tags/DL/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Tất cả thành tích của tôi từ trước đến nay</title>
     <link href="https://huyvu15.github.io/posts/0r6e2o2f"/>
     <id>https://huyvu15.github.io/posts/0r6e2o2f</id>
@@ -569,62 +646,6 @@ tiếp sau đó gõ netsh</summary>
     
     
     <category term="QQbot" scheme="https://huyvu15.github.io/tags/QQbot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Cách sử dụng nội dung chính trong bài đăng trên blog Hexo</title>
-    <link href="https://huyvu15.github.io/posts/8217ff3e"/>
-    <id>https://huyvu15.github.io/posts/8217ff3e</id>
-    <published>2024-06-06T13:52:00.000Z</published>
-    <updated>2024-06-27T16:58:42.703Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://Hexo.io/zh-cn/docs/front-matter&quot;&gt;https://Hexo.io/zh-cn/docs/front-matter&lt;/a&gt;&lt;/p&gt;
-&lt;h1</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://huyvu15.github.io/categories/Hexo/"/>
-    
-    <category term="document" scheme="https://huyvu15.github.io/categories/Hexo/document/"/>
-    
-    
-    <category term="Hexo" scheme="https://huyvu15.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Cách đổi ngôn ngữ của Kali Linux sang tiếng Trung</title>
-    <link href="https://huyvu15.github.io/posts/4c6d962f"/>
-    <id>https://huyvu15.github.io/posts/4c6d962f</id>
-    <published>2024-06-01T15:35:00.000Z</published>
-    <updated>2024-06-27T16:57:57.978Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;lời-nhắc-nhở-thân-thiện&quot;&gt;Lời nhắc nhở thân thiện&lt;/h3&gt;
-&lt;p&gt;Chụp ảnh nhanh trước khi sửa đổi để tránh các sự cố do thao tác sửa đổi</summary>
-        
-      
-    
-    
-    
-    <category term="Linux" scheme="https://huyvu15.github.io/categories/Linux/"/>
-    
-    <category term="kali" scheme="https://huyvu15.github.io/categories/Linux/kali/"/>
-    
-    
-    <category term="Linux" scheme="https://huyvu15.github.io/tags/Linux/"/>
     
   </entry>
   

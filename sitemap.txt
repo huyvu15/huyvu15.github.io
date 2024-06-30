@@ -1,3 +1,5 @@
+https://huyvu15.github.io/posts/1n6d313f
+https://huyvu15.github.io/posts/1r6c393f
 https://huyvu15.github.io/posts/0r6e2o2f
 https://huyvu15.github.io/posts/156d393f
 https://huyvu15.github.io/posts/1r6df93f
@@ -85,6 +87,14 @@ https://huyvu15.github.io/tags/Me/
 https://huyvu15.github.io/tags/Note/
 https://huyvu15.github.io/tags/Award/
 https://huyvu15.github.io/tags/You-need/
+https://huyvu15.github.io/tags/DL/
+https://huyvu15.github.io/tags/Hugo/
+https://huyvu15.github.io/tags/Shopee/
+https://huyvu15.github.io/tags/Lambda-function/
+https://huyvu15.github.io/tags/S3/
+https://huyvu15.github.io/tags/EventBridge/
+https://huyvu15.github.io/tags/Crawl/
+https://huyvu15.github.io/tags/API/
 https://huyvu15.github.io/categories/DE/
 https://huyvu15.github.io/categories/Computer-Vision/
 https://huyvu15.github.io/categories/QQbot/
@@ -119,3 +129,6 @@ https://huyvu15.github.io/categories/Extension/Chrome/
 https://huyvu15.github.io/categories/Google/Hay-ho/
 https://huyvu15.github.io/categories/Award/Note/
 https://huyvu15.github.io/categories/Need/Web/
+https://huyvu15.github.io/categories/AI/ML/
+https://huyvu15.github.io/categories/AI/ML/DL/
+https://huyvu15.github.io/categories/AWS/Hugo/

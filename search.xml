@@ -68,6 +68,82 @@
     
     
     <entry>
+      <title>NHẬN THÔNG BÁO CHI TIÊU CHO HOẠT ĐỘNG MUA SẮP TẠI SHOPEE</title>
+      <link href="/posts/1n6d313f.html"/>
+      <url>/posts/1n6d313f.html</url>
+      
+        <content type="html"><![CDATA[<p>Đây là bài workshop 1. Được mình hoàn thành cách đây 3 tháng. Trong mission 1</p><p>Bài lab ứng dụng thành công các service của AWS, cùng với các kiến thức liên quan đến crawl, đặt lịch chạy code, các giao thức đã tạo thành công một ứng thông báo chi tiêu hàng tháng trên shopee</p><p>Bài viết này tôi viết bằng Hugo và đã public và có giải thích rõ ràng từng bước trên web. Ae đọc ở <a href="https://huyvu15.github.io/Spend-Alert/">đây</a> nha.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> AWS </category>
+          
+          <category> Hugo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AWS </tag>
+            
+            <tag> Hugo </tag>
+            
+            <tag> Shopee </tag>
+            
+            <tag> Lambda function </tag>
+            
+            <tag> S3 </tag>
+            
+            <tag> EventBridge </tag>
+            
+            <tag> Crawl </tag>
+            
+            <tag> API </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Kĩ thuật Transfer Learning và Fineturning Learning</title>
+      <link href="/posts/1r6c393f.html"/>
+      <url>/posts/1r6c393f.html</url>
+      
+        <content type="html"><![CDATA[<p>Đây là một bài thuyết trình trong một buổi Serminar tại Lab Aithings. Do một số nguyên do nên bị hoãn lại chưa có cơ hội đem ra cho công chúng chiêm ngưỡng</p><p>Phần thuyết trình chưa được review nên chưa thể chắc chắn về tính đúng sai. </p><p>Ai đọc mà thấy sai gì thì bảo tuii nha!. Thanks</p><h1 id="Transfer-Learning"><a href="#Transfer-Learning" class="headerlink" title="Transfer Learning"></a>Transfer Learning</h1><p>Transfer Learning là kỹ thuật tái sử dụng một mô hình đã được huấn luyện trên một tập dữ liệu lớn và phức tạp để áp dụng vào một bài toán khác nhưng có liên quan. Thay vì bắt đầu huấn luyện từ đầu, kỹ thuật này tận dụng kiến thức đã học được từ một tác vụ để giải quyết một tác vụ khác, giúp tiết kiệm thời gian và tài nguyên tính toán. Ví dụ, một mô hình được huấn luyện để nhận diện khuôn mặt có thể được tái sử dụng để phân loại cảm xúc.</p><h1 id="Fine-tuning"><a href="#Fine-tuning" class="headerlink" title="Fine-tuning"></a>Fine-tuning</h1><p>Fine-tuning là quá trình điều chỉnh một mô hình đã được huấn luyện trước trên một tập dữ liệu lớn bằng cách tiếp tục huấn luyện (tinh chỉnh) nó trên một tập dữ liệu nhỏ hơn, thường là dữ liệu dành riêng cho một tác vụ cụ thể. Kỹ thuật này thường bao gồm việc thay đổi và tối ưu hóa một số lớp cuối của mô hình để làm cho nó phù hợp hơn với yêu cầu của bài toán mới. Điều này giúp mô hình phát huy tốt các đặc trưng đã học được từ dữ liệu ban đầu và hiệu quả hơn trong việc giải quyết các vấn đề cụ thể.</p><h1 id="Slide"><a href="#Slide" class="headerlink" title="Slide"></a>Slide</h1><p>Links Slide: <a href="https://husteduvn-my.sharepoint.com/:p:/g/personal/huy_vv216931_sis_hust_edu_vn/EZ-rIeu6RT9Jtk9i2aNDkFgBTvArdHYddzok9OfNodpVUQ?e=ZkRKyM">Here</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI </category>
+          
+          <category> ML </category>
+          
+          <category> DL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Knownledge </tag>
+            
+            <tag> AI </tag>
+            
+            <tag> ML </tag>
+            
+            <tag> DL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Tất cả thành tích của tôi từ trước đến nay</title>
       <link href="/posts/0r6e2o2f.html"/>
       <url>/posts/0r6e2o2f.html</url>
