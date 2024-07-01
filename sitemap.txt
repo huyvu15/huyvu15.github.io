@@ -1,3 +1,5 @@
+https://huyvu15.github.io/posts/1r6dffff
+https://huyvu15.github.io/posts/1r6d39ff
 https://huyvu15.github.io/posts/1n6d313f
 https://huyvu15.github.io/posts/1r6c393f
 https://huyvu15.github.io/posts/0r6e2o2f
@@ -95,6 +97,12 @@ https://huyvu15.github.io/tags/S3/
 https://huyvu15.github.io/tags/EventBridge/
 https://huyvu15.github.io/tags/Crawl/
 https://huyvu15.github.io/tags/API/
+https://huyvu15.github.io/tags/Review/
+https://huyvu15.github.io/tags/Devops/
+https://huyvu15.github.io/tags/Resources/
+https://huyvu15.github.io/tags/Sharing/
+https://huyvu15.github.io/tags/Courses/
+https://huyvu15.github.io/tags/Tong-hop/
 https://huyvu15.github.io/categories/DE/
 https://huyvu15.github.io/categories/Computer-Vision/
 https://huyvu15.github.io/categories/QQbot/
@@ -132,3 +140,5 @@ https://huyvu15.github.io/categories/Need/Web/
 https://huyvu15.github.io/categories/AI/ML/
 https://huyvu15.github.io/categories/AI/ML/DL/
 https://huyvu15.github.io/categories/AWS/Hugo/
+https://huyvu15.github.io/categories/Devops/
+https://huyvu15.github.io/categories/Sharing/

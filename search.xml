@@ -68,6 +68,64 @@
     
     
     <entry>
+      <title>Chia sẻ tài nguyên học tập</title>
+      <link href="/posts/1r6dffff.html"/>
+      <url>/posts/1r6dffff.html</url>
+      
+        <content type="html"><![CDATA[<p>Tài liệu mất công đi sưu tầm và có những tài liệu rất chi là hiếm. Để đền bù cho công sức này ace follow hộ tôi cái Github đi. Ace nên để nền tối cho dễ nhìn nha!</p><h1 id="giải-trí">Giải trí</h1><p><a href="https://voz.vn/f/from-f17-with-love.69/">Đọc giải trí f17</a></p><h1 id="it-doc">IT doc</h1><h2 id="sách">Sách</h2><ol><li><a href="https://drive.google.com/drive/folders/1T57T77i52-SWsVYIBq7PwAbu3HxK0g-S?fbclid=IwAR23I1tMGe4vU4vuwURpSZEf_nOIqmU1C_YPMbGBMvysm_5xi-zPbiTZS-E">Full sách đọc</a></li><li><a href="https://drive.google.com/drive/folders/1FO71n6ActxM5meRqiB8iBg9a2iZ4aAol">FUll sách sql</a></li><li><a href="https://drive.google.com/drive/folders/1FS3959fJ7O9Y5LHuiWjWCvbVGa84dOXX">Full sách data</a></li><li><a href="https://drive.google.com/drive/folders/1bJYEMpHThBRq09JOpE7WawY9LpXm01C8?fbclid=IwAR03ZqwGzJFt9rHy1AdJDHIa58I6wORq7T35lxplBeSEB3e0itK7ElY7qQE">Full DA</a></li><li><a href="https://drive.google.com/drive/folders/1DnpkHTfSuqW7jmI55sbRX635ruXLPC17">Data</a></li><li><a href="https://drive.google.com/drive/folders/13PzlaILJdAmKdZ-TTlo4DwYmfy_RGLRk?fbclid=IwAR27uPntm_7XElrKU1wk6uU_T3tJm236SBrZjuA-fN8vpXgZ9PhpIy6jikY">Python</a></li><li><a href="https://drive.google.com/drive/folders/1xsyZ8pTwXhz-475ngGV3KzsNg61w7Boi?fbclid=IwAR3e24y7dpl5Id4SMVjPy-c4HVQBYhgjeZLkSQ_7IvW3K-9JiFf-PU1vD9c">Chọn bộ Selenium</a></li></ol><h2 id="source-code">Source code</h2><ol><li><a href="https://thecleverprogrammer.com/2021/01/14/python-projects-with-source-code/">Source Python</a></li><li><a href="https://copyassignment.com/">Source code tham khảo</a></li><li><a href="https://github.com/TheAlgorithms?fbclid=IwAR3uRQaOg8A3nHEtHYxhu8LmJbekS4joze7Vnj6ODkih8m9AhRwGPaeCTQw">Thuật toán</a></li></ol><h1 id="de">DE</h1><ol><li><a href="https://docs.google.com/document/d/1GDi0nuFLAQBTbxHP3EBQqsaQHCR8LM8ZRb9zddXEW7E/edit">Bài tập DE (sql)</a></li><li><a href="https://docs.google.com/document/d/1hA0JzQxnEFCYWC_ymbSlMUz_GeVOF25TPV1AP2-rPWI/edit">Lên thần DE</a></li><li><a href="https://github.com/andkret/Cookbook">Sách DE</a></li><li><a href="https://learndataengineering.com/">Web chuyên để học DE</a></li><li><a href="https://github.com/PacktPublishing/Data-Engineering-with-Python">DE với Python</a></li><li><a href="https://docs.google.com/document/d/1k_0GUp43OQbPrneDl98NGweR2ZYOCJ9P2B388zovz8o/edit">DE Dathoc</a></li><li><a href="https://curlconverter.com/python/">Tool conver API cho Python</a></li><li><a href="https://voz.vn/t/data-engineer-intern-crawler.498472/">Trao đổi DE crawl</a></li><li><a href="https://voz.vn/t/de-personal-project-voz-etl-data-pipeline.622566/">Thảo luận ETL DE</a></li><li><a href="https://dataengineering.wiki/Learning+Resources">DE Wiki</a> – Có đủ cả</li><li><a href="https://jsoncrack.com/">Phân tích Json</a></li><li><a href="https://realpython.com/lessons/installation-and-setup/">Cài đặt và Setup Boto 3</a></li><li><a href="https://developer.confluent.io/courses/kafka-streams/get-started/?utm_medium=paidsocial&amp;utm_source=facebook&amp;utm_campaign=ch.paidsocial_tp.prs_tgt.5pct-lal-segment-highscore_rgn.apac_sbrgn.apac-tier2_lgn.eng_bgt.pg_con.mastering-kafka-streams&amp;creative=mksak1-1&amp;fbclid=IwAR3o4k9RYds7NyHSArC5PrR_aE6gHi97VIpsr3ffPuZ0HHUjgkEYoT_nxfg">Khóa Kafka</a></li><li><a href="https://docs.google.com/document/d/19938lXL5Niemo2cYgJAz0yQHOoTn9r4gCoGtF1qmm_o/edit#heading=h.rg318p8b4oj3">Thuật toán</a></li><li><a href="https://hakibenita.com/fast-load-data-python-postgresql">Load data vào postgrey</a></li><li><a href="https://exercism.org/tracks">Bài tập</a></li></ol><h2 id="5-project-thực-chiến-cho-de">5 Project thực chiến cho DE</h2><ol><li><a href="https://github.com/shafiab/HashtagCashtag">Scraping Stock And Twitter Data Using Python, Kafka and Spark</a></li><li><a href="https://github.com/uhussain/WebCrawlerForOnlineInflation">Scraping Inflation Data And Developing A Model With Data From Common Crawl</a></li><li>Đang update.</li></ol><h1 id="devops">Devops</h1><ol><li><a href="https://drive.google.com/drive/folders/1_6n_GKOissS97e9J0gAn0jbUmjaEWPFr">Học 4 tháng đi xin được intern</a></li></ol><h1 id="aws">AWS</h1><h1 id="ai">AI</h1><ol><li><a href="https://docs.google.com/document/d/11zb-oeH5dp2VcNb7TwF5gV85Ba0b0qp_rDG-nQFK9L0/edit?fbclid=IwAR0EHe-PWNmTPSHOwfPqoOlUBKoRg1H4IqYaOdVF2DZV2jpVutnnbcgLO6A">Remote Desktop</a></li><li><a href="https://segment-anything.com/demo">Meta Segmentation</a></li><li><a href="https://www.canva.com/design/DAFmJ7kVNYk/yeZv5Z2mjJ_SwzIAwTwn3g/view">Automation</a></li><li><a href="https://product-marketing.docsend.com/view/rs6qb6j4ym9vri57?fbclid=IwAR1RcfdGBs2tGq7Y9hE1WAJlGqvkE-sexBm4UCpuEdouZ3dTmhMJ9VAIJkA">Step by Step in problem</a></li><li><a href="https://docs.google.com/spreadsheets/d/1YxO0n0u1JmMaZ9_jwyzsFY3IcC8QdjP9t6A78b53CzU/edit?fbclid=IwAR285oN2LXjXVnneVjVzYn_vvF8IXBD16UTXS60GPA_qXNHTTtAbDeU787s&amp;gid=0#gid=0">Gần 200 Project ML</a></li><li><a href="https://huggingface.co/learn/deep-rl-course/unit0/introduction?fbclid=IwAR3Dk9DJ8vWeqGm43vlKnFp4ih69qDlHOwRq3pG1ZzT_CkJP4ciKp9y2tKg">Hugging face</a></li><li><a href="https://drive.google.com/drive/folders/15pxpNN8qj2SBxl_LlzmClRj9Nl7KRHYV">Full AI doc</a></li><li><a href="https://drive.google.com/drive/folders/1wtlbQz9Z5qmQ4No9-HoYSFrJJqcHRh_q">Project ML</a></li><li><a href="https://app.leonardo.ai/auth/login?callbackUrl=%2Fai-generations">Gen </a></li><li><a href="https://drive.google.com/drive/folders/1ogagDsu29xM9_XhC-QKQqo2qPhsh8MQh?fbclid=IwAR2V0gNooGGBrfBzi1nKnE91uLWy9FBraCxAtMaAt4ihDXRjqzC9P9TrcTg_aem_AaMKpK5UvJJ_srcyMIdZs529wZ8KS7RbeAwgWlgDeL59b4Zl6Osip_n4aapA7_geP90Hj2rCFFf7F8E9vcAraK9E">Linear ProtorX</a></li><li><a href="https://openai.com/index/clip/">Clip Explore</a></li><li><a href="https://d2l.aivivn.com/">Đắm mình vào học sâu</a></li><li><a href="https://drive.google.com/drive/u/1/folders/1zjZTxJjxEj5n3_AS6EwPA2PAOEPAvg9R?fbclid=IwAR2KiryCVZJOVH4wyk-5bm6SHwvNbiDbOvBjMVLqCgda9MQ_Enn0e9PqwiI">Project AI4E end</a></li></ol><h1 id="hust">Hust</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Sharing </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Resources </tag>
+            
+            <tag> Sharing </tag>
+            
+            <tag> Courses </tag>
+            
+            <tag> Tổng hợp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Review khóa Devops for Freshers của devopsedu</title>
+      <link href="/posts/1r6d39ff.html"/>
+      <url>/posts/1r6d39ff.html</url>
+      
+        <content type="html"><![CDATA[<p>Thời lượng 9 giờ 32 phút. Gồm 69 bài học. Hoàn thành có chứng chỉ.</p><h1 id="những-điều-giúp-mọi-người-thành-công-trong-series-devops">Những điều giúp mọi người thành công trong series Devops</h1><p>Devops là một ngành mới.</p><h2 id="devops-là-gì">Devops là gì?</h2><p>Là tổ hợp văn hóa con người và công cụ. Điều đầu tiên là biết sử dụng các quy trình công nghệ giúp tối ưu quy trình làm việc. Tìm ra phương án phù hợp cho tổ chức.</p><p>Khi làm những việc lặp đi lặp lại. Cta luôn muốn nó tự động. Cái bạn cần nắm được là công cụ</p><p>Để thuận tiện cho học series này cần 1 máy tính 16GB Ram.</p><p>Nội dung:</p><ul><li>Tập chung vào thực hành cụ thể</li><li>Linux: Cách triển khai mọi dự án trên linux</li><li>Git: host server cá nhân</li><li>Docker: làm sao docker hóa mọi dự án</li><li>CI/CD: tối ưu quy trình. Làm sao 1 click triển khai 1 dự án</li><li>Jenkins: tự động hóa everything</li><li>Monitoring: Giám sát mọi thứ. Chỉ cần ngồi chơi khi gặp vấn đề nó sẽ tự cảnh bảo đến bạn</li></ul><h1 id="linux">Linux</h1><h2 id="tại-sao-lại-sử-dụng-linux">Tại sao lại sử dụng Linux?</h2><p>Kiến thức quan trọng nhất của 1 Devops.</p><p>6 ưu điểm của sử dụng linux:</p><ol><li>TỐi ưu hiệu suất và chi phí do chỉ dùng các dòng lệnh.</li><li>Bảo mật và ổn định.</li><li>Khả năng quản lý truy cập mạnh mẽ</li><li>Ổn định, Tương thích đa nền tảng</li><li>Khả năng kiểm soát và linh hoạt</li><li>Cộng đồng phát triển lớn (Những người có kiến thức về công nghệ)</li></ol><h2 id="cài-đặt-máy-ảo-linux-ubuntu">Cài đặt máy ảo Linux, Ubuntu</h2><h2 id="none"></h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Devops </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Review </tag>
+            
+            <tag> Devops </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>NHẬN THÔNG BÁO CHI TIÊU CHO HOẠT ĐỘNG MUA SẮP TẠI SHOPEE</title>
       <link href="/posts/1n6d313f.html"/>
       <url>/posts/1n6d313f.html</url>
