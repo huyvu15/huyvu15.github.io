@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-06-29T03:00:50.963Z</updated>
+  <updated>2024-07-02T03:55:38.264Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,78 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Mọi người đã nghe về chứng chỉ Github bao giờ chưa ?</title>
-    <link href="https://huyvu15.github.io/posts/er6d090f"/>
-    <id>https://huyvu15.github.io/posts/er6d090f</id>
-    <published>2026-05-05T18:35:12.000Z</published>
-    <updated>2024-06-29T03:00:50.963Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;cảm-nhận-ban-đầu&quot;&gt;Cảm nhận ban đầu&lt;/h1&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Github" scheme="https://huyvu15.github.io/categories/Github/"/>
-    
-    <category term="Certificate" scheme="https://huyvu15.github.io/categories/Github/Certificate/"/>
-    
-    
-    <category term="Github" scheme="https://huyvu15.github.io/tags/Github/"/>
-    
-    <category term="Cert" scheme="https://huyvu15.github.io/tags/Cert/"/>
-    
-    <category term="Learn" scheme="https://huyvu15.github.io/tags/Learn/"/>
-    
-    <category term="News" scheme="https://huyvu15.github.io/tags/News/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Cách bật âm thanh trên máy chủ ảo EC2 Windown</title>
-    <link href="https://huyvu15.github.io/posts/tr6d096f"/>
-    <id>https://huyvu15.github.io/posts/tr6d096f</id>
-    <published>2026-05-05T18:35:12.000Z</published>
-    <updated>2024-06-29T04:16:34.039Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;lời-mở-đầu&quot;&gt;Lời mở đầu&lt;/h1&gt;
-&lt;h2 id=&quot;ec2&quot;&gt;EC2&lt;/h2&gt;
-&lt;p&gt;Là một máy chủ ảo được tạo bởi AWS. Mình có thể tự cấu hình tùy chỉnh các</summary>
-        
-      
-    
-    
-    
-    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
-    
-    <category term="Tips" scheme="https://huyvu15.github.io/categories/AWS/Tips/"/>
-    
-    
-    <category term="EC2" scheme="https://huyvu15.github.io/tags/EC2/"/>
-    
-    <category term="Start" scheme="https://huyvu15.github.io/tags/Start/"/>
-    
-    <category term="Tricks lỏ" scheme="https://huyvu15.github.io/tags/Tricks-lo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Chia sẻ tài nguyên học tập</title>
     <link href="https://huyvu15.github.io/posts/1r6dffff"/>
     <id>https://huyvu15.github.io/posts/1r6dffff</id>
     <published>2024-07-01T04:30:32.000Z</published>
-    <updated>2024-07-01T17:04:54.636Z</updated>
+    <updated>2024-07-02T03:55:38.264Z</updated>
     
     
       
@@ -397,6 +330,73 @@
     <category term="Web" scheme="https://huyvu15.github.io/tags/Web/"/>
     
     <category term="You need" scheme="https://huyvu15.github.io/tags/You-need/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mọi người đã nghe về chứng chỉ Github bao giờ chưa ?</title>
+    <link href="https://huyvu15.github.io/posts/er6d090f"/>
+    <id>https://huyvu15.github.io/posts/er6d090f</id>
+    <published>2024-06-28T18:35:12.000Z</published>
+    <updated>2024-07-02T01:39:36.271Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;cảm-nhận-ban-đầu&quot;&gt;Cảm nhận ban đầu&lt;/h1&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Github" scheme="https://huyvu15.github.io/categories/Github/"/>
+    
+    <category term="Certificate" scheme="https://huyvu15.github.io/categories/Github/Certificate/"/>
+    
+    
+    <category term="Github" scheme="https://huyvu15.github.io/tags/Github/"/>
+    
+    <category term="Cert" scheme="https://huyvu15.github.io/tags/Cert/"/>
+    
+    <category term="Learn" scheme="https://huyvu15.github.io/tags/Learn/"/>
+    
+    <category term="News" scheme="https://huyvu15.github.io/tags/News/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cách bật âm thanh trên máy chủ ảo EC2 Windown</title>
+    <link href="https://huyvu15.github.io/posts/tr6d096f"/>
+    <id>https://huyvu15.github.io/posts/tr6d096f</id>
+    <published>2024-06-28T18:35:12.000Z</published>
+    <updated>2024-07-02T01:39:50.209Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;lời-mở-đầu&quot;&gt;Lời mở đầu&lt;/h1&gt;
+&lt;h2 id=&quot;ec2&quot;&gt;EC2&lt;/h2&gt;
+&lt;p&gt;Là một máy chủ ảo được tạo bởi AWS. Mình có thể tự cấu hình tùy chỉnh các</summary>
+        
+      
+    
+    
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
+    
+    <category term="Tips" scheme="https://huyvu15.github.io/categories/AWS/Tips/"/>
+    
+    
+    <category term="EC2" scheme="https://huyvu15.github.io/tags/EC2/"/>
+    
+    <category term="Start" scheme="https://huyvu15.github.io/tags/Start/"/>
+    
+    <category term="Tricks lỏ" scheme="https://huyvu15.github.io/tags/Tricks-lo/"/>
     
   </entry>
   
