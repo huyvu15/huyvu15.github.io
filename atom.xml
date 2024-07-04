@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-02T03:55:38.264Z</updated>
+  <updated>2024-07-04T13:11:36.041Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kiến thức nền tảng Git</title>
+    <link href="https://huyvu15.github.io/posts/git111f"/>
+    <id>https://huyvu15.github.io/posts/git111f</id>
+    <published>2024-07-04T09:35:12.000Z</published>
+    <updated>2024-07-04T13:11:36.041Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h1&gt;
+&lt;p&gt;Git là gì?&lt;br&gt;
+Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề nào đó. Các thành viên trong</summary>
+        
+      
+    
+    
+    
+    <category term="Git" scheme="https://huyvu15.github.io/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="https://huyvu15.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Làm chủ nghệ thuật nhiếp ảnh đường phố điện ảnh</title>
+    <link href="https://huyvu15.github.io/posts/artf393f"/>
+    <id>https://huyvu15.github.io/posts/artf393f</id>
+    <published>2024-07-04T08:35:12.000Z</published>
+    <updated>2024-07-04T09:14:03.941Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;lời-nói-đầu&quot;&gt;Lời nói đầu&lt;/h1&gt;
+&lt;p&gt;Nghệ thuật chụp ảnh bao giờ cũng cần thiết, không phải chụp cho bản thân thì cũng cần phải chụp</summary>
+        
+      
+    
+    
+    
+    <category term="Photography" scheme="https://huyvu15.github.io/categories/Photography/"/>
+    
+    
+    <category term="Art" scheme="https://huyvu15.github.io/tags/Art/"/>
+    
+    <category term="Photography" scheme="https://huyvu15.github.io/tags/Photography/"/>
+    
+  </entry>
   
   <entry>
     <title>Chia sẻ tài nguyên học tập</title>
@@ -589,65 +644,6 @@ tiếp sau đó gõ netsh</summary>
     <category term="Laptop" scheme="https://huyvu15.github.io/tags/Laptop/"/>
     
     <category term="Hacker" scheme="https://huyvu15.github.io/tags/Hacker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nghiên cứu khoa học như thế nào ở đại học</title>
-    <link href="https://huyvu15.github.io/posts/123ttr440"/>
-    <id>https://huyvu15.github.io/posts/123ttr440</id>
-    <published>2024-06-10T00:47:02.583Z</published>
-    <updated>2024-06-10T01:14:40.353Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;cách-đọc&quot;&gt;Cách đọc&lt;/h1&gt;
-&lt;p&gt;Cách tiếp cận học tập và nghiên cứu toán học có thể khai mở một thế giới mới của khám phá và ứng dụng.</summary>
-        
-      
-    
-    
-    
-    <category term="Learning" scheme="https://huyvu15.github.io/categories/Learning/"/>
-    
-    
-    <category term="NCKH" scheme="https://huyvu15.github.io/tags/NCKH/"/>
-    
-    <category term="Math" scheme="https://huyvu15.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Terraform</title>
-    <link href="https://huyvu15.github.io/posts/adaea10g"/>
-    <id>https://huyvu15.github.io/posts/adaea10g</id>
-    <published>2024-06-09T13:11:32.000Z</published>
-    <updated>2024-06-09T16:48:29.414Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;terraform-cli&quot;&gt;Terraform CLI /&lt;/h1&gt;
-&lt;h2 id=&quot;command-base&quot;&gt;Command base&lt;/h2&gt;
-&lt;p&gt;Đã dùng terraform thì không update bằng tay nếu</summary>
-        
-      
-    
-    
-    
-    <category term="Terraform" scheme="https://huyvu15.github.io/categories/Terraform/"/>
-    
-    
-    <category term="Terraform" scheme="https://huyvu15.github.io/tags/Terraform/"/>
-    
-    <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
-    
-    <category term="Cloud Providers" scheme="https://huyvu15.github.io/tags/Cloud-Providers/"/>
     
   </entry>
   
