@@ -8,7 +8,7 @@ categories:
   - Data
 abbrlink: 83dc13a5
 date: 2024-04-07 13:21:31
-cover: https://miro.medium.com/v2/resize:fit:640/0*sn8p2xVhgjdfnm43.png
+cover: https://www.interviewbit.com/blog/wp-content/uploads/2022/06/Cover-Data-Warehouse-Architecture.png
 ---
 
 

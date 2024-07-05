@@ -59,7 +59,7 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false #####重大bug出现地，2024年2月5日18:41:35记录，你真是个大沙比，找了一个月的bug,就因为一个布尔值
+relative_link: false ###Nơi xảy ra lỗi lớn, được ghi lại vào lúc 18:41:35 ngày 5 tháng 2 năm 2024. Bạn thực sự là một Shabi lớn Bạn đã tìm kiếm một lỗi trong một tháng chỉ vì một giá trị Boolean.
 future: true
 highlight:
   enable: true
@@ -77,14 +77,13 @@ prismjs:
 # Security
 encrypt: # hexo-blog-encrypt
   enable: true
-  abstract: 这篇文章被加密了
-  message: 你好，请输入这篇文章的密码！
+  abstract: Nội dung này đã được mã hóa.
+  message: Chào bạn, hãy điền mật khẩu để mở bài viết.
   tags:
-    #例如：{name: CTF, password: CTF}就是加密了CTF下的所有文章，密码统一为CTF
-    - { name: tagName, password: 密码B }
-  # - {name: 数据结构作业, password: w1ndys_fw}
-  wrong_pass_message: 这个密码看着不太对, 再试试吧，或者线下solo博主试试。
-  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+    - { name: tagName, password: PasswordB }
+    - { name: VIP, password: VeryImportantPerson }
+  wrong_pass_message: "Oops! Mật khẩu không đúng. Hãy thử lại hoặc liên hệ hỗ trợ."
+  wrong_hash_message: "Có lỗi xảy ra trong quá trình xác minh. Vui lòng kiểm tra lại hoặc liên hệ hỗ trợ."
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -133,8 +132,8 @@ theme: butterfly
 # Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/huyvu15/Blog_me
-  branch: gh-pages
+  repo: https://github.com/huyvu15/huyvu15.github.io
+  branch: main
 
 markdown:
   render:

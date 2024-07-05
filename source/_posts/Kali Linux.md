@@ -3,8 +3,8 @@ abbrlink: 4c6d962f
 categories:
 - Linux
 - kali
-cover: https://t.mwm.moe/fj/?28
-date: 2023-10-10 22:35
+cover: https://png.pngtree.com/background/20230525/original/pngtree-wallpaper-anime-of-the-city-on-a-clear-night-sky-with-picture-image_2727081.jpg
+date: 2024-06-01 22:35
 tags:
 - Linux
 title: Cách đổi ngôn ngữ của Kali Linux sang tiếng Trung

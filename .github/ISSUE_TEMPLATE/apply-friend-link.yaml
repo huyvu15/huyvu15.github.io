@@ -1,9 +1,9 @@
 name: Đăng ký kết nối bạn bè
-description: 申请 https://blog.w1ndys.top 的友链，请先把本站加为友链
+description: Để đăng ký liên kết bạn bè của https://blog.w1ndys.top, trước tiên vui lòng thêm trang web này làm liên kết bạn bè
 title: "Đăng ký kết nối bạn bè: "
 labels: ["Đăng ký kết nối bạn bè:"]
 assignees:
-  - huyvu15 # 这里改成你的GitHub ID
+  - huyvu15 
 body:
   - type: input
     id: name

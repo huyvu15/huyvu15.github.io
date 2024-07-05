@@ -1,14 +1,14 @@
-# 友链添加说明↓🤔🤔🤔
-# 欢迎来到W1ndys小屋的友链添加pr页面
-# 如果你是博客作者的同学/朋友/师哥师姐师弟师妹，请在页面内搜索：锚点1，快速定位并编辑
-# 如果你是来自各路的大佬，请在页面内搜索：锚点2，快速定位编辑
-# 友链格式为：
-###########################
-# - name: 你的网站名称
-#   link: 你的网站链接
-#   avatar:  你的站点头像
-#   desrc: 你的站点描述
-###########################
+# Thêm hướng dẫn link bạn bè↓🤔🤔🤔
+# Chào mừng các bạn đến với link kết bạn thêm trang pr của GluTis
+# Nếu bạn là bạn cùng lớp/bạn/anh chị của blogger, vui lòng tìm kiếm: Anchor 1 trên trang để nhanh chóng tìm và chỉnh sửa
+# Nếu bạn là sếp lớn từ mọi tầng lớp, vui lòng tìm kiếm trong trang: Anchor 2, định vị và chỉnh sửa nhanh
+# Định dạng liên kết bạn bè là:
+#############################
+# - name: tên trang web của bạn
+#link: liên kết trang web của bạn
+#avatar: Hình đại diện trang web của bạn
+# desrc: mô tả trang web của bạn
+#############################
 
 - class_name: Blog
   class_desc: Tài liệu chính thức xây dựng blog
@@ -18,209 +18,190 @@
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: Khung viết blog nhanh, đơn giản và mạnh mẽ
 
-    - name: Butterfly开发文档
+    - name: ButterflyDocDev
       link: https://butterfly.js.org/posts/21cfbf15/#/
       avatar: https://butterfly.js.org/img/avatar.png
       descr: A Simple and Card UI Design theme for Hexo
 
-# 下面是师哥师姐师弟师妹同学朋友，请下滑找到空位置添加
 # ——————————————————————————————————————————————————————————————————————————————————————————————
 - class_name: Đường đến trường còn dài, các bạn cùng lớp đọc sách vào ban đêm
   class_desc: Nơi hội tụ các ông lớn
   link_list:
-    - name: 曲阜师范大学
+    - name: Đại học Sư phạm Khúc Phụ
       link: https://www.qfnu.edu.cn/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=1623557647&s=640
-      descr: 学而不厌，诲人不倦
+      descr: Học không chán, dạy không mệt
 
-    - name: 曲阜师范大学网络空间安全学院
+    - name: Học viện An ninh mạng Đại học Sư phạm Khúc Phụ
       link: https://cyber.qfnu.edu.cn/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3309083558&s=640
-      descr: 以梦为码，不负韶华
+      descr: Mã hóa giấc mơ, không phụ tuổi trẻ
 
     - name: Naiteiy'blog
       link: https://www.naiteiy.site/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=1820031511&s=640
-      descr: 🍃风带来故事的种子📖 ⌚时间使之发芽🌱
-    - name: 尔康康康康
+      descr: 🍃Gió mang theo hạt giống của câu chuyện📖 ⌚Thời gian làm cho nó nảy mầm🌱
+    - name: Blog của Er Kang
       link: https://erkangkang.top/
       avatar: https://erkangkang.top/img/red.jpg#/
-      descr: 康哥的博客
+      descr: Blog của Kang
 
     - name: nakaii
       link: https://nakaii.top/#/
       avatar: https://s1.imagehub.cc/images/2023/03/31/d3fd3e1ae052e956155fc1711cdccbd2.jpeg#/
-      descr: 寒哥的博客
+      descr: Blog của Han
 
     - name: xiaowaaa'blog
       link: http://xiaowaaa.asia/#/
       avatar: http://xiaowaaa.asia/img/avatar.png
-      descr: 兵哥的博客
+      descr: Blog của Bing
 
     - name: lukzia'blog
       link: http://lukzia.me/
       avatar: http://43.134.129.51/wp-content/uploads/2023/03/me.jpg
-      descr: 人如果没有梦想,那和深度神经网络有什么区别
+      descr: Người nếu không có giấc mơ, thì có gì khác biệt với mạng thần kinh sâu
 
     - name: Ed-Ryan'blog
       link: https://edryan.top/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=2993482892&s=640
-      descr: 想暂停时间
+      descr: Muốn dừng lại thời gian
 
     - name: chi11i
       link: http://blog.chi11i.fun/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=2181218792&s=640
-      descr: 严哥带飞
+      descr: Nghiêm ca dẫn dắt
 
     - name: xlcm
       link: https://xlcm001.com/
       avatar: https://xlcm001.com/img/tubiao.jpg
-      descr: 夏恋初梦
+      descr: Giấc mơ mùa hè đầu tiên
 
     - name: ianwusb
       link: https://ianwusb.blog/
       avatar: https://ianwusb.blog/images/Logo.jpg
-      descr: 编程魅力在于无尽创造与无限可能，生物魅力深藏于生命奥秘之中
+      descr: Sự hấp dẫn của lập trình nằm ở sự sáng tạo vô tận và khả năng vô hạn, sự hấp dẫn của sinh học nằm ở bí mật sâu thẳm của sự sống
 
     - name: Giant_GKL
       link: https://giantgkl.xyz/
       avatar: https://giantgkl.xyz/wp-content/uploads/2024/03/8814bff3c9cbc4cecfaaf32d92b984f0.gif
-      descr: 有朝一日，我们必将理解那些不能理解的东西
+      descr: Một ngày nào đó, chúng ta sẽ hiểu những điều không thể hiểu
 
     - name: kiki1e
       link: https://kiki1e.github.io/link/
       avatar: https://cdn.jsdelivr.net/gh/kiki1e/imagess@main/img/43EjgPucSslDJxM.png
-      descr: 计算机爱好者（Pwn✌）
+      descr: Người yêu thích máy tính (Pwn✌)
 
-    - name: h3110w0r1d's Blog
+    - name: Blog của h3110w0r1d
       link: https://www.codexploit.cn/
       avatar: https://strongwillpro.oss-cn-beijing.aliyuncs.com/img/QQ%E5%9B%BE%E7%89%8720240111033823.jpg
-      descr: 堃门！
+      descr: Môn!
 
-   # - name: 阿秀的学习笔记
-    #  link: https://interviewguide.cn/
-     # avatar: https://interviewguide.cn/images/personal/logo.png
-      #descr: 职场多年的计算机自学总结，包括但不限计算机基础知识、算法、前端后端、校招&社招、互联网一线大厂中的工作体验等记录，坚持学习，持续成长！
-
-    - name: 茕茕の博客
+    - name: Blog của Quang Quang
       link: https://zhf521.github.io/MyBlog/
       avatar: https://zhf521.github.io/MyBlog/logo.png
-      descr: 热爱学习和生活的程序员
+      descr: Lập trình viên yêu học tập và cuộc sống
 
-
-# 锚点1
-# 同学/朋友/师哥/师姐/师弟/师妹，填在这上面，与上一个友链中间隔一个换行
-# ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-# 下面是各路大佬，请下滑找到空位置添加
 # ——————————————————————————————————————————————————————————————————————————————————————————————
 - class_name: Nơi hội tụ của các ông lớn
   class_desc: Gu Gu Gu Gu (bắt cá)
   link_list:
-    - name: 安知鱼
+    - name: An Tri Ngư
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
+      descr: Cuộc sống tươi sáng, vạn vật đáng yêu
 
-    - name: 张洪Heo
+    - name: Trương Hồng Heo
       link: https://blog.zhheo.com/
       avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
-      descr: 分享设计与科技生活
+      descr: Chia sẻ thiết kế và cuộc sống công nghệ
 
-    - name: Akilarの糖果屋
+    - name: Akilar's Candy House
       link: https://akilar.top/
       siteshot: https://npm.elemecdn.com/akilar-friends@latest/siteshot/akilar.top.jpg
       avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
-      descr: 欢迎光临糖果屋
+      descr: Chào mừng đến Candy House
 
     - name: Efu
       link: https://www.efu.me
-      descr: An Open Source worker.
+      descr: Một nhân viên mã nguồn mở.
       avatar: https://s3.qjqq.cn/47/660a7ece07609.webp!color
 
-
-    - name: 偷掉月亮的阿硕
+    - name: Trộm mặt trăng Ah Shuo
       link: https://moonshuo.cn/#/
       avatar: https://moonshuo.cn/img/avatar.gif
-      descr: 偷掉月亮-我们一起去偷月亮吧
+      descr: Trộm mặt trăng - cùng nhau trộm mặt trăng nhé
 
-    - name: 追梦境
+    - name: Theo đuổi giấc mơ
       link: https://hexo.dreamerhe.qianxun7747.eu.org/
       avatar: https://hexo.dreamerhe.qianxun7747.eu.org/LOGO/logo.png
-      descr: 梦境之浩瀚，追寻之困难，努力之辛苦，实现之甘甜!
-    - name: 浪浪山的染念
+      descr: Sự bao la của giấc mơ, sự khó khăn của việc theo đuổi, sự nỗ lực khó khăn, sự ngọt ngào của việc thực hiện!
+      
+    - name: Nhiễm niệm của Lãng Lãng Sơn
       link: https://dyedd.cn/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=1176996982&s=640
-      descr: 炼丹难，炼丹苦
+      descr: Luyện đan khó, luyện đan khổ
 
     - name: baokker
       link: https://baokker.github.io/
       avatar: https://baokker-oss-blog-hangzhou.oss-cn-hangzhou.aliyuncs.com/cdn_for_blog/blog_default_imgs/avatar.jpg
-      descr: 回忆这理想不够理想，沿途逛世间一趟只有向上。
+      descr: Hồi ức lý tưởng không đủ lý tưởng, dạo quanh thế giới chỉ có hướng lên.
 
-    - name: 苍岚
+    - name: Thương Lan
       link: https://www.zywvvd.com/
       avatar: https://www.zywvvd.com/image/avatar.png
-      descr: 蓝天依旧，明眸如初
+      descr: Trời xanh vẫn vậy, ánh mắt sáng như ban đầu
 
     - name: Liu✌🏻
       link: https://ctfrookie.top/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3039375674&s=640
-      descr: Liu✌🏻Liu✌🏻带我走吧
+      descr: Liu✌🏻Liu✌🏻 dẫn tôi đi nhé
 
-    - name: 一清✌🏻
-      link: http://www.yiqing.asia/
-      avatar: https://q1.qlogo.cn/g?b=qq&nk=2383170770&s=640
-      descr: 一清✌🏻一清佬呜呜呜带带
-
-    - name: Mcenahle的个人博客
+    - name: Blog cá nhân của Mcenahle
       link: https://mcenahle.com
       avatar: https://mcenahle.com/wp-content/uploads/2023/12/IMG_7687.png#/
-      descr: 这是Mcenahle的个人博客，记录美好生活。
+      descr: Đây là blog cá nhân của Mcenahle, ghi lại cuộc sống tươi đẹp.
 
     - name: Asteri5m
       link: https://asteri5m.icu/
       avatar: https://asteri5m.icu/upload/20af907e-4769-4251-8e8c-0f0b52355380.png
-      descr: 别等时间不够的时候再后悔
+      descr: Đừng chờ đến khi thời gian không đủ mới hối hận
 
     - name: MUKAPP
       link: https://www.mukapp.top/
       avatar: https://www.mukapp.top/pic/muk/small.webp#/
-      descr: MUK的小窝
+      descr: Góc nhỏ của MUK
 
-    - name: Mojade@破站
+    - name: Mojade@Blog
       avatar: https://data.chahuyun.cn/config/a520573c8f012816539af41fbd8ecc65.jpg#/
       link: https://chahuyun.cn/
-      descr: 放空每一天~
+      descr: Thư giãn mỗi ngày~
 
-    - name: 顾梦
+    - name: Gu Meng
       link: https://blog.gumengyo.top
       avatar: https://cloud.gumengyo.top/avatar.png
-      descr: 不想满心遗憾，那就全力以赴.
+      descr: Không muốn đầy tiếc nuối, hãy hết mình.
 
-    - name: 皓子的小站
+    - name: Blog nhỏ của Haozi
       link: https://howiehz.top
       avatar: https://howiehz.top/upload/ico.ico
-      descr: 互联网上的一座小岛
+      descr: Một hòn đảo nhỏ trên Internet
 
-    - name: 未知之旅
+    - name: Chuyến đi chưa biết
       link: https://blog.xenosp.cn/
       avatar: https://cravatar.cn/avatar/4EA126708E5063621186D6B5895D2684
-      descr: 在未知中成长，超越自我
+      descr: Trưởng thành trong sự chưa biết, vượt qua bản thân
 
-    - name: Wcowin's Web
+    - name: Web của Wcowin
       link: https://wcowin.work/
       avatar: https://s2.loli.net/2024/02/01/gaE47y5fKM6kosV.png
-      descr: 循此苦旅，以达星辰
+      descr: Đi theo hành trình gian khổ này, để đến các vì sao
 
-    - name: Lenny's Web
+    - name: Web của Lenny
       link: https://lennychen.top/
       avatar: https://s2.loli.net/2024/03/31/Ht3QBqhgLYNAuwj.png
-      descr: 天地不仁，以万物为刍狗
+      descr: Trời đất không nhân từ, coi vạn vật như cỏ rác
+    - name: W1ndys
+      link: https://blog.w1ndys.top/
+      avatar: https://avatars.githubusercontent.com/u/109416673?v=4
+      descr: Cô cậu cute, học công nghệ và không quan tâm đến điểm số
 
-
-      
-# ______________________________________________________________________________________________
-# 锚点2
-# 我的同学/朋友/师哥等的博客，请定位到第17行代码下面进行添加
-# 请将我的友链加入到你的博客，然后在上方添加你的友链配置数据，注意，请与上一条间隔一个换行

@@ -3,7 +3,7 @@ abbrlink: 80cc5efe
 categories:
 - Python
 - Blue Bridge
-cover: https://t.mwm.moe/fj/?37
+cover: https://gamek.mediacdn.vn/zoom/600_315/2019/7/25/photo-1-156398925144079560819-crop-1563989393439643240196.jpg
 date: 2024-02-02 15:19:36
 tags:
 - Python

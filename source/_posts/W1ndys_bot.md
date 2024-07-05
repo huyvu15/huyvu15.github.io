@@ -2,8 +2,8 @@
 abbrlink: bc040c54
 categories:
 - QQbot
-cover: https://t.mwm.moe/fj/?56
-date: 2023-11-18 10:04
+cover: https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-anime-dep.jpg
+date: 2024-06-08 10:04
 tags: QQbot
 title: “Cuộn cuộn” W1ndys_bot Sử dụng Hướng dẫn
 ---

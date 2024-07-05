@@ -1,21 +1,13 @@
-# 配置文件编辑规范
-# 大目录用---------分割
-# 单独大目录内小目录用###########分割
-# 越大的越长
-
-# Navigation bar settings (导航栏设置)
-# see https://butterfly.js.org/posts/4aa8abbe/#%E5%B0%8E%E8%88%AA%E6%AC%84%E8%A8%AD%E7%BD%AE-Navigation-bar-settings
-# --------------------------------------------------------------------------------------------------------------------------------------------------------
 nav:
-  logo: /img/about/icon.jpg # 网站的 logo，支持图片，直接填入图片链接
-  display_title: true #是否显示网站标题，填写 true 或者 false
-  fixed: true # 是否固定状态栏，填写 true 或者 false
+  logo: /img/about/icon.jpg 
+  display_title: true 
+  fixed: true 
 
-# Menu 目录
-# 必须是 /xxx/，后面||分开，然后写图标名。
-# 如果不希望显示图标，图标名可不写。
-# 默认子目录是展开的，如果你想要隐藏，在子目录里添加 hide 。清单||fa fa-heartbeat||hide
-# 注意： 导航的文字可自行更改
+# Thư mục thực đơn
+# Phải là /xxx/, cách nhau bởi ||, sau đó ghi tên biểu tượng.
+# Nếu không muốn hiển thị icon thì không cần ghi tên icon.
+# Thư mục con mặc định được mở rộng. Nếu bạn muốn ẩn nó, hãy thêm ẩn vào thư mục con. danh sách||fa fa-heartbeat||ẩn
+# Lưu ý: Văn bản điều hướng có thể tự thay đổi
 menu:
   Trang chủ: /#/ || fas fa-home
   Archives: /archives/ || fas fa-archive
@@ -35,7 +27,7 @@ menu:
   Me: https://huyvu15.github.io/portfolio/ || fas fa-bed
   Điều hướng: https://huyvu15.click/ || fas fa-map
 
-# Code Blocks (代码相关)
+# Code Blocks 
 # https://butterfly.js.org/posts/4aa8abbe/#%E4%BB%A3%E7%A2%BC-Code-Blocks
 # --------------------------------------------------------------------------------------------------------------------------------------------------------
 highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
@@ -52,11 +44,11 @@ code_word_wrap: false #在默认情况下，Hexo 在编译的时候不会实现�
 #   icon: link || the description || color
 # Butterfly支持 font-awesome v6 图标.  https://fontawesome.com/icons?from=io
 social:
-  fa-brands fa-qq: /html/QQ || QQ
+  # fa-brands fa-qq: /html/QQ || QQ
+  fa-solid fa-code: /html/QQ || LeetCode
   fab fa-github: https://github.com/huyvu15/ || Github
-  fas fa-envelope: mailto:huyv80313@gmail.com || Email #/html/email
+  fas fa-envelope: mailto:huyv80313@gmail.com || Email 
 
-# Image (图片设置)
 # --------------------------------------------------------------------------------------------------------------------------------------------------------
 # Favicon（网站图标）
 favicon: /img/about/icon.jpg
@@ -71,40 +63,40 @@ avatar:
 # https://butterfly.js.org/posts/4aa8abbe/#%E9%A0%82%E9%83%A8%E5%9C%96
 # --------------------------------------------------------------------------------------------------------------------------------------------------------
 ############################################################
-# 顶部图的获取顺序，如果都没有配置，则不显示顶部图。
-# 页面顶部图的获取顺序：
-# 各自配置的 top_img > 配置文件的 default_top_img
-# 文章页顶部图的获取顺序：
-# 各自配置的 top_img > cover > 配置文件的 default_top_img
+# Thứ tự lấy ảnh đầu trang, nếu không có cấu hình nào được thiết lập, ảnh đầu trang sẽ không được hiển thị.
+# Thứ tự lấy ảnh đầu trang của trang:
+# Ảnh top_img được cấu hình riêng > Ảnh default_top_img trong file cấu hình
+# Thứ tự lấy ảnh đầu trang của trang bài viết:
+# Ảnh top_img được cấu hình riêng > ảnh bìa > Ảnh default_top_img trong file cấu hình
 ###########################################################################################################################################
-# 下面所有的 top_img 可配置以下值
-# 留空 显示默认的 top_img（如有），否则显示默认的顔色（文章页top_img留空的话，会显示 cover 的值）
-# img链接 图片的链接，显示所配置的图片
-# 顔色(HEX值 - #FFFAFA RGB值 - rgb(0,0,255) 顔色单词 - orange 渐变色 - linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%) ）
-# transparent 透明
-# false 不显示 top_img
-# 并不推荐为每个 tag 和每个 category 都配置不同的顶部图，因为配置太多会拖慢生成速度
+# Tất cả các giá trị của top_img có thể được cấu hình như sau:
+# Nếu để trống sẽ hiển thị top_img mặc định (nếu có), nếu không sẽ hiển thị màu mặc định (nếu trang bài viết để trống top_img, nó sẽ hiển thị giá trị của ảnh bìa)
+# Liên kết hình ảnh - liên kết đến hình ảnh được cấu hình
+# Màu sắc (Giá trị HEX - #FFFAFA, Giá trị RGB - rgb(0,0,255), Từ màu - orange, Màu dạng gradient - linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%))
+# transparent - trong suốt
+# false - không hiển thị top_img
+# Không khuyến nghị cấu hình ảnh đầu trang khác nhau cho mỗi tag và mỗi category vì cấu hình quá nhiều sẽ làm chậm tốc độ tạo trang
 ###########################################################################################################################################
-# Disable all banner image
-# 如果不要显示顶部图，可直接配置 disable_top_img: true
+# Vô hiệu hóa tất cả hình ảnh banner
+# Nếu bạn không muốn hiển thị ảnh đầu trang, bạn có thể cấu hình trực tiếp disable_top_img: true
+
 disable_top_img: false
 
 # The banner image of home page
-# 主页的 top_img
-index_img: /img/bg/bg6.png
+index_img: /img/bg/bg66.png
 # 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 # If the banner of page not setting, it will show the top_img
 # 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img
-default_top_img: /img/bg/bg6.png
+default_top_img: /img/bg/bg66.png
 
 # The banner image of archive page
 # 归档页面的 top_img
-archive_img: /img/bg/bg6.png
+archive_img: /img/bg/bg66.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子标签页面的 top_img)
 # tag 子页面 的 默认 top_img
-tag_img: /img/bg/bg6.png
+tag_img: /img/bg/bg66.png
 
 # The banner image of tag page
 # tag 子页面的 top_img，可配置每个 tag 的 top_img
@@ -197,7 +189,6 @@ anchor:
 photofigcaption: false
 
 # copy settings
-# copyright: Add the copyright information after copied content (复制的内容后面加上版权信息)
 # https://butterfly.js.org/posts/4aa8abbe/#%E8%A4%87%E8%A3%BD%E7%9B%B8%E9%97%9C%E9%85%8D%E7%D%AE
 # enable 是否开启网站复制权限
 # copyright 复制的内容后面加上版权信息
@@ -240,16 +231,7 @@ toc:
   expand: false #是否展开 TOC
   style_simple: true # 简洁模式（侧边栏只显示 TOC, 只对文章页有效 ）
   scroll_percent: true #是否显示滚动进度百分比
-#####################################################################################
-#为特定的文章配置
-#在你的文章md文件的头部，加入toc_number和toc，并配置true或者false即可。
-#主题会优先判断文章Markdown的Front-matter是否有配置，如有，则以Front-matter的配置为准。否则，以主题配置文件中的配置为准
-#####################################################################################
 
-# Related Articl
-# Related Articles
-# 相关文章
-# 当文章封面设置为 false 时，或者没有获取到封面配置，相关文章背景将会显示主题色。
 related_post:
   enable: true
   limit: 6 # 显示推荐文章数目
@@ -267,8 +249,8 @@ noticeOutdate:
   style: flat # style: simple/flat
   limit_day: 30 # 距离更新时间多少天才显示文章过期提醒
   position: top # position: top/bottom
-  message_prev: 这篇文章已经有 #天数之前的文字
-  message_next: 天没有更新了，请注意甄别时效性，可能有部分已失效 #天数之后的文字
+  message_prev: Bài viết này đã có
+  message_next: Ngày không cập nhật, xin lưu ý phân biệt tính kịp thời, có thể một phần đã không còn hiệu lực.
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -277,7 +259,7 @@ post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/W1ndys/blog.w1ndys.top/edit/main/source/
+  url: https://github.com/huyvu15/huyvu15.github.io/tree/main/source/
 
 # post_pagination (分页)
 # 当文章封面设置为 false 时，或者没有获取到封面配置，分页背景将会显示主题色。
@@ -294,7 +276,7 @@ post_pagination: 1
 footer:
   owner:
     enable: true
-    since: 2023
+    since: 2024
   custom_text: Hi, welcome to my <a href="https://butterfly.js.org/">blog</a>!
   
   # <a href="https://icp.gov.moe/?keyword=20238661" target="_blank">萌ICP备20238661号</a><br/><a href="https://guan.ma/hao/2024000032/" title="官码2024000032号">官码2024000032号</a><br/><a href="https://beian.miit.cn.com/gov/search.php?domain=blog.w1ndys.top" title="MIIT备20240341号">MIIT20240341号</a><br/><a target="_blank" title="51la网站统计" href="https://v6.51.la/report/overview?comId=401429">51la提供统计服务</a><br/><a href="https://boke.lu" >博客录</a> || <a href="https://blogwe.com/" >BlogMe</a> || <a href="https://bf.zzxworld.com/" >BlogFinder</a><br/><a href="https://app.netlify.com/teams/w1ndys/overview/">Netlify</a> || <a href="https://vercel.com/dashboard/"> Vercel </a> || <a href="https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/workers-and-pages">cloudflare pages</a> || <a href="https://dashboard.render.com/">Render</a>|| <a href="https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/660fb4763b6b4a02865a1110?envID=660fb4414e5f07f892d24a42">Zeabur</a>提供部署服务<br/><a href="https://v.blog.w1ndys.top/">Vercel镜像站</a> || <a href="https://n.blog.w1ndys.top/">Netlify镜像站</a> || <a href="https://r.blog.w1ndys.top/">Render镜像站</a> || <a href="https://c.blog.w1ndys.top/">Cloudflare Pages镜像站</a>|| <a href="https://z.blog.w1ndys.top/">Zeabur镜像站</a>
@@ -306,8 +288,8 @@ aside:
   enable: true
   hide: false
   button: true
-  mobile: true # 移动设备是否展示
-  position: right # 个人信息的位置
+  mobile: true 
+  position: right 
   display:
     archive: true
     tag: true
@@ -322,7 +304,7 @@ aside:
       link: https://github.com/huyvu15
   card_announcement:
     enable: true
-    content: Easy-QFNU đang được làm lại <a href="https://Easy-qfnu.top/" target="_blank">Easy-QFNU</a>, mời bạn ghé thăm!<br/> Nếu bạn gặp vấn đề khi truy cập, hãy nhấn <b>Ctrl + Shift + R</b> để làm mới trang. Nếu có thể, <a href="https://wmimg.com/i/41/2023/08/64cf770f0a003.png" alt="Thủ công hủy đăng ký Service Worker của trang" title="Thủ công hủy đăng ký Service Worker của trang">thủ công hủy đăng ký Service Worker của trang</a> sẽ giúp giải quyết hầu hết các vấn đề.
+    content: Blog's GluTis đang được phát triển <a href="https://huyvu15.github.io/Spend-Alert/" target="_blank">Spend Alert</a>, mời bạn ghé thăm!<br/> Nếu bạn gặp vấn đề khi truy cập, hãy nhấn <b>Ctrl + Shift + R</b> để làm mới trang. Nếu có thể, <a href="https://wmimg.com/i/41/2023/08/64cf770f0a003.png" alt="Thủ công hủy đăng ký Service Worker của trang" title="Thủ công hủy đăng ký Service Worker của trang">thủ công hủy đăng ký Service Worker của trang</a> sẽ giúp giải quyết hầu hết các vấn đề.
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -354,12 +336,12 @@ aside:
     sort_order: 9 # Don't modify the setting unless you know how it works
   card_post_series:
     enable: true
-    series_title: false # The title shows the series name
+    series_title: true # The title shows the series name
     orderBy: "date" # Order by title or date
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
 # busuanzi count for PV / UV in site
-# 訪問人數
+# Số lượng khách
 busuanzi:
   site_uv: true
   site_pv: true
@@ -370,7 +352,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 08/22/2023 05:20:00
+  publish_date: 06/06/2024 05:20:00
   #格式: 月/日/年 时间
   #也可以写成 年/月/日 时间
 # 08/22/2023 05:47:00
@@ -379,9 +361,9 @@ runtimeshow:
 newest_comments:
   enable: true
   sort_order: # Don't modify the setting unless you know how it works
-  limit: 6 #显示的数量
-  storage: 10 # 设置缓存时间，单位 分钟unit: mins, save data to localStorage
-  avatar: true #是否显示头像
+  limit: 6 
+  storage: 10 # Đặt thời gian cache theo đơn vị phút: phút, lưu dữ liệu vào localStorage
+  avatar: true # Có hiển thị hình đại diện không
 
 ###############################################
 # 自定义添加栏目
@@ -393,7 +375,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (简繁转换)
 translate:
-  enable: true
+  enable: false
   # 默认按钮显示文字(网站是简体，应设置为'default: 繁')
   default: 简
   #网站默认语言，1: 繁体中文, 2: 简体中文
@@ -925,7 +907,7 @@ facebook_comments:
   user_id: # optional
   pageSize: 10 # The number of comments to show
   order_by: social # social/time/reverse_time
-  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+  lang: en_US # Language en_US/zh_CN/zh_TW and so on
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
@@ -938,15 +920,15 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: huyvu15.github.io 
+  repo: huyvu15/huyvu15.github.io 
   repo_id: R_kgDOMHLk0w 
-  category_id: DIC_kwDOMHLk084CgTi9 # Giscus分类ID
+  category_id: DIC_kwDOMHLk084CgTi9
   theme:
     light: light 
     dark: dark 
   option:
-    data-category: "Show and tell" # 分类名称
-    data-mapping: url # 映射选项
+    data-category: "Show and tell"
+    data-mapping: url 
     data-strict: 0 
     data-reactions-enabled: 1 
     data-emit-metadata: 1 
@@ -1011,9 +993,9 @@ crisp:
 # messenger
 # https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/
 messenger:
-  enable: false
+  enable: true
   pageID:
-  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+  lang: en_US # Language en_US/zh_CN/zh_TW and so on
 
 # Analysis站点分析统计
 # ----------------------------------------------------------------------------
@@ -1101,11 +1083,7 @@ tag_ui: # 留空或 index
 # Stretches the lines so that each line has equal width（文字向两侧对齐，对最后一行无效）
 text_align_justify: true
 
-# Website Background (设置网站背景)
-# can set it to color or image (默认显示白色，可设置图片或者颜色)
-# 图片格式 url(http://xxxxxx.com/xxx.jpg)
-# 颜色（HEX值/RGB值/顔色单词/渐变色)
-# 留空 不显示背景
+
 background: url(/img/bg/bg1.png)
 
 # footer是否显示图片背景(与top_img一致)
@@ -1158,22 +1136,22 @@ canvas_nest:
   mobile: false
 
 fireworks:
-  enable: true
+  enable: false
   zIndex: 9999 # -1 or 9999
   mobile: false
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 clickShowText:
   enable: false
   text:
-    # - I
-    # - LOVE
-    # - YOU
+     - I
+     - LOVE
+     - YOU
   fontSize: 15px
   random: false
   mobile: false
@@ -1230,7 +1208,7 @@ subtitle:
   sub:
     - Sở dĩ ký ức đẹp là vì không ai có thể quay lại quá khứ
     - Cậu đẹp lắm, vì cậu không thuộc về tôi
-    - Yêu thương ấy, giờ như cơn gió thoảng qua đời tôi
+    - Yêu thương ấy, giờ như cơn gió thoảng mây trôi
 
     # - Never put off till tomorrow what you can do today
 
@@ -1361,17 +1339,16 @@ inject:
     # - <script data-pjax src="/js/404.js"></script>
 
 # CDN
-# Don't modify the following settings unless you know how they work
-# 非必要請不要修改
+# Không chỉnh sửa các thiết lập sau đây trừ khi bạn biết chúng hoạt động như thế nào
 CDN:
-  # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
+  # Nhà cung cấp CDN cho các tập lệnh nội bộ của chủ đề
   # option: local/jsdelivr/unpkg/cdnjs/custom
-  # Dev version can only choose. ( dev版的主題只能設置為 local )
+  # Phiên bản phát triển chỉ có thể chọn local
   internal_provider: local
 
-  # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
+  # Nhà cung cấp CDN cho các tập lệnh của bên thứ ba
   # option: local/jsdelivr/unpkg/cdnjs/custom
-  # when set it to local, you need to install hexo-butterfly-extjs
+  # khi đặt thành local, bạn cần cài đặt hexo-butterfly-extjs
   third_party_provider: jsdelivr
 
   # Add version number to url, true or false

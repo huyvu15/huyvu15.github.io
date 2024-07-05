@@ -2,8 +2,8 @@
 abbrlink: edeaa258
 categories:
 - QQbot
-cover: https://t.mwm.moe/fj/?10
-date: 2023-12-13 14:51
+cover: https://cellphones.com.vn/sforum/wp-content/uploads/2024/03/anh-hinh-nen-thien-nhien-anime-52.jpg
+date: 2024-02-03 14:51
 tags: QQbot
 title: ChatLearning
 ---

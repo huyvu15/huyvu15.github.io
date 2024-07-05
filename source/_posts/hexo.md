@@ -3,8 +3,8 @@ abbrlink: 8217ff3e
 categories:
 - Hexo
 - document
-cover: https://t.mwm.moe/fj/?25
-date: 2023-09-30 20:52
+cover: https://img.freepik.com/free-photo/anime-style-clouds_23-2151071781.jpg
+date: 2024-06-06 20:52
 tags:
 - Hexo
 title: Cách sử dụng nội dung chính trong bài đăng trên blog Hexo

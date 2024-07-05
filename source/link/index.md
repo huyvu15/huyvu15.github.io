@@ -20,7 +20,7 @@ Cảm ơn bạn đã có ý định hợp tác liên kết với blog của chú
 #### Cách 1 (Pull request) (Khuyến khích dùng nếu bạn có kiến thức về Github)
 
 1. Thêm liên kết blog của chúng tôi vào blog của bạn và cung cấp vị trí liên kết khi đăng ký.
-2. Nhấp vào liên kết [chỉnh sửa trên GitHub ↗️](https://github.com/W1ndys/blog.w1ndys.top/blob/main/source/_data/link.yml)
+2. Nhấp vào liên kết [chỉnh sửa trên GitHub ↗️](https://github.com/huyvu15/huyvu15.github.io/blob/main/source/_data/link.yml)
 3. Đọc hướng dẫn đầu trang
 4. Điền thông tin liên kết của bạn vào vị trí tương ứng, gửi pr và chờ duyệt
 5. Chú ý xem kỹ hướng dẫn thêm đã ghi chú
@@ -38,7 +38,7 @@ Gửi bảng câu hỏi: https://wj.qq.com/s2/14242478/062a/
 #### Cách 4 (Email)
 
 1. Thêm liên kết blog của chúng tôi vào blog của bạn và cung cấp vị trí liên kết khi đăng ký.
-2. Gửi email đăng ký liên kết đến [email của tôi](mailto:w1ndys@outlook.com), tiêu đề email xin gửi theo định dạng dưới đây
+2. Gửi email đăng ký liên kết đến [email của tôi](mailto:huyv80313@gmail.com), tiêu đề email xin gửi theo định dạng dưới đây
 3. Trong email cung cấp tên blog của bạn, địa chỉ blog, mô tả blog, vị trí liên kết và thông tin liên hệ của bạn.
 4. Chúng tôi sẽ kiểm tra và duyệt nhanh chóng sau khi nhận được email, nếu đạt yêu cầu sẽ thêm blog của bạn vào danh sách liên kết và thông báo cho bạn.
 
@@ -52,10 +52,10 @@ Dưới đây là thông tin liên kết của tôi, bạn có thể sao chép v
 <!-- tab butterfly -->
 
 ```yml
-- name: W1ndysの小屋 a
-  link: https://blog.w1ndys.top/
-  avatar: https://avatars.githubusercontent.com/u/109416673?v=4
-  descr: 欲戴皇冠，必承其重
+- name: GluTis a
+  link: https://huyvu15.github.io/
+  avatar: https://vi.pngtree.com/freepng/cute-cartoon-water-drop-floating-with-planet_14971204.html
+  descr: Muốn làm nên việc lớn, phải chịu được khó khăn.
 ```
 
 <!-- endtab -->
@@ -64,10 +64,10 @@ Dưới đây là thông tin liên kết của tôi, bạn có thể sao chép v
 
 ```yml
 - {
-    title: "W1ndysの小屋",
-    intro: "欲戴皇冠，必承其重",
-    link: "https://blog.w1ndys.top/",
-    avatar: "https://avatars.githubusercontent.com/u/109416673?v=4",
+    title: "GluTis",
+    intro: "Muốn làm nên việc lớn, phải chịu được khó khăn.",
+    link: "https://huyvu15.github.io/",
+    avatar: "https://vi.pngtree.com/freepng/cute-cartoon-water-drop-floating-with-planet_14971204.html",
   }
 ```
 
@@ -76,10 +76,10 @@ Dưới đây là thông tin liên kết của tôi, bạn có thể sao chép v
 <!-- tab anzhiyu -->
 
 ```yml
-- name: W1ndysの小屋a
-  link: https://blog.w1ndys.top/
-  avatar: https://avatars.githubusercontent.com/u/109416673?v=4
-  descr: 欲戴皇冠，必承其重
+- name: GluTisa
+  link: https://huyvu15.github.io/
+  avatar: https://vi.pngtree.com/freepng/cute-cartoon-water-drop-floating-with-planet_14971204.html
+  descr: Muốn làm nên việc lớn, phải chịu được khó khăn.
 ```
 
 <!-- endtab -->
@@ -87,24 +87,24 @@ Dưới đây là thông tin liên kết của tôi, bạn có thể sao chép v
 <!-- tab ☀️Volantis-->
 
 ```yml
-- name: W1ndysの小屋a
-  link: https://blog.w1ndys.top/
-  avatar: https://avatars.githubusercontent.com/u/109416673?v=4
-  descr: 欲戴皇冠，必承其重
+- name: GluTis
+  link: https://huyvu15.github.io/
+  avatar: https://vi.pngtree.com/freepng/cute-cartoon-water-drop-floating-with-planet_14971204.html
+  descr: Muốn làm nên việc lớn, phải chịu được khó khăn.
 ```
 
 <!-- endtab -->
 
 <!-- tab  🌴General-->
 
-| 名称       | 数值                                                  |
+| Tên        | Giá trị                                                  |
 | ---------- | ----------------------------------------------------- |
-| 站点名称   | W1ndys の小屋                                         |
-| 站点链接   | https://blog.w1ndys.top/                              |
-| 站长头像   | https://avatars.githubusercontent.com/u/109416673?v=4 |
-| 站点描述   | 欲戴皇冠，必承其重                                    |
-| 站点关键词 | W1ndys, 个人博客， 生活，技术，网络安全，道观         |
-| 站点主题色 | #49B1F5                                               |
+| Tên trang  | GluTis                                       |
+| Liên kết trang   | https://huyvu15.github.io/                              |
+| Ảnh đại diện chủ trang  | https://vi.pngtree.com/freepng/cute-cartoon-water-drop-floating-with-planet_14971204.html |
+| Mô tả trang  | Muốn làm nên việc lớn, phải chịu được khó khăn.                                   |
+| Từ khóa trang | GluTis, blog cá nhân, cuộc sống, công nghệ, trên mây         |
+| Màu chủ đề của trang | #49B1F5                                               |
 
 <!-- endtab -->
 

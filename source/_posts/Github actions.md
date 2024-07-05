@@ -6,7 +6,7 @@ tags:
 categories:
   - Technical guide
   - Github
-cover: "https://miro.medium.com/v2/resize:fit:720/format:webp/0*YheSSavGXXmi-Md0.png"
+cover: https://vinahost.vn/wp-content/uploads/2023/09/github-la-gi-5.jpg
 abbrlink: dce14753
 date: 2024-04-29 17:34:12
 ---

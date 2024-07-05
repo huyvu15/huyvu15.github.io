@@ -1,10 +1,3 @@
-# class_name 所创建的 widget 父类 class 名 （可选）
-# id_name 所创建的 widget 父类 id 名（可选）
-# name 所创建的 widget 标题
-# icon 所创建的 widget 图标
-# order 所创建的 widget 排序 （可选）
-# html 所创建的 widget 相关代码
-
 # top:
   # - class_name:
   #   id_name:
@@ -22,8 +15,13 @@ bottom:
     html: '<script data-pjax id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HPYFt9znqKItrHZ/quote.js?theme=#4C4948,#4C4948,#4C4948,#4C4948,#FFFFFF,#176CE4,13&col=true&f=12"></script>'
   - class_name: "widget"
     id_name: ad
-    name: Easy-QFNU đang được sản xuất
+    name: Tele-Bot đang được sản xuất
     icon: fas fa-tools
     order: 7
-    html: Địa chỉ：<a href="https://Easy-qfnu.top/">https://Easy-qfnu.top/</a>
-
+    html: Địa chỉ:<a href="https://github.com/huyvu15/TeleBot">Tele-Bot</a>
+  - class_name: user-map
+    id_name: user-map
+    name: Bản đồ khách truy cập
+    icon: fas fa-heartbeat
+    order:
+    html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YyisiI_JQDzl57otdyUb0Fc3dT9wziGBjJPzZFJVkaY"></script>'

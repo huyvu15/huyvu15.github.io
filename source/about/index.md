@@ -8,9 +8,9 @@ layout: about
 
 Blog cá nhân của tôi bắt đầu vào ngày 2024-06-9 18:48:55
 
-<center> <font color='red'>“Muốn đội vương miện thì phải chịu được sức nặng của nó”  </font> </center> <br/>
+<center> <font color='red'>"Muốn làm nên việc lớn, phải chịu được khó khăn."  </font> </center> <br/>
 
-Khi có người trao cho bạn chiếc mũ của `thần`, bạn nên cân nhắc làm sao để đội chiếc mũ đó, làm sao để giữ nó trên đầu mình mà không bị rơi.
+Khi có người trao cho bạn `trọng trách` lớn, bạn nên cân nhắc làm sao để hoàn thành nhiệm vụ đó, làm sao để giữ vững tinh thần và không bỏ cuộc.
 
 <div style="text-align: right;">
 	——————————“Vị thần vĩ đại” mà bạn nghĩ
