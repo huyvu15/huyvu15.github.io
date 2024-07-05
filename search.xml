@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Tìm hiểu Jenkins</title>
+      <link href="/posts/1r6d393f.html"/>
+      <url>/posts/1r6d393f.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> CI/CD </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Jenkins </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Kiến thức nền tảng Git</title>
       <link href="/posts/git111f.html"/>
       <url>/posts/git111f.html</url>
@@ -91,7 +116,7 @@
       <link href="/posts/1r6d39ff.html"/>
       <url>/posts/1r6d39ff.html</url>
       
-        <content type="html"><![CDATA[<p>Thời lượng 9 giờ 32 phút. Gồm 69 bài học. Hoàn thành có chứng chỉ.</p><h1 id="những-điều-giúp-mọi-người-thành-công-trong-series-devops">Những điều giúp mọi người thành công trong series Devops</h1><p>Devops là một ngành mới.</p><h2 id="devops-là-gì">Devops là gì?</h2><p>Là tổ hợp văn hóa con người và công cụ. Điều đầu tiên là biết sử dụng các quy trình công nghệ giúp tối ưu quy trình làm việc. Tìm ra phương án phù hợp cho tổ chức.</p><p>Khi làm những việc lặp đi lặp lại. Cta luôn muốn nó tự động. Cái bạn cần nắm được là công cụ</p><p>Để thuận tiện cho học series này cần 1 máy tính 16GB Ram.</p><p>Nội dung:</p><ul><li>Tập chung vào thực hành cụ thể</li><li>Linux: Cách triển khai mọi dự án trên linux</li><li>Git: host server cá nhân</li><li>Docker: làm sao docker hóa mọi dự án</li><li>CI/CD: tối ưu quy trình. Làm sao 1 click triển khai 1 dự án</li><li>Jenkins: tự động hóa everything</li><li>Monitoring: Giám sát mọi thứ. Chỉ cần ngồi chơi khi gặp vấn đề nó sẽ tự cảnh bảo đến bạn</li></ul><h1 id="linux">Linux</h1><h2 id="tại-sao-lại-sử-dụng-linux">Tại sao lại sử dụng Linux?</h2><p>Kiến thức quan trọng nhất của 1 Devops.</p><p>6 ưu điểm của sử dụng linux:</p><ol><li>TỐi ưu hiệu suất và chi phí do chỉ dùng các dòng lệnh.</li><li>Bảo mật và ổn định.</li><li>Khả năng quản lý truy cập mạnh mẽ</li><li>Ổn định, Tương thích đa nền tảng</li><li>Khả năng kiểm soát và linh hoạt</li><li>Cộng đồng phát triển lớn (Những người có kiến thức về công nghệ)</li></ol><h2 id="cài-đặt-máy-ảo-linux-ubuntu">Cài đặt máy ảo Linux, Ubuntu</h2><h2 id="none"></h2>]]></content>
+        <content type="html"><![CDATA[<p>Thời lượng 9 giờ 32 phút. Gồm 69 bài học. Hoàn thành có chứng chỉ.</p><h1 id="những-điều-giúp-mọi-người-thành-công-trong-series-devops">Những điều giúp mọi người thành công trong series Devops</h1><p>Devops là một ngành mới.</p><h2 id="devops-là-gì">Devops là gì?</h2><p>Là tổ hợp văn hóa con người và công cụ. Điều đầu tiên là biết sử dụng các quy trình công nghệ giúp tối ưu quy trình làm việc. Tìm ra phương án phù hợp cho tổ chức.</p><p>Khi làm những việc lặp đi lặp lại. Cta luôn muốn nó tự động. Cái bạn cần nắm được là công cụ</p><p>Để thuận tiện cho học series này cần 1 máy tính 16GB Ram.</p><p>Nội dung:</p><ul><li>Tập chung vào thực hành cụ thể</li><li>Linux: Cách triển khai mọi dự án trên linux</li><li>Git: host server cá nhân</li><li>Docker: làm sao docker hóa mọi dự án</li><li>CI/CD: tối ưu quy trình. Làm sao 1 click triển khai 1 dự án</li><li>Jenkins: tự động hóa everything</li><li>Monitoring: Giám sát mọi thứ. Chỉ cần ngồi chơi khi gặp vấn đề nó sẽ tự cảnh bảo đến bạn</li></ul><h1 id="linux">Linux</h1><h2 id="tại-sao-lại-sử-dụng-linux">Tại sao lại sử dụng Linux?</h2><p>Kiến thức quan trọng nhất của 1 Devops.</p><p>6 ưu điểm của sử dụng linux:</p><ol><li>TỐi ưu hiệu suất và chi phí do chỉ dùng các dòng lệnh.</li><li>Bảo mật và ổn định.</li><li>Khả năng quản lý truy cập mạnh mẽ</li><li>Ổn định, Tương thích đa nền tảng</li><li>Khả năng kiểm soát và linh hoạt</li><li>Cộng đồng phát triển lớn (Những người có kiến thức về công nghệ)</li></ol><h1 id="cài-đặt-máy-ảo-linux-ubuntu">Cài đặt máy ảo Linux, Ubuntu</h1><h1 id="git-github">Git, Github</h1><p>Thứ tự các branch trong git: main --&gt; stagging --&gt; develop --&gt; features</p><h1 id="ci-cd">CI/CD</h1><h2 id="ci-cd-là-gì">CI/CD là gì?</h2><p>CI: Clone code build dự án, test, tích hợp</p><p>CD: Triển khai tự động, hoàn toàn (1 bước triển khai)</p><h2 id="công-cụ">Công cụ</h2><p>Gitlab, Jenkins</p><h2 id="tại-sao-ci-cd-lại-quan-trọng-đến-vậy">Tại sao CI/CD lại quan trọng đến vậy</h2><p>Tối ưu trực tiếp các tài nguyên của công ty. Chuyển sang Devops được thuận lợi.</p><p>CI/CD riêng đối với từng hệ thống, doanh nghiệp</p>]]></content>
       
       
       <categories>

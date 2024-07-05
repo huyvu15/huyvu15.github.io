@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-04T13:11:36.041Z</updated>
+  <updated>2024-07-05T10:56:26.356Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tìm hiểu Jenkins</title>
+    <link href="https://huyvu15.github.io/posts/1r6d393f"/>
+    <id>https://huyvu15.github.io/posts/1r6d393f</id>
+    <published>2024-07-05T10:35:12.000Z</published>
+    <updated>2024-07-05T10:56:26.356Z</updated>
+    
+    
+    
+    
+    <category term="CI/CD" scheme="https://huyvu15.github.io/categories/CI-CD/"/>
+    
+    
+    <category term="Jenkins" scheme="https://huyvu15.github.io/tags/Jenkins/"/>
+    
+  </entry>
   
   <entry>
     <title>Kiến thức nền tảng Git</title>
@@ -107,7 +124,7 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <link href="https://huyvu15.github.io/posts/1r6d39ff"/>
     <id>https://huyvu15.github.io/posts/1r6d39ff</id>
     <published>2024-06-30T17:00:12.000Z</published>
-    <updated>2024-07-01T15:43:11.987Z</updated>
+    <updated>2024-07-05T09:26:56.608Z</updated>
     
     
       
@@ -609,41 +626,6 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mẹo hay cho máy tính của bạn</title>
-    <link href="https://huyvu15.github.io/posts/13t2c31"/>
-    <id>https://huyvu15.github.io/posts/13t2c31</id>
-    <published>2024-06-10T05:17:12.000Z</published>
-    <updated>2024-06-27T10:53:51.237Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;mẹo-hay-cho-my-laptop&quot;&gt;Mẹo hay cho my laptop:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Window + R :&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;gõ cmd&lt;br&gt;
-tiếp sau đó gõ netsh</summary>
-        
-      
-    
-    
-    
-    <category term="Windows" scheme="https://huyvu15.github.io/categories/Windows/"/>
-    
-    
-    <category term="CMD" scheme="https://huyvu15.github.io/tags/CMD/"/>
-    
-    <category term="Laptop" scheme="https://huyvu15.github.io/tags/Laptop/"/>
-    
-    <category term="Hacker" scheme="https://huyvu15.github.io/tags/Hacker/"/>
     
   </entry>
   
