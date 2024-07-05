@@ -1,0 +1,479 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Kiến thức nền tảng Git | Blog's GluTis</title><meta name="author" content="GluTis,huyv80313@gmail.com"><meta name="copyright" content="GluTis"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="FFFAFA"><meta name="description" content="Giới thiệu Git là gì? Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề nào đó. Các thành viên trong nhóm đề có thể chỉnh sửa và đóng góp ý kiến 3 bản đóng góp:  Git dev Git Stag: cho kiểm thử">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kiến thức nền tảng Git">
+<meta property="og:url" content="https://huyvu15.github.io/posts/git111f">
+<meta property="og:site_name" content="Blog&#39;s GluTis">
+<meta property="og:description" content="Giới thiệu Git là gì? Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề nào đó. Các thành viên trong nhóm đề có thể chỉnh sửa và đóng góp ý kiến 3 bản đóng góp:  Git dev Git Stag: cho kiểm thử">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://intech.vietnamworks.com/media/gallery/2024/03/02/65e3414547fdd.jpg">
+<meta property="article:published_time" content="2024-07-04T09:35:12.000Z">
+<meta property="article:modified_time" content="2024-07-04T13:11:36.041Z">
+<meta property="article:author" content="GluTis">
+<meta property="article:tag" content="Git">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://intech.vietnamworks.com/media/gallery/2024/03/02/65e3414547fdd.jpg"><link rel="shortcut icon" href="/img/about/icon.jpg"><link rel="canonical" href="https://huyvu15.github.io/posts/git111f"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="G2rPpjA8qhdAQYUqgC3WTFeaOfenZ71SWXKcg_WnOSk"/><meta name="baidu-site-verification" content="codeva-z19ndifHai"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?204a6d3bb0cb0e09978eff5ba3023104";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "kmd11rvmc3");</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":30,"position":"top","messagePrev":"Bài viết này đã có","messageNext":"Ngày không cập nhật, xin lưu ý phân biệt tính kịp thời, có thể một phần đã không còn hiệu lực."},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":500},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"Author: GluTis","link":"Link: ","source":"Source: Blog's GluTis","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source."}},
+  lightbox: 'mediumZoom',
+  Snackbar: {"chs_to_cht":"You have switched to Traditional Chinese","cht_to_chs":"You have switched to Simplified Chinese","day_to_night":"You have switched to Dark Mode","night_to_day":"You have switched to Light Mode","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Kiến thức nền tảng Git',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-07-04 20:11:36'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'FFFAFA')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/card-info-btn.css"><script data-pjax charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script data-pjax>LA.init({id:"3HPYFt9znqKItrHZ",ck:"3HPYFt9znqKItrHZ",autoTrack:true})</script><link rel="stylesheet" type="text/css" href="/css/Capoo.css"><link rel="stylesheet" type="text/css" href="/css/foot.css"><link rel="stylesheet" type="text/css" href="/css/extra.css"><meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="Blog's GluTis" type="application/atom+xml">
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/about/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">34</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">73</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">42</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/#/"><i class="fa-fw fas fa-home"></i><span> Trang chủ</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tag</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-pencil"></i><span> Project</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/posts/13t2c31/"><i class="fa-fw fa fa-arrow-up"></i><span> Hướng dẫn lựa chọn khóa học</span></a></li><li><a class="site-page child" href="/posts/2c6d396f/"><i class="fa-fw fa fa-arrow-down"></i><span> Hướng dẫn chạy tốc độ</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="https://huyvu15.github.io/portfolio/"><i class="fa-fw fas fa-bed"></i><span> Me</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://huyvu15.click/"><i class="fa-fw fas fa-map"></i><span> Điều hướng</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://intech.vietnamworks.com/media/gallery/2024/03/02/65e3414547fdd.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Blog's GluTis"><img class="site-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/about/icon.jpg"/><span class="site-name">Blog's GluTis</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/#/"><i class="fa-fw fas fa-home"></i><span> Trang chủ</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tag</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-pencil"></i><span> Project</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/posts/13t2c31/"><i class="fa-fw fa fa-arrow-up"></i><span> Hướng dẫn lựa chọn khóa học</span></a></li><li><a class="site-page child" href="/posts/2c6d396f/"><i class="fa-fw fa fa-arrow-down"></i><span> Hướng dẫn chạy tốc độ</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="https://huyvu15.github.io/portfolio/"><i class="fa-fw fas fa-bed"></i><span> Me</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://huyvu15.click/"><i class="fa-fw fas fa-map"></i><span> Điều hướng</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Kiến thức nền tảng Git<a class="post-edit-link" href="https://github.com/huyvu15/huyvu15.github.io/tree/main/source/_posts/Git.md" title="Edited on" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-07-04T09:35:12.000Z" title="Created 2024-07-04 16:35:12">2024-07-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-07-04T13:11:36.041Z" title="Updated 2024-07-04 20:11:36">2024-07-04</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Git/">Git</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">1.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>6mins</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Kiến thức nền tảng Git"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="giới-thiệu">Giới thiệu</h1>
+<p>Git là gì?<br>
+Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề nào đó. Các thành viên trong nhóm đề có thể chỉnh sửa và đóng góp ý kiến</p>
+<p>3 bản đóng góp:</p>
+<ul>
+<li>Git dev</li>
+<li>Git Stag: cho kiểm thử</li>
+<li>Git production: Sẵn sàng cho người dùng cuối</li>
+</ul>
+<p>Sử dụng git có tác dụng:</p>
+<ul>
+<li>Nhiều người có thể đóng góp vào một dự án</li>
+<li>Theo dõi thay đổi</li>
+<li>Kiểm soát truy cập</li>
+<li>Quản lý phiên bản</li>
+<li>Sao lưu và khôi phục</li>
+</ul>
+<h1 id="git-architect">Git Architect</h1>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://media.licdn.com/dms/image/D4D22AQE5Ch8nrJA3FQ/feedshare-shrink_2048_1536/0/1696166511493?e=2147483647&amp;v=beta&amp;t=3MXM6n2dmxLv8TZVUohb7DBgy-Awv_09Tlgb-uKPI9U" alt=""></p>
+<ul>
+<li>Working: là nơi chứa các file chỉnh sửa của bạn</li>
+<li>Staging: lựa chọn file và cân nhắc nó</li>
+<li>Local: Những file chọn và cam kết đẩy lên</li>
+</ul>
+<h1 id="lệnh-git">Lệnh Git</h1>
+<p>git merge --allow-unrelated-histories branch1 branch2: lệnh gộp 2 nhánh của remote và máy tính</p>
+<ul>
+<li>Git status: hiển thị trang thái của thư mục hiện tại</li>
+<li>Git log: hiển thị lịch sử commit</li>
+<li>Git init [repo_name]: tạo kho lưu trữ trống</li>
+<li>Git clone (Repo_name): tải code về</li>
+<li>Git _ config-l :xem cấu hình hiện tải</li>
+</ul>
+<h2 id="quy-trình-up-code-đầy-đủ">quy trình up code  đầy đủ:</h2>
+<ol>
+<li>Git init</li>
+<li>Ls: xem các file để up</li>
+<li>Git status: xem trạng thái(đỏ là chưa đc git add.)</li>
+<li>Echo “nội dung” &gt; <a target="_blank" rel="noopener" href="http://README.md">README.md</a>: hình như file readme nó tự tạo sau câu lệnh này</li>
+<li>git commit -m “ …“: thêm comment khi commit</li>
+</ol>
+<p>git log: thông tin lần commit lần nhất và ghi chú -m nãy(xem lại lịch sử)<br>
+Git diff: so sánh sự khác nhau<br>
+Git status: xem lại thay đổi file(modified: có thay đổi trong file và đều màu đỏ)</p>
+<ul>
+<li>Cấu hình file gitignore để bỏ qua các file ko cần giám sát</li>
+</ul>
+<h3 id="bỏ-qua-file-log">bỏ qua file log</h3>
+<p>*.log: bỏ qua các file.log</p>
+<h3 id="bỏ-qua-thư-mục">bỏ qua thư mục</h3>
+<p>Mode1/</p>
+<ul>
+<li>touch .gitignore: tạo file .gitignore</li>
+</ul>
+<h2 id="tương-tác-với-remote-repository-làm-vc-với-nhóm">tương tác với remote repository(làm vc với nhóm)</h2>
+<ul>
+<li>Git init –bare: tạo 1 centrel Reposi</li>
+<li>Git clone [repo_name][clone_name]: sao chép liên kết repo_name</li>
+<li>Git fetch: lấy các thông tin về commit mới từ centre</li>
+<li>Git pull : lấy toàn bộ dữ liệu commit mới về local repo</li>
+<li>Git push:<br>
+Git config –local <a target="_blank" rel="noopener" href="http://user.name">user.name</a> ‘developer_1’:cấu hình cho người làm ra hành động đó</li>
+</ul>
+<p>Git fetch: kiểm tra cái thông tin của mình và của centrelRepo có thay đổi gì ko</p>
+<ul>
+<li>làm sao để dev2 biết có thông tin gì trên centrelRepo<br>
+Git fetch</li>
+</ul>
+<p>Để kéo về dùng git pull: file ở centrelRepo kéo về Dev2</p>
+<ul>
+<li>chuyển đổi giữa các commit trong git<br>
+Giúp cta quay lại bất kỳ commit nào</li>
+</ul>
+<ul>
+<li>Git log: xem lại lịch sử có show ra đoạn mã màu vàng</li>
+<li>Git checkout &lt;tầm5 6  ký tự đoạn mã vàng&gt; duy chuyển giữa lần commit ở đoạn mã vàng(head) là cái hiện tại và tiếp tục làm việc từ đó</li>
+<li>q! : thoát chế độ không nhập đc lệnh trong git<br>
+Git diff hiển thị những thay đổi của commit trước đó<br>
+Git rm &lt;file_name&gt;: xóa file<br>
+Git mv &lt;file_name_olf&gt; &lt;file_name_new&gt;: đổi tên<br>
+Git checkout &lt;file_name&gt;: hoàn tác thao tác trước đó về commit gần nhất<br>
+Git reset: ví dụ khi add file nào đó mà nó đã hiện lên trạng thái màu xanh(đã cam kết rồi ) thì mình dùng lệnh này để hủy cam kết đó thành màu đỏ<br>
+Git reset head &lt;file_name&gt;: hủy cam kết 1 file bất kỳ<br>
+Git commit –amend: mở đoạn văn bản mô tả sửa nó, đoạn này sẽ đc ghi đè lên commit trước đó<br>
+Git revert: tạo ra 1 commit mới trái ngược với các commit trước đó(ko có nghĩa là khôi phục). Nếu thêm head vào thì nó sẽ khôi phục commit trước đó<br>
+Git log -n: xem id_commit thứ n trước đó</li>
+</ul>
+<h2 id="working-with-branch">Working with branch</h2>
+<p>git branch &lt;name_branch&gt;: tạo 1 nhánh<br>
+Git checkout &lt;name_branch&gt;: chuyển sang 1 nhánh khác<br>
+Git checkout -b &lt;name_branch&gt;:  tạo 1 nhánh và chuyển sang nhánh đó luôn<br>
+Git branch -d &lt;name_branch&gt;: xóa nhánh<br>
+Git merge &lt;name_branch_merge&gt;: hợp branch đã chọn kia vào branch hiện tại<br>
+Trường hợp xảy ra xung đột: chỉ cần vào file có xung đột sau đó loại bỏ phần giống nhau giữ lai phần head là ok<br>
+Git log –graph –oneline: để xem các thay đổi dưới dạng đồ thị giúp hiểu rõ hơn các trường hợp commit<br>
+Git remote -v : kiểm tra repository hiện tại đang làm việc<br>
+Git remote show origin:câu lệnh hiện thị chi tiết hơn câu lệnh ở trên<br>
+Git rebase -i: thì nó hiện ra cái bảng tất cả commit trước đó và mình có thể xem 1 cách chi tiết nó</p>
+<h1 id="git-workflow">Git WorkFlow</h1>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://media.licdn.com/dms/image/D5612AQFsGUrirGzzbA/article-cover_image-shrink_600_2000/0/1690820727506?e=2147483647&amp;v=beta&amp;t=h3jRh5QqimKlu9FV5q94i3iszGfNm2Kc9DsTBDxtn90" alt=""></p>
+<ul>
+<li>Nhánh ‘main’ chứa code môi trường người dùng</li>
+<li>Nhánh ‘devolop’ chứa code môi trường phát triển</li>
+<li>Nhánh ‘features’ được tạo từ nhánh develop chứa code các chức năng</li>
+<li>Nhánh ‘release’ chứa code môi trường thử nghiệm</li>
+<li>nhánh ‘hotfix’ được tạo ra từ nhánh main</li>
+</ul>
+<h1 id="ci-cd-với-github">CI/CD với Github</h1>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAABUoTg0hRIRysVXsNZg21ojLCOSsljUElA&amp;s" alt=""></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://huyvu15.github.io">GluTis</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://huyvu15.github.io/posts/git111f">https://huyvu15.github.io/posts/git111f</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Git/">Git</a></div><div class="post_share"><div class="social-share" data-image="https://intech.vietnamworks.com/media/gallery/2024/03/02/65e3414547fdd.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>Sponsor</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/money/wechat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/money/wechat.png" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/money/alipay.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/money/alipay.png" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/1r6d393f" title="Tìm hiểu Jenkins"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://media.licdn.com/dms/image/D4D12AQHhnS4D-dKDkA/article-cover_image-shrink_720_1280/0/1699334910070?e=2147483647&amp;v=beta&amp;t=7ZtWMPPzqkY7eRltlThto2YYLHR8TkoymD8EkwQy298" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous</div><div class="prev_info">Tìm hiểu Jenkins</div></div></a></div><div class="next-post pull-right"><a href="/posts/artf393f" title="Làm chủ nghệ thuật nhiếp ảnh đường phố điện ảnh"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://binhminhdigital.com/StoreData/images/PageData/nhiep-anh-lieu-phap-cai-thien-suc-khoe-tinh-than-danh-cho-ban3.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next</div><div class="next_info">Làm chủ nghệ thuật nhiếp ảnh đường phố điện ảnh</div></div></a></div></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#gi%E1%BB%9Bi-thi%E1%BB%87u"><span class="toc-number">1.</span> <span class="toc-text">Giới thiệu</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#git-architect"><span class="toc-number">2.</span> <span class="toc-text">Git Architect</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#l%E1%BB%87nh-git"><span class="toc-number">3.</span> <span class="toc-text">Lệnh Git</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#quy-tr%C3%ACnh-up-code-%C4%91%E1%BA%A7y-%C4%91%E1%BB%A7"><span class="toc-number">3.1.</span> <span class="toc-text">quy trình up code  đầy đủ:</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#b%E1%BB%8F-qua-file-log"><span class="toc-number">3.1.1.</span> <span class="toc-text">bỏ qua file log</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#b%E1%BB%8F-qua-th%C6%B0-m%E1%BB%A5c"><span class="toc-number">3.1.2.</span> <span class="toc-text">bỏ qua thư mục</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#t%C6%B0%C6%A1ng-t%C3%A1c-v%E1%BB%9Bi-remote-repository-l%C3%A0m-vc-v%E1%BB%9Bi-nh%C3%B3m"><span class="toc-number">3.2.</span> <span class="toc-text">tương tác với remote repository(làm vc với nhóm)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#working-with-branch"><span class="toc-number">3.3.</span> <span class="toc-text">Working with branch</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#git-workflow"><span class="toc-number">4.</span> <span class="toc-text">Git WorkFlow</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#ci-cd-v%E1%BB%9Bi-github"><span class="toc-number">5.</span> <span class="toc-text">CI&#x2F;CD với Github</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 By GluTis</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://butterfly.js.org/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid@10.8.0/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const abcjsInit = () => {
+    const abcjsFn = () => {
+      document.querySelectorAll(".abc-music-sheet").forEach(ele => {
+        ABCJS.renderAbc(ele, ele.innerHTML, {responsive: 'resize'})
+      })
+    }
+    
+    typeof ABCJS === 'object' ? abcjsFn()
+      : getScript('https://cdn.jsdelivr.net/npm/abcjs@6.3.0/dist/abcjs-basic-min.min.js').then(abcjsFn)
+  }
+
+  window.pjax ? abcjsInit() : window.addEventListener('load', abcjsInit)
+})()</script><script>(()=>{
+  const getGiscusTheme = theme => {
+    return theme === 'dark' ? 'dark' : 'light'
+  }
+
+  const loadGiscus = () => {
+    const config = Object.assign({
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'huyvu15/huyvu15.github.io',
+      'data-repo-id': 'R_kgDOMHLk0w',
+      'data-category-id': 'DIC_kwDOMHLk084CgTi9',
+      'data-mapping': 'pathname',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true
+    },{"data-category":"Show and tell","data-mapping":"url","data-strict":0,"data-reactions-enabled":1,"data-emit-metadata":1,"data-input-position":"top","data-theme":"preferred_color_scheme","data-lang":"en","crossorigin":"anonymous"})
+
+    const ele = document.createElement('script')
+    for (let key in config) {
+      ele.setAttribute(key, config[key])
+    }
+    document.getElementById('giscus-wrap').appendChild(ele)
+  }
+
+  const changeGiscusTheme = theme => {
+    const sendMessage = message => {
+      const iframe = document.querySelector('iframe.giscus-frame')
+      if (!iframe) return
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app')
+    }
+
+    sendMessage({
+      setConfig: {
+        theme: getGiscusTheme(theme)
+      }
+    });
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if ('Giscus' === 'Giscus' || !true) {
+    if (true) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment= loadGiscus
+  }
+})()</script></div><script data-pjax src="/js/foot.js"></script><script data-pjax src="/js/ip.js"></script><script data-pjax src="/js/Capoo.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/click-heart.min.js" async="async" mobile="false"></script><div class="fb-customerchat" id="fb-customer-chat" attribution="biz_inbox"></div><script>(() => {
+  document.getElementById('fb-root') ? '' : document.body.insertAdjacentHTML('afterend', '<div id="fb-root"></div>')
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml: true,
+      version: 'v16.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+  const isChatBtn = false
+  const isChatHideShow = false
+
+  if (isChatBtn) {
+    window.chatBtnFn = () => {
+      const isShow = document.querySelector('.fb_customer_chat_bounce_in_v2')
+      isShow ? FB.CustomerChat.hide() : FB.CustomerChat.show()
+    }
+  } else if (isChatHideShow) {
+    window.chatBtn = {
+      hide: () => {
+        FB.CustomerChat.hide()
+      },
+      show: () => {
+        FB.CustomerChat.show(false)
+      }
+    }
+  }
+})()</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
