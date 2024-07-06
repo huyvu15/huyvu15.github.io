@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/1r6d1b3f
 https://huyvu15.github.io/posts/1r6d193f
 https://huyvu15.github.io/posts/1r6d39ff
 https://huyvu15.github.io/posts/git111f
@@ -110,6 +111,8 @@ https://huyvu15.github.io/tags/Art/
 https://huyvu15.github.io/tags/Photography/
 https://huyvu15.github.io/tags/Git/
 https://huyvu15.github.io/tags/Jenkins/
+https://huyvu15.github.io/tags/How/
+https://huyvu15.github.io/tags/Love/
 https://huyvu15.github.io/categories/DE/
 https://huyvu15.github.io/categories/Computer-Vision/
 https://huyvu15.github.io/categories/QQbot/
@@ -152,3 +155,4 @@ https://huyvu15.github.io/categories/Sharing/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/Git/
 https://huyvu15.github.io/categories/CI-CD/
+https://huyvu15.github.io/categories/Love/
