@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-05T13:37:46.835Z</updated>
+  <updated>2024-07-06T04:50:30.749Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Đứng dậy mạnh mẽ sau những cú sốc tình cảm, tìm lại bản thân</title>
+    <link href="https://huyvu15.github.io/posts/1r6d1b3f"/>
+    <id>https://huyvu15.github.io/posts/1r6d1b3f</id>
+    <published>2024-07-06T03:35:12.000Z</published>
+    <updated>2024-07-06T04:50:30.749Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Loi-dau&quot;&gt;&lt;a href=&quot;#Loi-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời đầu&quot;&gt;&lt;/a&gt;Lời đầu&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Love" scheme="https://huyvu15.github.io/categories/Love/"/>
+    
+    
+    <category term="How?" scheme="https://huyvu15.github.io/tags/How/"/>
+    
+    <category term="Love" scheme="https://huyvu15.github.io/tags/Love/"/>
+    
+  </entry>
   
   <entry>
     <title>Tìm hiểu Jenkins</title>
@@ -602,38 +629,6 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Model" scheme="https://huyvu15.github.io/tags/Model/"/>
     
     <category term="Bugs" scheme="https://huyvu15.github.io/tags/Bugs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Học gì để trở thành một Data Engineer</title>
-    <link href="https://huyvu15.github.io/posts/1r6d396f"/>
-    <id>https://huyvu15.github.io/posts/1r6d396f</id>
-    <published>2024-06-10T15:35:12.000Z</published>
-    <updated>2024-06-10T01:14:03.899Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;theory&quot;&gt;Theory&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;DA is developmenter, bult, test and contain knowledge: database, process big system&lt;/li&gt;
-&lt;li&gt;DA</summary>
-        
-      
-    
-    
-    
-    <category term="DE" scheme="https://huyvu15.github.io/categories/DE/"/>
-    
-    
-    <category term="DE" scheme="https://huyvu15.github.io/tags/DE/"/>
-    
-    <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
   </entry>
   
