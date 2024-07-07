@@ -1,0 +1,27 @@
+# top:
+  # - class_name:
+  #   id_name:
+  #   name:
+  #   icon:
+  #   order:
+  #   html:
+
+bottom:
+  - class_name: 51la
+    id_name: 51la
+    name: Thống kê 51la
+    icon: fa fa-rss-square
+    order: 8
+    html: '<script data-pjax id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HPYFt9znqKItrHZ/quote.js?theme=#4C4948,#4C4948,#4C4948,#4C4948,#FFFFFF,#176CE4,13&col=true&f=12"></script>'
+  - class_name: "widget"
+    id_name: ad
+    name: Tele-Bot đang được sản xuất
+    icon: fas fa-tools
+    order: 7
+    html: Địa chỉ:<a href="https://github.com/huyvu15/TeleBot">Tele-Bot</a>
+  - class_name: user-map
+    id_name: user-map
+    name: Bản đồ khách truy cập
+    icon: fas fa-heartbeat
+    order:
+    html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YyisiI_JQDzl57otdyUb0Fc3dT9wziGBjJPzZFJVkaY"></script>'
