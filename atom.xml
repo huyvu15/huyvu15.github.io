@@ -56,7 +56,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Jenkins-la-gi&quot;&gt;&lt;a href=&quot;#Jenkins-la-gi&quot; class=&quot;headerlink&quot; title=&quot;Jenkins là gì?&quot;&gt;&lt;/a&gt;Jenkins là gì?&lt;/h1&gt;&lt;h1</summary>
+    <summary type="html">&lt;h1 id=&quot;jenkins-là-gì&quot;&gt;Jenkins là gì?&lt;/h1&gt;
+&lt;h1 id=&quot;ci-cd-với-jenkins&quot;&gt;CI/CD với Jenkins&lt;/h1&gt;
+&lt;p&gt;Có những tools CI/CD nào: gitlab,</summary>
         
       
     
@@ -250,9 +252,9 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="DL" scheme="https://huyvu15.github.io/categories/AI/ML/DL/"/>
     
     
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
     <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="ML" scheme="https://huyvu15.github.io/tags/ML/"/>
     
@@ -277,13 +279,13 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Note" scheme="https://huyvu15.github.io/categories/Award/Note/"/>
     
     
-    <category term="Encrypted" scheme="https://huyvu15.github.io/tags/Encrypted/"/>
-    
     <category term="Me" scheme="https://huyvu15.github.io/tags/Me/"/>
     
     <category term="Note" scheme="https://huyvu15.github.io/tags/Note/"/>
     
     <category term="Award" scheme="https://huyvu15.github.io/tags/Award/"/>
+    
+    <category term="Encrypted" scheme="https://huyvu15.github.io/tags/Encrypted/"/>
     
   </entry>
   
@@ -300,7 +302,9 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
         
         
     <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Protect messeger: dùng để che, làm mờ tin nhắn khi nhắn tin với bạn bè trên facebook, nó sẽ tự&lt;br&gt;làm mờ, đảo ngược chữ của tên</summary>
+&lt;li&gt;
+&lt;p&gt;Protect messeger: dùng để che, làm mờ tin nhắn khi nhắn tin với bạn bè trên facebook, nó sẽ tự&lt;br&gt;
+làm mờ, đảo ngược chữ của</summary>
         
       
     
@@ -322,35 +326,6 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
   </entry>
   
   <entry>
-    <title>Ý tưởng tạo module hay và thú vị bởi các thuật toán trong machine learning</title>
-    <link href="https://huyvu15.github.io/posts/166d396f"/>
-    <id>https://huyvu15.github.io/posts/166d396f</id>
-    <published>2024-06-30T00:35:12.000Z</published>
-    <updated>2024-06-30T00:28:02.913Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Chả là ngày xưa lúc mới học machine learning tôi cũng hay mơ tưởng đến sức mạnh của các bài toán và công cụ machine learning. Hồi đó</summary>
-        
-      
-    
-    
-    
-    <category term="ML" scheme="https://huyvu15.github.io/categories/ML/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="ML" scheme="https://huyvu15.github.io/tags/ML/"/>
-    
-    <category term="Idea" scheme="https://huyvu15.github.io/tags/Idea/"/>
-    
-  </entry>
-  
-  <entry>
     <title>AI và một vài cái hay ho</title>
     <link href="https://huyvu15.github.io/posts/1r6d393f"/>
     <id>https://huyvu15.github.io/posts/1r6d393f</id>
@@ -362,7 +337,9 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Tuyen-dung-cua-meta&quot;&gt;&lt;a href=&quot;#Tuyen-dung-cua-meta&quot; class=&quot;headerlink&quot; title=&quot;Tuyển dụng của meta&quot;&gt;&lt;/a&gt;Tuyển dụng của</summary>
+    <summary type="html">&lt;h1 id=&quot;tuyển-dụng-của-meta&quot;&gt;Tuyển dụng của meta&lt;/h1&gt;
+&lt;p&gt;Có bài báo khoa học hoặc có đóng góp lớn&lt;/p&gt;
+&lt;h1 id=&quot;công-việc-thực-tế&quot;&gt;công việc</summary>
         
       
     
@@ -371,9 +348,9 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="AI" scheme="https://huyvu15.github.io/categories/AI/"/>
     
     
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
     <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
   </entry>
   
@@ -407,6 +384,35 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Hay ho" scheme="https://huyvu15.github.io/tags/Hay-ho/"/>
     
     <category term="Google" scheme="https://huyvu15.github.io/tags/Google/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ý tưởng tạo module hay và thú vị bởi các thuật toán trong machine learning</title>
+    <link href="https://huyvu15.github.io/posts/166d396f"/>
+    <id>https://huyvu15.github.io/posts/166d396f</id>
+    <published>2024-06-30T00:35:12.000Z</published>
+    <updated>2024-06-30T00:28:02.913Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Chả là ngày xưa lúc mới học machine learning tôi cũng hay mơ tưởng đến sức mạnh của các bài toán và công cụ machine learning. Hồi đó</summary>
+        
+      
+    
+    
+    
+    <category term="ML" scheme="https://huyvu15.github.io/categories/ML/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="ML" scheme="https://huyvu15.github.io/tags/ML/"/>
+    
+    <category term="Idea" scheme="https://huyvu15.github.io/tags/Idea/"/>
     
   </entry>
   
@@ -480,16 +486,14 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <link href="https://huyvu15.github.io/posts/tr6d096f"/>
     <id>https://huyvu15.github.io/posts/tr6d096f</id>
     <published>2024-06-28T18:35:12.000Z</published>
-    <updated>2024-07-07T09:11:51.300Z</updated>
+    <updated>2024-07-07T09:29:41.087Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;lời-mở-đầu&quot;&gt;Lời mở đầu&lt;/h1&gt;
-&lt;h2 id=&quot;ec2&quot;&gt;EC2&lt;/h2&gt;
-&lt;p&gt;Là một máy chủ ảo được tạo bởi AWS. Mình có thể tự cấu hình tùy chỉnh các</summary>
+    <summary type="html">&lt;h1 id=&quot;Loi-mo-dau&quot;&gt;&lt;a href=&quot;#Loi-mo-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời mở đầu&quot;&gt;&lt;/a&gt;Lời mở đầu&lt;/h1&gt;&lt;h2 id=&quot;EC2&quot;&gt;&lt;a href=&quot;#EC2&quot;</summary>
         
       
     
@@ -586,15 +590,15 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Hiểu biết" scheme="https://huyvu15.github.io/categories/Hieu-biet/"/>
     
     
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
     <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
     
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    <category term="Encrypted" scheme="https://huyvu15.github.io/tags/Encrypted/"/>
     
     <category term="Secure" scheme="https://huyvu15.github.io/tags/Secure/"/>
     
     <category term="Cần trả lời" scheme="https://huyvu15.github.io/tags/Can-tra-loi/"/>
-    
-    <category term="Encrypted" scheme="https://huyvu15.github.io/tags/Encrypted/"/>
     
   </entry>
   
