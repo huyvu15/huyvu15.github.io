@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/106e393f
 https://huyvu15.github.io/posts/1r6d1b3f
 https://huyvu15.github.io/posts/80cc5efe
@@ -116,6 +117,8 @@ https://huyvu15.github.io/tags/Crawl/
 https://huyvu15.github.io/tags/API/
 https://huyvu15.github.io/tags/Plan/
 https://huyvu15.github.io/tags/Implement/
+https://huyvu15.github.io/tags/Knowledge/
+https://huyvu15.github.io/tags/Challenge/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -160,3 +163,4 @@ https://huyvu15.github.io/categories/AWS/Hugo/
 https://huyvu15.github.io/categories/Hexo/document/
 https://huyvu15.github.io/categories/Need/Web/
 https://huyvu15.github.io/categories/Plan/
+https://huyvu15.github.io/categories/Challenge/

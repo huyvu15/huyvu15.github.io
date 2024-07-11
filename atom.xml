@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-09T00:07:22.040Z</updated>
+  <updated>2024-07-11T03:41:13.935Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Những challenge mà tôi đã tham gia</title>
+    <link href="https://huyvu15.github.io/posts/qwertyui"/>
+    <id>https://huyvu15.github.io/posts/qwertyui</id>
+    <published>2024-07-11T02:35:12.000Z</published>
+    <updated>2024-07-11T03:41:13.935Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;tại-sao-tôi-lại-tham-gia&quot;&gt;Tại sao tôi lại tham gia&lt;/h1&gt;
+&lt;h1 id=&quot;hust-alphathon&quot;&gt;Hust Alphathon&lt;/h1&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Challenge" scheme="https://huyvu15.github.io/categories/Challenge/"/>
+    
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
+    
+    <category term="Challenge" scheme="https://huyvu15.github.io/tags/Challenge/"/>
+    
+  </entry>
   
   <entry>
     <title>Quản trị sản xuất</title>
@@ -600,33 +629,6 @@ làm mờ, đảo ngược chữ của</summary>
     <category term="Blog" scheme="https://huyvu15.github.io/tags/Blog/"/>
     
     <category term="Journeys" scheme="https://huyvu15.github.io/tags/Journeys/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tìm Lại Kiến Thức Trong Tháng 6</title>
-    <link href="https://huyvu15.github.io/posts/0r6e292f"/>
-    <id>https://huyvu15.github.io/posts/0r6e292f</id>
-    <published>2024-06-27T05:17:12.000Z</published>
-    <updated>2024-06-27T11:12:54.174Z</updated>
-    
-    
-    <summary type="html">Nội dung này đã được mã hóa.</summary>
-    
-    
-    
-    <category term="Hiểu biết" scheme="https://huyvu15.github.io/categories/Hieu-biet/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
-    
-    <category term="Encrypted" scheme="https://huyvu15.github.io/tags/Encrypted/"/>
-    
-    <category term="Secure" scheme="https://huyvu15.github.io/tags/Secure/"/>
-    
-    <category term="Cần trả lời" scheme="https://huyvu15.github.io/tags/Can-tra-loi/"/>
     
   </entry>
   
