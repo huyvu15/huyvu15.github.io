@@ -1,3 +1,5 @@
+https://huyvu15.github.io/posts/123ofe2
+https://huyvu15.github.io/posts/1r6d39ff
 https://huyvu15.github.io/posts/1r6d393p
 https://huyvu15.github.io/posts/qwertyu0
 https://huyvu15.github.io/posts/qwertyui
@@ -7,7 +9,6 @@ https://huyvu15.github.io/posts/80cc5efe
 https://huyvu15.github.io/posts/edeaa258
 https://huyvu15.github.io/posts/tr6d096f
 https://huyvu15.github.io/posts/1r6d193f
-https://huyvu15.github.io/posts/1r6d39ff
 https://huyvu15.github.io/posts/git111f
 https://huyvu15.github.io/posts/artf393f
 https://huyvu15.github.io/posts/1r6dffff
@@ -123,6 +124,9 @@ https://huyvu15.github.io/tags/Knowledge/
 https://huyvu15.github.io/tags/Challenge/
 https://huyvu15.github.io/tags/Motivation/
 https://huyvu15.github.io/tags/Useful/
+https://huyvu15.github.io/tags/API-gateway/
+https://huyvu15.github.io/tags/Chatbot/
+https://huyvu15.github.io/tags/DynamoDB/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -169,3 +173,5 @@ https://huyvu15.github.io/categories/Need/Web/
 https://huyvu15.github.io/categories/Plan/
 https://huyvu15.github.io/categories/Challenge/
 https://huyvu15.github.io/categories/Useful/
+https://huyvu15.github.io/categories/Workshop/
+https://huyvu15.github.io/categories/Workshop/AWS/

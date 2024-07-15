@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-13T14:40:13.794Z</updated>
+  <updated>2024-07-15T06:34:27.380Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tạo chatbot quản lý chi tiêu trên telegram</title>
+    <link href="https://huyvu15.github.io/posts/123ofe2"/>
+    <id>https://huyvu15.github.io/posts/123ofe2</id>
+    <published>2024-07-15T06:35:12.000Z</published>
+    <updated>2024-07-15T06:34:27.380Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h1&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Workshop" scheme="https://huyvu15.github.io/categories/Workshop/"/>
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/categories/Workshop/AWS/"/>
+    
+    
+    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
+    
+    <category term="API gateway" scheme="https://huyvu15.github.io/tags/API-gateway/"/>
+    
+    <category term="Chatbot" scheme="https://huyvu15.github.io/tags/Chatbot/"/>
+    
+    <category term="DynamoDB" scheme="https://huyvu15.github.io/tags/DynamoDB/"/>
+    
+  </entry>
   
   <entry>
     <title>Những gì tôi cho là hữu ích</title>
@@ -259,7 +293,7 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <link href="https://huyvu15.github.io/posts/1r6d39ff"/>
     <id>https://huyvu15.github.io/posts/1r6d39ff</id>
     <published>2024-06-30T17:00:12.000Z</published>
-    <updated>2024-07-05T09:26:56.608Z</updated>
+    <updated>2024-07-15T06:26:28.896Z</updated>
     
     
       
@@ -575,37 +609,6 @@ làm mờ, đảo ngược chữ của</summary>
     <category term="Learn" scheme="https://huyvu15.github.io/tags/Learn/"/>
     
     <category term="News" scheme="https://huyvu15.github.io/tags/News/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Cách bật âm thanh trên máy chủ ảo EC2 Windown</title>
-    <link href="https://huyvu15.github.io/posts/tr6d096f"/>
-    <id>https://huyvu15.github.io/posts/tr6d096f</id>
-    <published>2024-06-28T18:35:12.000Z</published>
-    <updated>2024-07-07T09:29:41.087Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Loi-mo-dau&quot;&gt;&lt;a href=&quot;#Loi-mo-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời mở đầu&quot;&gt;&lt;/a&gt;Lời mở đầu&lt;/h1&gt;&lt;h2 id=&quot;EC2&quot;&gt;&lt;a href=&quot;#EC2&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
-    
-    <category term="Tips" scheme="https://huyvu15.github.io/categories/AWS/Tips/"/>
-    
-    
-    <category term="EC2" scheme="https://huyvu15.github.io/tags/EC2/"/>
-    
-    <category term="Start" scheme="https://huyvu15.github.io/tags/Start/"/>
-    
-    <category term="Tricks lỏ" scheme="https://huyvu15.github.io/tags/Tricks-lo/"/>
     
   </entry>
   
