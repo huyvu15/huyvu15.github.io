@@ -1,6 +1,8 @@
+https://huyvu15.github.io/posts/0p4e292f
+https://huyvu15.github.io/posts/0r6e292f
+https://huyvu15.github.io/posts/1r6d393p
 https://huyvu15.github.io/posts/123ofe2
 https://huyvu15.github.io/posts/1r6d39ff
-https://huyvu15.github.io/posts/1r6d393p
 https://huyvu15.github.io/posts/qwertyu0
 https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/106e393f
@@ -32,7 +34,6 @@ https://huyvu15.github.io/link/
 https://huyvu15.github.io/about/
 https://huyvu15.github.io/posts/yds123d
 https://huyvu15.github.io/posts/dr6v212f
-https://huyvu15.github.io/posts/0r6e292f
 https://huyvu15.github.io/posts/13t2c31
 https://huyvu15.github.io/posts/2r3d326f
 https://huyvu15.github.io/posts/123ttr440
@@ -127,6 +128,8 @@ https://huyvu15.github.io/tags/Useful/
 https://huyvu15.github.io/tags/API-gateway/
 https://huyvu15.github.io/tags/Chatbot/
 https://huyvu15.github.io/tags/DynamoDB/
+https://huyvu15.github.io/tags/Project/
+https://huyvu15.github.io/tags/Protect/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -175,3 +178,4 @@ https://huyvu15.github.io/categories/Challenge/
 https://huyvu15.github.io/categories/Useful/
 https://huyvu15.github.io/categories/Workshop/
 https://huyvu15.github.io/categories/Workshop/AWS/
+https://huyvu15.github.io/categories/Project/

@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-15T06:34:27.380Z</updated>
+  <updated>2024-07-15T17:16:10.418Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Lưu ý khi bảo vệ đồ án</title>
+    <link href="https://huyvu15.github.io/posts/0p4e292f"/>
+    <id>https://huyvu15.github.io/posts/0p4e292f</id>
+    <published>2024-07-15T15:17:12.000Z</published>
+    <updated>2024-07-15T17:16:10.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;chưa-phải-lúc&quot;&gt;Chưa phải lúc&lt;/h1&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Project" scheme="https://huyvu15.github.io/categories/Project/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Project" scheme="https://huyvu15.github.io/tags/Project/"/>
+    
+    <category term="Protect" scheme="https://huyvu15.github.io/tags/Protect/"/>
+    
+  </entry>
   
   <entry>
     <title>Tạo chatbot quản lý chi tiêu trên telegram</title>
@@ -55,7 +85,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d393p"/>
     <id>https://huyvu15.github.io/posts/1r6d393p</id>
     <published>2024-07-13T14:35:12.000Z</published>
-    <updated>2024-07-13T14:40:13.794Z</updated>
+    <updated>2024-07-15T08:14:41.939Z</updated>
     
     
     
@@ -575,40 +605,6 @@ làm mờ, đảo ngược chữ của</summary>
     <category term="Web" scheme="https://huyvu15.github.io/tags/Web/"/>
     
     <category term="You need" scheme="https://huyvu15.github.io/tags/You-need/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mọi người đã nghe về chứng chỉ Github bao giờ chưa ?</title>
-    <link href="https://huyvu15.github.io/posts/er6d090f"/>
-    <id>https://huyvu15.github.io/posts/er6d090f</id>
-    <published>2024-06-28T18:35:12.000Z</published>
-    <updated>2024-07-02T01:39:36.271Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;cảm-nhận-ban-đầu&quot;&gt;Cảm nhận ban đầu&lt;/h1&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Github" scheme="https://huyvu15.github.io/categories/Github/"/>
-    
-    <category term="Certificate" scheme="https://huyvu15.github.io/categories/Github/Certificate/"/>
-    
-    
-    <category term="Github" scheme="https://huyvu15.github.io/tags/Github/"/>
-    
-    <category term="Cert" scheme="https://huyvu15.github.io/tags/Cert/"/>
-    
-    <category term="Learn" scheme="https://huyvu15.github.io/tags/Learn/"/>
-    
-    <category term="News" scheme="https://huyvu15.github.io/tags/News/"/>
     
   </entry>
   
