@@ -70,11 +70,11 @@
     <category term="AWS" scheme="https://huyvu15.github.io/categories/Workshop/AWS/"/>
     
     
-    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
-    
     <category term="API gateway" scheme="https://huyvu15.github.io/tags/API-gateway/"/>
     
     <category term="Chatbot" scheme="https://huyvu15.github.io/tags/Chatbot/"/>
+    
+    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
     
     <category term="DynamoDB" scheme="https://huyvu15.github.io/tags/DynamoDB/"/>
     
@@ -323,7 +323,7 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <link href="https://huyvu15.github.io/posts/1r6d39ff"/>
     <id>https://huyvu15.github.io/posts/1r6d39ff</id>
     <published>2024-06-30T17:00:12.000Z</published>
-    <updated>2024-07-15T06:26:28.896Z</updated>
+    <updated>2024-07-17T05:00:35.992Z</updated>
     
     
       
@@ -370,13 +370,13 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Hugo" scheme="https://huyvu15.github.io/categories/AWS/Hugo/"/>
     
     
+    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
+    
     <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
     
     <category term="Hugo" scheme="https://huyvu15.github.io/tags/Hugo/"/>
     
     <category term="Shopee" scheme="https://huyvu15.github.io/tags/Shopee/"/>
-    
-    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
     
     <category term="S3" scheme="https://huyvu15.github.io/tags/S3/"/>
     
