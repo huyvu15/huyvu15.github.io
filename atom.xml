@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-21T15:53:25.879Z</updated>
+  <updated>2024-07-23T04:54:20.559Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hướng dẫn chạy lại base pipeline</title>
+    <link href="https://huyvu15.github.io/posts/nrbd392f"/>
+    <id>https://huyvu15.github.io/posts/nrbd392f</id>
+    <published>2024-07-23T00:35:12.000Z</published>
+    <updated>2024-07-23T04:54:20.559Z</updated>
+    
+    
+    <summary type="html">Nội dung này đã được mã hóa.</summary>
+    
+    
+    
+    <category term="AI" scheme="https://huyvu15.github.io/categories/AI/"/>
+    
+    
+    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
+    
+    <category term="Prepare" scheme="https://huyvu15.github.io/tags/Prepare/"/>
+    
+    <category term="Documentation" scheme="https://huyvu15.github.io/tags/Documentation/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Khóa học đàm phán thành công, các chiến lược và kỹ năng thiết yếu</title>
     <link href="https://huyvu15.github.io/posts/0t4e2927"/>
     <id>https://huyvu15.github.io/posts/0t4e2927</id>
     <published>2024-07-21T15:17:12.000Z</published>
-    <updated>2024-07-21T15:53:25.879Z</updated>
+    <updated>2024-07-21T16:07:08.988Z</updated>
     
     
       
@@ -570,35 +593,6 @@ làm mờ, đảo ngược chữ của</summary>
     <category term="Hay ho" scheme="https://huyvu15.github.io/tags/Hay-ho/"/>
     
     <category term="Google" scheme="https://huyvu15.github.io/tags/Google/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ý tưởng tạo module hay và thú vị bởi các thuật toán trong machine learning</title>
-    <link href="https://huyvu15.github.io/posts/166d396f"/>
-    <id>https://huyvu15.github.io/posts/166d396f</id>
-    <published>2024-06-30T00:35:12.000Z</published>
-    <updated>2024-06-30T00:28:02.913Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Chả là ngày xưa lúc mới học machine learning tôi cũng hay mơ tưởng đến sức mạnh của các bài toán và công cụ machine learning. Hồi đó</summary>
-        
-      
-    
-    
-    
-    <category term="ML" scheme="https://huyvu15.github.io/categories/ML/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="ML" scheme="https://huyvu15.github.io/tags/ML/"/>
-    
-    <category term="Idea" scheme="https://huyvu15.github.io/tags/Idea/"/>
     
   </entry>
   

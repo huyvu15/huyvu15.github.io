@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/nrbd392f
 https://huyvu15.github.io/posts/0t4e2927
 https://huyvu15.github.io/posts/80cc5efe
 https://huyvu15.github.io/posts/1r6d39ff
@@ -132,6 +133,8 @@ https://huyvu15.github.io/tags/EventBridge/
 https://huyvu15.github.io/tags/Crawl/
 https://huyvu15.github.io/tags/API/
 https://huyvu15.github.io/tags/Dam-phan/
+https://huyvu15.github.io/tags/Prepare/
+https://huyvu15.github.io/tags/Documentation/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
