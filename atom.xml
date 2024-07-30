@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-23T04:54:20.559Z</updated>
+  <updated>2024-07-30T07:52:27.760Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nghệ thuật quản lý thời gian</title>
+    <link href="https://huyvu15.github.io/posts/jjjj392f"/>
+    <id>https://huyvu15.github.io/posts/jjjj392f</id>
+    <published>2024-07-30T06:35:12.000Z</published>
+    <updated>2024-07-30T07:52:27.760Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hiểu-về-quản-lý-thời-gian&quot;&gt;Hiểu về quản lý thời gian&lt;/h1&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
+    
+    
+    <category term="Art" scheme="https://huyvu15.github.io/tags/Art/"/>
+    
+    <category term="Time" scheme="https://huyvu15.github.io/tags/Time/"/>
+    
+    <category term="Manager" scheme="https://huyvu15.github.io/tags/Manager/"/>
+    
+  </entry>
   
   <entry>
     <title>Hướng dẫn chạy lại base pipeline</title>
@@ -559,39 +589,6 @@ làm mờ, đảo ngược chữ của</summary>
     <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hay ho với Google</title>
-    <link href="https://huyvu15.github.io/posts/156d393f"/>
-    <id>https://huyvu15.github.io/posts/156d393f</id>
-    <published>2024-06-30T00:35:12.000Z</published>
-    <updated>2024-06-30T00:56:45.509Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Ngoài để tìm kiếm thì google còn vô vàn cái hay mà chúng ta không bao giờ khám phá được hết. Chả là trước có xem mấy clip của mấy ông</summary>
-        
-      
-    
-    
-    
-    <category term="Google" scheme="https://huyvu15.github.io/categories/Google/"/>
-    
-    <category term="Hay ho" scheme="https://huyvu15.github.io/categories/Google/Hay-ho/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="Nice" scheme="https://huyvu15.github.io/tags/Nice/"/>
-    
-    <category term="Hay ho" scheme="https://huyvu15.github.io/tags/Hay-ho/"/>
-    
-    <category term="Google" scheme="https://huyvu15.github.io/tags/Google/"/>
     
   </entry>
   
