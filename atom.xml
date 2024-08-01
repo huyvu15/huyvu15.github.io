@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-07-30T07:52:27.760Z</updated>
+  <updated>2024-08-01T09:30:34.785Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hiểu Rõ Các Chỉ Số Retention, Life Time Value và Churn Trong Kinh Doanh và truy vấn</title>
+    <link href="https://huyvu15.github.io/posts/arbdv92f"/>
+    <id>https://huyvu15.github.io/posts/arbdv92f</id>
+    <published>2024-08-01T00:35:12.000Z</published>
+    <updated>2024-08-01T09:30:34.785Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;thoạt-đầu&quot;&gt;Thoạt đầu&lt;/h1&gt;
+&lt;p&gt;Cho những ai hay đọc blogs của mình thì nay mình lại ngoi lên để chia sẻ một số kiến thức kinh nghiệm</summary>
+        
+      
+    
+    
+    
+    <category term="Metrics" scheme="https://huyvu15.github.io/categories/Metrics/"/>
+    
+    
+    <category term="Documentation" scheme="https://huyvu15.github.io/tags/Documentation/"/>
+    
+    <category term="Metrics" scheme="https://huyvu15.github.io/tags/Metrics/"/>
+    
+    <category term="SQL" scheme="https://huyvu15.github.io/tags/SQL/"/>
+    
+  </entry>
   
   <entry>
     <title>Nghệ thuật quản lý thời gian</title>
@@ -560,35 +590,6 @@ làm mờ, đảo ngược chữ của</summary>
     <category term="Chrome" scheme="https://huyvu15.github.io/tags/Chrome/"/>
     
     <category term="Extension" scheme="https://huyvu15.github.io/tags/Extension/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI và một vài cái hay ho</title>
-    <link href="https://huyvu15.github.io/posts/1r6d393f"/>
-    <id>https://huyvu15.github.io/posts/1r6d393f</id>
-    <published>2024-06-30T00:35:12.000Z</published>
-    <updated>2024-06-30T00:39:36.695Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;tuyển-dụng-của-meta&quot;&gt;Tuyển dụng của meta&lt;/h1&gt;
-&lt;p&gt;Có bài báo khoa học hoặc có đóng góp lớn&lt;/p&gt;
-&lt;h1 id=&quot;công-việc-thực-tế&quot;&gt;công việc</summary>
-        
-      
-    
-    
-    
-    <category term="AI" scheme="https://huyvu15.github.io/categories/AI/"/>
-    
-    
-    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
   </entry>
   
