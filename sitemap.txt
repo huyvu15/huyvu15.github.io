@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/hr6e292f
 https://huyvu15.github.io/posts/rtt5tyui
 https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/arbdv92f
@@ -142,6 +143,10 @@ https://huyvu15.github.io/tags/Time/
 https://huyvu15.github.io/tags/Manager/
 https://huyvu15.github.io/tags/Metrics/
 https://huyvu15.github.io/tags/SQL/
+https://huyvu15.github.io/tags/Sql/
+https://huyvu15.github.io/tags/Big-Query/
+https://huyvu15.github.io/tags/Smart/
+https://huyvu15.github.io/tags/Mount/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
