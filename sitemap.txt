@@ -1,3 +1,8 @@
+https://huyvu15.github.io/posts/1rcc393f
+https://huyvu15.github.io/posts/1r6d39fff
+https://huyvu15.github.io/about/
+https://huyvu15.github.io/posts/1r6d1b3f
+https://huyvu15.github.io/posts/2c6d396f
 https://huyvu15.github.io/posts/hr6e292f
 https://huyvu15.github.io/posts/rtt5tyui
 https://huyvu15.github.io/posts/qwertyui
@@ -15,7 +20,6 @@ https://huyvu15.github.io/posts/1r6d393p
 https://huyvu15.github.io/posts/123ofe2
 https://huyvu15.github.io/posts/qwertyu0
 https://huyvu15.github.io/posts/106e393f
-https://huyvu15.github.io/posts/1r6d1b3f
 https://huyvu15.github.io/posts/edeaa258
 https://huyvu15.github.io/posts/tr6d096f
 https://huyvu15.github.io/posts/git111f
@@ -30,7 +34,6 @@ https://huyvu15.github.io/posts/1r6df93f
 https://huyvu15.github.io/posts/1r6d3964
 https://huyvu15.github.io/posts/1r6d393f
 https://huyvu15.github.io/posts/166d396f
-https://huyvu15.github.io/posts/2c6d396f
 https://huyvu15.github.io/posts/83dc13a5
 https://huyvu15.github.io/posts/dce14753
 https://huyvu15.github.io/posts/904f42f7
@@ -38,7 +41,6 @@ https://huyvu15.github.io/posts/8217ff3e
 https://huyvu15.github.io/posts/4c6d962f
 https://huyvu15.github.io/posts/bc040c54
 https://huyvu15.github.io/link/
-https://huyvu15.github.io/about/
 https://huyvu15.github.io/posts/yds123d
 https://huyvu15.github.io/posts/13t2c31
 https://huyvu15.github.io/posts/2r3d326f
@@ -147,6 +149,10 @@ https://huyvu15.github.io/tags/Sql/
 https://huyvu15.github.io/tags/Big-Query/
 https://huyvu15.github.io/tags/Smart/
 https://huyvu15.github.io/tags/Mount/
+https://huyvu15.github.io/tags/Database/
+https://huyvu15.github.io/tags/MySQL/
+https://huyvu15.github.io/tags/Extract/
+https://huyvu15.github.io/tags/Process-Video/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
