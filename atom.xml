@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-08-05T15:38:58.043Z</updated>
+  <updated>2024-08-10T16:35:02.596Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,11 +17,74 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Phương pháp extract keyframe từ Video</title>
+    <link href="https://huyvu15.github.io/posts/1rcc393f"/>
+    <id>https://huyvu15.github.io/posts/1rcc393f</id>
+    <published>2024-08-10T15:35:12.000Z</published>
+    <updated>2024-08-10T16:35:02.596Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;keyframe-trong-video-trái-tim-của-nội-dung-video&quot;&gt;Keyframe trong Video: Trái Tim của Nội Dung Video&lt;/h1&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="AI" scheme="https://huyvu15.github.io/categories/AI/"/>
+    
+    
+    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Extract" scheme="https://huyvu15.github.io/tags/Extract/"/>
+    
+    <category term="Process Video" scheme="https://huyvu15.github.io/tags/Process-Video/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tìm lại kiến thức trong tháng 8</title>
+    <link href="https://huyvu15.github.io/posts/1r6d39fff"/>
+    <id>https://huyvu15.github.io/posts/1r6d39fff</id>
+    <published>2024-08-08T00:35:12.000Z</published>
+    <updated>2024-08-10T07:15:46.091Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Hiểu biết" scheme="https://huyvu15.github.io/categories/Hieu-biet/"/>
+    
+    
+    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Database" scheme="https://huyvu15.github.io/tags/Database/"/>
+    
+    <category term="MySQL" scheme="https://huyvu15.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Tìm Lại Kiến Thức Trong Tháng 7</title>
     <link href="https://huyvu15.github.io/posts/hr6e292f"/>
     <id>https://huyvu15.github.io/posts/hr6e292f</id>
     <published>2024-08-05T05:17:12.000Z</published>
-    <updated>2024-08-05T15:38:58.043Z</updated>
+    <updated>2024-08-05T15:46:35.557Z</updated>
     
     
       
@@ -336,7 +399,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d1b3f"/>
     <id>https://huyvu15.github.io/posts/1r6d1b3f</id>
     <published>2024-07-06T03:35:12.000Z</published>
-    <updated>2024-07-08T07:45:23.193Z</updated>
+    <updated>2024-08-10T04:35:37.293Z</updated>
     
     
       
@@ -496,83 +559,6 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Review" scheme="https://huyvu15.github.io/tags/Review/"/>
     
     <category term="Devops" scheme="https://huyvu15.github.io/tags/Devops/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NHẬN THÔNG BÁO CHI TIÊU CHO HOẠT ĐỘNG MUA SẮP TẠI SHOPEE</title>
-    <link href="https://huyvu15.github.io/posts/1n6d313f"/>
-    <id>https://huyvu15.github.io/posts/1n6d313f</id>
-    <published>2024-06-30T15:41:22.000Z</published>
-    <updated>2024-06-30T15:45:12.040Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Đây là bài workshop 1. Được mình hoàn thành cách đây 3 tháng. Trong mission 1&lt;/p&gt;
-&lt;p&gt;Bài lab ứng dụng thành công các service của AWS,</summary>
-        
-      
-    
-    
-    
-    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
-    
-    <category term="Hugo" scheme="https://huyvu15.github.io/categories/AWS/Hugo/"/>
-    
-    
-    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
-    
-    <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
-    
-    <category term="Hugo" scheme="https://huyvu15.github.io/tags/Hugo/"/>
-    
-    <category term="Shopee" scheme="https://huyvu15.github.io/tags/Shopee/"/>
-    
-    <category term="S3" scheme="https://huyvu15.github.io/tags/S3/"/>
-    
-    <category term="EventBridge" scheme="https://huyvu15.github.io/tags/EventBridge/"/>
-    
-    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
-    
-    <category term="API" scheme="https://huyvu15.github.io/tags/API/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kĩ thuật Transfer Learning và Fineturning Learning</title>
-    <link href="https://huyvu15.github.io/posts/1r6c393f"/>
-    <id>https://huyvu15.github.io/posts/1r6c393f</id>
-    <published>2024-06-30T01:35:12.000Z</published>
-    <updated>2024-06-30T01:26:42.124Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Đây là một bài thuyết trình trong một buổi Serminar tại Lab Aithings. Do một số nguyên do nên bị hoãn lại chưa có cơ hội đem ra cho công</summary>
-        
-      
-    
-    
-    
-    <category term="AI" scheme="https://huyvu15.github.io/categories/AI/"/>
-    
-    <category term="ML" scheme="https://huyvu15.github.io/categories/AI/ML/"/>
-    
-    <category term="DL" scheme="https://huyvu15.github.io/categories/AI/ML/DL/"/>
-    
-    
-    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="ML" scheme="https://huyvu15.github.io/tags/ML/"/>
-    
-    <category term="DL" scheme="https://huyvu15.github.io/tags/DL/"/>
     
   </entry>
   
