@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://huyvu15.github.io/posts/1r6d323y</loc>
+    
+    <lastmod>2024-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://huyvu15.github.io/posts/1r6d393y</loc>
     
     <lastmod>2024-08-12</lastmod>
@@ -1217,6 +1226,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://huyvu15.github.io/tags/Airbyte/</loc>
+    <lastmod>2024-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/tags/Ingest/</loc>
+    <lastmod>2024-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -1585,6 +1608,20 @@
   
   <url>
     <loc>https://huyvu15.github.io/categories/DW/</loc>
+    <lastmod>2024-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/categories/Ingest/</loc>
+    <lastmod>2024-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/categories/Ingest/DE/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
