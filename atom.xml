@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-08-11T03:52:54.756Z</updated>
+  <updated>2024-08-12T01:33:43.102Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tìm hiểu Doris</title>
+    <link href="https://huyvu15.github.io/posts/1r6d393y"/>
+    <id>https://huyvu15.github.io/posts/1r6d393y</id>
+    <published>2024-08-12T00:35:12.000Z</published>
+    <updated>2024-08-12T01:33:43.102Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Gioi-thieu&quot;&gt;&lt;a href=&quot;#Gioi-thieu&quot; class=&quot;headerlink&quot; title=&quot;Giới thiệu&quot;&gt;&lt;/a&gt;Giới thiệu&lt;/h1&gt;&lt;p&gt;Doris là một relation database tối ưu</summary>
+        
+      
+    
+    
+    
+    <category term="DW" scheme="https://huyvu15.github.io/categories/DW/"/>
+    
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
+    
+    <category term="Doris" scheme="https://huyvu15.github.io/tags/Doris/"/>
+    
+    <category term="DW" scheme="https://huyvu15.github.io/tags/DW/"/>
+    
+  </entry>
   
   <entry>
     <title>Keyframe - Trái Tim của Nội Dung Video</title>
@@ -199,10 +228,17 @@
     <link href="https://huyvu15.github.io/posts/nrbd392f"/>
     <id>https://huyvu15.github.io/posts/nrbd392f</id>
     <published>2024-07-23T00:35:12.000Z</published>
-    <updated>2024-07-23T04:54:20.559Z</updated>
+    <updated>2024-08-11T04:20:21.713Z</updated>
     
     
-    <summary type="html">Nội dung này đã được mã hóa.</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;my-tasks&quot;&gt;My tasks&lt;/h1&gt;
+&lt;p&gt;viết doc về cái repository đã chạy ( framework deploy web là gì, cách thức lưu dữ liệu như nào, nói</summary>
+        
+      
     
     
     
@@ -368,11 +404,11 @@
   </entry>
   
   <entry>
-    <title>Quản trị sản xuất</title>
+    <title>Chất lượng kế hoạch</title>
     <link href="https://huyvu15.github.io/posts/106e393f"/>
     <id>https://huyvu15.github.io/posts/106e393f</id>
     <published>2024-07-08T07:35:12.000Z</published>
-    <updated>2024-07-09T00:07:22.040Z</updated>
+    <updated>2024-08-11T04:21:54.999Z</updated>
     
     
       
@@ -532,34 +568,6 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Courses" scheme="https://huyvu15.github.io/tags/Courses/"/>
     
     <category term="Tổng hợp" scheme="https://huyvu15.github.io/tags/Tong-hop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Review khóa Devops for Freshers của devopsedu</title>
-    <link href="https://huyvu15.github.io/posts/1r6d39ff"/>
-    <id>https://huyvu15.github.io/posts/1r6d39ff</id>
-    <published>2024-06-30T17:00:12.000Z</published>
-    <updated>2024-07-20T02:53:57.201Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Thời lượng 9 giờ 32 phút. Gồm 69 bài học. Hoàn thành có chứng chỉ.&lt;/p&gt;
-&lt;h1</summary>
-        
-      
-    
-    
-    
-    <category term="Devops" scheme="https://huyvu15.github.io/categories/Devops/"/>
-    
-    
-    <category term="Review" scheme="https://huyvu15.github.io/tags/Review/"/>
-    
-    <category term="Devops" scheme="https://huyvu15.github.io/tags/Devops/"/>
     
   </entry>
   
