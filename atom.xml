@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-08-12T01:33:43.102Z</updated>
+  <updated>2024-08-12T17:09:20.574Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tìm hiểu Airbyte</title>
+    <link href="https://huyvu15.github.io/posts/1r6d323y"/>
+    <id>https://huyvu15.github.io/posts/1r6d323y</id>
+    <published>2024-08-12T01:35:12.000Z</published>
+    <updated>2024-08-12T17:09:20.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Airbyte-la-gi&quot;&gt;&lt;a href=&quot;#Airbyte-la-gi&quot; class=&quot;headerlink&quot; title=&quot;Airbyte là gì ?&quot;&gt;&lt;/a&gt;Airbyte là gì ?&lt;/h1&gt;&lt;p&gt;Airbyte là một nền</summary>
+        
+      
+    
+    
+    
+    <category term="Ingest" scheme="https://huyvu15.github.io/categories/Ingest/"/>
+    
+    <category term="DE" scheme="https://huyvu15.github.io/categories/Ingest/DE/"/>
+    
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
+    
+    <category term="Airbyte" scheme="https://huyvu15.github.io/tags/Airbyte/"/>
+    
+    <category term="Ingest" scheme="https://huyvu15.github.io/tags/Ingest/"/>
+    
+  </entry>
   
   <entry>
     <title>Tìm hiểu Doris</title>
@@ -537,37 +568,6 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     <category term="Art" scheme="https://huyvu15.github.io/tags/Art/"/>
     
     <category term="Photography" scheme="https://huyvu15.github.io/tags/Photography/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Chia sẻ tài nguyên học tập</title>
-    <link href="https://huyvu15.github.io/posts/1r6dffff"/>
-    <id>https://huyvu15.github.io/posts/1r6dffff</id>
-    <published>2024-07-01T04:30:32.000Z</published>
-    <updated>2024-07-02T03:55:38.264Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Tài liệu mất công đi sưu tầm và có những tài liệu rất chi là hiếm. Để đền bù cho công sức này ace follow hộ tôi cái Github đi. Ace nên</summary>
-        
-      
-    
-    
-    
-    <category term="Sharing" scheme="https://huyvu15.github.io/categories/Sharing/"/>
-    
-    
-    <category term="Resources" scheme="https://huyvu15.github.io/tags/Resources/"/>
-    
-    <category term="Sharing" scheme="https://huyvu15.github.io/tags/Sharing/"/>
-    
-    <category term="Courses" scheme="https://huyvu15.github.io/tags/Courses/"/>
-    
-    <category term="Tổng hợp" scheme="https://huyvu15.github.io/tags/Tong-hop/"/>
     
   </entry>
   
