@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/1r6dt23y
 https://huyvu15.github.io/posts/1r6d323y
 https://huyvu15.github.io/posts/1r6d393y
 https://huyvu15.github.io/posts/106e393f
@@ -159,6 +160,9 @@ https://huyvu15.github.io/tags/Doris/
 https://huyvu15.github.io/tags/DW/
 https://huyvu15.github.io/tags/Airbyte/
 https://huyvu15.github.io/tags/Ingest/
+https://huyvu15.github.io/tags/Kestra/
+https://huyvu15.github.io/tags/Workflow/
+https://huyvu15.github.io/tags/Orchestration/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -214,3 +218,5 @@ https://huyvu15.github.io/categories/Metrics/
 https://huyvu15.github.io/categories/DW/
 https://huyvu15.github.io/categories/Ingest/
 https://huyvu15.github.io/categories/Ingest/DE/
+https://huyvu15.github.io/categories/Orchestration/
+https://huyvu15.github.io/categories/Orchestration/DE/
