@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-08-12T17:09:20.574Z</updated>
+  <updated>2024-08-13T08:30:23.827Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,18 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Kestra Quickstart</title>
+    <link href="https://huyvu15.github.io/posts/1r6dt23y"/>
+    <id>https://huyvu15.github.io/posts/1r6dt23y</id>
+    <published>2024-08-13T01:35:12.000Z</published>
+    <updated>2024-08-13T08:30:23.827Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;What-is-Kestra&quot;&gt;&lt;a href=&quot;#What-is-Kestra&quot; class=&quot;headerlink&quot; title=&quot;What is Kestra?&quot;&gt;&lt;/a&gt;What is</summary>
+        
+      
+    
+    
+    
+    <category term="Orchestration" scheme="https://huyvu15.github.io/categories/Orchestration/"/>
+    
+    <category term="DE" scheme="https://huyvu15.github.io/categories/Orchestration/DE/"/>
+    
+    
+    <category term="Kestra" scheme="https://huyvu15.github.io/tags/Kestra/"/>
+    
+    <category term="Workflow" scheme="https://huyvu15.github.io/tags/Workflow/"/>
+    
+    <category term="Orchestration" scheme="https://huyvu15.github.io/tags/Orchestration/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Tìm hiểu Airbyte</title>
     <link href="https://huyvu15.github.io/posts/1r6d323y"/>
     <id>https://huyvu15.github.io/posts/1r6d323y</id>
     <published>2024-08-12T01:35:12.000Z</published>
-    <updated>2024-08-12T17:09:20.574Z</updated>
+    <updated>2024-08-13T07:00:14.967Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Airbyte-la-gi&quot;&gt;&lt;a href=&quot;#Airbyte-la-gi&quot; class=&quot;headerlink&quot; title=&quot;Airbyte là gì ?&quot;&gt;&lt;/a&gt;Airbyte là gì ?&lt;/h1&gt;&lt;p&gt;Airbyte là một nền</summary>
+    <summary type="html">&lt;h1 id=&quot;airbyte-là-gì&quot;&gt;Airbyte là gì ?&lt;/h1&gt;
+&lt;p&gt;Airbyte là một nền tảng ETL mã nguồn mở dùng để tích hợp dữ liệu từ nhiều nguồn khác nhau,</summary>
         
       
     
@@ -540,34 +572,6 @@ Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề n
     
     
     <category term="Git" scheme="https://huyvu15.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Làm chủ nghệ thuật nhiếp ảnh đường phố điện ảnh</title>
-    <link href="https://huyvu15.github.io/posts/artf393f"/>
-    <id>https://huyvu15.github.io/posts/artf393f</id>
-    <published>2024-07-04T08:35:12.000Z</published>
-    <updated>2024-07-04T09:14:03.941Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;lời-nói-đầu&quot;&gt;Lời nói đầu&lt;/h1&gt;
-&lt;p&gt;Nghệ thuật chụp ảnh bao giờ cũng cần thiết, không phải chụp cho bản thân thì cũng cần phải chụp</summary>
-        
-      
-    
-    
-    
-    <category term="Photography" scheme="https://huyvu15.github.io/categories/Photography/"/>
-    
-    
-    <category term="Art" scheme="https://huyvu15.github.io/tags/Art/"/>
-    
-    <category term="Photography" scheme="https://huyvu15.github.io/tags/Photography/"/>
     
   </entry>
   
