@@ -1,4 +1,6 @@
+https://huyvu15.github.io/posts/23dd393y
 https://huyvu15.github.io/posts/1r6dt23y
+https://huyvu15.github.io/posts/rtt5tyui
 https://huyvu15.github.io/posts/1r6d323y
 https://huyvu15.github.io/posts/1r6d393y
 https://huyvu15.github.io/posts/106e393f
@@ -9,7 +11,6 @@ https://huyvu15.github.io/about/
 https://huyvu15.github.io/posts/1r6d1b3f
 https://huyvu15.github.io/posts/2c6d396f
 https://huyvu15.github.io/posts/hr6e292f
-https://huyvu15.github.io/posts/rtt5tyui
 https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/arbdv92f
 https://huyvu15.github.io/posts/80cc5efe
@@ -163,6 +164,7 @@ https://huyvu15.github.io/tags/Ingest/
 https://huyvu15.github.io/tags/Kestra/
 https://huyvu15.github.io/tags/Workflow/
 https://huyvu15.github.io/tags/Orchestration/
+https://huyvu15.github.io/tags/Link/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -220,3 +222,6 @@ https://huyvu15.github.io/categories/Ingest/
 https://huyvu15.github.io/categories/Ingest/DE/
 https://huyvu15.github.io/categories/Orchestration/
 https://huyvu15.github.io/categories/Orchestration/DE/
+https://huyvu15.github.io/categories/Note/
+https://huyvu15.github.io/categories/Note/Link/
+https://huyvu15.github.io/categories/Note/Link/Suu-tam/
