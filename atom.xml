@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-08-13T10:35:27.489Z</updated>
+  <updated>2024-08-19T09:28:22.670Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,18 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Những dòng ghi chú ngày cũ</title>
+    <link href="https://huyvu15.github.io/posts/23dd393y"/>
+    <id>https://huyvu15.github.io/posts/23dd393y</id>
+    <published>2024-08-19T09:35:12.000Z</published>
+    <updated>2024-08-19T09:28:22.670Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;first-of-all&quot;&gt;First of all&lt;/h1&gt;
+&lt;p&gt;Để giải phóng cho cái màn hình desktop của tôi khỏi những ghi chú mà tôi đã note lại từ lâu và</summary>
+        
+      
+    
+    
+    
+    <category term="Note" scheme="https://huyvu15.github.io/categories/Note/"/>
+    
+    <category term="Link" scheme="https://huyvu15.github.io/categories/Note/Link/"/>
+    
+    <category term="Sưu tầm" scheme="https://huyvu15.github.io/categories/Note/Link/Suu-tam/"/>
+    
+    
+    <category term="Note" scheme="https://huyvu15.github.io/tags/Note/"/>
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
+    
+    <category term="Link" scheme="https://huyvu15.github.io/tags/Link/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Kestra Quickstart</title>
     <link href="https://huyvu15.github.io/posts/1r6dt23y"/>
     <id>https://huyvu15.github.io/posts/1r6dt23y</id>
     <published>2024-08-13T01:35:12.000Z</published>
-    <updated>2024-08-13T10:35:27.489Z</updated>
+    <updated>2024-08-19T09:23:02.168Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;What-is-Kestra&quot;&gt;&lt;a href=&quot;#What-is-Kestra&quot; class=&quot;headerlink&quot; title=&quot;What is Kestra?&quot;&gt;&lt;/a&gt;What is</summary>
+    <summary type="html">&lt;h1 id=&quot;what-is-kestra&quot;&gt;What is Kestra?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Kestra&lt;/strong&gt; is an open-source platform for managing data workflows and</summary>
         
       
     
@@ -52,7 +87,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d323y"/>
     <id>https://huyvu15.github.io/posts/1r6d323y</id>
     <published>2024-08-12T01:35:12.000Z</published>
-    <updated>2024-08-13T07:00:14.967Z</updated>
+    <updated>2024-08-18T08:55:42.642Z</updated>
     
     
       
@@ -210,7 +245,7 @@
     <link href="https://huyvu15.github.io/posts/rtt5tyui"/>
     <id>https://huyvu15.github.io/posts/rtt5tyui</id>
     <published>2024-08-03T13:35:12.000Z</published>
-    <updated>2024-08-05T08:06:40.484Z</updated>
+    <updated>2024-08-19T09:08:50.415Z</updated>
     
     
     <summary type="html">Nội dung này đã được mã hóa.</summary>
@@ -545,33 +580,6 @@
     
     
     <category term="Jenkins" scheme="https://huyvu15.github.io/tags/Jenkins/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kiến thức nền tảng Git</title>
-    <link href="https://huyvu15.github.io/posts/git111f"/>
-    <id>https://huyvu15.github.io/posts/git111f</id>
-    <published>2024-07-04T09:35:12.000Z</published>
-    <updated>2024-07-04T13:11:36.041Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h1&gt;
-&lt;p&gt;Git là gì?&lt;br&gt;
-Bạn đang làm việc nhóm và cần thuyết trình về một chủ đề nào đó. Các thành viên trong</summary>
-        
-      
-    
-    
-    
-    <category term="Git" scheme="https://huyvu15.github.io/categories/Git/"/>
-    
-    
-    <category term="Git" scheme="https://huyvu15.github.io/tags/Git/"/>
     
   </entry>
   
