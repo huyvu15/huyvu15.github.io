@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-08-19T09:28:22.670Z</updated>
+  <updated>2024-08-25T03:34:05.393Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Lý thuyết kẻ ngốc hơn</title>
+    <link href="https://huyvu15.github.io/posts/tyu3n1nh"/>
+    <id>https://huyvu15.github.io/posts/tyu3n1nh</id>
+    <published>2024-08-22T00:35:12.000Z</published>
+    <updated>2024-08-25T03:34:05.393Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;thực-tế&quot;&gt;Thực tế&lt;/h1&gt;
+&lt;p&gt;Dạo gần đây có lẽ mọi người đã nghe nhiều về giá bất động sản, khi nó như kiểu lạm phát ở Columbo những</summary>
+        
+      
+    
+    
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Bất động sản" scheme="https://huyvu15.github.io/tags/Bat-dong-san/"/>
+    
+  </entry>
   
   <entry>
     <title>Những dòng ghi chú ngày cũ</title>
@@ -554,32 +582,6 @@
     <category term="How?" scheme="https://huyvu15.github.io/tags/How/"/>
     
     <category term="Love" scheme="https://huyvu15.github.io/tags/Love/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tìm hiểu Jenkins</title>
-    <link href="https://huyvu15.github.io/posts/1r6d193f"/>
-    <id>https://huyvu15.github.io/posts/1r6d193f</id>
-    <published>2024-07-05T10:35:12.000Z</published>
-    <updated>2024-07-20T01:55:27.829Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;jenkins-là-gì&quot;&gt;Jenkins là gì?&lt;/h1&gt;
-&lt;p&gt;Jenkins là một máy chủ tự động hóa mã nguồn mở hàng đầu cung cấp hàng trăm plugin hỗ trợ xây</summary>
-        
-      
-    
-    
-    
-    <category term="CI/CD" scheme="https://huyvu15.github.io/categories/CI-CD/"/>
-    
-    
-    <category term="Jenkins" scheme="https://huyvu15.github.io/tags/Jenkins/"/>
     
   </entry>
   
