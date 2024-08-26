@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Góc nhìn thực tế về giải thuật interview lời giải của tôi</title>
+      <link href="/posts/hjtu32nj.html"/>
+      <url>/posts/hjtu32nj.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="lời-đầu">Lời đầu</h1><p>Trước sau gì tôi cũng phải trực tiếp tham gia các buổi phỏng vấn trực tiếp và khó thể tránh khỏi việc phải ngồi làm các bài test trực tiếp về giải thuật. Rồi chuyện gì đến cũng đến, ngoài việc luyện thuật toán trên leetcode tôi sẽ làm thêm các giải thuật ở trên một số group nổi tiếng như VOZ, redis, các hội nhóm facebook.</p><p>Các bài toán ở đây do tôi sưu tầm + hoàn cảnh + vị trí ứng tuyển, một phần giúp tôi lưu trữ các ý tưởng, một phần để rèn luyện, một phần cũng để mọi người đánh giá và cho tôi lời nhận xét về cách thức mình làm (cũng có thể là tôi đi tham khảo đâu đó :))).</p><p>Bắt tay vào thôi!</p><h1 id="câu-1-dãy-số">Câu 1: dãy số</h1><ul><li>input: “123456789”, phép toán: cộng, trừ</li><li>output: chèn phép toán cộng, trừ vào input string sao cho biểu thức có kết quả là 100.</li></ul><p>Ví dụ: -1 + 2 - 3 + 4 + 5 + 6 + 78 + 9 (=100)</p><ul><li>Mở rộng thêm nếu có phép nhân và chia</li></ul><p>=&gt; chú ý output phải vét cạn tất cả khả năng có thể xảy ra, ko tìm ra một trường hợp thì easy quá :&gt;</p><p><a href="https://voz.vn/attachments/1587023116285-png.35503/">https://voz.vn/attachments/1587023116285-png.35503/</a></p><p>Bonus thông tin về vị trí này:</p><ul><li>Vị trí: Senior front-end</li><li>Range: over 2k</li><li>4 rounds (2 tech rounds)</li><li>Office: HCM (cty Sin)</li></ul><p>Đã tốn 20p google là không ra được đáp án / keyword “puzzle 123456789 hoặc math 123456789 hoặc inserting +/- 123456789” :D. Mở rộng thêm cho dấu *, /.</p><h1 id="phỏng-vấn-backend-shopee-singapore">Phỏng vấn backend shopee singapore</h1><p>Vòng 1:</p><ul><li>Bài 1: Kiểm tra một chuỗi dãy ngoặc là hợp lệ, 3 loại ngoặc [({.</li><li>Bài 2: Tìm số lớn thứ k trong mảng chưa sắp xếp, cài đặt tối ưu sao cho độ phức tạp tính toán nhỏ nhất, không dùng thư viện. Bài này mình cài heap (make_heap, pop_heap), chưa fix bug xong nhưng vẫn pass vòng này.</li></ul><p>Vòng 2: Sắp xếp trên danh sách liên kết đơn. Mình cài selection sort, sau đó được yêu cầu cải tiến thì mình cài merge sort.</p><h1 id="phỏng-vấn-sa">Phỏng vấn SA</h1><p><strong>[Thiết kế kiến trúc hệ thống]:</strong> Xây dựng một hệ thống bán hàng trực tuyến</p><p><strong>Bối cảnh:</strong></p><p>Chúng tôi đang phát triển một trang web thương mại điện tử để bán các sản phẩm, trong đó:</p><ul><li>Mỗi sản phẩm có một số lượng nhất định trong kho.</li><li>Hệ thống phải có khả năng xử lý ít nhất N = 6000 yêu cầu đồng thời từ người dùng muốn xem hoặc mua sản phẩm.</li><li>Hệ thống chỉ được phép có tối đa S = 6 máy chủ, trong đó có thể sử dụng tối đa 3 máy chủ làm cơ sở dữ liệu quan hệ.</li><li>Mỗi cơ sở dữ liệu quan hệ có thể xử lý tối đa C = 300 kết nối đồng thời.</li></ul><p><strong>Hệ thống phải đảm bảo:</strong></p><ul><li>Tính nhất quán dữ liệu, không để xảy ra tình trạng số lượng sản phẩm đã mua thành công vượt quá số lượng sản phẩm hiện có trong kho.</li><li>Cung cấp phản hồi thời gian thực với độ trễ thấp nhất có thể.</li><li>Yêu cầu bổ sung (không bắt buộc nhưng sẽ là điểm cộng):</li><li>Hệ thống phải có độ sẵn sàng cao với không điểm lỗi (no single point of failure).</li><li>Dễ dàng mở rộng khi số lượng sản phẩm và người dùng tăng lên trong tương lai.</li></ul><p><strong>Yêu cầu:</strong></p><ul><li>Thiết kế (vẽ) kiến trúc tổng thể của hệ thống.</li><li>Mô tả các công nghệ mà bạn sẽ sử dụng để phát triển hệ thống.</li><li>Giải thích chi tiết cách hệ thống hoạt động và làm thế nào để đáp ứng tất cả các yêu cầu đã liệt kê.</li><li>Lưu ý rằng bạn phải thiết kế và phân tích dựa trên các con số (N, C, S) được cung cấp trong phần bối cảnh.</li></ul><p>Đề thi SAA chắc cũng có câu này và liên quan đến trực tiếp AWS DynamoDB.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Algo </category>
+          
+          <category> Interview </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Knownledge </tag>
+            
+            <tag> Algo </tag>
+            
+            <tag> Interview </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Lý thuyết kẻ ngốc hơn</title>
       <link href="/posts/tyu3n1nh.html"/>
       <url>/posts/tyu3n1nh.html</url>

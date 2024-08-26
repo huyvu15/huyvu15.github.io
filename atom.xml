@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-08-25T03:34:05.393Z</updated>
+  <updated>2024-08-25T13:32:02.842Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Góc nhìn thực tế về giải thuật interview lời giải của tôi</title>
+    <link href="https://huyvu15.github.io/posts/hjtu32nj"/>
+    <id>https://huyvu15.github.io/posts/hjtu32nj</id>
+    <published>2024-08-25T00:35:12.000Z</published>
+    <updated>2024-08-25T13:32:02.842Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;lời-đầu&quot;&gt;Lời đầu&lt;/h1&gt;
+&lt;p&gt;Trước sau gì tôi cũng phải trực tiếp tham gia các buổi phỏng vấn trực tiếp và khó thể tránh khỏi việc phải</summary>
+        
+      
+    
+    
+    
+    <category term="Algo" scheme="https://huyvu15.github.io/categories/Algo/"/>
+    
+    <category term="Interview" scheme="https://huyvu15.github.io/categories/Algo/Interview/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Algo" scheme="https://huyvu15.github.io/tags/Algo/"/>
+    
+    <category term="Interview" scheme="https://huyvu15.github.io/tags/Interview/"/>
+    
+  </entry>
   
   <entry>
     <title>Lý thuyết kẻ ngốc hơn</title>
@@ -554,34 +586,6 @@
     <category term="Plan" scheme="https://huyvu15.github.io/tags/Plan/"/>
     
     <category term="Implement" scheme="https://huyvu15.github.io/tags/Implement/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Đứng dậy mạnh mẽ sau những cú sốc tình cảm, tìm lại bản thân</title>
-    <link href="https://huyvu15.github.io/posts/1r6d1b3f"/>
-    <id>https://huyvu15.github.io/posts/1r6d1b3f</id>
-    <published>2024-07-06T03:35:12.000Z</published>
-    <updated>2024-08-10T04:35:37.293Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;lời-đầu&quot;&gt;Lời đầu&lt;/h1&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Love" scheme="https://huyvu15.github.io/categories/Love/"/>
-    
-    
-    <category term="How?" scheme="https://huyvu15.github.io/tags/How/"/>
-    
-    <category term="Love" scheme="https://huyvu15.github.io/tags/Love/"/>
     
   </entry>
   
