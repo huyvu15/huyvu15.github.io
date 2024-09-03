@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>Tự động hóa đỉnh cao EC2 với tính năng User data</title>
+      <link href="/posts/23ddrt2y.html"/>
+      <url>/posts/23ddrt2y.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="lời-đầu">Lời đầu</h1><p>Xin chào mình là <code>Glutis</code> - 1 sinh viên ngành toán tại HUST. Trong đợt nghỉ quốc khánh này mình có mày mò học một số khóa faster của aws trên aws education, học của vài khóa introduce thì học đến EC2 dù là base thôi nhưng mà ko thể coi nhẹ vì mình vừa phát hiện ra một tính năng độc lạ, thú vị. Nó giải quyết được vấn đề mà mình gặp phải trong vài tháng nay.</p><p>Đó là làm thế nào để một EC2 instance có thể tự khởi động server trước một khi start instance. Giải thích một chút do các instance sẽ mất một số các chi phí để thuê vì vậy trong những lúc instance ko hoạt động mình sẽ stop lại (khi stop thì ec2 sẽ ko tính phí). Tuy nhiên khi start lại instance thì server sẽ không tự khởi động lại mà mình sẽ phải truy cập vào command line của instance để làm việc đó.</p><p>Ví dụ: chạy lệnh <code>npm start</code> để cấu hình một fontend cho một trang web bán hàng với cổng 4000 chẳng hạn.</p><p>Để làm được việc này chúng ta sẽ phải sử dụng một tính năng rất hay của EC2 đó là <code>user data</code>.</p><h1 id="tính-năng-user-data-là-gì">Tính năng user data là gì?</h1><p>Tính năng user data của EC2 (Amazon Elastic Compute Cloud) cho phép bạn cung cấp các script hoặc lệnh được thực thi tự động khi một instance EC2 khởi động lần đầu tiên. Bạn có thể sử dụng user data để cấu hình máy chủ, cài đặt phần mềm, chạy các lệnh thiết lập, hoặc thực hiện bất kỳ tác vụ nào mà bạn muốn tự động khi instance bắt đầu hoạt động.</p><p>Một vài điểm chính về user data của EC2:</p><p>Dạng nội dung: User data có thể là một chuỗi văn bản hoặc một script shell (bash script). Nội dung này được tự động thực thi dưới quyền root.</p><p>Thời điểm thực thi: User data được thực thi chỉ một lần khi instance khởi động lần đầu tiên. Nếu bạn muốn nó chạy lại khi instance reboot, bạn cần cấu hình lại hoặc chỉnh sửa script.</p><p>Sử dụng phổ biến:</p><ul><li>Cài đặt và cấu hình phần mềm tự động khi instance khởi động.</li><li>Kết nối instance với các dịch vụ khác (như đăng ký với một load balancer hoặc cài đặt agents).</li><li>Khởi tạo các tập lệnh để chuẩn bị môi trường làm việc.</li><li>Cách cung cấp: Bạn có thể cung cấp user data thông qua AWS Management Console, AWS CLI, hoặc API khi khởi tạo một instance mới.</li></ul><p>User data là công cụ hữu ích giúp tự động hóa và chuẩn hóa quá trình triển khai và cấu hình máy chủ trên EC2.</p><blockquote><p>Khi một phiên bản Amazon Elastic Compute Cloud (Amazon EC2) khởi chạy, nó sẽ chạy tập lệnh dữ liệu người dùng. Các lệnh trong tập lệnh dữ liệu người dùng được sử dụng để tự động hóa các tác vụ cấu hình phổ biến.</p></blockquote><h1 id="cách-để-cấu-hình-user-data">Cách để cấu hình user data</h1><p>Ngoài việc tự cấu hình ở ngoài console ec2 thì ta có thể tự sử trực tiếp user data ở ngay trong chính instance của mình chỉ cần biết chính xác thư mục và đường dẫn của file này.</p><blockquote><p>Lệnh check user data script</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">cat</span> /var/lib/cloud/instance/scripts/part-001</span><br></pre></td></tr></table></figure><blockquote><p>xóa user data</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">rm</span> /var/lib/cloud/instances/*/sem/config_scripts_user</span><br></pre></td></tr></table></figure><h1 id="nếu-quên-hoặc-muốn-thay-đổi-scripts-run-thì-làm-thế-nào">Nếu quên hoặc muốn thay đổi scripts run thì làm thế nào?</h1><p>Truy cập giao diện instance</p><p><img src="/img/Any/1.png" alt=""></p><p>Tại Actions, chọn edit user data:</p><p><img src="/img/Any/2.png" alt=""></p><p>Để edit user data bạn cần phải stop instance trước đó, rồi chỉnh sửa đoạn script theo ý muốn.</p><p><img src="/img/Any/3.png" alt=""></p><h1 id="tiến-hành-kiểm-tra-xem-các-công-cụ-đã-được-cài-chưa">Tiến hành kiểm tra xem các công cụ đã được cài chưa</h1><p>Tiến hành check xem user data script có thực sự hoạt động chưa</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">redis-server -v</span><br></pre></td></tr></table></figure><blockquote><p>Redis server v=6.2.14 sha=00000000:0 malloc=jemalloc-5.1.0 bits=64 build=91899a618ea2f176</p></blockquote><h1 id="kết-luận">Kết luận</h1><p>Một điều khá mới mẻ, mọi người có thể tham khảo tại link lab: <a href="https://labs.vocareum.com/main/main.php?m=editor&amp;asnid=2014341&amp;stepid=2014342&amp;hideNavBar=1">https://labs.vocareum.com/main/main.php?m=editor&amp;asnid=2014341&amp;stepid=2014342&amp;hideNavBar=1</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> AWS </category>
+          
+          <category> EC2 </category>
+          
+          <category> Feature </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> EC2 </tag>
+            
+            <tag> AWS </tag>
+            
+            <tag> Knowledge </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Góc nhìn thực tế về giải thuật interview lời giải của tôi</title>
       <link href="/posts/hjtu32nj.html"/>
       <url>/posts/hjtu32nj.html</url>
