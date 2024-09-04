@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-09-03T07:43:25.419Z</updated>
+  <updated>2024-09-03T15:55:57.060Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Tự động hóa đỉnh cao EC2 với tính năng User data</title>
+    <title>6 cấp độ tư duy của nhận thức</title>
+    <link href="https://huyvu15.github.io/posts/1r6d39bf"/>
+    <id>https://huyvu15.github.io/posts/1r6d39bf</id>
+    <published>2024-09-03T15:35:12.000Z</published>
+    <updated>2024-09-03T15:55:57.060Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;tại-sao-có-bài-viết-này&quot;&gt;Tại sao có bài viết này&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Xin chào !&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/categories/Knowledge/Insights/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
+    
+    <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tự động hóa đỉnh cao EC2 với tính năng user data</title>
     <link href="https://huyvu15.github.io/posts/23ddrt2y"/>
     <id>https://huyvu15.github.io/posts/23ddrt2y</id>
     <published>2024-09-01T17:35:12.000Z</published>
-    <updated>2024-09-03T07:43:25.419Z</updated>
+    <updated>2024-09-03T08:07:56.329Z</updated>
     
     
       
@@ -115,7 +148,7 @@
     <link href="https://huyvu15.github.io/posts/23dd393y"/>
     <id>https://huyvu15.github.io/posts/23dd393y</id>
     <published>2024-08-19T09:35:12.000Z</published>
-    <updated>2024-08-19T09:28:22.670Z</updated>
+    <updated>2024-09-03T14:13:34.779Z</updated>
     
     
       
@@ -181,7 +214,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d323y"/>
     <id>https://huyvu15.github.io/posts/1r6d323y</id>
     <published>2024-08-12T01:35:12.000Z</published>
-    <updated>2024-08-18T08:55:42.642Z</updated>
+    <updated>2024-09-03T08:08:58.483Z</updated>
     
     
       
@@ -213,14 +246,15 @@
     <link href="https://huyvu15.github.io/posts/1r6d393y"/>
     <id>https://huyvu15.github.io/posts/1r6d393y</id>
     <published>2024-08-12T00:35:12.000Z</published>
-    <updated>2024-08-12T01:33:43.102Z</updated>
+    <updated>2024-09-03T08:10:39.297Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Gioi-thieu&quot;&gt;&lt;a href=&quot;#Gioi-thieu&quot; class=&quot;headerlink&quot; title=&quot;Giới thiệu&quot;&gt;&lt;/a&gt;Giới thiệu&lt;/h1&gt;&lt;p&gt;Doris là một relation database tối ưu</summary>
+    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h1&gt;
+&lt;p&gt;Doris là một relation database tối ưu để phát triển DW open - source với tính năng real-time tốt. Nó</summary>
         
       
     
@@ -275,7 +309,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d39fff"/>
     <id>https://huyvu15.github.io/posts/1r6d39fff</id>
     <published>2024-08-08T00:35:12.000Z</published>
-    <updated>2024-08-10T07:15:46.091Z</updated>
+    <updated>2024-09-03T08:12:52.190Z</updated>
     
     
       
@@ -294,6 +328,8 @@
     <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Algorithms" scheme="https://huyvu15.github.io/tags/Algorithms/"/>
     
     <category term="Database" scheme="https://huyvu15.github.io/tags/Database/"/>
     
@@ -571,27 +607,6 @@
     <category term="Love" scheme="https://huyvu15.github.io/tags/Love/"/>
     
     <category term="Motivation" scheme="https://huyvu15.github.io/tags/Motivation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Những challenge mà tôi đã tham gia</title>
-    <link href="https://huyvu15.github.io/posts/qwertyui"/>
-    <id>https://huyvu15.github.io/posts/qwertyui</id>
-    <published>2024-07-11T02:35:12.000Z</published>
-    <updated>2024-08-03T17:20:47.793Z</updated>
-    
-    
-    <summary type="html">Nội dung này đã được mã hóa.</summary>
-    
-    
-    
-    <category term="Challenge" scheme="https://huyvu15.github.io/categories/Challenge/"/>
-    
-    
-    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
-    
-    <category term="Challenge" scheme="https://huyvu15.github.io/tags/Challenge/"/>
     
   </entry>
   
