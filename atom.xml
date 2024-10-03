@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-09-29T14:17:26.210Z</updated>
+  <updated>2024-10-03T04:09:23.642Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AWS - Những điều nhỏ nhặt bạn cần biết</title>
+    <link href="https://huyvu15.github.io/posts/1rdb9bvf"/>
+    <id>https://huyvu15.github.io/posts/1rdb9bvf</id>
+    <published>2024-09-30T19:35:12.000Z</published>
+    <updated>2024-10-03T04:09:23.642Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hello&quot;&gt;Hello&lt;/h1&gt;
+&lt;p&gt;Xin chào, đã lâu ko quay trở lại, hôm nay tình cờ bạn DA đi vằng và tôi ko có việc gì làm nên tôi có take note</summary>
+        
+      
+    
+    
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/categories/Knowledge/AWS/"/>
+    
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
+    
+    <category term="Services" scheme="https://huyvu15.github.io/tags/Services/"/>
+    
+  </entry>
   
   <entry>
     <title>Giải cứu máy tính trong ngày đen tối, tôi sẽ recovery những gì đầu tiên 🤔</title>
@@ -597,25 +627,6 @@
     <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
     
     <category term="DynamoDB" scheme="https://huyvu15.github.io/tags/DynamoDB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Những gì tôi cho là hữu ích</title>
-    <link href="https://huyvu15.github.io/posts/1r6d393p"/>
-    <id>https://huyvu15.github.io/posts/1r6d393p</id>
-    <published>2024-07-13T14:35:12.000Z</published>
-    <updated>2024-07-15T08:14:41.939Z</updated>
-    
-    
-    
-    
-    <category term="Useful" scheme="https://huyvu15.github.io/categories/Useful/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="Useful" scheme="https://huyvu15.github.io/tags/Useful/"/>
     
   </entry>
   
