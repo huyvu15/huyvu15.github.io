@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-10-03T04:09:23.642Z</updated>
+  <updated>2024-10-12T10:00:38.040Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,11 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux và một số cái hay ho</title>
+    <link href="https://huyvu15.github.io/posts/1r6d34bf"/>
+    <id>https://huyvu15.github.io/posts/1r6d34bf</id>
+    <published>2024-10-12T05:35:12.000Z</published>
+    <updated>2024-10-12T10:00:38.040Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;i-say-hi&quot;&gt;I say hi&lt;/h1&gt;
+&lt;p&gt;Xin chào, lâu rồi mới ló mặt ra chả là vì bận rộn công việc, rời bời chuyện đời tư hay vất vả trong</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://huyvu15.github.io/categories/Linux/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/categories/Linux/Insights/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Linux" scheme="https://huyvu15.github.io/tags/Linux/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
+    
+    <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="OS" scheme="https://huyvu15.github.io/tags/OS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AWS - Những điều nhỏ nhặt bạn cần biết</title>
     <link href="https://huyvu15.github.io/posts/1rdb9bvf"/>
     <id>https://huyvu15.github.io/posts/1rdb9bvf</id>
     <published>2024-09-30T19:35:12.000Z</published>
-    <updated>2024-10-03T04:09:23.642Z</updated>
+    <updated>2024-10-12T09:58:22.675Z</updated>
     
     
       
@@ -593,40 +629,6 @@
     <category term="Project" scheme="https://huyvu15.github.io/tags/Project/"/>
     
     <category term="Protect" scheme="https://huyvu15.github.io/tags/Protect/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tạo chatbot quản lý chi tiêu trên telegram</title>
-    <link href="https://huyvu15.github.io/posts/123ofe2"/>
-    <id>https://huyvu15.github.io/posts/123ofe2</id>
-    <published>2024-07-15T06:35:12.000Z</published>
-    <updated>2024-07-15T06:34:27.380Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h1&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Workshop" scheme="https://huyvu15.github.io/categories/Workshop/"/>
-    
-    <category term="AWS" scheme="https://huyvu15.github.io/categories/Workshop/AWS/"/>
-    
-    
-    <category term="API gateway" scheme="https://huyvu15.github.io/tags/API-gateway/"/>
-    
-    <category term="Chatbot" scheme="https://huyvu15.github.io/tags/Chatbot/"/>
-    
-    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
-    
-    <category term="DynamoDB" scheme="https://huyvu15.github.io/tags/DynamoDB/"/>
     
   </entry>
   
