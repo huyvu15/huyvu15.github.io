@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-10-12T10:00:38.040Z</updated>
+  <updated>2024-10-25T06:42:38.697Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,19 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hướng dẫn crawl dữ liệu từ Pancake Việt Nam</title>
+    <link href="https://huyvu15.github.io/posts/1r6d39tf"/>
+    <id>https://huyvu15.github.io/posts/1r6d39tf</id>
+    <published>2024-10-25T00:35:12.000Z</published>
+    <updated>2024-10-25T06:42:38.697Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Ingest-Pancake-nguon-lay-ve-bang-api&quot;&gt;&lt;a href=&quot;#Ingest-Pancake-nguon-lay-ve-bang-api&quot; class=&quot;headerlink&quot; title=&quot;Ingest Pancake:</summary>
+        
+      
+    
+    
+    
+    <category term="Crawl" scheme="https://huyvu15.github.io/categories/Crawl/"/>
+    
+    
+    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
+    
+    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
+    
+    <category term="Pancake" scheme="https://huyvu15.github.io/tags/Pancake/"/>
+    
+    <category term="Chăm sóc khách hàng" scheme="https://huyvu15.github.io/tags/Cham-soc-khach-hang/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux và một số cái hay ho</title>
     <link href="https://huyvu15.github.io/posts/1r6d34bf"/>
     <id>https://huyvu15.github.io/posts/1r6d34bf</id>
     <published>2024-10-12T05:35:12.000Z</published>
-    <updated>2024-10-12T10:00:38.040Z</updated>
+    <updated>2024-10-25T06:36:51.868Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;i-say-hi&quot;&gt;I say hi&lt;/h1&gt;
-&lt;p&gt;Xin chào, lâu rồi mới ló mặt ra chả là vì bận rộn công việc, rời bời chuyện đời tư hay vất vả trong</summary>
+    <summary type="html">&lt;h1 id=&quot;I-say-hi&quot;&gt;&lt;a href=&quot;#I-say-hi&quot; class=&quot;headerlink&quot; title=&quot;I say hi&quot;&gt;&lt;/a&gt;I say hi&lt;/h1&gt;&lt;p&gt;Xin chào, lâu rồi mới ló mặt ra chả là vì bận</summary>
         
       
     
@@ -600,35 +630,6 @@
     
     
     <category term="Đàm phán" scheme="https://huyvu15.github.io/tags/Dam-phan/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Lưu ý khi bảo vệ đồ án</title>
-    <link href="https://huyvu15.github.io/posts/0p4e292f"/>
-    <id>https://huyvu15.github.io/posts/0p4e292f</id>
-    <published>2024-07-15T15:17:12.000Z</published>
-    <updated>2024-07-25T07:32:32.973Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Chua-phai-luc&quot;&gt;&lt;a href=&quot;#Chua-phai-luc&quot; class=&quot;headerlink&quot; title=&quot;Chưa phải lúc&quot;&gt;&lt;/a&gt;Chưa phải lúc&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Project" scheme="https://huyvu15.github.io/categories/Project/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="Project" scheme="https://huyvu15.github.io/tags/Project/"/>
-    
-    <category term="Protect" scheme="https://huyvu15.github.io/tags/Protect/"/>
     
   </entry>
   

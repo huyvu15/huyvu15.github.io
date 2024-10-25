@@ -1,0 +1,555 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hướng dẫn crawl dữ liệu từ Pancake Việt Nam | Blog's GluTis</title><meta name="author" content="GluTis,huyv80313@gmail.com"><meta name="copyright" content="GluTis"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="FFFAFA"><meta name="description" content="Ingest Pancake: nguồn lấy về bằng apiTrong các loại dữ liệu phổ biển của doanh nghiệp việt nam thì pancake là ông tổ của các loại dữ liệu về cs chăm sóc khách hàng. Chúng ta không thể dương mắt nhìn đ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hướng dẫn crawl dữ liệu từ Pancake Việt Nam">
+<meta property="og:url" content="https://huyvu15.github.io/posts/1r6d39tf">
+<meta property="og:site_name" content="Blog&#39;s GluTis">
+<meta property="og:description" content="Ingest Pancake: nguồn lấy về bằng apiTrong các loại dữ liệu phổ biển của doanh nghiệp việt nam thì pancake là ông tổ của các loại dữ liệu về cs chăm sóc khách hàng. Chúng ta không thể dương mắt nhìn đ">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://phanmemmkt.vn/wp-content/uploads/2023/07/phan-mem-pancake-la-gi-2.jpg">
+<meta property="article:published_time" content="2024-10-25T00:35:12.000Z">
+<meta property="article:modified_time" content="2024-10-25T06:42:38.697Z">
+<meta property="article:author" content="GluTis">
+<meta property="article:tag" content="Lambda function">
+<meta property="article:tag" content="Crawl">
+<meta property="article:tag" content="Pancake">
+<meta property="article:tag" content="Chăm sóc khách hàng">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://phanmemmkt.vn/wp-content/uploads/2023/07/phan-mem-pancake-la-gi-2.jpg"><link rel="shortcut icon" href="/img/about/icon.jpg"><link rel="canonical" href="https://huyvu15.github.io/posts/1r6d39tf"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="G2rPpjA8qhdAQYUqgC3WTFeaOfenZ71SWXKcg_WnOSk"/><meta name="baidu-site-verification" content="codeva-z19ndifHai"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?204a6d3bb0cb0e09978eff5ba3023104";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "kmd11rvmc3");</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":30,"position":"top","messagePrev":"Bài viết này đã có","messageNext":"Ngày không cập nhật, xin lưu ý phân biệt tính kịp thời, có thể một phần đã không còn hiệu lực."},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":500},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'mediumZoom',
+  Snackbar: {"chs_to_cht":"You have switched to Traditional Chinese","cht_to_chs":"You have switched to Simplified Chinese","day_to_night":"You have switched to Dark Mode","night_to_day":"You have switched to Light Mode","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hướng dẫn crawl dữ liệu từ Pancake Việt Nam',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-10-25 13:42:38'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'FFFAFA')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/card-info-btn.css"><script data-pjax charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script data-pjax>LA.init({id:"3HPYFt9znqKItrHZ",ck:"3HPYFt9znqKItrHZ",autoTrack:true})</script><link rel="stylesheet" type="text/css" href="/css/Capoo.css"><link rel="stylesheet" type="text/css" href="/css/foot.css"><link rel="stylesheet" type="text/css" href="/css/extra.css"><meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="Blog's GluTis" type="application/atom+xml">
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/about/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">61</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">119</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">69</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/#/"><i class="fa-fw fas fa-home"></i><span> Trang chủ</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tag</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-pencil"></i><span> Project</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/posts/1n6d313f/"><i class="fa-fw fa fa-arrow-up"></i><span> Nhận thông báo chi tiêu từ shopee</span></a></li><li><a class="site-page child" href="/posts/123ofe2/"><i class="fa-fw fa fa-arrow-down"></i><span> Tạo ChatBot trên Telegram</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://huyvu15.click/"><i class="fa-fw fas fa-map"></i><span> Điều hướng</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://phanmemmkt.vn/wp-content/uploads/2023/07/phan-mem-pancake-la-gi-2.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Blog's GluTis"><img class="site-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/about/icon.jpg"/><span class="site-name">Blog's GluTis</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/#/"><i class="fa-fw fas fa-home"></i><span> Trang chủ</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tag</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-pencil"></i><span> Project</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/posts/1n6d313f/"><i class="fa-fw fa fa-arrow-up"></i><span> Nhận thông báo chi tiêu từ shopee</span></a></li><li><a class="site-page child" href="/posts/123ofe2/"><i class="fa-fw fa fa-arrow-down"></i><span> Tạo ChatBot trên Telegram</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://huyvu15.click/"><i class="fa-fw fas fa-map"></i><span> Điều hướng</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Hướng dẫn crawl dữ liệu từ Pancake Việt Nam<a class="post-edit-link" href="https://github.com/huyvu15/huyvu15.github.io/tree/main/source/_posts/crawl_pancake.md" title="Edited on" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-10-25T00:35:12.000Z" title="Created 2024-10-25 07:35:12">2024-10-25</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-10-25T06:42:38.697Z" title="Updated 2024-10-25 13:42:38">2024-10-25</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Crawl/">Crawl</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>18mins</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Hướng dẫn crawl dữ liệu từ Pancake Việt Nam"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="Ingest-Pancake-nguon-lay-ve-bang-api"><a href="#Ingest-Pancake-nguon-lay-ve-bang-api" class="headerlink" title="Ingest Pancake: nguồn lấy về bằng api"></a>Ingest Pancake: nguồn lấy về bằng api</h2><p>Trong các loại dữ liệu phổ biển của doanh nghiệp việt nam thì pancake là ông tổ của các loại dữ liệu về <strong>cs</strong> chăm sóc khách hàng. Chúng ta không thể dương mắt nhìn đống data này chỉ có thể view trên web pancake.vn được. Chúng ta phải mang nó về xào qua các lượt và kết hợp nó với dữ liệu từ các nguồn khác của công ty để cho ra được những dashboard, những insight đẹp nhất. </p>
+<p>Vì thế blog này ra đời ko chỉ vì lưu trữ kiến thức mà còn là vì nó vô cùng cần thiết, công ty nào mà chả phải có kênh chăm sóc khách hàng, mà đã ở Việt Nam thì kiểu gì cũng phải dùng pancake. Và công ty thể nào cũng bảo ae lấy đống data này về.</p>
+<p>Về cách lấy trên trang chủ api docs của pancake đã nêu rất rõ cho từng loại dữ liệu. Bài viết dưới đây tôi chỉ gộp tất cả các nguồn lại và có thêm lấy gộp tất cả các bảng theo từng file và theo ngày. Có cả code sample trên lambda functions.</p>
+<p>Rồi. Vào việc thôi !</p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><aside>
+❗ Các api đều có chung tham số là **page_id** và **page_access_token** đã được bên cty cung cấp (hoặc tự tạo cái cũng dễ thôi)
+
+Gửi một request đến server của pancake bằng lệnh sau:
+
+- **response = requests.get(api, params)** - trong đó params là định nghĩa đoạn json truyền vào với các tham số mà api yêu cầu.
+</aside>
+
+<p>Cách lấy: sử dụng thư viện request trong python gửi một request thông api với các tham số được yêu cầu từ tài liệu: <a target="_blank" rel="noopener" href="https://docs.pancake.vn/v/english/developers/api-reference">[link]</a>, mỗi lượt request sẽ trả về 1 đoạn json tương ứng</p>
+<ul>
+<li>Xử lý dữ liệu khi lấy: xóa header, format lại dữ liệu theo dòng mỗi bản ghi là 1 dòng tương ứng.</li>
+<li>Đối với các bảng đặc biệt như Users statatistics cần phải tách riêng 2 phần: user và user_statatistics do có 2 phần trong data lấy về.</li>
+<li>Các bảng khác</li>
+<li>Xử lý chuyển từng mã nhân viên vào trong data tương ứng để glue có thể format chuẩn.</li>
+</ul>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdabDI25vk7j-ZahUQf7pfIzeCfyQH_KPJ5XIeb6JU4YCUFIDcg7d_d1dkkYiQo5gs2NfYuwMTWBxREV64H1bkl80kXdFzm10aCN6lP0Zf7cAFTXBP7lipzIw_E1CUqjluzpIX501A_kEgkF3ulF8BdzzHk?key=-ajfDnvJvuFJaHhWJ3HPUg" alt=""></p>
+<p>hình minh họa: đưa id của nhân viên vào trong để tạo thành 1 record đẹp (Xử lý tại raw data để về sau đưa data lên athena đỡ phức tạp và dễ dàng scale khi số lượng nhân viên tăng lên)</p>
+<h2 id="Cac-bang-lay-ve-kem-api-tham-so-tuong-ung"><a href="#Cac-bang-lay-ve-kem-api-tham-so-tuong-ung" class="headerlink" title="Các bảng lấy về kèm api, tham số tương ứng"></a>Các bảng lấy về kèm api, tham số tương ứng</h2><ul>
+<li>ads: data quảng cáo hằng ngày (thường thì chả thấy ads đâu 🙂)</li>
+<li>campaign: cái này 1 năm có khi có 1 campaign nên data ít thậm chí nhiều app ko có</li>
+<li>conversations: dữ liệu hội thoại của khách hàng</li>
+<li>engagement_statistics: bảng này phải tách ra làm 2 bảng và lưu thành engagement_statistics và user_enggements để glue có thể hiểu và formate đúng, xử lý luôn để sau đỡ phức tạp.</li>
+</ul>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcmPgMVSaqyAXK4MDoGeQC40ko9wMTCq2Toq0le_LpQCSkw5u0XjGOV0Z51GKDfsMKToIT1pq6VxWdNiPaxkb6T2EwSVnP_cXPd0T8efxRd_2TRI_BYoO9_FdyAL0A_H5cZOKHQvMTfp6egr6M2NOYOUmWy?key=-ajfDnvJvuFJaHhWJ3HPUg" alt=""></p>
+<h3 id="Cach-tach"><a href="#Cach-tach" class="headerlink" title="Cách tách"></a>Cách tách</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">data = response.json()</span><br><span class="line">users_engagements = data[<span class="string">&#x27;users_engagements&#x27;</span>]</span><br><span class="line">engagement_statistics = data[<span class="string">&#x27;statistics&#x27;</span>]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>new_customer_statistics: thống kê khách hàng mới</li>
+<li>page_customers: dữ liệu khách hàng theo trang (khách hàng tương tác với 1 trang nhất định)</li>
+<li>posts: thông tin về các bài đăng trên trang</li>
+<li>tags: lấy về 1 lần do ko có tham số ngày tháng trong api (lưu các thẻ (tags) được sử dụng để phân loại nội dung)</li>
+<li>user_list: danh sách người quản lý trang (lấy về 1 lần do ko có tham số ngày tháng)</li>
+<li>user_statistics: thống kê về người dùng, bao gồm các thông tin liên quan đến hoạt động hoặc tương tác của họ trên hệ thống</li>
+<li>user: thông tin cơ bản về user</li>
+<li>users_engagements: thông tin về mức độ tương tác của người dùng với các nội dung trên hệ thống</li>
+</ul>
+<p>Các lỗi gặp phải: phần lớn là do sai định dạng ngày (phải theo đúng chuẩn tài liệu của pancake</p>
+<ul>
+<li>Sửa bằng cách viết lại một hàm để convert lại định dạng đúng của nó (hiện tại trong code đang có 2 hàm vì từng api lại yêu cầu định dạng ngày khác)</li>
+<li>Để ngày sai: dữ liệu có từ 9/2023 (trước đó data toàn null với 0)</li>
+</ul>
+<p>Để format lại được dữ liệu được gọn và theo dòng thì phải thông qua hàm lưu data vào s3 sau (ý tưởng là data request về là 1 cục, cục đó đi qua hàm save_to_s3 để xử lý thành mỗi record trên 1 dòng.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">save_to_s3</span>(<span class="params">data, filename, app_name, data_type</span>):</span><br><span class="line">    date_str = datetime.now().strftime(<span class="string">&#x27;%Y-%m-%d&#x27;</span>)  <span class="comment"># Sử dụng ngày hiện tại</span></span><br><span class="line">    s3_folder = <span class="string">f&#x27;pancake/<span class="subst">&#123;app_name&#125;</span>/<span class="subst">&#123;data_type&#125;</span>/&#x27;</span>  <span class="comment"># Sử dụng app_name và data_type để tạo thư mục</span></span><br><span class="line">    s3_key = <span class="string">f&#x27;<span class="subst">&#123;s3_folder&#125;</span><span class="subst">&#123;filename[:-<span class="number">5</span>]&#125;</span>_<span class="subst">&#123;date_str&#125;</span>.json&#x27;</span>  <span class="comment"># Thêm ngày hiện tại vào filename</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Convert lines to a single string separated by newlines</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">isinstance</span>(data, <span class="built_in">list</span>):</span><br><span class="line">        lines = [json.dumps(item, ensure_ascii=<span class="literal">False</span>) <span class="keyword">for</span> item <span class="keyword">in</span> data]</span><br><span class="line">        output = <span class="string">&#x27;\n&#x27;</span>.join(lines)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        output = json.dumps(data, ensure_ascii=<span class="literal">False</span>)</span><br><span class="line">    </span><br><span class="line">    s3_client.put_object(</span><br><span class="line">        Bucket=bucket_name,</span><br><span class="line">        Key=s3_key,</span><br><span class="line">        Body=output.encode(<span class="string">&#x27;utf-8&#x27;</span>),</span><br><span class="line">        ContentType=<span class="string">&#x27;application/json&#x27;</span></span><br><span class="line">    )</span><br></pre></td></tr></table></figure>
+<p>bằng việc sử dụng hàm lưu file thì dữ liệu được lưu thành các dòng đẹp đẽ</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiy7kO11xNqHtaIgXepXCyvUxoqzqthTjriMJDzCH03riBp_nMQA9QbC-bJn0jpfDKeKcrvu8LVBFm_0nIHy7mJOSwB10vKS1_Upk_dVpjhOIeuAJb8Rlkgvc55WWhFLRGgyi9alWOhl7Vamyv_QdvNw5o?key=-ajfDnvJvuFJaHhWJ3HPUg" alt=""></p>
+<p>Sau khi làm ổn các bước trên thì chuyển sang viết lambda function: Ý tưởng là chỉ cần viết lại y trang code trên local rồi chuyển các hàm thực hiện chính (lambda_handler)</p>
+<h2 id="Cac-giai-thich-ve-viec-to-chuc-du-lieu-trong-datalake"><a href="#Cac-giai-thich-ve-viec-to-chuc-du-lieu-trong-datalake" class="headerlink" title="Các giải thích về việc tổ chức dữ liệu trong datalake"></a>Các giải thích về việc tổ chức dữ liệu trong datalake</h2><ul>
+<li>Dữ liệu pancake được lưu vào folder pancake</li>
+<li>Tổ chức dữ liệu theo dự án, pancake/<project_name>/table/file_<day>.json</li>
+<li>Dữ liệu lịch sử được lấy về sẽ ko có đuôi ngày ở sau</li>
+<li>Các ngày lấy về sau thì đặt tên file + ngày</li>
+<li>Các dữ liệu về tag, user_list sẽ chỉ lấy 1 lần, đã comment trong code</li>
+<li>Chỉnh lấy dữ liệu lịch sử ngay trong code lambda được do có chuyền vào tham số ngày … to ngày ….</li>
+</ul>
+<p>Hàm lambdafunction đầy đủ:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># đang daily trươc 1 ngày</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime, timedelta</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"><span class="keyword">import</span> boto3</span><br><span class="line"></span><br><span class="line">s3_client = boto3.client(<span class="string">&#x27;s3&#x27;</span>)</span><br><span class="line">bucket_name = <span class="string">&#x27;eup-datalake-bronze-zone-prod&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">save_to_s3</span>(<span class="params">data, filename, app_name, data_type</span>):</span><br><span class="line">    date_str = datetime.now().strftime(<span class="string">&#x27;%Y-%m-%d&#x27;</span>)  <span class="comment"># Sử dụng ngày hiện tại</span></span><br><span class="line">    s3_folder = <span class="string">f&#x27;pancake/<span class="subst">&#123;app_name&#125;</span>/<span class="subst">&#123;data_type&#125;</span>/&#x27;</span>  <span class="comment"># Sử dụng app_name và data_type để tạo thư mục</span></span><br><span class="line">    s3_key = <span class="string">f&#x27;<span class="subst">&#123;s3_folder&#125;</span><span class="subst">&#123;filename[:-<span class="number">5</span>]&#125;</span>_<span class="subst">&#123;date_str&#125;</span>.json&#x27;</span>  <span class="comment"># Thêm ngày hiện tại vào filename</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Convert lines to a single string separated by newlines</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">isinstance</span>(data, <span class="built_in">list</span>):</span><br><span class="line">        lines = [json.dumps(item, ensure_ascii=<span class="literal">False</span>) <span class="keyword">for</span> item <span class="keyword">in</span> data]</span><br><span class="line">        output = <span class="string">&#x27;\n&#x27;</span>.join(lines)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        output = json.dumps(data, ensure_ascii=<span class="literal">False</span>)</span><br><span class="line">    </span><br><span class="line">    s3_client.put_object(</span><br><span class="line">        Bucket=bucket_name,</span><br><span class="line">        Key=s3_key,</span><br><span class="line">        Body=output.encode(<span class="string">&#x27;utf-8&#x27;</span>),</span><br><span class="line">        ContentType=<span class="string">&#x27;application/json&#x27;</span></span><br><span class="line">    )</span><br><span class="line"></span><br><span class="line"><span class="comment"># Function to extract specific data based on different response structures</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">extract_data</span>(<span class="params">response, data_field</span>):</span><br><span class="line">    <span class="keyword">return</span> response.json().get(data_field, [])</span><br><span class="line">    </span><br><span class="line"><span class="keyword">def</span> <span class="title function_">convert_date_to_timestamp</span>(<span class="params">date_str</span>):</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">int</span>(time.mktime(datetime.strptime(date_str, <span class="string">&#x27;%Y-%m-%d&#x27;</span>).timetuple()))</span><br><span class="line"></span><br><span class="line"><span class="comment"># Fetch and save ads data</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_ads_data</span>(<span class="params">page_access_token, page_id, app_name, start_date, end_date</span>):</span><br><span class="line">    since_timestamp = convert_date_to_timestamp(start_date)</span><br><span class="line">    until_timestamp = convert_date_to_timestamp(end_date)</span><br><span class="line">    url = <span class="string">f&#x27;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/statistics/ads&#x27;</span></span><br><span class="line">    params = &#123;<span class="string">&#x27;page_access_token&#x27;</span>: page_access_token, <span class="string">&#x27;since&#x27;</span>: since_timestamp, <span class="string">&#x27;until&#x27;</span>: until_timestamp, <span class="string">&#x27;type&#x27;</span>: <span class="string">&#x27;by_time&#x27;</span>&#125;</span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = extract_data(response, <span class="string">&#x27;data&#x27;</span>)</span><br><span class="line">        save_to_s3(data, <span class="string">&#x27;ads.json&#x27;</span>, app_name, <span class="string">&#x27;ads&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error getting ads data: <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Fetch and save campaign data</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_campaign_data</span>(<span class="params">page_access_token, page_id, app_name, start_date, end_date</span>):</span><br><span class="line">    since_timestamp = convert_date_to_timestamp(start_date)</span><br><span class="line">    until_timestamp = convert_date_to_timestamp(end_date)</span><br><span class="line">    url = <span class="string">f&#x27;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/statistics/pages_campaigns&#x27;</span></span><br><span class="line">    params = &#123;<span class="string">&#x27;page_access_token&#x27;</span>: page_access_token, <span class="string">&#x27;since&#x27;</span>: since_timestamp, <span class="string">&#x27;until&#x27;</span>: until_timestamp&#125;</span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = extract_data(response, <span class="string">&#x27;data&#x27;</span>)</span><br><span class="line">        save_to_s3(data, <span class="string">&#x27;campaign.json&#x27;</span>, app_name, <span class="string">&#x27;campaign&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error getting campaign data: <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Fetch and save conversation data</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_conversations_in_chunks</span>(<span class="params">page_access_token, page_id, app_name, start_date, end_date</span>):</span><br><span class="line">    current_date = datetime.strptime(start_date, <span class="string">&#x27;%Y-%m-%d&#x27;</span>)</span><br><span class="line">    end_date = datetime.strptime(end_date, <span class="string">&#x27;%Y-%m-%d&#x27;</span>)</span><br><span class="line">    <span class="keyword">while</span> current_date &lt; end_date:</span><br><span class="line">        next_date = current_date + timedelta(days=<span class="number">29</span>)</span><br><span class="line">        <span class="keyword">if</span> next_date &gt; end_date:</span><br><span class="line">            next_date = end_date</span><br><span class="line">        since_timestamp = <span class="built_in">int</span>(current_date.timestamp())</span><br><span class="line">        until_timestamp = <span class="built_in">int</span>(next_date.timestamp())</span><br><span class="line">        page_number = <span class="number">1</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            url = <span class="string">f&quot;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/conversations&quot;</span></span><br><span class="line">            params = &#123;<span class="string">&quot;page_access_token&quot;</span>: page_access_token, <span class="string">&quot;since&quot;</span>: since_timestamp, <span class="string">&quot;until&quot;</span>: until_timestamp, <span class="string">&quot;page_number&quot;</span>: page_number&#125;</span><br><span class="line">            response = requests.get(url, params=params)</span><br><span class="line">            <span class="keyword">if</span> response.status_code == <span class="number">200</span> <span class="keyword">and</span> response.json().get(<span class="string">&quot;conversations&quot;</span>):</span><br><span class="line">                data = extract_data(response, <span class="string">&#x27;conversations&#x27;</span>)</span><br><span class="line">                save_to_s3(data, <span class="string">f&#x27;conversation_page_<span class="subst">&#123;page_number&#125;</span>.json&#x27;</span>, app_name, <span class="string">&#x27;conversations&#x27;</span>)</span><br><span class="line">                page_number += <span class="number">1</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        current_date = next_date + timedelta(days=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Fetch and save new_customer_statistics</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_new_customer_statistics</span>(<span class="params">page_access_token, page_id, app_name, start_date, end_date</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">convert_date_format</span>(<span class="params">date_str</span>):</span><br><span class="line">        date_obj = datetime.strptime(date_str, <span class="string">&#x27;%Y-%m-%d&#x27;</span>)</span><br><span class="line">        <span class="keyword">return</span> date_obj.strftime(<span class="string">&#x27;%d/%m/%Y&#x27;</span>)</span><br><span class="line">    </span><br><span class="line">    start_date_formatted = convert_date_format(start_date)</span><br><span class="line">    end_date_formatted = convert_date_format(end_date)</span><br><span class="line">    </span><br><span class="line">    date_range = <span class="string">f&quot;<span class="subst">&#123;start_date_formatted&#125;</span> - <span class="subst">&#123;end_date_formatted&#125;</span>&quot;</span></span><br><span class="line">    </span><br><span class="line">    url = <span class="string">f&quot;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/statistics/customers&quot;</span></span><br><span class="line">    </span><br><span class="line">    params = &#123;</span><br><span class="line">        <span class="string">&#x27;page_access_token&#x27;</span>: page_access_token,</span><br><span class="line">        <span class="string">&#x27;date_range&#x27;</span>: date_range,</span><br><span class="line">        <span class="string">&#x27;group_by&#x27;</span>: <span class="string">&#x27;day&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = extract_data(response, <span class="string">&#x27;data&#x27;</span>)</span><br><span class="line">        save_to_s3(data, <span class="string">&#x27;new_customer_statistics.json&#x27;</span>, app_name, <span class="string">&#x27;new_customer_statistics&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error getting new customer statistics: <span class="subst">&#123;response.status_code&#125;</span>, Message: <span class="subst">&#123;response.text&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Fetch and save page_customers</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_page_customers</span>(<span class="params">page_access_token, page_id, app_name, start_date, end_date</span>):</span><br><span class="line">    since_timestamp = convert_date_to_timestamp(start_date)</span><br><span class="line">    until_timestamp = convert_date_to_timestamp(end_date)</span><br><span class="line">    </span><br><span class="line">    url = <span class="string">f&#x27;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/page_customers&#x27;</span></span><br><span class="line">    params = &#123;<span class="string">&#x27;page_access_token&#x27;</span>: page_access_token, <span class="string">&#x27;since&#x27;</span>: since_timestamp, <span class="string">&#x27;until&#x27;</span>: until_timestamp, <span class="string">&#x27;page_number&#x27;</span>: <span class="number">1</span>, <span class="string">&#x27;page_size&#x27;</span>: <span class="number">50</span>&#125;</span><br><span class="line">    </span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = extract_data(response, <span class="string">&#x27;customers&#x27;</span>)</span><br><span class="line">        save_to_s3(data, <span class="string">&#x27;page_customers.json&#x27;</span>, app_name, <span class="string">&#x27;page_customers&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error getting page customers: <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Fetch and save user_list</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_user_list</span>(<span class="params">page_access_token, page_id, app_name</span>):</span><br><span class="line">    url = <span class="string">f&#x27;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/users&#x27;</span></span><br><span class="line">    params = &#123;<span class="string">&#x27;page_access_token&#x27;</span>: page_access_token&#125;</span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = extract_data(response, <span class="string">&#x27;users&#x27;</span>)</span><br><span class="line">        save_to_s3(data, <span class="string">&#x27;user_list.json&#x27;</span>, app_name, <span class="string">&#x27;user_list&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error getting user list: <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Fetch and save posts</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_posts</span>(<span class="params">page_access_token, page_id, app_name, start_date, end_date</span>):</span><br><span class="line">    since_timestamp = convert_date_to_timestamp(start_date)</span><br><span class="line">    until_timestamp = convert_date_to_timestamp(end_date)</span><br><span class="line">    </span><br><span class="line">    url = <span class="string">f&quot;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/posts&quot;</span></span><br><span class="line">    params = &#123;<span class="string">&#x27;since&#x27;</span>: since_timestamp, <span class="string">&#x27;until&#x27;</span>: until_timestamp, <span class="string">&#x27;page_number&#x27;</span>: <span class="number">1</span>, <span class="string">&#x27;page_size&#x27;</span>: <span class="number">30</span>, <span class="string">&#x27;page_access_token&#x27;</span>: page_access_token&#125;</span><br><span class="line">    </span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = extract_data(response, <span class="string">&#x27;posts&#x27;</span>)</span><br><span class="line">        save_to_s3(data, <span class="string">&#x27;posts.json&#x27;</span>, app_name, <span class="string">&#x27;posts&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error getting posts: <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Fetch and save tags</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_tags_data</span>(<span class="params">page_access_token, page_id, app_name</span>):</span><br><span class="line">    url = <span class="string">f&quot;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/tags&quot;</span></span><br><span class="line">    params = &#123;<span class="string">&#x27;page_access_token&#x27;</span>: page_access_token&#125;</span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = extract_data(response, <span class="string">&#x27;tags&#x27;</span>)</span><br><span class="line">        save_to_s3(data, <span class="string">&#x27;tags.json&#x27;</span>, app_name, <span class="string">&#x27;tags&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error getting tags data: <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_user_statistics</span>(<span class="params">page_access_token, page_id, start_date, end_date, app_name</span>):</span><br><span class="line">    url = <span class="string">f&#x27;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/statistics/users&#x27;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Tham số gửi kèm trong request</span></span><br><span class="line">    date_range = <span class="string">f&#x27;<span class="subst">&#123;start_date&#125;</span> - <span class="subst">&#123;end_date&#125;</span>&#x27;</span></span><br><span class="line">    params = &#123;</span><br><span class="line">        <span class="string">&#x27;page_access_token&#x27;</span>: page_access_token,</span><br><span class="line">        <span class="string">&#x27;date_range&#x27;</span>: date_range</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Gửi yêu cầu GET tới API</span></span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = response.json()</span><br><span class="line">        statistics = data[<span class="string">&quot;data&quot;</span>][<span class="string">&quot;statistics&quot;</span>]</span><br><span class="line">        users = data[<span class="string">&quot;data&quot;</span>][<span class="string">&quot;users&quot;</span>]</span><br><span class="line">        </span><br><span class="line">        statistics1 = []</span><br><span class="line">        users1 = []</span><br><span class="line">        <span class="keyword">for</span> key, value <span class="keyword">in</span> statistics.items():</span><br><span class="line">            <span class="keyword">for</span> elem <span class="keyword">in</span> value:</span><br><span class="line">                elem[<span class="string">&#x27;user_id&#x27;</span>] = key</span><br><span class="line">                statistics1.append(elem)</span><br><span class="line">    </span><br><span class="line">        <span class="comment"># Lưu users vào users1</span></span><br><span class="line">        <span class="keyword">for</span> key, value <span class="keyword">in</span> users.items():</span><br><span class="line">            value[<span class="string">&#x27;user_id&#x27;</span>] = key</span><br><span class="line">            users1.append(value)</span><br><span class="line">        </span><br><span class="line">        save_to_s3(statistics1, <span class="string">&#x27;user_statistics.json&#x27;</span>, app_name, <span class="string">&#x27;user_statistics&#x27;</span>)</span><br><span class="line">        save_to_s3(users1, <span class="string">&#x27;user.json&#x27;</span>, app_name, <span class="string">&#x27;user&#x27;</span>)</span><br><span class="line">      </span><br><span class="line"></span><br><span class="line"><span class="comment"># Hàm lấy dữ liệu Engagement_statistics</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_engagement_statistics</span>(<span class="params">page_access_token, page_id, start_date, end_date, app_name</span>):</span><br><span class="line">    url = <span class="string">f&#x27;https://pages.fm/api/public_api/v1/pages/<span class="subst">&#123;page_id&#125;</span>/statistics/customer_engagements&#x27;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Tham số truyền vào API</span></span><br><span class="line">    date_range = <span class="string">f&#x27;<span class="subst">&#123;start_date&#125;</span> - <span class="subst">&#123;end_date&#125;</span>&#x27;</span></span><br><span class="line">    params = &#123;</span><br><span class="line">        <span class="string">&#x27;page_access_token&#x27;</span>: page_access_token,</span><br><span class="line">        <span class="string">&#x27;date_range&#x27;</span>: date_range,</span><br><span class="line">        <span class="string">&#x27;by_hour&#x27;</span>: <span class="literal">False</span>,</span><br><span class="line">        <span class="string">&#x27;user_ids&#x27;</span>: []  <span class="comment"># Bắt buộc phải có tham số này, có thể để trống nếu không lọc</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Gửi request GET đến API</span></span><br><span class="line">    response = requests.get(url, params=params)</span><br><span class="line">    <span class="keyword">if</span> response.status_code == <span class="number">200</span>:</span><br><span class="line">        data = response.json()</span><br><span class="line">        users_engagements = data[<span class="string">&#x27;users_engagements&#x27;</span>]</span><br><span class="line">        engagement_statistics = data[<span class="string">&#x27;statistics&#x27;</span>]</span><br><span class="line">        save_to_s3(users_engagements, <span class="string">&#x27;user_engagements.json&#x27;</span>, app_name, <span class="string">&#x27;users_engagements&#x27;</span>)</span><br><span class="line">        save_to_s3(engagement_statistics, <span class="string">&#x27;engagement_statistics.json&#x27;</span>, app_name, <span class="string">&#x27;engagement_statistics&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">format_date</span>(<span class="params">date_str</span>):</span><br><span class="line">    date_obj = datetime.strptime(date_str, <span class="string">&#x27;%Y-%m-%d&#x27;</span>)</span><br><span class="line">    <span class="keyword">return</span> date_obj.strftime(<span class="string">&#x27;%d/%m/%Y 00:00:00&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>Hàm lambda handler</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">lambda_handler</span>(<span class="params">event, context</span>):</span><br><span class="line">    apps = []</span><br><span class="line">    page_ids = []</span><br><span class="line">    page_access_tokens = []</span><br><span class="line">    today = datetime.now()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Set start_date to two days before today</span></span><br><span class="line">    start_date = (today - timedelta(days=<span class="number">2</span>)).strftime(<span class="string">&#x27;%Y-%m-%d&#x27;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># Set end_date to one day before today</span></span><br><span class="line">    end_date = (today - timedelta(days=<span class="number">1</span>)).strftime(<span class="string">&#x27;%Y-%m-%d&#x27;</span>)</span><br><span class="line">    start_date1 = format_date(start_date)</span><br><span class="line">    end_date1 = format_date(end_date)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> app, page_id, page_access_token <span class="keyword">in</span> <span class="built_in">zip</span>(apps, page_ids, page_access_tokens):</span><br><span class="line">        get_ads_data(page_access_token, page_id, app, start_date, end_date)</span><br><span class="line">        get_campaign_data(page_access_token, page_id, app, start_date, end_date)</span><br><span class="line">        get_conversations_in_chunks(page_access_token, page_id, app, start_date, end_date)</span><br><span class="line">        get_posts(page_access_token, page_id, app, start_date, end_date)</span><br><span class="line">        get_new_customer_statistics(page_access_token, page_id, app, start_date, end_date)</span><br><span class="line">        get_page_customers(page_access_token, page_id, app, start_date, end_date)</span><br><span class="line">        <span class="comment"># get_user_list(page_access_token, page_id, app) # chỉ lấy một lần </span></span><br><span class="line">        <span class="comment"># get_tags_data(page_access_token, page_id, app) #chỉ lấy một lần</span></span><br><span class="line">        get_user_statistics(page_access_token, page_id, start_date1, end_date1, app)</span><br><span class="line">        get_engagement_statistics(page_access_token, page_id, start_date1, end_date1, app)</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        <span class="string">&#x27;statusCode&#x27;</span>: <span class="number">200</span>,</span><br><span class="line">        <span class="string">&#x27;body&#x27;</span>: json.dumps(<span class="string">&#x27;Data fetched and saved to S3 successfully!&#x27;</span>)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>SUPPORTED ENDPOINTS</strong></p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th><strong>HTTP method</strong></th>
+<th><strong>Endpoint</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>List user, static….</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>update</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Status-Codes"><a href="#Status-Codes" class="headerlink" title="Status Codes"></a>Status Codes</h2><p>Mã phản hồi HTTP được sử dụng để chỉ ra các lớp thành công và lỗi chung.</p>
+<h3 id="Success-Code"><a href="#Success-Code" class="headerlink" title="Success Code"></a>Success Code</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>HTTP Status Quote</th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>Successfully processed request.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Error-Codes"><a href="#Error-Codes" class="headerlink" title="Error Codes"></a>Error Codes</h3><p>Phản hồi lỗi chứa nhiều chi tiết hơn về lỗi trong nội dung phản hồi, trong <code>&quot;code&quot;</code> và <code>&quot;message&quot;</code>.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>HTTP Status Quote</th>
+<th><code>code</code></th>
+<th><code>message</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>400</td>
+<td>invalid_json</td>
+<td>The request body could not be decoded as JSON</td>
+</tr>
+<tr>
+<td>400</td>
+<td>invalid_request_url</td>
+<td>This request URL is not valid.</td>
+</tr>
+<tr>
+<td>400</td>
+<td>invalid_request</td>
+<td>This request is not supported.</td>
+</tr>
+<tr>
+<td>401</td>
+<td>unauthorized</td>
+<td>The bearer token is not valid.</td>
+</tr>
+<tr>
+<td>403</td>
+<td>forbidden</td>
+<td>You do not have permission to access this resource.</td>
+</tr>
+<tr>
+<td>404</td>
+<td>not found</td>
+<td>The requested resource could not be found.</td>
+</tr>
+<tr>
+<td>405</td>
+<td>method_not_allowed</td>
+<td>The request method is not allowed.</td>
+</tr>
+<tr>
+<td>429</td>
+<td>too_many_requests</td>
+<td>You have made too many requests. Please try again later.</td>
+</tr>
+<tr>
+<td>500</td>
+<td>internal_server_error</td>
+<td>An error occurred on the server.</td>
+</tr>
+<tr>
+<td>502</td>
+<td>bad_gateway</td>
+<td>The server received an invalid response from the upstream server.</td>
+</tr>
+<tr>
+<td>503</td>
+<td>service_unavailable</td>
+<td>The server is temporarily unavailable. Please try again later.</td>
+</tr>
+<tr>
+<td>504</td>
+<td>gateway_timeout</td>
+<td>The upstream server did not respond in time.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://huyvu15.github.io">GluTis</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://huyvu15.github.io/posts/1r6d39tf">https://huyvu15.github.io/posts/1r6d39tf</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Lambda-function/">Lambda function</a><a class="post-meta__tags" href="/tags/Crawl/">Crawl</a><a class="post-meta__tags" href="/tags/Pancake/">Pancake</a><a class="post-meta__tags" href="/tags/Cham-soc-khach-hang/">Chăm sóc khách hàng</a></div><div class="post_share"><div class="social-share" data-image="https://phanmemmkt.vn/wp-content/uploads/2023/07/phan-mem-pancake-la-gi-2.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>Sponsor</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/money/wechat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/money/wechat.png" alt="bank"/></a><div class="post-qr-code-desc">bank</div></li><li class="reward-item"><a href="/img/money/alipay.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/money/alipay.png" alt="bank"/></a><div class="post-qr-code-desc">bank</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/1r6d34bf" title="Linux và một số cái hay ho"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://nexcom.vn/upload_images/images/2022/07/04/Linux_1.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next</div><div class="next_info">Linux và một số cái hay ho</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/posts/1n6d313f" title="NHẬN THÔNG BÁO CHI TIÊU CHO HOẠT ĐỘNG MUA SẮP TẠI SHOPEE"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://vcdn1-kinhdoanh.vnecdn.net/2023/11/24/s-1396-1700801188.png?w=460&h=0&q=100&dpr=2&fit=crop&s=oyJgK-lJgurTXvxXKDxsNg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-06-30</div><div class="title">NHẬN THÔNG BÁO CHI TIÊU CHO HOẠT ĐỘNG MUA SẮP TẠI SHOPEE</div></div></a></div><div><a href="/posts/123ofe2" title="Tạo chatbot quản lý chi tiêu trên telegram"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(60)/2023_9_27_638314274140644917_bot-telegram.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-07-15</div><div class="title">Tạo chatbot quản lý chi tiêu trên telegram</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Ingest-Pancake-nguon-lay-ve-bang-api"><span class="toc-number">1.</span> <span class="toc-text">Ingest Pancake: nguồn lấy về bằng api</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-number">2.</span> <span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cac-bang-lay-ve-kem-api-tham-so-tuong-ung"><span class="toc-number">3.</span> <span class="toc-text">Các bảng lấy về kèm api, tham số tương ứng</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Cach-tach"><span class="toc-number">3.1.</span> <span class="toc-text">Cách tách</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cac-giai-thich-ve-viec-to-chuc-du-lieu-trong-datalake"><span class="toc-number">4.</span> <span class="toc-text">Các giải thích về việc tổ chức dữ liệu trong datalake</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Status-Codes"><span class="toc-number">5.</span> <span class="toc-text">Status Codes</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Success-Code"><span class="toc-number">5.1.</span> <span class="toc-text">Success Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Error-Codes"><span class="toc-number">5.2.</span> <span class="toc-text">Error Codes</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 By GluTis</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://butterfly.js.org/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="chat-btn" type="button" title="Chat"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid@10.8.0/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const abcjsInit = () => {
+    const abcjsFn = () => {
+      document.querySelectorAll(".abc-music-sheet").forEach(ele => {
+        ABCJS.renderAbc(ele, ele.innerHTML, {responsive: 'resize'})
+      })
+    }
+    
+    typeof ABCJS === 'object' ? abcjsFn()
+      : getScript('https://cdn.jsdelivr.net/npm/abcjs@6.3.0/dist/abcjs-basic-min.min.js').then(abcjsFn)
+  }
+
+  window.pjax ? abcjsInit() : window.addEventListener('load', abcjsInit)
+})()</script><script>(()=>{
+  const getGiscusTheme = theme => {
+    return theme === 'dark' ? 'dark' : 'light'
+  }
+
+  const loadGiscus = () => {
+    const config = Object.assign({
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'huyvu15/huyvu15.github.io',
+      'data-repo-id': 'R_kgDOMHLk0w',
+      'data-category-id': 'DIC_kwDOMHLk084CgTi9',
+      'data-mapping': 'pathname',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true
+    },{"data-category":"Show and tell","data-mapping":"url","data-strict":0,"data-reactions-enabled":1,"data-emit-metadata":1,"data-input-position":"top","data-theme":"preferred_color_scheme","data-lang":"en","crossorigin":"anonymous"})
+
+    const ele = document.createElement('script')
+    for (let key in config) {
+      ele.setAttribute(key, config[key])
+    }
+    document.getElementById('giscus-wrap').appendChild(ele)
+  }
+
+  const changeGiscusTheme = theme => {
+    const sendMessage = message => {
+      const iframe = document.querySelector('iframe.giscus-frame')
+      if (!iframe) return
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app')
+    }
+
+    sendMessage({
+      setConfig: {
+        theme: getGiscusTheme(theme)
+      }
+    });
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if ('Giscus' === 'Giscus' || !true) {
+    if (true) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment= loadGiscus
+  }
+})()</script></div><script data-pjax src="/js/foot.js"></script><script data-pjax src="/js/ip.js"></script><script data-pjax src="/js/Capoo.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/click-show-text.min.js" data-mobile="false" data-text="Mình,là,GluTis" data-fontsize="15px" data-random="false" async="async"></script><script>(() => {
+  const isChatBtn = true
+  const isChatHideShow = true
+
+  if (isChatBtn) {
+    const close = () => {
+      Chatra('minimizeWidget')
+      Chatra('hide')
+    }
+
+    const open = () => {
+      Chatra('openChat', true)
+      Chatra('show')
+    }
+
+    window.ChatraSetup = {
+      startHidden: true
+    }
+  
+    window.chatBtnFn = () => {
+      const isShow = document.getElementById('chatra').classList.contains('chatra--expanded')
+      isShow ? close() : open()
+    }
+  } else if (isChatHideShow) {
+    window.chatBtn = {
+      hide: () => {
+        Chatra('hide')
+      },
+      show: () => {
+        Chatra('show')
+      }
+    }
+  }
+
+  (function(d, w, c) {
+    w.ChatraID = 'odrCmotXiknn7yHdF'
+    var s = d.createElement('script')
+    w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments)
+    }
+    s.async = true
+    s.src = 'https://call.chatra.io/chatra.js'
+    if (d.head) d.head.appendChild(s)
+  })(document, window, 'Chatra')
+
+})()</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
