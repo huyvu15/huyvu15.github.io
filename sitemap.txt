@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/1r6d39tf
 https://huyvu15.github.io/posts/1r6d34bf
 https://huyvu15.github.io/posts/1rdb9bvf
 https://huyvu15.github.io/posts/qwertyui
@@ -180,6 +181,8 @@ https://huyvu15.github.io/tags/Thinkings/
 https://huyvu15.github.io/tags/Reinstall-Win/
 https://huyvu15.github.io/tags/Services/
 https://huyvu15.github.io/tags/OS/
+https://huyvu15.github.io/tags/Pancake/
+https://huyvu15.github.io/tags/Cham-soc-khach-hang/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -248,3 +251,4 @@ https://huyvu15.github.io/categories/Knowledge/Insights/
 https://huyvu15.github.io/categories/Terraform/AWS/
 https://huyvu15.github.io/categories/Knowledge/AWS/
 https://huyvu15.github.io/categories/Linux/Insights/
+https://huyvu15.github.io/categories/Crawl/
