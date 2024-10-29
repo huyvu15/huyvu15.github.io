@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-10-25T06:42:38.697Z</updated>
+  <updated>2024-10-29T08:58:55.057Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Lấy dữ liệu từ facebook ads</title>
+    <link href="https://huyvu15.github.io/posts/1r6d33bf"/>
+    <id>https://huyvu15.github.io/posts/1r6d33bf</id>
+    <published>2024-10-29T08:35:12.000Z</published>
+    <updated>2024-10-29T08:58:55.057Z</updated>
+    
+    
+    <summary type="html">Nội dung này đã được mã hóa.</summary>
+    
+    
+    
+    <category term="Crawl" scheme="https://huyvu15.github.io/categories/Crawl/"/>
+    
+    
+    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
+    
+    <category term="Facebook ads" scheme="https://huyvu15.github.io/tags/Facebook-ads/"/>
+    
+    <category term="Facebook Marketing" scheme="https://huyvu15.github.io/tags/Facebook-Marketing/"/>
+    
+    <category term="Scrape" scheme="https://huyvu15.github.io/tags/Scrape/"/>
+    
+  </entry>
   
   <entry>
     <title>Hướng dẫn crawl dữ liệu từ Pancake Việt Nam</title>
@@ -604,32 +629,6 @@
     <category term="Prepare" scheme="https://huyvu15.github.io/tags/Prepare/"/>
     
     <category term="Documentation" scheme="https://huyvu15.github.io/tags/Documentation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Khóa học đàm phán thành công, các chiến lược và kỹ năng thiết yếu</title>
-    <link href="https://huyvu15.github.io/posts/0t4e2927"/>
-    <id>https://huyvu15.github.io/posts/0t4e2927</id>
-    <published>2024-07-21T15:17:12.000Z</published>
-    <updated>2024-07-21T16:07:08.988Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;bước-đầu-tiên-trong-quá-trình-đàm-phán&quot;&gt;Bước đầu tiên trong quá trình đàm phán&lt;/h1&gt;
-&lt;p&gt;Trước khi đàm phán bạn phải đưa ra các nhận</summary>
-        
-      
-    
-    
-    
-    <category term="Course" scheme="https://huyvu15.github.io/categories/Course/"/>
-    
-    
-    <category term="Đàm phán" scheme="https://huyvu15.github.io/tags/Dam-phan/"/>
     
   </entry>
   
