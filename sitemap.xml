@@ -2,6 +2,735 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://huyvu15.github.io/live2d-widget-master/waifu-tips.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model_list.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/bilibili-live/33/textures_order.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/bilibili-live/22/textures_order.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/bilibili-live/33/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/bilibili-live/22/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-pajama/pose.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-pajama/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-pajama/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-pajama/expressions/f03.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-pajama/expressions/f04.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-pajama/expressions/f01.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-pajama/expressions/f02.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-48/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-48/pose.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-48/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-48/expressions/f04.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-48/expressions/f03.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-48/expressions/f01.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/ShizukuTalk/shizuku-48/expressions/f02.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/Potion-Maker/Tia/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/Potion-Maker/Pio/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/KantaiCollection/murakumo/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/KantaiCollection/murakumo/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/KantaiCollection/murakumo/expressions/f04.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/KantaiCollection/murakumo/expressions/f02.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/KantaiCollection/murakumo/expressions/f01.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/KantaiCollection/murakumo/expressions/f03.exp.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/vert_swimwear/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/vert_swimwear/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/vert_normal/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/vert_normal/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/vert_classic/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/vert_classic/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/noireswim/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/noireswim/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/noir_santa/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/noir_santa/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/noir_classic/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/noir_classic/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/noir/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/noir/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/neptune_santa/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/neptune_classic/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepswim/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepswim/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/general/pose.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/general/exp/deformed.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/general/exp/enjoy.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/general/exp/kira.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/general/exp/normal.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/general/exp/happy.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepnep/general/exp/unhappy.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepmaid/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepmaid/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepgearswim/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepgearswim/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepgear_extra/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepgear_extra/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepgear/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/nepgear/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/histoirenohover/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/histoirenohover/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/histoire/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/histoire/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/general/pose.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/blanc_swimwear/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/blanc_swimwear/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/blanc_normal/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/blanc_normal/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/blanc_classic/physics.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/model/HyperdimensionNeptunia/blanc_classic/index.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d_api/README</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d-widget-master/package.json</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d-widget-master/demo/login</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d-widget-master/demo/demo</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d-widget-master/README</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/live2d-widget-master/README.en</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/posts/1e6d33bf</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://huyvu15.github.io/posts/1r6d33bf</loc>
     
     <lastmod>2024-10-29</lastmod>
@@ -598,7 +1327,7 @@
 
   <url>
     <loc>https://huyvu15.github.io/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -606,854 +1335,875 @@
   
   <url>
     <loc>https://huyvu15.github.io/tags/AI/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Knownledge/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Art/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Photography/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/DE/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Data/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Github/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Cert/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Learn/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/News/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Computer-Vision/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Algorithms/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Model/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Bugs/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/QQbot/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Dataware-House/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Big-Data/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/ETL/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/EC2/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Start/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Tricks-lo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Web/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Chrome/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Extension/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Images/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Memories/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Git/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/ChatGPT/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Nice/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Hay-ho/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Google/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/ML/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Idea/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Useful/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Jenkins/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Building/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Blog/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Journeys/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Linux/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/How/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Love/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Motivation/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Python/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Blue-Bridge/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Luogu/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Command/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Hexo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/MongoDB/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/NCKH/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Math/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Me/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Note/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Award/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Encrypted/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Plan/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Implement/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Resources/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Sharing/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Courses/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Tong-hop/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Project/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Protect/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Review/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Devops/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/API-gateway/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Chatbot/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Lambda-function/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/DynamoDB/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Terraform/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/AWS/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Cloud-Providers/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Knowledge/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Challenge/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/DL/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/CMD/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Laptop/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Hacker/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Secure/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Can-tra-loi/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/You-need/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Hugo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Shopee/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/S3/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/EventBridge/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Crawl/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/API/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Dam-phan/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Prepare/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Documentation/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Time/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Manager/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Metrics/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/SQL/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Sql/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Big-Query/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Smart/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Mount/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Database/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/MySQL/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Extract/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Process-Video/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Doris/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/DW/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Airbyte/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Ingest/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Kestra/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Workflow/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Orchestration/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Link/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Bat-dong-san/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Algo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Interview/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Insights/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Thinkings/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Reinstall-Win/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Services/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/OS/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Pancake/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Cham-soc-khach-hang/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Facebook-ads/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Facebook-Marketing/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/tags/Scrape/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/tags/ads/</loc>
+    <lastmod>2024-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/tags/website-ads/</loc>
+    <lastmod>2024-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/tags/app-ads/</loc>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1462,483 +2212,490 @@
   
   <url>
     <loc>https://huyvu15.github.io/categories/AI/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Photography/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/DE/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Github/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Computer-Vision/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/QQbot/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Data/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/DE/Interview/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/AWS/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Extension/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Gallery/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Github/Certificate/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Git/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Technical-guide/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Google/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/ML/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Useful/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/CI-CD/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Blog/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Linux/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Love/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/AWS/Tips/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Python/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Nosql/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Extension/Chrome/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Learning/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Award/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Plan/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Sharing/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Project/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Devops/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Workshop/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Terraform/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Technical-guide/Github/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Challenge/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/AI/ML/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Google/Hay-ho/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Windows/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Hieu-biet/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Linux/kali/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Python/Blue-Bridge/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Award/Note/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Workshop/AWS/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/AI/ML/DL/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Need/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Hexo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/AWS/Hugo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Need/Web/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Hexo/document/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Course/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Knowledge/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Metrics/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/DW/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Ingest/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Ingest/DE/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Orchestration/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Orchestration/DE/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Note/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Note/Link/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Note/Link/Suu-tam/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Algo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Algo/Interview/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/AWS/EC2/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/AWS/EC2/Feature/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Knowledge/Insights/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Terraform/AWS/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Knowledge/AWS/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Linux/Insights/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://huyvu15.github.io/categories/Crawl/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://huyvu15.github.io/categories/Insights/</loc>
+    <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

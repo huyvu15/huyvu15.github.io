@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-10-29T08:58:55.057Z</updated>
+  <updated>2024-11-03T06:34:50.324Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bóc trần bí mật kiểm tiền khủng từ quảng cáo trên App và Web</title>
+    <link href="https://huyvu15.github.io/posts/1e6d33bf"/>
+    <id>https://huyvu15.github.io/posts/1e6d33bf</id>
+    <published>2024-10-29T09:35:12.000Z</published>
+    <updated>2024-11-03T06:34:50.324Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Mo-dau&quot;&gt;&lt;a href=&quot;#Mo-dau&quot; class=&quot;headerlink&quot; title=&quot;Mở đầu&quot;&gt;&lt;/a&gt;Mở đầu&lt;/h1&gt;&lt;p&gt;Từ bé đến lớn, từ lúc xem ti vi loa đài đến lúc vi vu</summary>
+        
+      
+    
+    
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/categories/Insights/"/>
+    
+    
+    <category term="ads" scheme="https://huyvu15.github.io/tags/ads/"/>
+    
+    <category term="website ads" scheme="https://huyvu15.github.io/tags/website-ads/"/>
+    
+    <category term="app ads" scheme="https://huyvu15.github.io/tags/app-ads/"/>
+    
+  </entry>
   
   <entry>
     <title>Lấy dữ liệu từ facebook ads</title>
@@ -599,36 +628,6 @@
     <category term="Time" scheme="https://huyvu15.github.io/tags/Time/"/>
     
     <category term="Manager" scheme="https://huyvu15.github.io/tags/Manager/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hướng dẫn chạy lại base pipeline</title>
-    <link href="https://huyvu15.github.io/posts/nrbd392f"/>
-    <id>https://huyvu15.github.io/posts/nrbd392f</id>
-    <published>2024-07-23T00:35:12.000Z</published>
-    <updated>2024-08-11T04:20:21.713Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;my-tasks&quot;&gt;My tasks&lt;/h1&gt;
-&lt;p&gt;viết doc về cái repository đã chạy ( framework deploy web là gì, cách thức lưu dữ liệu như nào, nói</summary>
-        
-      
-    
-    
-    
-    <category term="AI" scheme="https://huyvu15.github.io/categories/AI/"/>
-    
-    
-    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
-    
-    <category term="Prepare" scheme="https://huyvu15.github.io/tags/Prepare/"/>
-    
-    <category term="Documentation" scheme="https://huyvu15.github.io/tags/Documentation/"/>
     
   </entry>
   

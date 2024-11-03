@@ -3,3 +3,71 @@
     border-radius: 7px;
     /* 可以根据需要调整圆角的大小 */
 }
+
+
+/* additional  */
+#content-inner.layout h1::before {
+    color: #ef50a8;
+    margin-left: -1rem; /* Adjusted to move icon closer */
+    font-size: 1.3rem;
+    margin-top: -0.23rem;
+  }
+  #content-inner.layout h2::before {
+    color: #fb7061;
+    margin-left: -0.9rem; /* Adjusted to move icon closer */
+    font-size: 1.1rem;
+    margin-top: -0.12rem;
+  }
+  #content-inner.layout h3::before {
+    color: #ffbf00;
+    margin-left: -0.8rem; /* Adjusted to move icon closer */
+    font-size: 0.95rem;
+    margin-top: -0.09rem;
+  }
+  #content-inner.layout h4::before {
+    color: #a9e000;
+    margin-left: -0.7rem; /* Adjusted to move icon closer */
+    font-size: 0.8rem;
+    margin-top: -0.09rem;
+  }
+  #content-inner.layout h5::before {
+    color: #57c850;
+    margin-left: -0.6rem; /* Adjusted to move icon closer */
+    font-size: 0.7rem;
+    margin-top: 0rem;
+  }
+  #content-inner.layout h6::before {
+    color: #5ec1e0;
+    margin-left: -0.5rem; /* Adjusted to move icon closer */
+    font-size: 0.66rem;
+    margin-top: 0rem;
+  }
+
+
+/* 翻页按钮居中 */
+#pagination {
+	width: 100%;
+	margin: auto;
+  }
+
+
+/* windown profile */
+/* (Day theme configuration) */
+#aside-content > .card-widget.card-info {
+    /* Replace with the image URL */
+    background-image: url('https://wallpapers.com/images/featured/minimalist-gradient-crbxyudy4ehp837o.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+}
+
+/* (Dark theme configuration) */
+[data-theme=dark] #aside-content > .card-widget.card-info {
+    /* Replace with the image URL */
+    background-image: url('https://i.pinimg.com/originals/05/70/e2/0570e2ca6203878b29abc65ecffc4e9c.jpg') !important;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+}
+
+
