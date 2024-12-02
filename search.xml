@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>Tìm hiểu công cụ ko thể thiếu cho DE - Airflow</title>
+      <link href="/posts/1rg1393f.html"/>
+      <url>/posts/1rg1393f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Gioi-thieu"><a href="#Gioi-thieu" class="headerlink" title="Giới thiệu"></a>Giới thiệu</h1><p>Airflow là một công cụ hữu ích cho DataEngineer dùng để lập lịch việc này đến việc kia, ….</p><ul><li>Airflow cung cấp các khái niệm như “DAG” (Directed Acyclic Graph), “Task”, “Operator”, “Sensor” để mô tả quy trình xử lý dữ liệu</li></ul><h2 id="DAG"><a href="#DAG" class="headerlink" title="DAG"></a>DAG</h2><p><img src="https://images.viblo.asia/8842ff10-1030-4896-a07b-c2450913d050.png" alt=""></p><p>Hiểu đại khái là một đồ thị có hướng không có chu trình (do điểm đầu cuối ko trùng)</p><p>Mỗi DAG được định nghĩa trong 1 file trong folder dags</p><p>Các nút trong đồ thị là các tác vụ xử lý dữ liệu</p><p>Vòng đời của 1 tác vụ bao gồm:</p><ul><li>No status: chưa được xếp hàng để thực hiện</li><li>Scheduled: Bộ lập lịch đã xác định rằng các phụ thuộc của nhiệm vụ được đáp ứng và lên lịch cho nó chạy</li><li>Removed</li><li>Upstream failed</li><li>Quêud</li><li>Running</li><li>Success</li><li>Failed</li><li>Up for retry</li></ul><p>-&gt; Quy trình lý tưởng nhất cho một tác vụ No status -&gt; Scheduled -&gt; Queued -&gt; Running -&gt; Success</p><h1 id="Task"><a href="#Task" class="headerlink" title="Task"></a>Task</h1><p>Đơn vị cơ bản để thực hiện một công việc nhỏ trong quy trình xử lý dữ liệu.</p><p>Mỗi task trong Airflow có các thuộc tính và phương thức sau (lưu ý vì khi code phải có đủ):</p><ul><li>task_id</li><li>owner</li><li>depends_on_part</li><li>retries: số lần thử lại nếu task thất bại</li><li>retry_delay: khoảng thời gian giữa các lần thử lại</li><li>start_date, end_date</li><li>execution_timeout: thời gian tối đa cho phép để thực hiện task</li><li>n_failure_callback, on_success_calLback: hàm được gọi khi task thất bại hay thành công.</li></ul><h2 id="Operator"><a href="#Operator" class="headerlink" title="Operator"></a>Operator</h2><h2 id="Sensor"><a href="#Sensor" class="headerlink" title="Sensor"></a>Sensor</h2><h1 id="Cai-dat"><a href="#Cai-dat" class="headerlink" title="Cài đặt"></a>Cài đặt</h1><p>Do máy tôi không đủ bộ nhớ nên tôi thuê luôn một con server chạy trên nền amazon linux để cài. Chạy lần lượt từng lệnh dưới đây để cài.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">sudo yum update -y</span><br><span class="line"></span><br><span class="line">sudo yum install python3 python3-pip -y</span><br><span class="line"></span><br><span class="line">sudo yum install gcc-c++ -y</span><br><span class="line">sudo yum install postgresql-devel -y  <span class="comment"># Nếu bạn dùng PostgreSQL</span></span><br><span class="line"></span><br><span class="line">python3 -m venv airflow_venv</span><br><span class="line"><span class="built_in">source</span> airflow_venv/bin/activate</span><br><span class="line"></span><br><span class="line">pip install <span class="string">&quot;apache-airflow[celery]==2.10.3&quot;</span> --constraint <span class="string">&quot;https://raw.**githubusercontent**.com/apache/airflow/constraints-2.4.0/constraints-3.7.txt&quot;</span></span><br><span class="line"></span><br><span class="line">airflow db init</span><br><span class="line"></span><br><span class="line"><span class="comment"># lưu tài nguyên</span></span><br><span class="line"><span class="built_in">source</span> airflow_venv/bin/activate</span><br><span class="line"></span><br><span class="line"><span class="comment"># tạo tài khoản mật khẩu</span></span><br><span class="line">airflow <span class="built_in">users</span> create \</span><br><span class="line">    --username admin \</span><br><span class="line">    --firstname Firstname \</span><br><span class="line">    --lastname Lastname \</span><br><span class="line">    --role Admin \</span><br><span class="line">    --email example@example.com</span><br><span class="line"></span><br><span class="line">airflow webserver -p 8080</span><br><span class="line"></span><br><span class="line">airflow scheduler</span><br></pre></td></tr></table></figure><p>Airflow hiện đã hỗ trợ cài chỉ bằng các lệnh pip thay vì dùng container tại <a href="https://airflow.apache.org/docs/docker-stack/build.html">here</a>. Nhưng mà cài bằng container sẽ là tốt nhất theo recommend của họ</p><h1 id="Tham-khao"><a href="#Tham-khao" class="headerlink" title="Tham khảo"></a>Tham khảo</h1><ol><li><p><a href="https://viblo.asia/p/bai-viet-ve-airflow-cho-nguoi-moi-nhu-minh-Ny0VGdaE4PA">Airflow for newbie</a></p></li><li><p><a href="https://airflow.apache.org/docs/apache-airflow/2.4.0/">Airflow documents</a></p></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> DE </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Knownledge </tag>
+            
+            <tag> DE </tag>
+            
+            <tag> Data </tag>
+            
+            <tag> Airflow </tag>
+            
+            <tag> Install </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Bóc trần bí mật kiểm tiền khủng từ quảng cáo trên App và Web</title>
       <link href="/posts/1e6d33bf.html"/>
       <url>/posts/1e6d33bf.html</url>
