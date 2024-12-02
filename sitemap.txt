@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/1rg1393f
 https://huyvu15.github.io/live2d-widget-master/waifu-tips.json
 https://huyvu15.github.io/live2d_api/model_list.json
 https://huyvu15.github.io/live2d_api/model/bilibili-live/33/textures_order.json
@@ -271,6 +272,8 @@ https://huyvu15.github.io/tags/Scrape/
 https://huyvu15.github.io/tags/ads/
 https://huyvu15.github.io/tags/website-ads/
 https://huyvu15.github.io/tags/app-ads/
+https://huyvu15.github.io/tags/Airflow/
+https://huyvu15.github.io/tags/Install/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
