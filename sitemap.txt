@@ -1,6 +1,9 @@
+https://huyvu15.github.io/about/
+https://huyvu15.github.io/posts/1r6d3vbf
+https://huyvu15.github.io/posts/1rg1393f
+https://huyvu15.github.io/posts/1e6d33bf
 https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/2c6d396f
-https://huyvu15.github.io/posts/1rg1393f
 https://huyvu15.github.io/live2d-widget-master/waifu-tips.json
 https://huyvu15.github.io/live2d_api/model_list.json
 https://huyvu15.github.io/live2d_api/model/bilibili-live/33/textures_order.json
@@ -81,7 +84,6 @@ https://huyvu15.github.io/live2d-widget-master/demo/login
 https://huyvu15.github.io/live2d-widget-master/demo/demo
 https://huyvu15.github.io/live2d-widget-master/README
 https://huyvu15.github.io/live2d-widget-master/README.en
-https://huyvu15.github.io/posts/1e6d33bf
 https://huyvu15.github.io/posts/1r6d33bf
 https://huyvu15.github.io/posts/1r6d39tf
 https://huyvu15.github.io/posts/1r6d34bf
@@ -102,7 +104,6 @@ https://huyvu15.github.io/posts/rtt5tyui
 https://huyvu15.github.io/posts/106e393f
 https://huyvu15.github.io/posts/nrbd392f
 https://huyvu15.github.io/posts/1rcc393f
-https://huyvu15.github.io/about/
 https://huyvu15.github.io/posts/1r6d1b3f
 https://huyvu15.github.io/posts/hr6e292f
 https://huyvu15.github.io/posts/arbdv92f
@@ -274,6 +275,11 @@ https://huyvu15.github.io/tags/website-ads/
 https://huyvu15.github.io/tags/app-ads/
 https://huyvu15.github.io/tags/Airflow/
 https://huyvu15.github.io/tags/Install/
+https://huyvu15.github.io/tags/Hadoop/
+https://huyvu15.github.io/tags/ToanTin/
+https://huyvu15.github.io/tags/Distributed-system/
+https://huyvu15.github.io/tags/Cloud-Native/
+https://huyvu15.github.io/tags/Dien-toan-dam-may/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -344,3 +350,6 @@ https://huyvu15.github.io/categories/Knowledge/AWS/
 https://huyvu15.github.io/categories/Linux/Insights/
 https://huyvu15.github.io/categories/Crawl/
 https://huyvu15.github.io/categories/Insights/
+https://huyvu15.github.io/categories/Hadoop/
+https://huyvu15.github.io/categories/Hadoop/Distributed-system/
+https://huyvu15.github.io/categories/Hadoop/Distributed-system/Insights/
