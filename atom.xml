@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2024-12-02T04:14:23.581Z</updated>
+  <updated>2025-01-11T17:26:40.919Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,11 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Lý thuyết hệ thống phân tán</title>
+    <link href="https://huyvu15.github.io/posts/1r6d3vbf"/>
+    <id>https://huyvu15.github.io/posts/1r6d3vbf</id>
+    <published>2025-01-11T17:15:12.000Z</published>
+    <updated>2025-01-11T17:26:40.919Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Truoc-tien&quot;&gt;&lt;a href=&quot;#Truoc-tien&quot; class=&quot;headerlink&quot; title=&quot;Trước tiên&quot;&gt;&lt;/a&gt;Trước tiên&lt;/h1&gt;&lt;p&gt;Mình là Glutis, sinh viên ngành toán</summary>
+        
+      
+    
+    
+    
+    <category term="Hadoop" scheme="https://huyvu15.github.io/categories/Hadoop/"/>
+    
+    <category term="Distributed system" scheme="https://huyvu15.github.io/categories/Hadoop/Distributed-system/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/categories/Hadoop/Distributed-system/Insights/"/>
+    
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
+    
+    <category term="Hadoop" scheme="https://huyvu15.github.io/tags/Hadoop/"/>
+    
+    <category term="ToanTin" scheme="https://huyvu15.github.io/tags/ToanTin/"/>
+    
+    <category term="Distributed system" scheme="https://huyvu15.github.io/tags/Distributed-system/"/>
+    
+    <category term="Cloud Native" scheme="https://huyvu15.github.io/tags/Cloud-Native/"/>
+    
+    <category term="Điện toán đám mây" scheme="https://huyvu15.github.io/tags/Dien-toan-dam-may/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Tìm hiểu công cụ ko thể thiếu cho DE - Airflow</title>
     <link href="https://huyvu15.github.io/posts/1rg1393f"/>
     <id>https://huyvu15.github.io/posts/1rg1393f</id>
     <published>2024-12-01T00:35:12.000Z</published>
-    <updated>2024-12-02T04:14:23.581Z</updated>
+    <updated>2025-01-11T17:04:56.463Z</updated>
     
     
       
@@ -54,7 +93,7 @@
     <link href="https://huyvu15.github.io/posts/1e6d33bf"/>
     <id>https://huyvu15.github.io/posts/1e6d33bf</id>
     <published>2024-10-29T09:35:12.000Z</published>
-    <updated>2024-11-03T06:34:50.324Z</updated>
+    <updated>2025-01-11T17:02:47.118Z</updated>
     
     
       
@@ -601,36 +640,6 @@
     <category term="Me" scheme="https://huyvu15.github.io/tags/Me/"/>
     
     <category term="Sharing" scheme="https://huyvu15.github.io/tags/Sharing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hiểu Rõ Các Chỉ Số Retention, Life Time Value và Churn Trong Kinh Doanh và truy vấn</title>
-    <link href="https://huyvu15.github.io/posts/arbdv92f"/>
-    <id>https://huyvu15.github.io/posts/arbdv92f</id>
-    <published>2024-08-01T00:35:12.000Z</published>
-    <updated>2024-08-03T02:32:04.655Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;thoạt-đầu&quot;&gt;Thoạt đầu&lt;/h1&gt;
-&lt;p&gt;Cho những ai hay đọc blogs của mình thì nay mình lại ngoi lên để chia sẻ một số kiến thức kinh nghiệm</summary>
-        
-      
-    
-    
-    
-    <category term="Metrics" scheme="https://huyvu15.github.io/categories/Metrics/"/>
-    
-    
-    <category term="Documentation" scheme="https://huyvu15.github.io/tags/Documentation/"/>
-    
-    <category term="Metrics" scheme="https://huyvu15.github.io/tags/Metrics/"/>
-    
-    <category term="SQL" scheme="https://huyvu15.github.io/tags/SQL/"/>
     
   </entry>
   
