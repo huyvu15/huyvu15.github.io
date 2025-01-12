@@ -1,6 +1,7 @@
-https://huyvu15.github.io/about/
+https://huyvu15.github.io/posts/rrg1393f
 https://huyvu15.github.io/posts/1r6d3vbf
 https://huyvu15.github.io/posts/1rg1393f
+https://huyvu15.github.io/about/
 https://huyvu15.github.io/posts/1e6d33bf
 https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/2c6d396f
@@ -280,6 +281,9 @@ https://huyvu15.github.io/tags/ToanTin/
 https://huyvu15.github.io/tags/Distributed-system/
 https://huyvu15.github.io/tags/Cloud-Native/
 https://huyvu15.github.io/tags/Dien-toan-dam-may/
+https://huyvu15.github.io/tags/Process-Image/
+https://huyvu15.github.io/tags/CV/
+https://huyvu15.github.io/tags/Conputer-Vision/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -353,3 +357,6 @@ https://huyvu15.github.io/categories/Insights/
 https://huyvu15.github.io/categories/Hadoop/
 https://huyvu15.github.io/categories/Hadoop/Distributed-system/
 https://huyvu15.github.io/categories/Hadoop/Distributed-system/Insights/
+https://huyvu15.github.io/categories/AI/Process-Image/
+https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/
+https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/CV/
