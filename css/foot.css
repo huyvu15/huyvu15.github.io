@@ -1,9 +1,20 @@
-#footer-wrap a {
-    color: #184395bd;
-    /* 设置链接的颜色 */
+#footer-wrap {
+    background-color: #f8f9fa; /* Màu nền nhẹ để tăng độ tương phản */
+    color: #184395; /* Màu chữ chính */
+    text-align: center; /* Căn giữa nội dung */
+    padding: 20px 10px; /* Tạo khoảng cách giúp footer không bị dính sát nhau */
+    font-size: 14px; /* Cỡ chữ vừa phải để dễ đọc */
+    border-top: 2px solid #184395; /* Tạo đường kẻ trên giúp phân tách rõ footer */
 }
 
-#footer-wrap {
-    color: #184395bd;
-    /* 设置 #footer-wrap 的文字颜色 */
+#footer-wrap a {
+    color: #184395; /* Màu chữ của link */
+    text-decoration: none; /* Bỏ gạch chân */
+    font-weight: 600; /* Làm chữ đậm hơn */
+    transition: color 0.3s ease-in-out; /* Hiệu ứng đổi màu mượt mà */
+}
+
+#footer-wrap a:hover {
+    color: #0f2c6e; /* Đổi màu khi hover */
+    text-decoration: underline; /* Thêm gạch chân khi di chuột vào */
 }
