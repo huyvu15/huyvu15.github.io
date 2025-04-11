@@ -1,20 +1,93 @@
+/* --- Footer Container --- */
 #footer-wrap {
-    background-color: #f8f9fa; /* Màu nền nhẹ để tăng độ tương phản */
-    color: #184395; /* Màu chữ chính */
+    background: none; /* Không có nền */
+    color: #184395; /* Màu chữ xanh */
     text-align: center; /* Căn giữa nội dung */
-    padding: 20px 10px; /* Tạo khoảng cách giúp footer không bị dính sát nhau */
-    font-size: 14px; /* Cỡ chữ vừa phải để dễ đọc */
-    border-top: 2px solid #184395; /* Tạo đường kẻ trên giúp phân tách rõ footer */
+    padding: 25px 20px; /* Khoảng cách gọn gàng */
+    font-size: 14px; /* Cỡ chữ dễ đọc */
+    font-family: "Poppins", sans-serif; /* Font chữ hiện đại */
+    border-top: 2px solid #184395 /* Đường viền nhẹ */
+}
+
+/* --- Footer Links --- */
+#footer-wrap a {
+    color: #184395; /* Màu chữ xanh */
+    text-decoration: none; /* Bỏ gạch chân */
+    font-weight: 600; /* Làm chữ rõ nét */
+    font-size: 15px; /* Cỡ chữ vừa phải */
+    margin: 0 12px; /* Khoảng cách giữa các liên kết */
+    display: inline-block;
+    transition: color 0.3s ease-in-out; /* Hiệu ứng chuyển màu nhẹ */
+}
+
+/* --- Hover Effect --- */
+#footer-wrap a:hover {
+    color: #0f2c6e; /* Đổi sang màu xanh đậm hơn khi hover */
+}
+
+/* --- Footer Social Icons --- */
+.footer-icons {
+    margin-top: 15px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 20px; /* Kích thước icon */
+    color: #184395;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* --- Hover hiệu ứng cho icon mạng xã hội --- */
+.footer-icons a:hover {
+    color: #0f2c6e;
+    transform: scale(1.1);
+}
+
+/* --- Footer Text --- */
+#footer-wrap p {
+    margin-top: 10px;
+    font-size: 13px;
+    opacity: 0.8; /* Làm mờ nhẹ chữ phụ */
+}
+
+/* --- Responsive Footer --- */
+@media (max-width: 768px) {
+    #footer-wrap {
+        padding: 20px 15px;
+        font-size: 13px;
+    }
+
+    #footer-wrap a {
+        font-size: 14px;
+        margin: 5px 8px;
+    }
+
+    .footer-icons a {
+        font-size: 18px;
+    }
+}
+
+
+
+/* #footer-wrap {
+    background-color: #f8f9fa; 
+    color: #184395; 
+    text-align: center; 
+    padding: 20px 10px; 
+    font-size: 14px; 
+    border-top: 2px solid #184395; 
 }
 
 #footer-wrap a {
-    color: #184395; /* Màu chữ của link */
-    text-decoration: none; /* Bỏ gạch chân */
-    font-weight: 600; /* Làm chữ đậm hơn */
-    transition: color 0.3s ease-in-out; /* Hiệu ứng đổi màu mượt mà */
+    color: #184395; 
+    text-decoration: none; 
+    font-weight: 600; 
+    transition: color 0.3s ease-in-out; 
 }
 
 #footer-wrap a:hover {
-    color: #0f2c6e; /* Đổi màu khi hover */
-    text-decoration: underline; /* Thêm gạch chân khi di chuột vào */
-}
+    color: #0f2c6e; 
+    text-decoration: underline; 
+} */
+

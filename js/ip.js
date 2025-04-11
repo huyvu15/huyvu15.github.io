@@ -22,7 +22,7 @@ function getIP(json) {
     footerLink.href = 'https://huyvu15.github.io';
     
     // Set the text content of the link (commented out; can be customized)
-    footerLink.innerHTML = 'Your IP: ' + ip + " Please follow network regulations";
+    footerLink.innerHTML = 'IP của bạn: ' + ip + " Vui lòng tuân thủ quy định của mạng";
 
     var footerElement = document.querySelector('.footer_custom_text'); // Select the footer element
 
