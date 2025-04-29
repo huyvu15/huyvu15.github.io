@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog&#39;s GluTis</title>
   <icon>https://huyvu15.github.io/icon.png</icon>
-  <subtitle>Năng lượng, tích cực</subtitle>
+  
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
@@ -128,35 +128,6 @@
   </entry>
   
   <entry>
-    <title>Bóc trần bí mật kiểm tiền khủng từ quảng cáo trên App và Web</title>
-    <link href="https://huyvu15.github.io/posts/1e6d33bf"/>
-    <id>https://huyvu15.github.io/posts/1e6d33bf</id>
-    <published>2024-10-29T09:35:12.000Z</published>
-    <updated>2025-01-11T17:02:47.118Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Mo-dau&quot;&gt;&lt;a href=&quot;#Mo-dau&quot; class=&quot;headerlink&quot; title=&quot;Mở đầu&quot;&gt;&lt;/a&gt;Mở đầu&lt;/h1&gt;&lt;p&gt;Từ bé đến lớn, từ lúc xem ti vi loa đài đến lúc vi vu</summary>
-        
-      
-    
-    
-    
-    <category term="Insights" scheme="https://huyvu15.github.io/categories/Insights/"/>
-    
-    
-    <category term="ads" scheme="https://huyvu15.github.io/tags/ads/"/>
-    
-    <category term="website ads" scheme="https://huyvu15.github.io/tags/website-ads/"/>
-    
-    <category term="app ads" scheme="https://huyvu15.github.io/tags/app-ads/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Lấy dữ liệu từ facebook ads</title>
     <link href="https://huyvu15.github.io/posts/1r6d33bf"/>
     <id>https://huyvu15.github.io/posts/1r6d33bf</id>
@@ -193,8 +164,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;ingest-pancake-nguồn-lấy-về-bằng-api&quot;&gt;Ingest Pancake: nguồn lấy về bằng api&lt;/h2&gt;
-&lt;p&gt;Trong các loại dữ liệu phổ biển của doanh</summary>
+    <summary type="html">&lt;h2 id=&quot;Ingest-Pancake-nguon-lay-ve-bang-api&quot;&gt;&lt;a href=&quot;#Ingest-Pancake-nguon-lay-ve-bang-api&quot; class=&quot;headerlink&quot; title=&quot;Ingest Pancake:</summary>
         
       
     
@@ -260,8 +230,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;hello&quot;&gt;Hello&lt;/h1&gt;
-&lt;p&gt;Xin chào, đã lâu ko quay trở lại, hôm nay tình cờ bạn DA đi vằng và tôi ko có việc gì làm nên tôi có take note</summary>
+    <summary type="html">&lt;h1 id=&quot;Hello&quot;&gt;&lt;a href=&quot;#Hello&quot; class=&quot;headerlink&quot; title=&quot;Hello&quot;&gt;&lt;/a&gt;Hello&lt;/h1&gt;&lt;p&gt;Xin chào, đã lâu ko quay trở lại, hôm nay tình cờ bạn DA</summary>
         
       
     
@@ -290,9 +259,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;first-of-all&quot;&gt;First of all&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Ờm!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;First-of-all&quot;&gt;&lt;a href=&quot;#First-of-all&quot; class=&quot;headerlink&quot; title=&quot;First of all&quot;&gt;&lt;/a&gt;First of</summary>
         
       
     
@@ -308,39 +275,6 @@
   </entry>
   
   <entry>
-    <title>6 cấp độ tư duy của nhận thức</title>
-    <link href="https://huyvu15.github.io/posts/1r6d39bf"/>
-    <id>https://huyvu15.github.io/posts/1r6d39bf</id>
-    <published>2024-09-03T15:35:12.000Z</published>
-    <updated>2024-09-03T15:55:57.060Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;tại-sao-có-bài-viết-này&quot;&gt;Tại sao có bài viết này&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Xin chào !&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
-    
-    <category term="Insights" scheme="https://huyvu15.github.io/categories/Knowledge/Insights/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
-    
-    <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Tự động hóa đỉnh cao EC2 với tính năng user data</title>
     <link href="https://huyvu15.github.io/posts/23ddrt2y"/>
     <id>https://huyvu15.github.io/posts/23ddrt2y</id>
@@ -352,8 +286,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;lời-đầu&quot;&gt;Lời đầu&lt;/h1&gt;
-&lt;p&gt;Xin chào mình là &lt;code&gt;Glutis&lt;/code&gt; - 1 sinh viên ngành toán tại HUST. Trong đợt nghỉ quốc khánh này mình</summary>
+    <summary type="html">&lt;h1 id=&quot;Loi-dau&quot;&gt;&lt;a href=&quot;#Loi-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời đầu&quot;&gt;&lt;/a&gt;Lời đầu&lt;/h1&gt;&lt;p&gt;Xin chào mình là &lt;code&gt;Glutis&lt;/code&gt; - 1 sinh</summary>
         
       
     
@@ -386,8 +319,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;lời-đầu&quot;&gt;Lời đầu&lt;/h1&gt;
-&lt;p&gt;Trước sau gì tôi cũng phải trực tiếp tham gia các buổi phỏng vấn trực tiếp và khó thể tránh khỏi việc phải</summary>
+    <summary type="html">&lt;h1 id=&quot;Loi-dau&quot;&gt;&lt;a href=&quot;#Loi-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời đầu&quot;&gt;&lt;/a&gt;Lời đầu&lt;/h1&gt;&lt;p&gt;Trước sau gì tôi cũng phải trực tiếp tham gia các</summary>
         
       
     
@@ -418,8 +350,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;thực-tế&quot;&gt;Thực tế&lt;/h1&gt;
-&lt;p&gt;Dạo gần đây có lẽ mọi người đã nghe nhiều về giá bất động sản, khi nó như kiểu lạm phát ở Columbo những</summary>
+    <summary type="html">&lt;h1 id=&quot;Thuc-te&quot;&gt;&lt;a href=&quot;#Thuc-te&quot; class=&quot;headerlink&quot; title=&quot;Thực tế&quot;&gt;&lt;/a&gt;Thực tế&lt;/h1&gt;&lt;p&gt;Dạo gần đây có lẽ mọi người đã nghe nhiều về giá</summary>
         
       
     
@@ -446,8 +377,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;first-of-all&quot;&gt;First of all&lt;/h1&gt;
-&lt;p&gt;Để giải phóng cho cái màn hình desktop của tôi khỏi những ghi chú mà tôi đã note lại từ lâu và</summary>
+    <summary type="html">&lt;h1 id=&quot;First-of-all&quot;&gt;&lt;a href=&quot;#First-of-all&quot; class=&quot;headerlink&quot; title=&quot;First of all&quot;&gt;&lt;/a&gt;First of all&lt;/h1&gt;&lt;p&gt;Để giải phóng cho cái màn</summary>
         
       
     
@@ -480,8 +410,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;what-is-kestra&quot;&gt;What is Kestra?&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Kestra&lt;/strong&gt; is an open-source platform for managing data workflows and</summary>
+    <summary type="html">&lt;h1 id=&quot;What-is-Kestra&quot;&gt;&lt;a href=&quot;#What-is-Kestra&quot; class=&quot;headerlink&quot; title=&quot;What is Kestra?&quot;&gt;&lt;/a&gt;What is</summary>
         
       
     
@@ -512,8 +441,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;airbyte-là-gì&quot;&gt;Airbyte là gì ?&lt;/h1&gt;
-&lt;p&gt;Airbyte là một nền tảng ETL mã nguồn mở dùng để tích hợp dữ liệu từ nhiều nguồn khác nhau,</summary>
+    <summary type="html">&lt;h1 id=&quot;Airbyte-la-gi&quot;&gt;&lt;a href=&quot;#Airbyte-la-gi&quot; class=&quot;headerlink&quot; title=&quot;Airbyte là gì ?&quot;&gt;&lt;/a&gt;Airbyte là gì ?&lt;/h1&gt;&lt;p&gt;Airbyte là một nền</summary>
         
       
     
@@ -544,8 +472,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h1&gt;
-&lt;p&gt;Doris là một relation database tối ưu để phát triển DW open - source với tính năng real-time tốt. Nó</summary>
+    <summary type="html">&lt;h1 id=&quot;Gioi-thieu&quot;&gt;&lt;a href=&quot;#Gioi-thieu&quot; class=&quot;headerlink&quot; title=&quot;Giới thiệu&quot;&gt;&lt;/a&gt;Giới thiệu&lt;/h1&gt;&lt;p&gt;Doris là một relation database tối ưu</summary>
         
       
     
@@ -574,9 +501,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;keyframe-trong-video&quot;&gt;Keyframe trong Video&lt;/h1&gt;
-&lt;h2 id=&quot;keyframe-là-gì&quot;&gt;Keyframe là gì?&lt;/h2&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;Keyframe-trong-Video&quot;&gt;&lt;a href=&quot;#Keyframe-trong-Video&quot; class=&quot;headerlink&quot; title=&quot;Keyframe trong Video&quot;&gt;&lt;/a&gt;Keyframe trong</summary>
         
       
     
@@ -607,8 +532,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;hế-nhô&quot;&gt;Hế nhô&lt;/h1&gt;
-&lt;p&gt;Xin chào, tháng nào cx vậy tôi cx sẽ note lại vài cái mình chưa hiểu và ngẫm lại nó vào một thời gian rảnh</summary>
+    <summary type="html">&lt;h1 id=&quot;He-nho&quot;&gt;&lt;a href=&quot;#He-nho&quot; class=&quot;headerlink&quot; title=&quot;Hế nhô&quot;&gt;&lt;/a&gt;Hế nhô&lt;/h1&gt;&lt;p&gt;Xin chào, tháng nào cx vậy tôi cx sẽ note lại vài cái</summary>
         
       
     
@@ -659,6 +583,56 @@
     <category term="Smart" scheme="https://huyvu15.github.io/tags/Smart/"/>
     
     <category term="Mount" scheme="https://huyvu15.github.io/tags/Mount/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ngày đáng nhớ</title>
+    <link href="https://huyvu15.github.io/posts/rtt5tyui"/>
+    <id>https://huyvu15.github.io/posts/rtt5tyui</id>
+    <published>2024-08-03T13:35:12.000Z</published>
+    <updated>2024-08-19T09:08:50.415Z</updated>
+    
+    
+    <summary type="html">Nội dung này đã được mã hóa.</summary>
+    
+    
+    
+    <category term="Sharing" scheme="https://huyvu15.github.io/categories/Sharing/"/>
+    
+    
+    <category term="Me" scheme="https://huyvu15.github.io/tags/Me/"/>
+    
+    <category term="Sharing" scheme="https://huyvu15.github.io/tags/Sharing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hiểu Rõ Các Chỉ Số Retention, Life Time Value và Churn Trong Kinh Doanh và truy vấn</title>
+    <link href="https://huyvu15.github.io/posts/arbdv92f"/>
+    <id>https://huyvu15.github.io/posts/arbdv92f</id>
+    <published>2024-08-01T00:35:12.000Z</published>
+    <updated>2024-08-03T02:32:04.655Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Thoat-dau&quot;&gt;&lt;a href=&quot;#Thoat-dau&quot; class=&quot;headerlink&quot; title=&quot;Thoạt đầu&quot;&gt;&lt;/a&gt;Thoạt đầu&lt;/h1&gt;&lt;p&gt;Cho những ai hay đọc blogs của mình thì</summary>
+        
+      
+    
+    
+    
+    <category term="Metrics" scheme="https://huyvu15.github.io/categories/Metrics/"/>
+    
+    
+    <category term="Documentation" scheme="https://huyvu15.github.io/tags/Documentation/"/>
+    
+    <category term="Metrics" scheme="https://huyvu15.github.io/tags/Metrics/"/>
+    
+    <category term="SQL" scheme="https://huyvu15.github.io/tags/SQL/"/>
     
   </entry>
   
