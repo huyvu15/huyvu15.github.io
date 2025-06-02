@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2025-04-29T09:22:09.716Z</updated>
+  <updated>2025-06-02T15:53:16.718Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cuốn sách tâm huyết - n8n WORKFLOW AUTOMATION – Hướng Dẫn Toàn Diện</title>
+    <link href="https://huyvu15.github.io/posts/13r1393f"/>
+    <id>https://huyvu15.github.io/posts/13r1393f</id>
+    <published>2025-06-02T00:35:12.000Z</published>
+    <updated>2025-06-02T15:53:16.718Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;🎉-giới-thiệu&quot;&gt;🎉 Giới thiệu&lt;/h1&gt;
+&lt;p&gt;Tháng 2 vừa rồi, mình tình cờ đọc được một bài đăng của anh &lt;strong&gt;Nguyễn Quốc Hải&lt;/strong&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Automation" scheme="https://huyvu15.github.io/categories/Automation/"/>
+    
+    <category term="n8n" scheme="https://huyvu15.github.io/categories/Automation/n8n/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="n8n" scheme="https://huyvu15.github.io/tags/n8n/"/>
+    
+    <category term="book" scheme="https://huyvu15.github.io/tags/book/"/>
+    
+    <category term="sharing" scheme="https://huyvu15.github.io/tags/sharing/"/>
+    
+    <category term="teamwork" scheme="https://huyvu15.github.io/tags/teamwork/"/>
+    
+    <category term="tự hào" scheme="https://huyvu15.github.io/tags/tu-hao/"/>
+    
+    <category term="tâm huyết" scheme="https://huyvu15.github.io/tags/tam-huyet/"/>
+    
+  </entry>
   
   <entry>
     <title>Tăng cường ảnh</title>
@@ -605,35 +645,6 @@
     <category term="Me" scheme="https://huyvu15.github.io/tags/Me/"/>
     
     <category term="Sharing" scheme="https://huyvu15.github.io/tags/Sharing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hiểu Rõ Các Chỉ Số Retention, Life Time Value và Churn Trong Kinh Doanh và truy vấn</title>
-    <link href="https://huyvu15.github.io/posts/arbdv92f"/>
-    <id>https://huyvu15.github.io/posts/arbdv92f</id>
-    <published>2024-08-01T00:35:12.000Z</published>
-    <updated>2024-08-03T02:32:04.655Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Thoat-dau&quot;&gt;&lt;a href=&quot;#Thoat-dau&quot; class=&quot;headerlink&quot; title=&quot;Thoạt đầu&quot;&gt;&lt;/a&gt;Thoạt đầu&lt;/h1&gt;&lt;p&gt;Cho những ai hay đọc blogs của mình thì</summary>
-        
-      
-    
-    
-    
-    <category term="Metrics" scheme="https://huyvu15.github.io/categories/Metrics/"/>
-    
-    
-    <category term="Documentation" scheme="https://huyvu15.github.io/tags/Documentation/"/>
-    
-    <category term="Metrics" scheme="https://huyvu15.github.io/tags/Metrics/"/>
-    
-    <category term="SQL" scheme="https://huyvu15.github.io/tags/SQL/"/>
     
   </entry>
   

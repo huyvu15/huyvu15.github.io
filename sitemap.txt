@@ -1,10 +1,12 @@
+https://huyvu15.github.io/posts/13r1393f
+https://huyvu15.github.io/posts/0r6e2o2f
+https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/2c6d396f
 https://huyvu15.github.io/posts/rtt5tyui
 https://huyvu15.github.io/posts/rrg1393f
 https://huyvu15.github.io/posts/1r6d39bf
 https://huyvu15.github.io/posts/1e6d33bf
 https://huyvu15.github.io/posts/123ttr440
-https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/1r6d39tf
 https://huyvu15.github.io/posts/904f42f7
 https://huyvu15.github.io/posts/edeaa258
@@ -127,7 +129,6 @@ https://huyvu15.github.io/posts/1r6dffff
 https://huyvu15.github.io/posts/er6d090f
 https://huyvu15.github.io/posts/1n6d313f
 https://huyvu15.github.io/posts/1r6c393f
-https://huyvu15.github.io/posts/0r6e2o2f
 https://huyvu15.github.io/posts/156d393f
 https://huyvu15.github.io/posts/1r6df93f
 https://huyvu15.github.io/posts/1r6d3964
@@ -283,6 +284,12 @@ https://huyvu15.github.io/tags/Dien-toan-dam-may/
 https://huyvu15.github.io/tags/Process-Image/
 https://huyvu15.github.io/tags/CV/
 https://huyvu15.github.io/tags/Conputer-Vision/
+https://huyvu15.github.io/tags/n8n/
+https://huyvu15.github.io/tags/book/
+https://huyvu15.github.io/tags/sharing/
+https://huyvu15.github.io/tags/teamwork/
+https://huyvu15.github.io/tags/tu-hao/
+https://huyvu15.github.io/tags/tam-huyet/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -359,3 +366,5 @@ https://huyvu15.github.io/categories/Hadoop/Distributed-system/Insights/
 https://huyvu15.github.io/categories/AI/Process-Image/
 https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/
 https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/CV/
+https://huyvu15.github.io/categories/Automation/
+https://huyvu15.github.io/categories/Automation/n8n/
