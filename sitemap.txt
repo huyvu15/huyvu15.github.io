@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/1r6drrbf
 https://huyvu15.github.io/posts/0r6e2o2f
 https://huyvu15.github.io/posts/1rg1393f
 https://huyvu15.github.io/posts/er6d090f
@@ -290,6 +291,8 @@ https://huyvu15.github.io/tags/sharing/
 https://huyvu15.github.io/tags/teamwork/
 https://huyvu15.github.io/tags/tu-hao/
 https://huyvu15.github.io/tags/tam-huyet/
+https://huyvu15.github.io/tags/IAM/
+https://huyvu15.github.io/tags/FCJ/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -368,3 +371,4 @@ https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/
 https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/CV/
 https://huyvu15.github.io/categories/Automation/
 https://huyvu15.github.io/categories/Automation/n8n/
+https://huyvu15.github.io/categories/AWS/IAM/

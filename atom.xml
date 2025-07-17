@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2025-06-03T01:01:31.128Z</updated>
+  <updated>2025-07-17T15:27:47.079Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,45 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bắt đầu với AWS bằng việc tìm hiểu dịch vụ quản lý user, phân quyền - IAM</title>
+    <link href="https://huyvu15.github.io/posts/1r6drrbf"/>
+    <id>https://huyvu15.github.io/posts/1r6drrbf</id>
+    <published>2025-07-16T15:35:12.000Z</published>
+    <updated>2025-07-17T15:27:47.079Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;mở-đầu&quot;&gt;Mở đầu&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.ekon.es/wp-content/uploads/2021/08/on-premise-vs-cloud.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Khi bắt đầu</summary>
+        
+      
+    
+    
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
+    
+    <category term="IAM" scheme="https://huyvu15.github.io/categories/AWS/IAM/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
+    
+    <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="IAM" scheme="https://huyvu15.github.io/tags/IAM/"/>
+    
+    <category term="FCJ" scheme="https://huyvu15.github.io/tags/FCJ/"/>
+    
+  </entry>
   
   <entry>
     <title>Cuốn sách tâm huyết - n8n workflow automation – Hướng Dẫn Toàn Diện</title>
@@ -622,27 +661,6 @@
     <category term="Smart" scheme="https://huyvu15.github.io/tags/Smart/"/>
     
     <category term="Mount" scheme="https://huyvu15.github.io/tags/Mount/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ngày đáng nhớ</title>
-    <link href="https://huyvu15.github.io/posts/rtt5tyui"/>
-    <id>https://huyvu15.github.io/posts/rtt5tyui</id>
-    <published>2024-08-03T13:35:12.000Z</published>
-    <updated>2025-05-23T03:43:23.871Z</updated>
-    
-    
-    <summary type="html">Nội dung này đã được mã hóa.</summary>
-    
-    
-    
-    <category term="Sharing" scheme="https://huyvu15.github.io/categories/Sharing/"/>
-    
-    
-    <category term="Me" scheme="https://huyvu15.github.io/tags/Me/"/>
-    
-    <category term="Sharing" scheme="https://huyvu15.github.io/tags/Sharing/"/>
     
   </entry>
   
