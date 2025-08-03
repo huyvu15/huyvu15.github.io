@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2025-07-17T15:27:47.079Z</updated>
+  <updated>2025-08-03T03:19:36.455Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Xây dựng model dự báo revenue các công ty tại Nhật Bản</title>
+    <link href="https://huyvu15.github.io/posts/1rbd1111"/>
+    <id>https://huyvu15.github.io/posts/1rbd1111</id>
+    <published>2025-07-29T08:35:12.000Z</published>
+    <updated>2025-08-03T03:19:36.455Z</updated>
+    
+    
+    <summary type="html">Nội dung này đã được mã hóa.</summary>
+    
+    
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/categories/Knowledge/Insights/"/>
+    
+    <category term="Machine Learning" scheme="https://huyvu15.github.io/categories/Knowledge/Insights/Machine-Learning/"/>
+    
+    <category term="Company" scheme="https://huyvu15.github.io/categories/Knowledge/Insights/Machine-Learning/Company/"/>
+    
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
+    
+    <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="Company" scheme="https://huyvu15.github.io/tags/Company/"/>
+    
+    <category term="Machine Learning" scheme="https://huyvu15.github.io/tags/Machine-Learning/"/>
+    
+    <category term="Revenue" scheme="https://huyvu15.github.io/tags/Revenue/"/>
+    
+    <category term="Predict" scheme="https://huyvu15.github.io/tags/Predict/"/>
+    
+  </entry>
   
   <entry>
     <title>Bắt đầu với AWS bằng việc tìm hiểu dịch vụ quản lý user, phân quyền - IAM</title>
@@ -448,14 +485,15 @@
     <link href="https://huyvu15.github.io/posts/23dd393y"/>
     <id>https://huyvu15.github.io/posts/23dd393y</id>
     <published>2024-08-19T09:35:12.000Z</published>
-    <updated>2024-09-03T14:13:34.779Z</updated>
+    <updated>2025-08-02T02:20:05.902Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;First-of-all&quot;&gt;&lt;a href=&quot;#First-of-all&quot; class=&quot;headerlink&quot; title=&quot;First of all&quot;&gt;&lt;/a&gt;First of all&lt;/h1&gt;&lt;p&gt;Để giải phóng cho cái màn</summary>
+    <summary type="html">&lt;h1 id=&quot;first-of-all&quot;&gt;First of all&lt;/h1&gt;
+&lt;p&gt;Để giải phóng cho cái màn hình desktop của tôi khỏi những ghi chú mà tôi đã note lại từ lâu và</summary>
         
       
     
@@ -628,39 +666,6 @@
     <category term="Database" scheme="https://huyvu15.github.io/tags/Database/"/>
     
     <category term="MySQL" scheme="https://huyvu15.github.io/tags/MySQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tìm Lại Kiến Thức Trong Tháng 7</title>
-    <link href="https://huyvu15.github.io/posts/hr6e292f"/>
-    <id>https://huyvu15.github.io/posts/hr6e292f</id>
-    <published>2024-08-05T05:17:12.000Z</published>
-    <updated>2024-08-05T15:46:35.557Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Chả là ai cũng có những giây phút lười biếng hoặc ngại tìm hiểu một vấn đề gì đó. Vì để tránh kiến thức của mình bị ngó lơ trong thời</summary>
-        
-      
-    
-    
-    
-    <category term="Hiểu biết" scheme="https://huyvu15.github.io/categories/Hieu-biet/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="Cần trả lời" scheme="https://huyvu15.github.io/tags/Can-tra-loi/"/>
-    
-    <category term="Big Query" scheme="https://huyvu15.github.io/tags/Big-Query/"/>
-    
-    <category term="Smart" scheme="https://huyvu15.github.io/tags/Smart/"/>
-    
-    <category term="Mount" scheme="https://huyvu15.github.io/tags/Mount/"/>
     
   </entry>
   

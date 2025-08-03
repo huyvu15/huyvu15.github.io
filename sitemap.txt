@@ -1,3 +1,6 @@
+https://huyvu15.github.io/posts/1rbd1111
+https://huyvu15.github.io/posts/qwertyui
+https://huyvu15.github.io/posts/23dd393y
 https://huyvu15.github.io/posts/1r6drrbf
 https://huyvu15.github.io/posts/0r6e2o2f
 https://huyvu15.github.io/posts/1rg1393f
@@ -7,7 +10,6 @@ https://huyvu15.github.io/posts/git111f
 https://huyvu15.github.io/posts/1r6d1b3f
 https://huyvu15.github.io/posts/1r6d33bf
 https://huyvu15.github.io/posts/rrg1393f
-https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/13r1393f
 https://huyvu15.github.io/posts/2c6d396f
 https://huyvu15.github.io/posts/rtt5tyui
@@ -104,7 +106,6 @@ https://huyvu15.github.io/posts/80cc5efe
 https://huyvu15.github.io/posts/1rd39bvf
 https://huyvu15.github.io/posts/1r6d39fff
 https://huyvu15.github.io/posts/adaea10g
-https://huyvu15.github.io/posts/23dd393y
 https://huyvu15.github.io/posts/1r6d393y
 https://huyvu15.github.io/posts/1r6d323y
 https://huyvu15.github.io/posts/23ddrt2y
@@ -293,6 +294,10 @@ https://huyvu15.github.io/tags/tu-hao/
 https://huyvu15.github.io/tags/tam-huyet/
 https://huyvu15.github.io/tags/IAM/
 https://huyvu15.github.io/tags/FCJ/
+https://huyvu15.github.io/tags/Company/
+https://huyvu15.github.io/tags/Machine-Learning/
+https://huyvu15.github.io/tags/Revenue/
+https://huyvu15.github.io/tags/Predict/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -372,3 +377,5 @@ https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/CV/
 https://huyvu15.github.io/categories/Automation/
 https://huyvu15.github.io/categories/Automation/n8n/
 https://huyvu15.github.io/categories/AWS/IAM/
+https://huyvu15.github.io/categories/Knowledge/Insights/Machine-Learning/
+https://huyvu15.github.io/categories/Knowledge/Insights/Machine-Learning/Company/
