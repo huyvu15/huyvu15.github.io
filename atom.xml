@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2025-08-16T06:16:45.099Z</updated>
+  <updated>2025-08-16T06:28:18.365Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d39mk"/>
     <id>https://huyvu15.github.io/posts/1r6d39mk</id>
     <published>2025-08-16T04:35:12.000Z</published>
-    <updated>2025-08-16T06:16:45.099Z</updated>
+    <updated>2025-08-16T06:28:18.365Z</updated>
     
     
       
@@ -60,7 +60,7 @@
     <link href="https://huyvu15.github.io/posts/5tt5tyui"/>
     <id>https://huyvu15.github.io/posts/5tt5tyui</id>
     <published>2025-08-03T04:35:12.000Z</published>
-    <updated>2025-08-10T09:13:54.888Z</updated>
+    <updated>2025-08-16T06:27:01.175Z</updated>
     
     
     <summary type="html">Nội dung này đã được mã hóa.</summary>
@@ -68,6 +68,10 @@
     
     
     <category term="Sharing" scheme="https://huyvu15.github.io/categories/Sharing/"/>
+    
+    <category term="Birthday" scheme="https://huyvu15.github.io/categories/Sharing/Birthday/"/>
+    
+    <category term="Me" scheme="https://huyvu15.github.io/categories/Sharing/Birthday/Me/"/>
     
     
     <category term="Me" scheme="https://huyvu15.github.io/tags/Me/"/>
