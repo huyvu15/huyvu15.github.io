@@ -1,10 +1,11 @@
+https://huyvu15.github.io/posts/1r6d3mbf
+https://huyvu15.github.io/posts/5tt5tyui
 https://huyvu15.github.io/posts/2c6d396f
 https://huyvu15.github.io/posts/1r6d39mk
 https://huyvu15.github.io/posts/qwertyui
 https://huyvu15.github.io/posts/0r6e2o2f
 https://huyvu15.github.io/posts/1r6d3964
 https://huyvu15.github.io/posts/rtt5tyui
-https://huyvu15.github.io/posts/5tt5tyui
 https://huyvu15.github.io/posts/1rbd1111
 https://huyvu15.github.io/posts/23dd393y
 https://huyvu15.github.io/posts/1r6drrbf
@@ -302,6 +303,10 @@ https://huyvu15.github.io/tags/Predict/
 https://huyvu15.github.io/tags/Birthday/
 https://huyvu15.github.io/tags/Highland-Coffee/
 https://huyvu15.github.io/tags/My-life/
+https://huyvu15.github.io/tags/DA/
+https://huyvu15.github.io/tags/Dashboard/
+https://huyvu15.github.io/tags/QuickSight/
+https://huyvu15.github.io/tags/Workshop/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -389,3 +394,8 @@ https://huyvu15.github.io/categories/Coffee/Insights/Share/
 https://huyvu15.github.io/categories/Coffee/Insights/Share/My-life/
 https://huyvu15.github.io/categories/Sharing/Birthday/
 https://huyvu15.github.io/categories/Sharing/Birthday/Me/
+https://huyvu15.github.io/categories/Insights/AWS/
+https://huyvu15.github.io/categories/Insights/AWS/DA/
+https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/
+https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/Dashboard/
+https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/Dashboard/Workshop/
