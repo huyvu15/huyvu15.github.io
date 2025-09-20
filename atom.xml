@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2025-09-20T02:13:21.376Z</updated>
+  <updated>2025-09-20T09:18:52.517Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tổng hợp prompt nano banana xịn</title>
+    <link href="https://huyvu15.github.io/posts/1r6d3mvf"/>
+    <id>https://huyvu15.github.io/posts/1r6d3mvf</id>
+    <published>2025-09-20T15:35:12.000Z</published>
+    <updated>2025-09-20T09:18:52.517Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;những-gì-phải-làm&quot;&gt;Những gì phải làm&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Mở Gemini: Truy cập &lt;code&gt;Gemini.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Tải ảnh của bạn</summary>
+        
+      
+    
+    
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/categories/Insights/"/>
+    
+    <category term="Nano Banana" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/"/>
+    
+    <category term="Gemini" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/"/>
+    
+    <category term="Prompt" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/"/>
+    
+    <category term="AI" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/AI/"/>
+    
+    <category term="interesting" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/AI/interesting/"/>
+    
+    
+    <category term="AI" scheme="https://huyvu15.github.io/tags/AI/"/>
+    
+    <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
+    
+    <category term="Nano Banana" scheme="https://huyvu15.github.io/tags/Nano-Banana/"/>
+    
+    <category term="Gemini" scheme="https://huyvu15.github.io/tags/Gemini/"/>
+    
+    <category term="Create image" scheme="https://huyvu15.github.io/tags/Create-image/"/>
+    
+    <category term="Prompt" scheme="https://huyvu15.github.io/tags/Prompt/"/>
+    
+    <category term="interesting" scheme="https://huyvu15.github.io/tags/interesting/"/>
+    
+  </entry>
   
   <entry>
     <title>Tăng cường dữ liệu cho báo cáo đánh giá của người dùng trên google play</title>
@@ -662,35 +712,6 @@
     <category term="Airbyte" scheme="https://huyvu15.github.io/tags/Airbyte/"/>
     
     <category term="Ingest" scheme="https://huyvu15.github.io/tags/Ingest/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tìm hiểu Doris</title>
-    <link href="https://huyvu15.github.io/posts/1r6d393y"/>
-    <id>https://huyvu15.github.io/posts/1r6d393y</id>
-    <published>2024-08-12T00:35:12.000Z</published>
-    <updated>2024-09-03T08:10:39.297Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Gioi-thieu&quot;&gt;&lt;a href=&quot;#Gioi-thieu&quot; class=&quot;headerlink&quot; title=&quot;Giới thiệu&quot;&gt;&lt;/a&gt;Giới thiệu&lt;/h1&gt;&lt;p&gt;Doris là một relation database tối ưu</summary>
-        
-      
-    
-    
-    
-    <category term="DW" scheme="https://huyvu15.github.io/categories/DW/"/>
-    
-    
-    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
-    
-    <category term="Doris" scheme="https://huyvu15.github.io/tags/Doris/"/>
-    
-    <category term="DW" scheme="https://huyvu15.github.io/tags/DW/"/>
     
   </entry>
   

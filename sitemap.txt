@@ -1,3 +1,4 @@
+https://huyvu15.github.io/posts/1r6d3mvf
 https://huyvu15.github.io/posts/123ofe2
 https://huyvu15.github.io/posts/1n6d313f
 https://huyvu15.github.io/posts/1r6d3mbf
@@ -307,6 +308,11 @@ https://huyvu15.github.io/tags/DA/
 https://huyvu15.github.io/tags/Dashboard/
 https://huyvu15.github.io/tags/QuickSight/
 https://huyvu15.github.io/tags/Workshop/
+https://huyvu15.github.io/tags/Nano-Banana/
+https://huyvu15.github.io/tags/Gemini/
+https://huyvu15.github.io/tags/Create-image/
+https://huyvu15.github.io/tags/Prompt/
+https://huyvu15.github.io/tags/interesting/
 https://huyvu15.github.io/categories/AI/
 https://huyvu15.github.io/categories/Photography/
 https://huyvu15.github.io/categories/DE/
@@ -399,3 +405,8 @@ https://huyvu15.github.io/categories/Insights/AWS/DA/
 https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/
 https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/Dashboard/
 https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/Dashboard/Workshop/
+https://huyvu15.github.io/categories/Insights/Nano-Banana/
+https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/
+https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/
+https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/AI/
+https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/AI/interesting/
