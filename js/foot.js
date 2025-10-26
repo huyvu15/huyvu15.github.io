@@ -1,13 +1,17 @@
-// 移除页脚样式
 var app = document.getElementById('footer');
-app.removeAttribute('id')
+if (app) {
+    app.removeAttribute('id');
+}
 
-// 动态心跳，更改自己的名称
-$(document).ready(function(e){
-    $('.copyright').html('©2022 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By 偷掉月亮的阿硕');
-})
-
-$(document).ready(function(e){
-    show_date_time();
-})
+document.addEventListener('DOMContentLoaded', function() {
+    var copyright = document.querySelector('.copyright');
+    if (copyright) {
+        copyright.innerHTML = '©2025 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By GluTis';
+    }
+    
+    // Gọi hàm show_date_time nếu tồn tại
+    if (typeof show_date_time === 'function') {
+        show_date_time();
+    }
+});
 

@@ -15,19 +15,12 @@
 
 function getIP(json) {
     var ip = json.ip; // Get the user's IP address from the JSON response
-    var br = document.createElement('br'); // Create a line break element
-    var footerLink = document.createElement('a'); // Create an anchor element
-
-    // Set the href attribute for the link (commented out; can be customized)
-    footerLink.href = 'https://huyvu15.github.io';
     
-    // Set the text content of the link (commented out; can be customized)
-    // footerLink.innerHTML = 'IP của bạn: ' + ip + " Vui lòng tuân thủ quy định của mạng";
-
-    var footerElement = document.querySelector('.footer_custom_text'); // Select the footer element
-
-    footerElement.appendChild(br); // Append the line break element to the footer
-    footerElement.appendChild(footerLink); // Append the link (commented out)
+    // Log IP to console for tracking (không hiển thị cho người dùng)
+    console.log('Visitor IP:', ip);
+    
+    // Bạn có thể gửi IP này đến server/analytics service nếu cần
+    // Ví dụ: sendToAnalytics(ip);
 }
 
 // Create a script element to fetch IP data from ipify API
