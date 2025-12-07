@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /archives/page/
+Disallow: /tags/page/
+Disallow: /categories/page/
+
+# Sitemap
+Sitemap: https://huyvu15.github.io/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
