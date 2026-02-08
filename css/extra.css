@@ -87,3 +87,61 @@
   border-radius: 8px;
   /* Điều chỉnh độ bo góc theo ý muốn */
 }
+/* Ảnh nền cho chế độ Dark Mode */
+[data-theme="dark"] #web_bg {
+  background-image: url(/img/bg/default-dark.webp) !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Ảnh top_img (banner) cho chế độ Dark Mode */
+[data-theme="dark"] #page-header {
+  background-image: url(/img/bg/bg-dark.webp) !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Avatar ở giữa banner top_img */
+/* #page-header.not-home-page::before,
+#page-header.post-bg::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background-image: url(/img/about/avatar.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+/* #page-header:not(.not-home-page):not(.post-bg)::before {
+  content: '';
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background-image: url(/img/about/avatar.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+} */ 
+
+/* Xóa padding-top không cần thiết */
+/* #content-inner {
+  padding-top: 80px;
+} */

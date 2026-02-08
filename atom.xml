@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog&#39;s GluTis</title>
-  <icon>https://huyvu15.github.io/icon.png</icon>
+  <icon>https://huyvu15.github.io/avatar1.gif</icon>
   
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2025-11-30T15:30:26.033Z</updated>
+  <updated>2026-02-08T08:38:44.111Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -21,20 +21,14 @@
     <link href="https://huyvu15.github.io/posts/viakhnh3"/>
     <id>https://huyvu15.github.io/posts/viakhnh3</id>
     <published>2025-11-27T16:35:12.000Z</published>
-    <updated>2025-11-30T15:30:26.033Z</updated>
+    <updated>2026-02-08T08:38:44.111Z</updated>
     
     
     <summary type="html">Nội dung này đã được mã hóa.</summary>
     
     
     
-    <category term="Story" scheme="https://huyvu15.github.io/categories/Story/"/>
-    
-    <category term="Me" scheme="https://huyvu15.github.io/categories/Story/Me/"/>
-    
-    <category term="love" scheme="https://huyvu15.github.io/categories/Story/Me/love/"/>
-    
-    <category term="Memory" scheme="https://huyvu15.github.io/categories/Story/Me/love/Memory/"/>
+    <category term="Gửi em một người từng yêu" scheme="https://huyvu15.github.io/categories/Gui-em-mot-nguoi-tung-yeu/"/>
     
     
     <category term="My love" scheme="https://huyvu15.github.io/tags/My-love/"/>
@@ -45,6 +39,8 @@
     
     <category term="Mong nhớ" scheme="https://huyvu15.github.io/tags/Mong-nho/"/>
     
+    <category term="Kỉ niệm" scheme="https://huyvu15.github.io/tags/Ki-niem/"/>
+    
   </entry>
   
   <entry>
@@ -52,7 +48,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d39b3"/>
     <id>https://huyvu15.github.io/posts/1r6d39b3</id>
     <published>2025-11-23T02:35:12.000Z</published>
-    <updated>2025-11-30T15:37:03.107Z</updated>
+    <updated>2026-02-08T08:41:58.392Z</updated>
     
     
       
@@ -66,15 +62,7 @@
     
     
     
-    <category term="Tour" scheme="https://huyvu15.github.io/categories/Tour/"/>
-    
-    <category term="Cát Bà" scheme="https://huyvu15.github.io/categories/Tour/Cat-Ba/"/>
-    
-    <category term="Công ty" scheme="https://huyvu15.github.io/categories/Tour/Cat-Ba/Cong-ty/"/>
-    
-    <category term="Check in" scheme="https://huyvu15.github.io/categories/Tour/Cat-Ba/Cong-ty/Check-in/"/>
-    
-    <category term="Du lịch" scheme="https://huyvu15.github.io/categories/Tour/Cat-Ba/Cong-ty/Check-in/Du-lich/"/>
+    <category term="Viết và chia sẻ" scheme="https://huyvu15.github.io/categories/Viet-va-chia-se/"/>
     
     
     <category term="Tour" scheme="https://huyvu15.github.io/tags/Tour/"/>
@@ -94,7 +82,7 @@
     <link href="https://huyvu15.github.io/posts/hkjji43k"/>
     <id>https://huyvu15.github.io/posts/hkjji43k</id>
     <published>2025-10-25T07:35:12.000Z</published>
-    <updated>2025-11-16T02:14:45.384Z</updated>
+    <updated>2026-02-08T08:44:46.523Z</updated>
     
     
       
@@ -109,16 +97,12 @@
     
     
     
-    <category term="Ăn uống" scheme="https://huyvu15.github.io/categories/An-uong/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
-    <category term="Share" scheme="https://huyvu15.github.io/categories/An-uong/Share/"/>
-    
-    <category term="My life" scheme="https://huyvu15.github.io/categories/An-uong/Share/My-life/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="Highland Coffee" scheme="https://huyvu15.github.io/tags/Highland-Coffee/"/>
     
@@ -135,7 +119,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d3mvf"/>
     <id>https://huyvu15.github.io/posts/1r6d3mvf</id>
     <published>2025-09-20T15:35:12.000Z</published>
-    <updated>2025-09-20T09:25:08.709Z</updated>
+    <updated>2026-02-08T08:40:59.105Z</updated>
     
     
       
@@ -151,17 +135,7 @@
     
     
     
-    <category term="Insights" scheme="https://huyvu15.github.io/categories/Insights/"/>
-    
-    <category term="Nano Banana" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/"/>
-    
-    <category term="Gemini" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/"/>
-    
-    <category term="Prompt" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/"/>
-    
-    <category term="AI" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/AI/"/>
-    
-    <category term="interesting" scheme="https://huyvu15.github.io/categories/Insights/Nano-Banana/Gemini/Prompt/AI/interesting/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
@@ -185,7 +159,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d3mbf"/>
     <id>https://huyvu15.github.io/posts/1r6d3mbf</id>
     <published>2025-09-19T15:35:12.000Z</published>
-    <updated>2025-09-20T02:13:21.376Z</updated>
+    <updated>2026-02-08T08:52:08.650Z</updated>
     
     
       
@@ -199,24 +173,14 @@
     
     
     
-    <category term="Insights" scheme="https://huyvu15.github.io/categories/Insights/"/>
+    <category term="Workshop" scheme="https://huyvu15.github.io/categories/Workshop/"/>
     
-    <category term="AWS" scheme="https://huyvu15.github.io/categories/Insights/AWS/"/>
-    
-    <category term="DA" scheme="https://huyvu15.github.io/categories/Insights/AWS/DA/"/>
-    
-    <category term="Cloud" scheme="https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/"/>
-    
-    <category term="Dashboard" scheme="https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/Dashboard/"/>
-    
-    <category term="Workshop" scheme="https://huyvu15.github.io/categories/Insights/AWS/DA/Cloud/Dashboard/Workshop/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
     
     <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
     
@@ -235,7 +199,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d39mk"/>
     <id>https://huyvu15.github.io/posts/1r6d39mk</id>
     <published>2025-08-16T04:35:12.000Z</published>
-    <updated>2025-09-11T05:33:16.151Z</updated>
+    <updated>2026-02-08T08:55:36.022Z</updated>
     
     
       
@@ -250,22 +214,18 @@
     
     
     
-    <category term="Coffee" scheme="https://huyvu15.github.io/categories/Coffee/"/>
+    <category term="Viết và chia sẻ" scheme="https://huyvu15.github.io/categories/Viet-va-chia-se/"/>
     
-    <category term="Insights" scheme="https://huyvu15.github.io/categories/Coffee/Insights/"/>
-    
-    <category term="Share" scheme="https://huyvu15.github.io/categories/Coffee/Insights/Share/"/>
-    
-    <category term="My life" scheme="https://huyvu15.github.io/categories/Coffee/Insights/Share/My-life/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="Highland Coffee" scheme="https://huyvu15.github.io/tags/Highland-Coffee/"/>
     
     <category term="My life" scheme="https://huyvu15.github.io/tags/My-life/"/>
+    
+    <category term="Coffee" scheme="https://huyvu15.github.io/tags/Coffee/"/>
     
   </entry>
   
@@ -274,20 +234,14 @@
     <link href="https://huyvu15.github.io/posts/1rbd1111"/>
     <id>https://huyvu15.github.io/posts/1rbd1111</id>
     <published>2025-07-29T08:35:12.000Z</published>
-    <updated>2025-08-03T04:15:41.110Z</updated>
+    <updated>2026-02-08T08:49:29.997Z</updated>
     
     
     <summary type="html">Nội dung này đã được mã hóa.</summary>
     
     
     
-    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
-    
-    <category term="Insights" scheme="https://huyvu15.github.io/categories/Knowledge/Insights/"/>
-    
-    <category term="Machine Learning" scheme="https://huyvu15.github.io/categories/Knowledge/Insights/Machine-Learning/"/>
-    
-    <category term="Company" scheme="https://huyvu15.github.io/categories/Knowledge/Insights/Machine-Learning/Company/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
@@ -311,7 +265,7 @@
     <link href="https://huyvu15.github.io/posts/1r6drrbf"/>
     <id>https://huyvu15.github.io/posts/1r6drrbf</id>
     <published>2025-07-16T15:35:12.000Z</published>
-    <updated>2025-07-17T15:27:47.079Z</updated>
+    <updated>2026-02-08T08:45:04.214Z</updated>
     
     
       
@@ -326,16 +280,14 @@
     
     
     
-    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
-    <category term="IAM" scheme="https://huyvu15.github.io/categories/AWS/IAM/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
     
     <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
     
@@ -350,7 +302,7 @@
     <link href="https://huyvu15.github.io/posts/13r1393f"/>
     <id>https://huyvu15.github.io/posts/13r1393f</id>
     <published>2025-06-02T00:35:12.000Z</published>
-    <updated>2025-06-03T01:01:31.128Z</updated>
+    <updated>2026-02-08T08:48:08.129Z</updated>
     
     
       
@@ -365,9 +317,7 @@
     
     
     
-    <category term="Automation" scheme="https://huyvu15.github.io/categories/Automation/"/>
-    
-    <category term="n8n" scheme="https://huyvu15.github.io/categories/Automation/n8n/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
@@ -391,7 +341,7 @@
     <link href="https://huyvu15.github.io/posts/rrg1393f"/>
     <id>https://huyvu15.github.io/posts/rrg1393f</id>
     <published>2025-01-12T21:35:12.000Z</published>
-    <updated>2025-06-04T14:24:08.807Z</updated>
+    <updated>2026-02-08T08:45:33.580Z</updated>
     
     
       
@@ -405,13 +355,7 @@
     
     
     
-    <category term="AI" scheme="https://huyvu15.github.io/categories/AI/"/>
-    
-    <category term="Process Image" scheme="https://huyvu15.github.io/categories/AI/Process-Image/"/>
-    
-    <category term="Computer Vision" scheme="https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/"/>
-    
-    <category term="CV" scheme="https://huyvu15.github.io/categories/AI/Process-Image/Computer-Vision/CV/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
@@ -431,7 +375,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d3vbf"/>
     <id>https://huyvu15.github.io/posts/1r6d3vbf</id>
     <published>2025-01-11T17:15:12.000Z</published>
-    <updated>2025-01-12T07:26:28.117Z</updated>
+    <updated>2026-02-08T08:43:26.313Z</updated>
     
     
       
@@ -445,11 +389,7 @@
     
     
     
-    <category term="Hadoop" scheme="https://huyvu15.github.io/categories/Hadoop/"/>
-    
-    <category term="Distributed system" scheme="https://huyvu15.github.io/categories/Hadoop/Distributed-system/"/>
-    
-    <category term="Insights" scheme="https://huyvu15.github.io/categories/Hadoop/Distributed-system/Insights/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
@@ -471,7 +411,7 @@
     <link href="https://huyvu15.github.io/posts/1rg1393f"/>
     <id>https://huyvu15.github.io/posts/1rg1393f</id>
     <published>2024-12-01T00:35:12.000Z</published>
-    <updated>2025-06-05T01:55:28.807Z</updated>
+    <updated>2026-02-08T08:40:12.982Z</updated>
     
     
       
@@ -485,16 +425,16 @@
     
     
     
-    <category term="DE" scheme="https://huyvu15.github.io/categories/DE/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
-    
-    <category term="Airflow" scheme="https://huyvu15.github.io/tags/Airflow/"/>
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="DE" scheme="https://huyvu15.github.io/tags/DE/"/>
     
     <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
+    
+    <category term="Airflow" scheme="https://huyvu15.github.io/tags/Airflow/"/>
     
     <category term="Install" scheme="https://huyvu15.github.io/tags/Install/"/>
     
@@ -505,21 +445,21 @@
     <link href="https://huyvu15.github.io/posts/1r6d33bf"/>
     <id>https://huyvu15.github.io/posts/1r6d33bf</id>
     <published>2024-10-29T08:35:12.000Z</published>
-    <updated>2025-11-06T05:49:45.165Z</updated>
+    <updated>2026-02-08T08:43:00.826Z</updated>
     
     
     <summary type="html">Nội dung này đã được mã hóa.</summary>
     
     
     
-    <category term="Crawl" scheme="https://huyvu15.github.io/categories/Crawl/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
+    
+    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
     
     <category term="Facebook ads" scheme="https://huyvu15.github.io/tags/Facebook-ads/"/>
     
     <category term="Facebook Marketing" scheme="https://huyvu15.github.io/tags/Facebook-Marketing/"/>
-    
-    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
     
     <category term="Scrape" scheme="https://huyvu15.github.io/tags/Scrape/"/>
     
@@ -530,7 +470,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d39tf"/>
     <id>https://huyvu15.github.io/posts/1r6d39tf</id>
     <published>2024-10-25T00:35:12.000Z</published>
-    <updated>2025-02-08T04:41:35.476Z</updated>
+    <updated>2026-02-08T08:42:56.571Z</updated>
     
     
       
@@ -544,7 +484,7 @@
     
     
     
-    <category term="Crawl" scheme="https://huyvu15.github.io/categories/Crawl/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
@@ -562,7 +502,7 @@
     <link href="https://huyvu15.github.io/posts/1r6d34bf"/>
     <id>https://huyvu15.github.io/posts/1r6d34bf</id>
     <published>2024-10-12T05:35:12.000Z</published>
-    <updated>2024-10-25T06:36:51.868Z</updated>
+    <updated>2026-02-08T08:46:57.078Z</updated>
     
     
       
@@ -576,16 +516,14 @@
     
     
     
-    <category term="Linux" scheme="https://huyvu15.github.io/categories/Linux/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
-    <category term="Insights" scheme="https://huyvu15.github.io/categories/Linux/Insights/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
     
     <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
     
     <category term="Linux" scheme="https://huyvu15.github.io/tags/Linux/"/>
     
@@ -598,7 +536,7 @@
     <link href="https://huyvu15.github.io/posts/1rdb9bvf"/>
     <id>https://huyvu15.github.io/posts/1rdb9bvf</id>
     <published>2024-09-30T19:35:12.000Z</published>
-    <updated>2024-10-12T09:58:22.675Z</updated>
+    <updated>2026-02-08T08:40:47.400Z</updated>
     
     
       
@@ -612,9 +550,7 @@
     
     
     
-    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
-    
-    <category term="AWS" scheme="https://huyvu15.github.io/categories/Knowledge/AWS/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
@@ -628,7 +564,7 @@
     <link href="https://huyvu15.github.io/posts/1rd39bvf"/>
     <id>https://huyvu15.github.io/posts/1rd39bvf</id>
     <published>2024-09-14T15:35:12.000Z</published>
-    <updated>2024-09-29T14:17:26.210Z</updated>
+    <updated>2026-02-08T08:49:04.245Z</updated>
     
     
       
@@ -643,7 +579,7 @@
     
     
     
-    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
+    <category term="Khác" scheme="https://huyvu15.github.io/categories/Khac/"/>
     
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
@@ -657,7 +593,7 @@
     <link href="https://huyvu15.github.io/posts/23ddrt2y"/>
     <id>https://huyvu15.github.io/posts/23ddrt2y</id>
     <published>2024-09-01T17:35:12.000Z</published>
-    <updated>2024-09-03T08:07:56.329Z</updated>
+    <updated>2026-02-08T08:51:38.267Z</updated>
     
     
       
@@ -671,11 +607,7 @@
     
     
     
-    <category term="AWS" scheme="https://huyvu15.github.io/categories/AWS/"/>
-    
-    <category term="EC2" scheme="https://huyvu15.github.io/categories/AWS/EC2/"/>
-    
-    <category term="Feature" scheme="https://huyvu15.github.io/categories/AWS/EC2/Feature/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="EC2" scheme="https://huyvu15.github.io/tags/EC2/"/>
@@ -691,7 +623,7 @@
     <link href="https://huyvu15.github.io/posts/hjtu32nj"/>
     <id>https://huyvu15.github.io/posts/hjtu32nj</id>
     <published>2024-08-25T00:35:12.000Z</published>
-    <updated>2024-08-25T13:32:02.842Z</updated>
+    <updated>2026-02-08T08:46:18.641Z</updated>
     
     
       
@@ -705,9 +637,7 @@
     
     
     
-    <category term="Algo" scheme="https://huyvu15.github.io/categories/Algo/"/>
-    
-    <category term="Interview" scheme="https://huyvu15.github.io/categories/Algo/Interview/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
@@ -723,7 +653,7 @@
     <link href="https://huyvu15.github.io/posts/tyu3n1nh"/>
     <id>https://huyvu15.github.io/posts/tyu3n1nh</id>
     <published>2024-08-22T00:35:12.000Z</published>
-    <updated>2024-08-25T03:34:05.393Z</updated>
+    <updated>2026-02-08T08:47:24.568Z</updated>
     
     
       
@@ -737,7 +667,7 @@
     
     
     
-    <category term="Knowledge" scheme="https://huyvu15.github.io/categories/Knowledge/"/>
+    <category term="Khác" scheme="https://huyvu15.github.io/categories/Khac/"/>
     
     
     <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
