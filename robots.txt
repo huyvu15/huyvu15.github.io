@@ -1,3 +1,6 @@
+# Robots.txt for Blog's GluTis
+# https://huyvu15.github.io/
+
 User-agent: *
 Allow: /
 Disallow: /404.html
@@ -7,6 +10,18 @@ Disallow: /categories/page/
 
 # Sitemap
 Sitemap: https://huyvu15.github.io/sitemap.xml
+# Feed location
+Sitemap: https://huyvu15.github.io/atom.xml
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
 
 # Crawl-delay
 Crawl-delay: 1

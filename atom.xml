@@ -463,11 +463,11 @@
     <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
+    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
+    
     <category term="Facebook ads" scheme="https://huyvu15.github.io/tags/Facebook-ads/"/>
     
     <category term="Facebook Marketing" scheme="https://huyvu15.github.io/tags/Facebook-Marketing/"/>
-    
-    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
     
     <category term="Scrape" scheme="https://huyvu15.github.io/tags/Scrape/"/>
     
@@ -620,9 +620,9 @@
     
     <category term="EC2" scheme="https://huyvu15.github.io/tags/EC2/"/>
     
-    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
-    
     <category term="AWS" scheme="https://huyvu15.github.io/tags/AWS/"/>
+    
+    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
     
   </entry>
   
