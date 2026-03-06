@@ -4,6 +4,27 @@
   /* 可以根据需要调整圆角的大小 */
 }
 
+/* Fix TOC thanh progress đè lên chữ */
+#card-toc .toc-content .toc-link span {
+  position: relative;
+  z-index: 3;
+}
+
+#card-toc .toc-content .toc-link.active {
+  background: #c8956c !important;
+  color: #fff !important;
+  padding: 4px 8px;
+  border-radius: 7px;
+}
+
+#card-toc .toc-content .toc-link:not(.active) {
+  color: #4a3728 !important;
+}
+
+[data-theme="dark"] #card-toc .toc-content .toc-link:not(.active) {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
 
 /* additional  */
 #content-inner.layout h1::before {
@@ -145,3 +166,467 @@
 /* #content-inner {
   padding-top: 80px;
 } */
+
+/* Custom Loading Animation */
+#loading-box .spinner-box {
+  background-image: url("/img/loading.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Make it larger yet responsive */
+  background-size: 350px auto;
+  
+  /* Ensure container is full screen to allow centering */
+  width: 100% !important;
+  height: 100vh !important;
+  
+  /* Clear default spinner styles */
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+#loading-box .configure-border-1,
+#loading-box .configure-border-2,
+#loading-box .loading-word {
+  display: none !important;
+}
+
+#page-header {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ============================
+   Waves Content Divider (SVG)
+   ============================ */
+
+:root {
+  --sky-container: #f5e0c5; /* nền sáng giống Rawley */
+  --global-bg: #f5e0c5;     /* Butterfly dùng biến này cho nền body */
+  --card-bg: #f4ebe1;       /* nền card/bài viết */
+}
+
+/* Nền toàn site chế độ sáng: màu, không dùng ảnh nữa */
+#web_bg {
+  background: var(--sky-container) !important;
+  background-image: none !important;
+}
+
+[data-theme="dark"] {
+  --sky-container: rgba(13, 13, 13, 0.92);
+  --global-bg: rgba(13, 13, 13, 0.92);
+  --card-bg: rgba(18, 18, 18, 0.92);
+}
+
+/* Ép card bài viết (home/archives/post) dùng đúng nền */
+#recent-posts > .recent-post-item,
+.layout > div:first-child:not(.recent-posts),
+.layout > .recent-posts .pagination > *:not(.space) {
+  background: var(--card-bg) !important;
+}
+
+/* Bo góc cho card bài viết trang chủ */
+#recent-posts > .recent-post-item {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+/* Bo góc cho ảnh bìa bài viết */
+#recent-posts > .recent-post-item .post-bg {
+  border-radius: 20px !important;
+}
+
+#recent-posts > .recent-post-item .post_cover img {
+  border-radius: 20px 20px 0 0 !important;
+}
+
+/* Bo góc cho sidebar cards */
+#aside-content .card-widget {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+/* Bo góc cho bài viết chi tiết */
+#post .post-bg {
+  border-radius: 20px !important;
+}
+
+/* Bo góc cho pagination */
+#pagination .page-number,
+#pagination .space {
+  border-radius: 12px !important;
+}
+
+/* Bo góc cho TOC */
+.toc-card {
+  border-radius: 20px !important;
+}
+
+/* Bo góc cho tag/category pills */
+.tag-cloud-tags a,
+#article-container .tag_share a {
+  border-radius: 12px !important;
+}
+
+/* Bo góc cho phần comment */
+#post-comment {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+#post-comment .comment-wrap {
+  border-radius: 20px !important;
+}
+
+/* Giscus comment frame */
+.giscus,
+.giscus-frame {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+/* Comment head/title */
+.comment-head {
+  border-radius: 20px 20px 0 0 !important;
+}
+
+/* Comment text area */
+#comment-wrap .vwrap .vheader .vinput,
+.comment-wrap textarea {
+  border-radius: 12px !important;
+}
+
+/* Comment submit button */
+#comment-wrap .vsubmit,
+.comment-wrap button[type="submit"] {
+  border-radius: 12px !important;
+}
+
+/* Individual comment items */
+.comment-wrap .vcard,
+.comment-wrap .comment-item {
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
+/* Announcement widget (giống ảnh bạn gửi) */
+#aside-content .card-announcement .announcement_content {
+  color: rgba(0, 0, 0, 0.68);
+  line-height: 1.6;
+}
+
+#aside-content .card-announcement .notice-announce {
+  margin-top: 10px;
+  text-align: left;
+}
+
+#aside-content .card-announcement .notice-announce > p {
+  margin: 0 0 8px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#aside-content .card-announcement .notice-announce > ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#aside-content .card-announcement .notice-announce > ul > li {
+  margin: 6px 0;
+}
+
+#aside-content .card-announcement .notice-gif {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 12px auto 0;
+  border-radius: 10px;
+}
+
+[data-theme="dark"] #aside-content .card-announcement .announcement_content,
+[data-theme="dark"] #aside-content .card-announcement .notice-announce > p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.waves-divider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 140px;
+  z-index: 20;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.waves-divider .wave-container {
+  position: absolute;
+  inset: 0;
+  color: var(--sky-container);
+}
+
+.waves-divider .wave {
+  position: absolute;
+  left: -3%;
+  width: 106%;
+  height: 100%;
+  bottom: 0;
+}
+
+.waves-divider .wave-path {
+  filter: blur(0.6px);
+}
+
+@keyframes waveX1 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-140px); }
+}
+
+@keyframes waveX2 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(160px); }
+}
+
+@keyframes waveX3 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-220px); }
+}
+
+@keyframes waveY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+/* 3 lớp mờ + base đậm */
+.waves-divider .wave-1 {
+  animation: waveX1 26s linear infinite, waveY 7s ease-in-out infinite;
+  opacity: 0.9;
+}
+.waves-divider .wave-2 {
+  animation: waveX2 18s linear infinite, waveY 6s ease-in-out infinite;
+  opacity: 0.95;
+}
+.waves-divider .wave-3 {
+  animation: waveX3 12s linear infinite, waveY 5s ease-in-out infinite;
+  opacity: 1;
+}
+.waves-divider .wave-base {
+  animation: waveY 8s ease-in-out infinite;
+  opacity: 1;
+}
+
+/* Dots trang trí */
+.waves-divider .wave-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 120px;
+  pointer-events: none;
+}
+
+.waves-divider .wave-dot {
+  position: absolute;
+  bottom: 18px;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.55);
+  filter: blur(0.2px);
+  animation: dotFloat 5.5s ease-in-out infinite;
+}
+
+@keyframes dotFloat {
+  0%, 100% { transform: translateY(0); opacity: 0.45; }
+  50% { transform: translateY(-14px); opacity: 0.8; }
+}
+
+.waves-divider .wave-dot-1 { left: 12%; animation-duration: 6.3s; }
+.waves-divider .wave-dot-2 { left: 28%; animation-duration: 5.1s; bottom: 28px; }
+.waves-divider .wave-dot-3 { left: 52%; animation-duration: 7.2s; bottom: 22px; }
+.waves-divider .wave-dot-4 { left: 72%; animation-duration: 5.6s; bottom: 32px; }
+.waves-divider .wave-dot-5 { left: 88%; animation-duration: 6.8s; bottom: 20px; }
+
+/* Ẩn chữ tiêu đề và mô tả ở banner trang chủ */
+#site-info .site-title,
+#site-info .site-subtitle,
+#site-info .scroll-down {
+  display: none !important;
+}
+
+/* ===== Màu các đường kẻ, thanh cuộn cho hợp nền #f5e0c5 ===== */
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #c8956c !important;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8845e !important;
+}
+::-webkit-scrollbar-track {
+  background: #f0d5b0 !important;
+}
+
+/* Thanh progress đọc bài (reading progress bar) */
+.progress-bar {
+  background: linear-gradient(90deg, #c8956c, #d4a574) !important;
+}
+
+/* Đường kẻ ngang hr */
+#article-container hr {
+  border-color: #dcc5a5 !important;
+}
+
+/* Footer border */
+#footer::before {
+  background: linear-gradient(90deg, transparent, #c8956c, transparent) !important;
+}
+
+/* Sidebar active toc */
+.toc-link.active {
+  border-left-color: #c8956c !important;
+  color: #c8956c !important;
+}
+
+/* Nút back to top & rightside buttons */
+#rightside > div > button,
+#rightside > div > a {
+  background: #c8956c !important;
+  color: #fff !important;
+}
+#rightside > div > button:hover,
+#rightside > div > a:hover {
+  background: #b8845e !important;
+}
+
+/* Pagination active */
+#pagination .page-number.current {
+  background: #c8956c !important;
+  color: #fff !important;
+}
+
+/* Selection highlight */
+::selection {
+  background: #e8c9a8 !important;
+  color: #3d2b1f !important;
+}
+
+/* Blockquote border */
+#article-container blockquote {
+  border-left-color: #c8956c !important;
+  background: rgba(200, 149, 108, 0.08) !important;
+}
+
+/* Tab bar active */
+.tab > button.active {
+  background: #c8956c !important;
+}
+
+/* Search input focus */
+#local-search-input:focus {
+  border-color: #c8956c !important;
+  box-shadow: 0 0 5px rgba(200, 149, 108, 0.4) !important;
+}
+
+/* Dark mode overrides */
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #5a4030 !important;
+}
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: #1a1410 !important;
+}
+[data-theme="dark"] #rightside > div > button,
+[data-theme="dark"] #rightside > div > a {
+  background: #5a4030 !important;
+}
+[data-theme="dark"] #rightside > div > button:hover,
+[data-theme="dark"] #rightside > div > a:hover {
+  background: #6b4e3a !important;
+}
+
+/* ===== Fix TOC progress bar đè lên chữ ===== */
+
+/* Đảm bảo text TOC luôn hiển thị trên thanh progress */
+#card-toc .toc-content .toc-link {
+  position: relative;
+  z-index: 2;
+  color: #4a3728 !important;
+}
+
+#card-toc .toc-content .toc-link.active {
+  color: #fff !important;
+  z-index: 2;
+}
+
+/* Thanh progress nền nằm dưới text */
+#card-toc .toc-content .toc-link.active::before {
+  z-index: -1;
+}
+
+/* Số % hiển thị đúng */
+#card-toc .toc-percentage {
+  color: #c8956c !important;
+  font-weight: bold;
+}
+
+/* Dark mode */
+[data-theme="dark"] #card-toc .toc-content .toc-link {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+[data-theme="dark"] #card-toc .toc-content .toc-link.active {
+  color: #fff !important;
+}
+
+/* ===== Footer màu phù hợp nền ===== */
+#footer {
+  background: #e8cba8 !important;
+  color: #5a4030 !important;
+  padding: 25px 0 !important;
+}
+
+#footer a {
+  color: #8b6340 !important;
+}
+
+#footer a:hover {
+  color: #c8956c !important;
+}
+
+#footer .footer_custom_text {
+  color: #5a4030 !important;
+}
+
+#footer .copyright {
+  color: #6b5040 !important;
+}
+
+#footer #runtimeshow {
+  font-size: 0.9em;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+/* Footer icon */
+#footer i {
+  color: #c8956c !important;
+}
+
+/* Dark mode footer */
+[data-theme="dark"] #footer {
+  background: #1a1410 !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+[data-theme="dark"] #footer a {
+  color: rgba(200, 149, 108, 0.8) !important;
+}
+
+[data-theme="dark"] #footer a:hover {
+  color: #c8956c !important;
+}
+
+[data-theme="dark"] #footer .footer_custom_text,
+[data-theme="dark"] #footer .copyright {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
