@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2026-03-15T02:26:52.681Z</updated>
+  <updated>2026-04-13T16:59:52.574Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Dù hoàn cảnh ra sao vẫn làm người tử tế</title>
+    <link href="https://huyvu15.github.io/posts/106d301f"/>
+    <id>https://huyvu15.github.io/posts/106d301f</id>
+    <published>2026-04-09T08:35:12.000Z</published>
+    <updated>2026-04-13T16:59:52.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Loi-dau&quot;&gt;&lt;a href=&quot;#Loi-dau&quot; class=&quot;headerlink&quot; title=&quot;Lời đầu&quot;&gt;&lt;/a&gt;Lời đầu&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
+    
+    
+    <category term="Me" scheme="https://huyvu15.github.io/tags/Me/"/>
+    
+    <category term="Người tử tế" scheme="https://huyvu15.github.io/tags/Nguoi-tu-te/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hành trình trở thành AWS Community Builder</title>
     <link href="https://huyvu15.github.io/posts/2r6d390f"/>
     <id>https://huyvu15.github.io/posts/2r6d390f</id>
-    <published>2026-06-03T08:35:12.000Z</published>
-    <updated>2026-03-15T02:26:52.681Z</updated>
+    <published>2026-03-06T08:35:12.000Z</published>
+    <updated>2026-04-09T10:18:06.456Z</updated>
     
     
       
@@ -51,15 +78,15 @@
     <link href="https://huyvu15.github.io/posts/1r6d300f"/>
     <id>https://huyvu15.github.io/posts/1r6d300f</id>
     <published>2026-02-28T08:35:12.000Z</published>
-    <updated>2026-03-02T17:36:16.108Z</updated>
+    <updated>2026-04-09T10:20:21.144Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;cloudflare-là-gì&quot;&gt;Cloudflare là gì?&lt;/h1&gt;
-&lt;p&gt;Xin chào mình là Glutis một sinh viên ngành Toán tại HUST. Do cũng có thời gian bươn</summary>
+    <summary type="html">&lt;h1 id=&quot;cloudflare&quot;&gt;Cloudflare&lt;/h1&gt;
+&lt;p&gt;Xin chào mình là Glutis một sinh viên ngành Toán tại HUST. Do cũng có thời gian bươn trải trong thời</summary>
         
       
     
@@ -648,36 +675,6 @@
     <category term="Workflow" scheme="https://huyvu15.github.io/tags/Workflow/"/>
     
     <category term="Orchestration" scheme="https://huyvu15.github.io/tags/Orchestration/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tìm hiểu Airbyte</title>
-    <link href="https://huyvu15.github.io/posts/1r6d323y"/>
-    <id>https://huyvu15.github.io/posts/1r6d323y</id>
-    <published>2024-08-12T01:35:12.000Z</published>
-    <updated>2026-02-08T08:50:41.411Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;airbyte-là-gì&quot;&gt;Airbyte là gì ?&lt;/h1&gt;
-&lt;p&gt;Airbyte là một nền tảng ETL mã nguồn mở dùng để tích hợp dữ liệu từ nhiều nguồn khác nhau,</summary>
-        
-      
-    
-    
-    
-    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
-    
-    
-    <category term="Knowledge" scheme="https://huyvu15.github.io/tags/Knowledge/"/>
-    
-    <category term="Airbyte" scheme="https://huyvu15.github.io/tags/Airbyte/"/>
-    
-    <category term="Ingest" scheme="https://huyvu15.github.io/tags/Ingest/"/>
     
   </entry>
   

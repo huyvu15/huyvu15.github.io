@@ -1,17 +1,17 @@
 /* --- Footer Container --- */
 #footer-wrap {
     background: none; /* Không có nền */
-    color: #184395; /* Màu chữ xanh */
+    color: #4e382a; /* Màu chữ nâu đậm hợp nền be */
     text-align: center; /* Căn giữa nội dung */
     padding: 25px 20px; /* Khoảng cách gọn gàng */
     font-size: 14px; /* Cỡ chữ dễ đọc */
     font-family: "Poppins", sans-serif; /* Font chữ hiện đại */
-    border-top: 2px solid #184395 /* Đường viền nhẹ */
+    border-top: 1px solid #b58a62 /* Đường kẻ mềm, đồng bộ footer */
 }
 
 /* --- Footer Links --- */
 #footer-wrap a {
-    color: #184395; /* Màu chữ xanh */
+    color: #7a5739; /* Màu link hài hòa với footer */
     text-decoration: none; /* Bỏ gạch chân */
     font-weight: 600; /* Làm chữ rõ nét */
     font-size: 15px; /* Cỡ chữ vừa phải */
@@ -22,7 +22,7 @@
 
 /* --- Hover Effect --- */
 #footer-wrap a:hover {
-    color: #0f2c6e; /* Đổi sang màu xanh đậm hơn khi hover */
+    color: #9b6d49; /* Tăng độ nhấn nhẹ khi hover */
 }
 
 /* --- Footer Social Icons --- */
@@ -34,13 +34,13 @@
     display: inline-block;
     margin: 0 8px;
     font-size: 20px; /* Kích thước icon */
-    color: #184395;
+    color: #9b6d49;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 /* --- Hover hiệu ứng cho icon mạng xã hội --- */
 .footer-icons a:hover {
-    color: #0f2c6e;
+    color: #b58a62;
     transform: scale(1.1);
 }
 

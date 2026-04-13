@@ -479,7 +479,7 @@
 
 /* Footer border */
 #footer::before {
-  background: linear-gradient(90deg, transparent, #c8956c, transparent) !important;
+  background: linear-gradient(90deg, transparent, #b58a62, transparent) !important;
 }
 
 /* Sidebar active toc */
@@ -581,24 +581,24 @@
 /* ===== Footer màu phù hợp nền ===== */
 #footer {
   background: #e8cba8 !important;
-  color: #5a4030 !important;
+  color: #4e382a !important;
   padding: 25px 0 !important;
 }
 
 #footer a {
-  color: #8b6340 !important;
+  color: #7a5739 !important;
 }
 
 #footer a:hover {
-  color: #c8956c !important;
+  color: #9b6d49 !important;
 }
 
 #footer .footer_custom_text {
-  color: #5a4030 !important;
+  color: #4e382a !important;
 }
 
 #footer .copyright {
-  color: #6b5040 !important;
+  color: #614738 !important;
 }
 
 #footer #runtimeshow {
@@ -615,18 +615,18 @@
 /* Dark mode footer */
 [data-theme="dark"] #footer {
   background: #1a1410 !important;
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 0.78) !important;
 }
 
 [data-theme="dark"] #footer a {
-  color: rgba(200, 149, 108, 0.8) !important;
+  color: #d6a77f !important;
 }
 
 [data-theme="dark"] #footer a:hover {
-  color: #c8956c !important;
+  color: #e0b48d !important;
 }
 
 [data-theme="dark"] #footer .footer_custom_text,
 [data-theme="dark"] #footer .copyright {
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: rgba(255, 255, 255, 0.68) !important;
 }
