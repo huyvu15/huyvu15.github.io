@@ -454,6 +454,10 @@
   display: none !important;
 }
 
+#page-header.full_page #site-info #site-title {
+  display: none !important;
+}
+
 /* ===== Màu các đường kẻ, thanh cuộn cho hợp nền #f5e0c5 ===== */
 
 /* Scrollbar */
@@ -629,4 +633,308 @@
 [data-theme="dark"] #footer .footer_custom_text,
 [data-theme="dark"] #footer .copyright {
   color: rgba(255, 255, 255, 0.68) !important;
+}
+
+/* ===== Header logo subtitle ===== */
+#blog-info a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1;
+}
+
+#blog-info .site-icon {
+  flex: 0 0 auto;
+}
+
+#blog-info .site-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
+#blog-info .site-name::after {
+  content: "Chia sẻ • Học hỏi • Khám phá";
+  display: block;
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  opacity: 0.86;
+}
+
+@media screen and (max-width: 480px) {
+  #blog-info .site-name::after {
+    font-size: 9px;
+  }
+}
+
+/* ===== Custom footer ===== */
+.glutis-message-section {
+  background: var(--sky-container);
+  padding: 34px 0 18px;
+}
+
+#footer {
+  position: relative;
+  overflow: hidden;
+  background: #f4ebe1 !important;
+  color: #4e382a !important;
+  padding: 0 !important;
+}
+
+#footer::before {
+  display: none !important;
+}
+
+#footer .glutis-footer-inner {
+  width: min(1180px, calc(100% - 56px));
+  margin: 0 auto;
+  padding: 42px 0 22px;
+}
+
+.glutis-message-section .glutis-message-box {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 28px;
+  width: min(1180px, calc(100% - 56px));
+  min-height: 148px;
+  margin: 0 auto;
+  padding: 34px clamp(28px, 6vw, 260px);
+  border-radius: 18px;
+  background-image: url('/img/mess_box.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 16px 44px rgba(122, 87, 57, 0.16);
+}
+
+.glutis-message-section .glutis-message-copy {
+  max-width: 420px;
+  text-align: left;
+}
+
+.glutis-message-section .glutis-message-copy h2 {
+  margin: 0 0 14px;
+  color: #3d2b1f;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.glutis-message-section .glutis-message-copy p {
+  margin: 0;
+  color: #614738;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.85;
+}
+
+.glutis-message-section .glutis-message-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.glutis-message-section .glutis-message-form input {
+  width: min(270px, 28vw);
+  height: 54px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 250, 243, 0.96);
+  color: #3d2b1f;
+  padding: 0 24px;
+  box-shadow: 0 10px 28px rgba(122, 87, 57, 0.12);
+  outline: none;
+}
+
+.glutis-message-section .glutis-message-form input::placeholder {
+  color: #a4866a;
+}
+
+.glutis-message-section .glutis-message-form button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 54px;
+  min-width: 154px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #c8956c, #b8845e);
+  color: #fff;
+  font-weight: 800;
+  box-shadow: 0 12px 26px rgba(184, 132, 94, 0.28);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glutis-message-section .glutis-message-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(184, 132, 94, 0.36);
+}
+
+#footer .glutis-footer-main {
+  display: grid;
+  grid-template-columns: minmax(230px, 1.5fr) repeat(3, minmax(120px, 1fr));
+  gap: clamp(28px, 6vw, 86px);
+  align-items: start;
+  text-align: left;
+}
+
+#footer .glutis-footer-logo-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+#footer .glutis-footer-logo-row img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+#footer .glutis-footer-logo-row h3,
+#footer .glutis-footer-col h4 {
+  margin: 0;
+  color: #3d2b1f;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+#footer .glutis-footer-brand p {
+  max-width: 280px;
+  margin: 0 0 20px;
+  color: #614738;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+#footer .glutis-footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+#footer .glutis-footer-socials a,
+#footer .glutis-footer-col a {
+  color: #614738 !important;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+#footer .glutis-footer-socials a {
+  font-size: 18px;
+}
+
+#footer .glutis-footer-socials a:hover,
+#footer .glutis-footer-col a:hover {
+  color: #9b6d49 !important;
+}
+
+#footer .glutis-footer-socials a:hover {
+  transform: translateY(-2px);
+}
+
+#footer .glutis-footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#footer .glutis-footer-col h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#footer .glutis-footer-col a {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#footer .glutis-footer-bottom {
+  margin-top: 42px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(122, 87, 57, 0.14);
+  color: #7a5739;
+  font-size: 12px;
+  text-align: left;
+}
+
+[data-theme="dark"] .glutis-message-section,
+[data-theme="dark"] #footer {
+  background: #111 !important;
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+
+[data-theme="dark"] #footer .glutis-footer-logo-row h3,
+[data-theme="dark"] #footer .glutis-footer-col h4,
+[data-theme="dark"] .glutis-message-section .glutis-message-copy h2 {
+  color: #f8fafc;
+}
+
+[data-theme="dark"] #footer .glutis-footer-brand p,
+[data-theme="dark"] #footer .glutis-footer-col a,
+[data-theme="dark"] .glutis-message-section .glutis-message-copy p,
+[data-theme="dark"] #footer .glutis-footer-bottom {
+  color: rgba(255, 255, 255, 0.68) !important;
+}
+
+@media screen and (max-width: 900px) {
+  .glutis-message-section .glutis-message-box {
+    grid-template-columns: 1fr;
+    padding: 32px;
+  }
+
+  .glutis-message-section .glutis-message-form {
+    width: 100%;
+  }
+
+  .glutis-message-section .glutis-message-form input {
+    width: 100%;
+    min-width: 0;
+  }
+
+  #footer .glutis-footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #footer .glutis-footer-inner {
+    width: min(100% - 28px, 1180px);
+    padding-top: 22px;
+  }
+
+  .glutis-message-section .glutis-message-box {
+    padding: 28px 20px;
+    background-position: left center;
+  }
+
+  .glutis-message-section .glutis-message-copy h2 {
+    font-size: 18px;
+  }
+
+  .glutis-message-section .glutis-message-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .glutis-message-section .glutis-message-form button {
+    width: 100%;
+  }
+
+  #footer .glutis-footer-main {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  #footer .glutis-footer-bottom {
+    text-align: center;
+  }
 }

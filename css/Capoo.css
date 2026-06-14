@@ -1,22 +1,42 @@
-/* CSS样式用于设置 GIF 容器的位置和样式 */
 .gif-container {
   position: fixed;
-  bottom: 10px;
-  /* 调整 GIF 在底部的距离 */
-  left: 10px;
-  /* 调整 GIF 在左侧的距离 */
+  bottom: 18px;
+  left: 18px;
   z-index: 9999;
-  /* 确保 GIF 显示在其他内容的上方 */
+  pointer-events: none;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.24s ease, transform 0.24s ease;
 }
 
 .gif-container img {
-  max-width: 130px;
-  /* 设置 GIF 最大宽度 */
+  display: block;
+  width: min(130px, 28vw);
   height: auto;
-  /* 自动调整高度 */
 }
 
-.gif-hidden {
-  display: none;
-  /* 在移动设备上隐藏 GIF */
+.gif-container.gif-hidden {
+  opacity: 0;
+  transform: translateY(12px);
+  visibility: hidden;
+}
+
+#rightside #pet-toggle-btn.active {
+  background: #9b6d49 !important;
+  color: #fff !important;
+}
+
+#rightside #pet-toggle-btn i {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+  .gif-container {
+    bottom: 14px;
+    left: 12px;
+  }
+
+  .gif-container img {
+    width: 96px;
+  }
 }
