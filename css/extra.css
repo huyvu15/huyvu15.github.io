@@ -447,15 +447,74 @@
 .waves-divider .wave-dot-4 { left: 72%; animation-duration: 5.6s; bottom: 32px; }
 .waves-divider .wave-dot-5 { left: 88%; animation-duration: 6.8s; bottom: 20px; }
 
-/* Ẩn chữ tiêu đề và mô tả ở banner trang chủ */
-#site-info .site-title,
-#site-info .site-subtitle,
-#site-info .scroll-down {
+/* Hiển thị câu slogan trên banner trang chủ */
+#site-info #site-title {
   display: none !important;
 }
 
-#page-header.full_page #site-info #site-title {
+#page-header.full_page #site-info {
+  top: 34%;
+  left: clamp(28px, 8vw, 140px);
+  width: auto;
+  max-width: min(420px, 42vw);
+  padding: 0;
+  text-align: left;
+}
+
+#page-header.full_page #site-info #site-subtitle {
+  display: block !important;
+  margin-top: 0;
+  text-align: left;
+}
+
+#page-header.full_page #site-info #site-subtitle::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 2px;
+  margin-bottom: 12px;
+  border-radius: 999px;
+  background: rgba(245, 224, 197, 0.92);
+  box-shadow: 0 3px 12px rgba(27, 45, 49, 0.35);
+}
+
+#page-header.full_page #site-info #subtitle {
+  color: #f7ead7;
+  font-size: clamp(18px, 2vw, 28px);
+  font-weight: 750;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: left;
+  text-shadow: 0 3px 14px rgba(19, 38, 46, 0.54);
+}
+
+#page-header.full_page #site-info #site_social_icons {
   display: none !important;
+}
+
+#page-header.full_page #scroll-down {
+  display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+  #page-header.full_page #site-info {
+    top: 38%;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  #page-header.full_page #site-info #site-subtitle,
+  #page-header.full_page #site-info #subtitle {
+    text-align: center;
+  }
+
+  #page-header.full_page #site-info #site-subtitle::before {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* ===== Màu các đường kẻ, thanh cuộn cho hợp nền #f5e0c5 ===== */
