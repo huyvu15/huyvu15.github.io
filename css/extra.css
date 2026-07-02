@@ -521,6 +521,42 @@
   background: rgba(200, 149, 108, 0.08) !important;
 }
 
+/* Mermaid diagrams */
+#article-container .mermaid-wrap {
+  margin: 1.4rem 0;
+  padding: 18px;
+  overflow-x: auto;
+  border: 1px solid rgba(122, 87, 57, 0.14);
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(244, 235, 225, 0.86));
+  box-shadow: 0 12px 30px rgba(122, 87, 57, 0.08);
+}
+
+#article-container .mermaid-wrap svg {
+  display: block;
+  min-width: 640px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+[data-theme="dark"] #article-container .mermaid-wrap {
+  border-color: rgba(255, 255, 255, 0.1);
+  background:
+    linear-gradient(135deg, rgba(31, 31, 31, 0.92), rgba(18, 18, 18, 0.96));
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+@media screen and (max-width: 768px) {
+  #article-container .mermaid-wrap {
+    padding: 14px;
+  }
+
+  #article-container .mermaid-wrap svg {
+    min-width: 560px;
+  }
+}
+
 /* Tab bar active */
 .tab > button.active {
   background: #c8956c !important;
