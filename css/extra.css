@@ -2232,6 +2232,11 @@ a:hover,
   backdrop-filter: none !important;
 }
 
+/* Butterfly's header pseudo-layer tints the entire cover; keep cover art sharp. */
+#page-header:not(.not-top-img)::before {
+  background-color: transparent !important;
+}
+
 #page-header.post-bg #nav,
 #page-header.not-top-img #nav,
 #page-header.nav-fixed #nav {
