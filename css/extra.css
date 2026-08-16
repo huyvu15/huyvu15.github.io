@@ -1680,7 +1680,7 @@
   --btn-bg: #18aee8;
   --light-grey: rgba(38, 118, 158, 0.22);
   --text-highlight-color: #0b3858;
-  --mark-bg: transparent;
+  /* --mark-bg: transparent; */
 }
 #web_bg { background: #e3f6ff !important; }
 #recent-posts > .recent-post-item,
