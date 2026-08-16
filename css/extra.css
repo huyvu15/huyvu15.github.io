@@ -1355,7 +1355,7 @@
 #page-header.full_page .home-hero__share i { position: relative; z-index: 1; color: #fff; font-size: 17px; transform: rotate(18deg); }
 
 @media screen and (min-width: 1400px) {
-  #page-header.full_page .home-hero { top: 20%; }
+  #page-header.full_page .home-hero { top: 15%; }
 }
 
 @media screen and (max-width: 900px) {
