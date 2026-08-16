@@ -2225,6 +2225,12 @@ a:hover,
 }
 
 /* Article cover: black text directly on the image, without a white nav bar. */
+#page-header.full_page #nav {
+  background: transparent !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
 #page-header.post-bg #nav,
 #page-header.not-top-img #nav,
 #page-header.nav-fixed #nav {
@@ -2252,4 +2258,24 @@ a:hover,
 #page-header.post-bg.nav-fixed #nav {
   background: #fff !important;
   box-shadow: 0 2px 12px rgba(63, 20, 44, 0.12) !important;
+}
+
+/* Compact Japanese ink wordmark replacing the avatar, title and tagline. */
+#blog-info a {
+  gap: 0 !important;
+}
+
+#blog-info .site-icon {
+  width: 142px !important;
+  height: 46px !important;
+  object-fit: contain;
+  object-position: left center;
+  filter: drop-shadow(0 1px 1px rgba(255, 255, 255, 0.52));
+}
+
+@media screen and (max-width: 768px) {
+  #blog-info .site-icon {
+    width: 118px !important;
+    height: 40px !important;
+  }
 }
