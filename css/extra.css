@@ -2223,3 +2223,33 @@ a:hover,
     word-spacing: 0.08em;
   }
 }
+
+/* Article cover: black text directly on the image, without a white nav bar. */
+#page-header.post-bg #nav,
+#page-header.not-top-img #nav,
+#page-header.nav-fixed #nav {
+  background: transparent !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+
+#page-header.post-bg #post-info .post-title,
+#page-header.post-bg #post-info #post-meta,
+#page-header.post-bg #post-info #post-meta a {
+  color: #fff !important;
+  opacity: 1 !important;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.82), 0 0 14px rgba(0, 0, 0, 0.58) !important;
+}
+
+#page-header.post-bg #post-info .post-title {
+  font-weight: 700;
+  -webkit-text-stroke: 1px rgba(20, 12, 18, 0.62);
+  paint-order: stroke fill;
+}
+
+/* Once the reader scrolls, restore a solid navigation surface. */
+#page-header.post-bg.nav-fixed #nav {
+  background: #fff !important;
+  box-shadow: 0 2px 12px rgba(63, 20, 44, 0.12) !important;
+}
