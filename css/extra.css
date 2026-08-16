@@ -1188,6 +1188,40 @@
   }
 }
 
+/* Hand-drawn accent under the hero title, matching the blossom illustration. */
+:root {
+  --home-hero-sketch: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 164 20'%3E%3Cpath d='M3 12C29 11 53 8 79 11s39 3 61-3' fill='none' stroke='%235e72ff' stroke-width='1.7' stroke-linecap='round'/%3E%3Cpath d='M21 15c30-2 66-3 103-1' fill='none' stroke='%238f72ee' stroke-width='1.2' stroke-linecap='round'/%3E%3Cpath d='M41 8c30-2 62 2 105-2' fill='none' stroke='%23ef7cae' stroke-width='1.1' stroke-linecap='round'/%3E%3Cpath d='M153 4v8m-4-4h8' fill='none' stroke='%238f72ee' stroke-width='1.25' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+#page-header.full_page .home-hero__title::after {
+  width: 164px;
+  height: 20px;
+  margin-top: 16px;
+  background: var(--home-hero-sketch) center / contain no-repeat;
+}
+
+/* Keep the scroll cue at the visual bottom center of the banner. */
+#page-header.full_page .home-hero__scroll {
+  bottom: clamp(18px, 3vh, 36px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 900px) {
+  #page-header.full_page .home-hero__title::after {
+    width: 164px;
+    height: 20px;
+    margin-top: 14px;
+  }
+
+  #page-header.full_page .home-hero__scroll {
+    bottom: max(18px, env(safe-area-inset-bottom));
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 @media screen and (max-width: 560px) {
   #footer .glutis-footer-inner {
     width: min(100% - 28px, 1180px);
@@ -1677,3 +1711,515 @@
 #footer .glutis-footer-bottom { color: #31566c !important; }
 #footer { background: linear-gradient(135deg, #e5f7ff, #bfe8ff) !important; color: #31566c !important; }
 #footer .glutis-footer-socials a { color: #31566c !important; }
+
+/* Homepage hero palette matched to the supplied reference. */
+#page-header.full_page .home-hero__title {
+  font-family: "Be Vietnam Pro", "Segoe UI", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.6;
+}
+
+#page-header.full_page .home-hero__title span {
+  background: #071a3d;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#page-header.full_page .home-hero__title strong {
+  background: linear-gradient(90deg, #466cf6 0%, #9b63e8 48%, #f45b87 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: none;
+}
+
+#page-header.full_page .home-hero__description {
+  color: #14213d;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+#page-header.full_page .home-hero__button {
+  border-radius: 999px;
+  clip-path: none;
+}
+
+#page-header.full_page .home-hero__button--primary {
+  border-color: transparent;
+  background: linear-gradient(90deg, #4d7dff, #a25ce9 52%, #f3648e);
+  color: #ffffff !important;
+  box-shadow: 0 10px 24px rgba(105, 102, 226, 0.28);
+}
+
+#page-header.full_page .home-hero__button--secondary {
+  border-color: rgba(18, 35, 68, 0.12);
+  background: rgba(255, 255, 255, 0.9);
+  color: #071a3d !important;
+  box-shadow: 0 10px 24px rgba(30, 54, 93, 0.12);
+}
+
+#page-header.full_page #nav {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0));
+  border-bottom-color: transparent;
+  box-shadow: none;
+}
+
+#page-header.full_page #nav a {
+  color: #071a3d !important;
+}
+
+#page-header.full_page #nav #toggle-menu,
+#page-header.full_page #nav #blog-info,
+#page-header.full_page #nav .site-name {
+  color: #071a3d !important;
+}
+
+#page-header.full_page #nav a:hover,
+#page-header.full_page #nav #toggle-menu:hover,
+#page-header.full_page #nav #blog-info:hover {
+  color: #466cf6 !important;
+}
+
+#page-header.full_page #nav .site-name,
+#page-header.full_page #nav a,
+#page-header.full_page #nav #toggle-menu {
+  text-shadow: none;
+}
+
+#page-header.full_page #nav #blog-info .site-name::after {
+  color: rgba(7, 26, 61, 0.74);
+}
+
+#page-header.full_page .home-hero__scroll {
+  position: absolute;
+  bottom: clamp(26px, 7vh, 74px);
+  left: clamp(28px, 7vw, 132px);
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  color: #071a3d;
+  font-family: "Be Vietnam Pro", "Segoe UI", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  text-decoration: none;
+}
+
+#page-header.full_page .home-hero__scroll-mouse {
+  width: 18px;
+  height: 27px;
+  border: 1.5px solid rgba(7, 26, 61, 0.72);
+  border-radius: 10px;
+}
+
+#page-header.full_page .home-hero__scroll-mouse::after {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 5px;
+  margin: 5px auto 0;
+  border-radius: 3px;
+  background: #466cf6;
+  animation: home-hero-scroll-cue 1.6s ease-in-out infinite;
+}
+
+#page-header.full_page .home-hero__scroll i {
+  color: #7788f6;
+  font-size: 12px;
+}
+
+#page-header.full_page .home-hero__scroll:hover {
+  color: #466cf6;
+}
+
+@keyframes home-hero-scroll-cue {
+  50% { transform: translateY(5px); opacity: 0.35; }
+}
+
+@media screen and (max-width: 900px) {
+  #page-header.full_page .home-hero__scroll {
+    bottom: 26px;
+    left: 22px;
+  }
+}
+
+/* Cherry-blossom palette for all blog surfaces below the hero. */
+:root,
+[data-theme="dark"] {
+  --theme-color: #ef6f9d;
+  --sky-container: #fff0f6;
+  --global-bg: #fff0f6;
+  --card-bg: rgba(255, 250, 252, 0.94);
+  --font-color: #4b1936;
+  --btn-bg: #ef6f9d;
+  --light-grey: rgba(214, 112, 153, 0.22);
+  --text-highlight-color: #6d1f49;
+  --mark-bg: rgba(255, 191, 213, 0.42);
+}
+
+#web_bg {
+  background: linear-gradient(180deg, #fff7fa 0%, #fff0f6 58%, #fce4ed 100%) !important;
+}
+
+#recent-posts > .recent-post-item,
+.layout > div:first-child:not(.recent-posts),
+.layout > .recent-posts .pagination > *:not(.space),
+#aside-content .card-widget {
+  border-color: rgba(224, 111, 159, 0.22) !important;
+  background: rgba(255, 250, 252, 0.94) !important;
+  box-shadow: 0 12px 30px rgba(185, 73, 124, 0.12) !important;
+}
+
+#article-container,
+#article-container p,
+#article-container li,
+#aside-content,
+#aside-content .card-widget {
+  color: #642642;
+}
+
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+#article-container h5,
+#article-container h6,
+#aside-content .card-widget .card-info-name {
+  color: #781e4b;
+}
+
+a:hover,
+#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,
+#aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {
+  color: #e6538b !important;
+}
+
+#rightside > div > button,
+#rightside > div > a,
+#pagination .page-number.current,
+.tab > button.active {
+  background: #ef6f9d !important;
+  color: #fff !important;
+}
+
+.progress-bar,
+#page-header.full_page .home-hero__button--primary {
+  background: linear-gradient(90deg, #f68fb5, #ee6999, #d95088) !important;
+}
+
+.glutis-message-section {
+  background: #fce4ed !important;
+}
+
+.glutis-message-section .glutis-message-box {
+  border-color: rgba(224, 111, 159, 0.26);
+  background-image: linear-gradient(135deg, #fff9fc, #f9d8e6) !important;
+  box-shadow: 0 16px 44px rgba(185, 73, 124, 0.12);
+}
+
+.glutis-message-section .glutis-message-copy h2,
+#footer .glutis-footer-logo-row h3,
+#footer .glutis-footer-col h4 {
+  color: #781e4b !important;
+}
+
+.glutis-message-section .glutis-message-copy p,
+#footer .glutis-footer-brand p,
+#footer .glutis-footer-col a,
+#footer .glutis-footer-bottom {
+  color: #7b3a5c !important;
+}
+
+#footer {
+  background: linear-gradient(135deg, #fcecf2, #f7d8e5) !important;
+  color: #7b3a5c !important;
+}
+
+#footer .glutis-footer-socials a {
+  color: #bd4779 !important;
+}
+
+/* Newsletter controls inherit the cherry-blossom palette. */
+.glutis-message-section .glutis-message-form input {
+  border: 1px solid rgba(224, 111, 159, 0.45) !important;
+  background: #fffafd !important;
+  color: #642642 !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.92), 0 8px 20px rgba(185, 73, 124, 0.08) !important;
+}
+
+.glutis-message-section .glutis-message-form input::placeholder {
+  color: #a66783 !important;
+}
+
+.glutis-message-section .glutis-message-form input:focus {
+  border-color: #ef6f9d !important;
+  box-shadow: 0 0 0 3px rgba(239, 111, 157, 0.16) !important;
+}
+
+.glutis-message-section .glutis-message-form button {
+  background: linear-gradient(90deg, #f68fb5, #ee6999, #d95088) !important;
+  color: #fff !important;
+  box-shadow: 0 12px 26px rgba(206, 74, 132, 0.28) !important;
+}
+
+.glutis-message-section .glutis-message-form button:hover {
+  background: linear-gradient(90deg, #fa9dbd, #f075a2, #df5c92) !important;
+}
+
+/* Use one continuous blossom-pink canvas from content through the footer. */
+.glutis-message-section {
+  background: #fff0f6 !important;
+}
+
+#footer {
+  background: #fff0f6 !important;
+}
+
+/* Compact hero composition for phone-sized viewports. */
+@media screen and (max-width: 900px) {
+  #page-header.full_page .home-hero {
+    top: 15%;
+    left: clamp(22px, 6vw, 42px);
+    width: calc(100% - 44px);
+    transform: none;
+    row-gap: 14px;
+  }
+
+  #page-header.full_page .home-hero__title {
+    font-size: clamp(52px, 10.5vw, 74px);
+    line-height: 1.6;
+    letter-spacing: -0.055em;
+  }
+
+  #page-header.full_page .home-hero__title::after {
+    width: min(100%, 280px);
+    margin-top: 14px;
+  }
+
+  #page-header.full_page .home-hero__description {
+    max-width: 340px;
+    font-size: 13px;
+    line-height: 1.62;
+  }
+
+  #page-header.full_page .home-hero__scroll {
+    bottom: 78px;
+    left: clamp(22px, 6vw, 42px);
+  }
+}
+
+/* Final placement override: this must follow legacy responsive hero rules. */
+#page-header.full_page .home-hero__scroll {
+  bottom: clamp(18px, 3vh, 36px) !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+@media screen and (max-width: 900px) {
+  #page-header.full_page .home-hero__scroll {
+    bottom: max(18px, env(safe-area-inset-bottom)) !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+/* Prominent, icon-only scroll control above the hero illustration. */
+#page-header.full_page .home-hero__scroll {
+  z-index: 30 !important;
+  gap: 16px;
+  animation: home-hero-scroll-float 1.9s ease-in-out infinite;
+}
+
+#page-header.full_page .home-hero__scroll-mouse {
+  width: 25px;
+  height: 37px;
+  border-width: 2px;
+  border-radius: 14px;
+  box-shadow: 0 5px 16px rgba(70, 108, 246, 0.24);
+}
+
+#page-header.full_page .home-hero__scroll-mouse::after {
+  width: 4px;
+  height: 8px;
+  margin-top: 7px;
+}
+
+#page-header.full_page .home-hero__scroll i {
+  font-size: 18px;
+  text-shadow: 0 4px 12px rgba(70, 108, 246, 0.3);
+}
+
+#page-header.full_page .home-hero__scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes home-hero-scroll-float {
+  0%, 100% { transform: translate(-50%, 0); }
+  50% { transform: translate(-50%, -10px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #page-header.full_page .home-hero__scroll,
+  #page-header.full_page .home-hero__scroll-mouse::after {
+    animation: none;
+  }
+}
+
+/* Article navigation: opaque, sharp and readable over the cover image. */
+#page-header.post-bg #nav,
+#page-header.not-top-img #nav,
+#page-header.nav-fixed #nav {
+  background: #fff !important;
+  opacity: 1 !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  box-shadow: 0 2px 12px rgba(63, 20, 44, 0.12) !important;
+}
+
+#page-header.post-bg #nav a,
+#page-header.post-bg #nav #toggle-menu,
+#page-header.post-bg #nav #blog-info,
+#page-header.post-bg #nav .site-name,
+#page-header.not-top-img #nav a,
+#page-header.not-top-img #nav #toggle-menu,
+#page-header.not-top-img #nav #blog-info,
+#page-header.not-top-img #nav .site-name,
+#page-header.nav-fixed #nav a,
+#page-header.nav-fixed #nav #toggle-menu,
+#page-header.nav-fixed #nav #blog-info,
+#page-header.nav-fixed #nav .site-name {
+  color: #111 !important;
+  opacity: 1 !important;
+  filter: none !important;
+  text-shadow: none !important;
+}
+
+#page-header.post-bg #nav a:hover,
+#page-header.not-top-img #nav a:hover,
+#page-header.nav-fixed #nav a:hover {
+  color: #d95088 !important;
+}
+
+/* The home divider appears only after the navigation becomes fixed on scroll. */
+#page-header.full_page:not(.nav-fixed) #nav {
+  border-bottom-color: transparent !important;
+  box-shadow: none !important;
+}
+
+#page-header.full_page.nav-fixed #nav {
+  border-bottom: 1px solid rgba(239, 111, 157, 0.38) !important;
+  box-shadow: 0 4px 16px rgba(99, 31, 68, 0.08) !important;
+}
+
+/* Replace all remaining legacy warm-brown UI accents with sakura pink. */
+:root {
+  --sakura-pink: #ef6f9d;
+  --sakura-deep: #d95088;
+  --sakura-soft: #ffd8e6;
+  --sakura-surface: #fff7fb;
+  --sakura-ink: #4b1936;
+}
+
+::-webkit-scrollbar-thumb,
+#rightside > div > button,
+#rightside > div > a,
+#pagination .page-number.current,
+.tab > button.active {
+  background: var(--sakura-pink) !important;
+}
+
+::-webkit-scrollbar-thumb:hover,
+#rightside > div > button:hover,
+#rightside > div > a:hover {
+  background: var(--sakura-deep) !important;
+}
+
+::-webkit-scrollbar-track { background: #ffe8f0 !important; }
+.progress-bar { background: linear-gradient(90deg, #f68fb5, #ef6f9d, #d95088) !important; }
+#article-container hr { border-color: #f4bfd2 !important; }
+#footer::before { background: linear-gradient(90deg, transparent, #ef6f9d, transparent) !important; }
+
+.toc-link.active,
+#card-toc .toc-percentage,
+#aside-content #card-toc .toc-percentage {
+  border-left-color: var(--sakura-pink) !important;
+  color: var(--sakura-pink) !important;
+}
+
+#card-toc .toc-content .toc-link { color: var(--sakura-ink) !important; }
+::selection { background: var(--sakura-soft) !important; color: var(--sakura-ink) !important; }
+#article-container blockquote {
+  border-left-color: var(--sakura-pink) !important;
+  background: rgba(239, 111, 157, 0.09) !important;
+}
+#local-search-input:focus {
+  border-color: var(--sakura-pink) !important;
+  box-shadow: 0 0 0 3px rgba(239, 111, 157, 0.16) !important;
+}
+
+#article-container .agent-course-cta {
+  border-color: rgba(239, 111, 157, 0.22) !important;
+  border-left-color: var(--sakura-pink) !important;
+  background: linear-gradient(135deg, #fffafd, #fde8f0) !important;
+  box-shadow: 0 18px 42px rgba(185, 73, 124, 0.12) !important;
+}
+#article-container .agent-course-cta::after { background: rgba(239, 111, 157, 0.34) !important; }
+#article-container .agent-course-cta__pill {
+  border-color: rgba(239, 111, 157, 0.28) !important;
+  background: rgba(239, 111, 157, 0.1) !important;
+  color: #a42d62 !important;
+}
+#article-container .agent-course-cta h2 { color: var(--sakura-ink) !important; }
+#article-container .agent-course-cta p,
+#article-container .agent-course-cta li { color: rgba(75, 25, 54, 0.8) !important; }
+#article-container .agent-course-cta li i { color: var(--sakura-pink) !important; }
+#article-container .agent-course-cta__button {
+  background: linear-gradient(135deg, #f68fb5, #d95088) !important;
+  color: #fff !important;
+  box-shadow: 0 14px 28px rgba(217, 80, 136, 0.26) !important;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb,
+[data-theme="dark"] #rightside > div > button,
+[data-theme="dark"] #rightside > div > a { background: #8e315d !important; }
+[data-theme="dark"] ::-webkit-scrollbar-track { background: #2a1020 !important; }
+[data-theme="dark"] #footer { background: #2a1020 !important; }
+[data-theme="dark"] #article-container .agent-course-cta {
+  border-left-color: #f68fb5 !important;
+  background: linear-gradient(135deg, #3b1730, #251020) !important;
+}
+
+/* Sakura treatment for the article table of contents. */
+#aside-content #card-toc {
+  border-color: rgba(239, 111, 157, 0.28) !important;
+  background: rgba(255, 249, 252, 0.96) !important;
+  box-shadow: 0 12px 30px rgba(185, 73, 124, 0.14) !important;
+}
+
+#aside-content #card-toc .item-headline,
+#aside-content #card-toc .item-headline i {
+  color: #8e315d !important;
+}
+
+#aside-content #card-toc .toc-content .toc-link.active {
+  background: linear-gradient(135deg, #f68fb5, #ef6f9d, #d95088) !important;
+  border-left-color: transparent !important;
+  color: #fff !important;
+}
+
+#aside-content #card-toc .toc-content .toc-link:hover:not(.active) {
+  background: rgba(239, 111, 157, 0.1) !important;
+  color: #b13066 !important;
+}
+
+/* Give Vietnamese hero words more breathing room on phones. */
+@media screen and (max-width: 900px) {
+  #page-header.full_page .home-hero__title {
+    letter-spacing: -0.015em;
+    word-spacing: 0.08em;
+  }
+}
