@@ -2111,6 +2111,7 @@ a:hover,
 }
 
 #page-header.full_page.nav-fixed #nav {
+  background: #fff !important;
   border-bottom: 1px solid rgba(239, 111, 157, 0.38) !important;
   box-shadow: 0 4px 16px rgba(99, 31, 68, 0.08) !important;
 }
@@ -2270,6 +2271,7 @@ a:hover,
   height: 46px !important;
   object-fit: contain;
   object-position: left center;
+  transform: translateY(8px);
   filter: drop-shadow(0 1px 1px rgba(255, 255, 255, 0.52));
 }
 
