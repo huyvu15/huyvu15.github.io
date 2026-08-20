@@ -2286,3 +2286,84 @@ a:hover,
     height: 40px !important;
   }
 }
+
+/* Homepage wordmark: soft ink lettering inspired by the supplied reference. */
+#page-header.full_page .home-hero__title {
+  font-family: "Dancing Script", Caveat, "Segoe Print", cursive;
+  font-size: clamp(118px, 12.5vw, 190px);
+  font-weight: 700;
+  line-height: 0.76;
+  letter-spacing: -0.055em;
+  text-transform: none;
+}
+
+#page-header.full_page .home-hero__title span,
+#page-header.full_page .home-hero__title strong {
+  margin-left: 0 !important;
+  -webkit-text-stroke: 0.2px currentColor;
+}
+
+#page-header.full_page .home-hero__title span {
+  color: #15243a;
+  background: none;
+  -webkit-text-fill-color: currentColor;
+}
+
+#page-header.full_page .home-hero__title strong {
+  margin-top: 0.08em;
+  padding-left: 0.13em;
+  color: #e65382;
+  background: none;
+  -webkit-text-fill-color: currentColor;
+}
+
+#page-header.full_page .home-hero__button--primary {
+  background: linear-gradient(100deg, #ed785e, #cc6177 54%, #75659c);
+  box-shadow: 0 10px 24px rgba(176, 82, 111, 0.3);
+}
+
+@media screen and (max-width: 900px) {
+  #page-header.full_page .home-hero__title {
+    font-size: clamp(64px, 15vw, 96px);
+    line-height: 0.82;
+    letter-spacing: -0.04em;
+    word-spacing: normal;
+  }
+}
+
+/* Use live text for the homepage wordmark, keeping it sharp and accessible. */
+#page-header.full_page .home-hero {
+  width: min(720px, 70vw);
+}
+
+#page-header.full_page .home-hero__title {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0;
+  font-size: clamp(118px, 12.5vw, 190px);
+  line-height: 0.76;
+}
+
+#page-header.full_page .home-hero__title::after {
+  display: block;
+  width: min(100%, 340px);
+  background: linear-gradient(90deg, #f6a6bd 0 12%, transparent 12% 16%, #e65382 16% 62%, transparent 62% 68%, #b57ac8 68% 100%);
+  filter: drop-shadow(0 2px 5px rgba(214, 83, 132, 0.28));
+}
+
+#page-header.full_page .home-hero__wordmark {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  #page-header.full_page .home-hero,
+  #page-header.full_page .home-hero__title {
+    width: min(100%, 430px);
+  }
+
+  #page-header.full_page .home-hero__title {
+    font-size: clamp(86px, 20vw, 132px);
+    line-height: 0.82;
+  }
+}
