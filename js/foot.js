@@ -71,3 +71,32 @@ function renderGlutisFooter() {
 
 document.addEventListener('DOMContentLoaded', renderGlutisFooter);
 document.addEventListener('pjax:complete', renderGlutisFooter);
+
+// Homepage-only presentation; safe to run again after PJAX navigation.
+function refineHomeLayout() {
+  const posts = document.getElementById('recent-posts');
+  document.querySelectorAll('.home-sidebar-art').forEach(el => el.remove());
+  if (!posts) return;
+  posts.querySelectorAll('.home-welcome').forEach(el => el.remove());
+  posts.querySelectorAll('.recent-post-info').forEach(info => {
+    if (info.querySelector('.home-read-more')) return;
+    const title = info.querySelector('.article-title');
+    if (!title) return;
+    const more = document.createElement('a');
+    more.className = 'home-read-more';
+    more.href = title.href;
+    more.textContent = 'Đọc tiếp  →';
+    more.setAttribute('aria-label', 'Đọc tiếp: ' + title.textContent.trim());
+    info.append(more);
+  });
+  const nav = document.getElementById('nav');
+  if (nav) {
+    const art = document.createElement('div');
+    art.className = 'home-sidebar-art';
+    art.textContent = 'Mỗi ngày, một phiên bản tốt hơn của chính mình.';
+    nav.append(art);
+  }
+}
+document.addEventListener('DOMContentLoaded', refineHomeLayout);
+document.addEventListener('pjax:complete', refineHomeLayout);
+if (document.readyState !== 'loading') refineHomeLayout();
