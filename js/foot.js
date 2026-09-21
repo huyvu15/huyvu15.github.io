@@ -75,8 +75,8 @@ document.addEventListener('pjax:complete', renderGlutisFooter);
 // Homepage-only presentation; safe to run again after PJAX navigation.
 function refineHomeLayout() {
   const posts = document.getElementById('recent-posts');
-  document.querySelectorAll('.home-sidebar-art').forEach(el => el.remove());
   if (!posts) return;
+  posts.querySelectorAll('.recent-post-item').forEach(card => { card.hidden = false; });
   posts.querySelectorAll('.home-welcome').forEach(el => el.remove());
   posts.querySelectorAll('.recent-post-info').forEach(info => {
     if (info.querySelector('.home-read-more')) return;
@@ -89,14 +89,61 @@ function refineHomeLayout() {
     more.setAttribute('aria-label', 'Đọc tiếp: ' + title.textContent.trim());
     info.append(more);
   });
+
+  const feedHeader = posts.querySelector('.home-feed-header');
+  if (feedHeader && !feedHeader.dataset.ready) {
+    feedHeader.dataset.ready = 'true';
+    feedHeader.querySelector('.home-feed-search').addEventListener('click', () => {
+      document.querySelector('#search-button a')?.click();
+    });
+    feedHeader.querySelectorAll('[data-home-filter]').forEach(button => {
+      button.addEventListener('click', () => {
+        const query = button.dataset.homeFilter.toLocaleLowerCase('vi');
+        feedHeader.querySelectorAll('[data-home-filter]').forEach(item => item.classList.toggle('active', item === button));
+        posts.querySelectorAll('.recent-post-item').forEach(card => {
+          card.hidden = Boolean(query) && !card.textContent.toLocaleLowerCase('vi').includes(query);
+        });
+      });
+    });
+  }
+
   const nav = document.getElementById('nav');
   if (nav) {
-    const art = document.createElement('div');
-    art.className = 'home-sidebar-art';
-    art.textContent = 'Mỗi ngày, một phiên bản tốt hơn của chính mình.';
-    nav.append(art);
+    let tools = nav.querySelector('.home-sidebar-tools');
+    if (!tools) {
+      tools = document.createElement('div');
+      tools.className = 'home-sidebar-tools';
+      tools.setAttribute('aria-label', 'Tiện ích nhanh');
+      tools.innerHTML = [
+        '<a href="/books/" aria-label="Kho sách" title="Kho sách"><i class="fas fa-book-open" aria-hidden="true"></i></a>',
+        '<a href="/atom.xml" aria-label="RSS" title="RSS"><i class="fas fa-rss" aria-hidden="true"></i></a>',
+        '<button type="button" data-sidebar-search aria-label="Tìm kiếm" title="Tìm kiếm"><i class="fas fa-search" aria-hidden="true"></i></button>',
+        '<button type="button" data-sidebar-theme aria-label="Đổi giao diện sáng tối" title="Đổi giao diện"><i class="fas fa-adjust" aria-hidden="true"></i></button>'
+      ].join('');
+      nav.append(tools);
+    }
+
+    if (!nav.querySelector('.home-sidebar-art')) {
+      const note = document.createElement('p');
+      note.className = 'home-sidebar-art';
+      note.innerHTML = 'Gom chút nắng của hôm nay,<br>để ngày mai dịu dàng hơn một chút.<span aria-hidden="true"></span>';
+      nav.append(note);
+    }
+
+    if (tools && !tools.dataset.ready) {
+      tools.dataset.ready = 'true';
+      tools.querySelector('[data-sidebar-search]').addEventListener('click', () => {
+        document.querySelector('#search-button a')?.click();
+      });
+      tools.querySelector('[data-sidebar-theme]').addEventListener('click', () => {
+        document.getElementById('darkmode')?.click();
+      });
+    }
   }
 }
-document.addEventListener('DOMContentLoaded', refineHomeLayout);
 document.addEventListener('pjax:complete', refineHomeLayout);
-if (document.readyState !== 'loading') refineHomeLayout();
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', refineHomeLayout, { once: true });
+} else {
+  refineHomeLayout();
+}

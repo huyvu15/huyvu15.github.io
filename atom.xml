@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2026-09-10T10:24:01.116Z</updated>
+  <updated>2026-09-21T07:42:44.105Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tôi sợ nhất là Domino</title>
+    <link href="https://huyvu15.github.io/posts/2abcdeccc"/>
+    <id>https://huyvu15.github.io/posts/2abcdeccc</id>
+    <published>2026-09-17T05:35:12.000Z</published>
+    <updated>2026-09-21T07:42:44.105Z</updated>
+    
+    
+    <summary type="html">Nội dung này đã được mã hóa.</summary>
+    
+    
+    
+    <category term="Sharing" scheme="https://huyvu15.github.io/categories/Sharing/"/>
+    
+    
+    <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
+    
+    <category term="Ngã" scheme="https://huyvu15.github.io/tags/Nga/"/>
+    
+    <category term="Cùng cực" scheme="https://huyvu15.github.io/tags/Cung-cuc/"/>
+    
+    <category term="Còn gì nữa đâu" scheme="https://huyvu15.github.io/tags/Con-gi-nua-dau/"/>
+    
+  </entry>
   
   <entry>
     <title>Sau một trận ốm nặng, Lão thấy người yếu đi nhiều</title>
@@ -189,7 +214,7 @@
     <link href="https://huyvu15.github.io/posts/viaduyan"/>
     <id>https://huyvu15.github.io/posts/viaduyan</id>
     <published>2026-05-27T16:35:12.000Z</published>
-    <updated>2026-06-13T17:27:25.954Z</updated>
+    <updated>2026-09-21T08:14:04.269Z</updated>
     
     
       
@@ -203,7 +228,7 @@
     
     
     
-    <category term="Kiến thúc" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
+    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
     
     
     <category term="Đợi chờ" scheme="https://huyvu15.github.io/tags/Doi-cho/"/>
@@ -666,40 +691,6 @@
     <category term="Pancake" scheme="https://huyvu15.github.io/tags/Pancake/"/>
     
     <category term="Chăm sóc khách hàng" scheme="https://huyvu15.github.io/tags/Cham-soc-khach-hang/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux và một số cái hay ho</title>
-    <link href="https://huyvu15.github.io/posts/1r6d34bf"/>
-    <id>https://huyvu15.github.io/posts/1r6d34bf</id>
-    <published>2024-10-12T05:35:12.000Z</published>
-    <updated>2026-02-08T08:46:57.078Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;i-say-hi&quot;&gt;I say hi&lt;/h1&gt;
-&lt;p&gt;Xin chào, lâu rồi mới ló mặt ra chả là vì bận rộn công việc, rời bời chuyện đời tư hay vất vả trong</summary>
-        
-      
-    
-    
-    
-    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
-    
-    
-    <category term="Insights" scheme="https://huyvu15.github.io/tags/Insights/"/>
-    
-    <category term="Thinkings" scheme="https://huyvu15.github.io/tags/Thinkings/"/>
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="Linux" scheme="https://huyvu15.github.io/tags/Linux/"/>
-    
-    <category term="OS" scheme="https://huyvu15.github.io/tags/OS/"/>
     
   </entry>
   
