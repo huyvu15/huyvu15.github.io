@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2026-09-21T07:42:44.105Z</updated>
+  <updated>2026-10-03T11:21:04.498Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tôi thấy những ngày bình yên ở Quy Nhơn</title>
+    <link href="https://huyvu15.github.io/posts/quynhon-x"/>
+    <id>https://huyvu15.github.io/posts/quynhon-x</id>
+    <published>2026-09-28T16:35:12.000Z</published>
+    <updated>2026-10-03T11:21:04.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;lời-nói-đầu&quot;&gt;Lời nói đầu&lt;/h1&gt;
+&lt;p&gt;Xin chào, tôi là Glutis. Sau khi nghỉ công việc cũ, tôi có một khoảng thời gian rảnh hiếm hoi.</summary>
+        
+      
+    
+    
+    
+    <category term="Sharing" scheme="https://huyvu15.github.io/categories/Sharing/"/>
+    
+    
+    <category term="Du lịch" scheme="https://huyvu15.github.io/tags/Du-lich/"/>
+    
+    <category term="Quy Nhơn" scheme="https://huyvu15.github.io/tags/Quy-Nhon/"/>
+    
+    <category term="Nơi đáng sống" scheme="https://huyvu15.github.io/tags/Noi-dang-song/"/>
+    
+    <category term="Chữa lành" scheme="https://huyvu15.github.io/tags/Chua-lanh/"/>
+    
+  </entry>
   
   <entry>
     <title>Tôi sợ nhất là Domino</title>
@@ -659,38 +691,6 @@
     <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
     
     <category term="Scrape" scheme="https://huyvu15.github.io/tags/Scrape/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hướng dẫn crawl dữ liệu từ Pancake</title>
-    <link href="https://huyvu15.github.io/posts/1r6d39tf"/>
-    <id>https://huyvu15.github.io/posts/1r6d39tf</id>
-    <published>2024-10-25T00:35:12.000Z</published>
-    <updated>2026-02-08T08:42:56.571Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;ingest-pancake-nguồn-lấy-về-bằng-api&quot;&gt;Ingest Pancake: nguồn lấy về bằng api&lt;/h2&gt;
-&lt;p&gt;Trong các loại dữ liệu phổ biển của doanh</summary>
-        
-      
-    
-    
-    
-    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
-    
-    
-    <category term="Lambda function" scheme="https://huyvu15.github.io/tags/Lambda-function/"/>
-    
-    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
-    
-    <category term="Pancake" scheme="https://huyvu15.github.io/tags/Pancake/"/>
-    
-    <category term="Chăm sóc khách hàng" scheme="https://huyvu15.github.io/tags/Cham-soc-khach-hang/"/>
     
   </entry>
   
