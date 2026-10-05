@@ -4092,6 +4092,41 @@ body:has(#recent-posts) #recent-posts .article-meta__tags {
   }
 }
 
+/* The rightside expand button removes html.hide-aside. Restore the profile column then. */
+@media screen and (min-width: 1001px) {
+  body:has(#recent-posts) #content-inner.layout {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+  body:has(#recent-posts) #recent-posts,
+  html:not(.hide-aside) body:has(#recent-posts) #aside-content {
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+  html:not(.hide-aside) body:has(#recent-posts) #content-inner.layout {
+    display: flex !important;
+    align-items: stretch;
+    gap: 24px;
+  }
+  html:not(.hide-aside) body:has(#recent-posts) #recent-posts {
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto !important;
+  }
+  html:not(.hide-aside) body:has(#recent-posts) #aside-content {
+    display: block !important;
+    flex: 0 0 280px;
+    width: 280px;
+    padding-left: 0;
+  }
+}
+
 .home-feed-header {
   margin-bottom: 18px;
 }
