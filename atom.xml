@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2026-10-03T11:21:04.498Z</updated>
+  <updated>2026-10-06T10:14:13.504Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Bạn có đang giữ nhiều quả bom nổ chậm</title>
+    <link href="https://huyvu15.github.io/posts/bomnocham"/>
+    <id>https://huyvu15.github.io/posts/bomnocham</id>
+    <published>2026-10-06T14:35:12.000Z</published>
+    <updated>2026-10-06T10:14:13.504Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;lời-nói-đầu&quot;&gt;Lời nói</summary>
+        
+      
+    
+    
+    
+    <category term="Sharing" scheme="https://huyvu15.github.io/categories/Sharing/"/>
+    
+    
+    <category term="Chiêm nghiệm" scheme="https://huyvu15.github.io/tags/Chiem-nghiem/"/>
+    
+    <category term="Nguy hiểm" scheme="https://huyvu15.github.io/tags/Nguy-hiem/"/>
+    
+    <category term="Bom" scheme="https://huyvu15.github.io/tags/Bom/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Tôi thấy những ngày bình yên ở Quy Nhơn</title>
     <link href="https://huyvu15.github.io/posts/quynhon-x"/>
     <id>https://huyvu15.github.io/posts/quynhon-x</id>
     <published>2026-09-28T16:35:12.000Z</published>
-    <updated>2026-10-03T11:21:04.498Z</updated>
+    <updated>2026-10-08T10:27:39.381Z</updated>
     
     
       
@@ -45,6 +74,8 @@
     <category term="Nơi đáng sống" scheme="https://huyvu15.github.io/tags/Noi-dang-song/"/>
     
     <category term="Chữa lành" scheme="https://huyvu15.github.io/tags/Chua-lanh/"/>
+    
+    <category term="Có sử dụng AI" scheme="https://huyvu15.github.io/tags/Co-su-dung-AI/"/>
     
   </entry>
   
@@ -177,7 +208,7 @@
     <link href="https://huyvu15.github.io/posts/2r6d39kkn"/>
     <id>https://huyvu15.github.io/posts/2r6d39kkn</id>
     <published>2026-07-02T09:35:12.000Z</published>
-    <updated>2026-08-16T08:37:50.838Z</updated>
+    <updated>2026-10-08T10:47:01.498Z</updated>
     
     
       
@@ -206,6 +237,8 @@
     <category term="Skill" scheme="https://huyvu15.github.io/tags/Skill/"/>
     
     <category term="Hermes" scheme="https://huyvu15.github.io/tags/Hermes/"/>
+    
+    <category term="Có sử dụng AI" scheme="https://huyvu15.github.io/tags/Co-su-dung-AI/"/>
     
   </entry>
   
@@ -658,39 +691,6 @@
     <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
     
     <category term="Install" scheme="https://huyvu15.github.io/tags/Install/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Lấy dữ liệu từ facebook ads</title>
-    <link href="https://huyvu15.github.io/posts/1r6d33bf"/>
-    <id>https://huyvu15.github.io/posts/1r6d33bf</id>
-    <published>2024-10-29T08:35:12.000Z</published>
-    <updated>2026-02-09T15:30:48.718Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;!-- **Note** --&gt;
-&lt;aside&gt;
-❗ Note: Tài liệu này được trực tiếp biên xoạn bởi mình trong suốt quá trình làm việc tại TP Entertainment. Tài</summary>
-        
-      
-    
-    
-    
-    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
-    
-    
-    <category term="Facebook ads" scheme="https://huyvu15.github.io/tags/Facebook-ads/"/>
-    
-    <category term="Facebook Marketing" scheme="https://huyvu15.github.io/tags/Facebook-Marketing/"/>
-    
-    <category term="Crawl" scheme="https://huyvu15.github.io/tags/Crawl/"/>
-    
-    <category term="Scrape" scheme="https://huyvu15.github.io/tags/Scrape/"/>
     
   </entry>
   
