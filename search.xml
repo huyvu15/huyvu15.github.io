@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Sao đâu cũng có bottleneck vậy?</title>
+      <link href="/posts/bottleneck.html"/>
+      <url>/posts/bottleneck.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="hello">Hello!</h1><p>Hello những người anh em, dạo này tôi suy tư nhiều những vẫn đề trong cuộc sống nên đâm ra nghĩ lại nhiều cái nó hay hay nên muốn tiện trong một ngày chủ nhật vắng vẻ rảnh dỗi tôi viết mấy dòng này để nói đến những sự cái rào cản trong công việc mà có lẽ bất kỳ nơi nào cũng gặp phải</p><p>Tôi sẽ kể lần lượt các loại mà tôi rất hay gặp.</p><h1 id="loại-1">Loại 1</h1><p>Nhìn xem khi một người là core trong team</p><p>Công việc nhiều lúc có thể nói như này:</p><p>Trong team của bạn có 1 a lead, a này nắm toàn bộ hệ thống của công ty. Mình là một nhân sự của ảnh. Và khi mình làm một project mới dù cho nó có mới hoàn toàn thì sau đó để dự án nâng cấp và kết hợp giữa các bên thì mình vẫn phải hỏi a lead</p><p>Vậy thì khi báo lỗi, dữ liệu ko đi từ hệ thống mình mà ở hệ thống to kia. Vì thế mà sẽ xảy ra các trường hợp lỗi đến từ cái data lớn hơn kia</p><p>Và những lúc như vậy mình sẽ copy nguyên văn cái tin nhắn đấy gửi cho a lead</p><p>Và cái này diễn ra rất là thường xuyên</p><p>=&gt; 1 loại bottleneck rất điền hình</p><h1 id="loại-2">Loại 2</h1><h1 id="kết-luận">Kết luận</h1><p>Bottleneck không sinh ra để triệt tiêu chúng ta; nó sinh ra để nhắc nhở rằng hệ thống đang phình to nhanh hơn cấu trúc nâng đỡ nó.</p><p>Nhận diện được nó là bước đầu tiên để ngừng làm một “chiếc router thụ động”. Thay vì chỉ chuyển tiếp vấn đề, có lẽ đã đến lúc chúng ta cùng nhau bạt bớt miệng chai — bằng documentation rõ ràng, phân quyền hợp lý, và bớt biến một cá nhân thành “vị thần duy nhất” của cả dự án.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Sharing </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Chiêm nghiệm </tag>
+            
+            <tag> Công việc </tag>
+            
+            <tag> Rào cản </tag>
+            
+            <tag> Ai cũng gặp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Bạn có đang giữ nhiều quả bom nổ chậm?</title>
       <link href="/posts/bomnocham.html"/>
       <url>/posts/bomnocham.html</url>

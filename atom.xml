@@ -6,7 +6,7 @@
   <link href="https://huyvu15.github.io/atom.xml" rel="self"/>
   
   <link href="https://huyvu15.github.io/"/>
-  <updated>2026-10-18T07:55:39.907Z</updated>
+  <updated>2026-11-07T16:30:54.635Z</updated>
   <id>https://huyvu15.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sao đâu cũng có bottleneck vậy?</title>
+    <link href="https://huyvu15.github.io/posts/bottleneck"/>
+    <id>https://huyvu15.github.io/posts/bottleneck</id>
+    <published>2026-10-25T10:35:12.000Z</published>
+    <updated>2026-11-07T16:30:54.635Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hello&quot;&gt;Hello!&lt;/h1&gt;
+&lt;p&gt;Hello những người anh em, dạo này tôi suy tư nhiều những vẫn đề trong cuộc sống nên đâm ra nghĩ lại nhiều cái</summary>
+        
+      
+    
+    
+    
+    <category term="Sharing" scheme="https://huyvu15.github.io/categories/Sharing/"/>
+    
+    
+    <category term="Chiêm nghiệm" scheme="https://huyvu15.github.io/tags/Chiem-nghiem/"/>
+    
+    <category term="Công việc" scheme="https://huyvu15.github.io/tags/Cong-viec/"/>
+    
+    <category term="Rào cản" scheme="https://huyvu15.github.io/tags/Rao-can/"/>
+    
+    <category term="Ai cũng gặp" scheme="https://huyvu15.github.io/tags/Ai-cung-gap/"/>
+    
+  </entry>
   
   <entry>
     <title>Bạn có đang giữ nhiều quả bom nổ chậm?</title>
@@ -662,40 +694,6 @@
     <category term="ToanTin" scheme="https://huyvu15.github.io/tags/ToanTin/"/>
     
     <category term="Distributed system" scheme="https://huyvu15.github.io/tags/Distributed-system/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tìm hiểu công cụ ko thể thiếu cho DE - Airflow</title>
-    <link href="https://huyvu15.github.io/posts/1rg1393f"/>
-    <id>https://huyvu15.github.io/posts/1rg1393f</id>
-    <published>2024-12-01T00:35:12.000Z</published>
-    <updated>2026-02-08T08:40:12.982Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h1&gt;
-&lt;p&gt;Airflow là một công cụ hữu ích cho DataEngineer dùng để lập lịch việc này đến việc kia,</summary>
-        
-      
-    
-    
-    
-    <category term="Kiến thức" scheme="https://huyvu15.github.io/categories/Kien-thuc/"/>
-    
-    
-    <category term="Knownledge" scheme="https://huyvu15.github.io/tags/Knownledge/"/>
-    
-    <category term="Airflow" scheme="https://huyvu15.github.io/tags/Airflow/"/>
-    
-    <category term="DE" scheme="https://huyvu15.github.io/tags/DE/"/>
-    
-    <category term="Data" scheme="https://huyvu15.github.io/tags/Data/"/>
-    
-    <category term="Install" scheme="https://huyvu15.github.io/tags/Install/"/>
     
   </entry>
   
